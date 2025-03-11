@@ -3,7 +3,10 @@
 - Mar 8, 2025 - v7.1.4 (android) - https://github.com/BlueWallet/BlueWallet/releases
 - Mar 8, 2025 - v7.1.4 (ios) - https://github.com/BlueWallet/BlueWallet/releases
 - Mar 8, 2025 - v7.1.4 (macos) - https://github.com/BlueWallet/BlueWallet/releases
-
+### green
+- Mar 11, 2025 - v2.0.21 (windows) - https://github.com/Blockstream/green_qt/releases
+- Mar 11, 2025 - v2.0.21 (macos) - https://github.com/Blockstream/green_qt/releases
+- Mar 11, 2025 - v2.0.21 (linux) - https://github.com/Blockstream/green_qt/releases
 
 ## hardware-wallets
 ### krux
