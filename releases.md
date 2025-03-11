@@ -7,6 +7,9 @@
 - Mar 11, 2025 - v2.0.21 (windows) - https://github.com/Blockstream/green_qt/releases
 - Mar 11, 2025 - v2.0.21 (macos) - https://github.com/Blockstream/green_qt/releases
 - Mar 11, 2025 - v2.0.21 (linux) - https://github.com/Blockstream/green_qt/releases
+### phoenix
+- Mar 4, 2025 - v2.5.0 (android) - https://github.com/ACINQ/phoenix/releases
+- Mar 4, 2025 - v2.5.0 (ios) - https://github.com/ACINQ/phoenix/releases
 
 ## hardware-wallets
 ### krux
