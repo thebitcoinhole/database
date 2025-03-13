@@ -446,10 +446,10 @@
       ]
     },
     "android-latest-version": {
-      "value": "v0.9.7"
+      "value": "v0.10.0"
     },
     "android-latest-release-date": {
-      "value": "Feb 19, 2025"
+      "value": "Mar 13, 2025"
     },
     "android-release-notes": {
       "value": "YES",
@@ -517,10 +517,10 @@
       ]
     },
     "ios-latest-version": {
-      "value": "v0.9.7"
+      "value": "v0.10.0"
     },
     "ios-latest-release-date": {
-      "value": "Feb 19, 2025"
+      "value": "Mar 13, 2025"
     },
     "ios-release-notes": {
       "value": "YES",
