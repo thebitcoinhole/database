@@ -10,10 +10,16 @@
 ### phoenix
 - Mar 4, 2025 - v2.5.0 (android) - https://github.com/ACINQ/phoenix/releases
 - Mar 4, 2025 - v2.5.0 (ios) - https://github.com/ACINQ/phoenix/releases
+- Mar 14, 2025 - v2.5.1 (android) - https://github.com/ACINQ/phoenix/releases
+- Mar 14, 2025 - v2.5.1 (ios) - https://github.com/ACINQ/phoenix/releases
+
 ### bitcoin-keeper
 - Mar 13, 2025 - v0.2.1 (linux) - https://github.com/bithyve/keeper-desktop/releases/
 - Mar 13, 2025 - v0.2.1 (macos) - https://github.com/bithyve/keeper-desktop/releases/
 - Mar 13, 2025 - v0.2.1 (windows) - https://github.com/bithyve/keeper-desktop/releases/
+- Mar 14, 2025 - v2.1.0 (android) - https://github.com/bithyve/bitcoin-keeper/releases
+- Mar 14, 2025 - v2.1.0 (ios) - https://github.com/bithyve/bitcoin-keeper/releases
+
 ### zeus
 - Mar 13, 2025 - v0.10.0 (android) - https://github.com/ZeusLN/zeus/releases
 - Mar 13, 2025 - v0.10.0 (ios) - https://github.com/ZeusLN/zeus/releases
