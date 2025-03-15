@@ -35,3 +35,7 @@
 - Mar 19, 2025 - v2.8.9 - https://trezor.io/learn/a/firmware-changelog
 ### trezor-safe-3-btconly
 - Mar 19, 2025 - v2.8.9 - https://trezor.io/learn/a/firmware-changelog
+
+## bitcoin-nodes
+### parmanode
+- Mar 15, 2025 - v3.54.3 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
