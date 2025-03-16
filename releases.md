@@ -39,3 +39,4 @@
 ## bitcoin-nodes
 ### parmanode
 - Mar 15, 2025 - v3.54.3 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
+- Mar 16, 2025 - v3.55.0 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
