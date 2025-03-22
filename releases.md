@@ -7,3 +7,7 @@
 ## hardware-wallets
 ### jade
 - Mar 18, 2025 - v1.0.34 - https://github.com/Blockstream/Jade/blob/master/CHANGELOG.md
+
+## bitcoin-nodes
+### parmanode
+- Mar 22, 2025 - v3.56.0 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
