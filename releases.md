@@ -7,6 +7,10 @@
 - Mar 24, 2025 - v2.0.22 (windows) - https://github.com/Blockstream/green_qt/releases
 - Mar 24, 2025 - v2.0.22 (macos) - https://github.com/Blockstream/green_qt/releases
 - Mar 24, 2025 - v2.0.22 (linux) - https://github.com/Blockstream/green_qt/releases
+### bitcoin-safe
+- Mar 25, 2025 - v1.2.0 (linux) - https://github.com/andreasgriffin/bitcoin-safe/releases
+- Mar 25, 2025 - v1.2.0 (macos) - https://github.com/andreasgriffin/bitcoin-safe/releases
+- Mar 25, 2025 - v1.2.0 (windows) - https://github.com/andreasgriffin/bitcoin-safe/releases
 
 ## hardware-wallets
 ### jade
