@@ -11,6 +11,9 @@
 - Mar 25, 2025 - v1.2.0 (linux) - https://github.com/andreasgriffin/bitcoin-safe/releases
 - Mar 25, 2025 - v1.2.0 (macos) - https://github.com/andreasgriffin/bitcoin-safe/releases
 - Mar 25, 2025 - v1.2.0 (windows) - https://github.com/andreasgriffin/bitcoin-safe/releases
+### phoenix
+- Mar 25, 2025 - v2.5.2 (android) - https://github.com/ACINQ/phoenix/releases
+- Mar 25, 2025 - v2.5.2 (ios) - https://github.com/ACINQ/phoenix/releases
 
 ## hardware-wallets
 ### jade
