@@ -20,6 +20,8 @@
 ## hardware-wallets
 ### jade
 - Mar 18, 2025 - v1.0.34 - https://github.com/Blockstream/Jade/blob/master/CHANGELOG.md
+### keystone-3-pro
+- Mar 26, 2025 - v2.0.4 - https://github.com/KeystoneHQ/keystone3-firmware/releases
 
 ## bitcoin-nodes
 ### parmanode
