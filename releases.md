@@ -14,6 +14,8 @@
 ### phoenix
 - Mar 25, 2025 - v2.5.2 (android) - https://github.com/ACINQ/phoenix/releases
 - Mar 25, 2025 - v2.5.2 (ios) - https://github.com/ACINQ/phoenix/releases
+### muun
+- Mar 26, 2025 - v2.9.1 (ios) - https://github.com/muun/falcon/blob/master/falcon/CHANGELOG.md
 
 ## hardware-wallets
 ### jade
