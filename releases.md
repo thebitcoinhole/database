@@ -25,3 +25,4 @@
 ### parmanode
 - Mar 22, 2025 - v3.56.0 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
 - Mar 23, 2025 - v3.56.1 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
+- Mar 26, 2025 - v3.56.2 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
