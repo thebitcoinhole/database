@@ -9,3 +9,7 @@
 ### bluewallet
 - Mar 27, 2025 - v7.1.5 (macos) - https://github.com/BlueWallet/BlueWallet/releases
 - Mar 27, 2025 - v7.1.5 (android) - https://github.com/BlueWallet/BlueWallet/releases
+
+## bitcoin-nodes
+### parmanode
+- Mar 28, 2025 - v3.57.0 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
