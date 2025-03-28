@@ -1,0 +1,18 @@
+name: Fail if Branch Exists
+
+on:
+  workflow_dispatch: # or use `push`, `pull_request`, etc.
+
+jobs:
+  check-branch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if branch exists
+        run: |
+          BRANCH_NAME="test"
+          if git ls-remote --heads origin "$BRANCH_NAME" | grep -q "$BRANCH_NAME"; then
+            echo "Branch '$BRANCH_NAME' exists. Failing the job."
+            exit 1
+          else
+            echo "Branch '$BRANCH_NAME' does not exist. Continuing..."
+          fi
