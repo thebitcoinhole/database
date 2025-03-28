@@ -8,3 +8,4 @@
 - Mar 25, 2025 - v1.9.44 (linux) - https://github.com/nunchuk-io/nunchuk-desktop/releases
 ### bluewallet
 - Mar 27, 2025 - v7.1.5 (macos) - https://github.com/BlueWallet/BlueWallet/releases
+- Mar 27, 2025 - v7.1.5 (android) - https://github.com/BlueWallet/BlueWallet/releases
