@@ -13,6 +13,10 @@
 - Mar 30, 2025 - v1.2.1 (linux) - https://github.com/andreasgriffin/bitcoin-safe/releases
 - Mar 30, 2025 - v1.2.1 (macos) - https://github.com/andreasgriffin/bitcoin-safe/releases
 - Mar 30, 2025 - v1.2.1 (windows) - https://github.com/andreasgriffin/bitcoin-safe/releases
+### green
+- Mar 28, 2025 - v2.0.23 (windows) - https://github.com/Blockstream/green_qt/releases
+- Mar 28, 2025 - v2.0.23 (macos) - https://github.com/Blockstream/green_qt/releases
+- Mar 28, 2025 - v2.0.23 (linux) - https://github.com/Blockstream/green_qt/releases
 
 ## bitcoin-nodes
 ### parmanode
