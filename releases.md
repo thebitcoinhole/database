@@ -9,6 +9,10 @@
 ### bluewallet
 - Mar 27, 2025 - v7.1.5 (macos) - https://github.com/BlueWallet/BlueWallet/releases
 - Mar 27, 2025 - v7.1.5 (android) - https://github.com/BlueWallet/BlueWallet/releases
+### bitcoin-safe
+- Mar 30, 2025 - v1.2.1 (linux) - https://github.com/andreasgriffin/bitcoin-safe/releases
+- Mar 30, 2025 - v1.2.1 (macos) - https://github.com/andreasgriffin/bitcoin-safe/releases
+- Mar 30, 2025 - v1.2.1 (windows) - https://github.com/andreasgriffin/bitcoin-safe/releases
 
 ## bitcoin-nodes
 ### parmanode
