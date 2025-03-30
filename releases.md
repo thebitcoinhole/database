@@ -14,3 +14,5 @@
 ### parmanode
 - Mar 28, 2025 - v3.57.0 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
 - Mar 29, 2025 - v3.58.0 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
+### mynode-community-edition
+- Mar 29, 2025 - v0.3.35 - https://github.com/mynodebtc/mynode/blob/master/CHANGELOG
