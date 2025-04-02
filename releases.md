@@ -17,6 +17,9 @@
 - Mar 28, 2025 - v2.0.23 (windows) - https://github.com/Blockstream/green_qt/releases
 - Mar 28, 2025 - v2.0.23 (macos) - https://github.com/Blockstream/green_qt/releases
 - Mar 28, 2025 - v2.0.23 (linux) - https://github.com/Blockstream/green_qt/releases
+### zeus
+- Apr 2, 2025 - v0.10.1 (android) - https://github.com/ZeusLN/zeus/releases
+- Apr 2, 2025 - v0.10.1 (ios) - https://github.com/ZeusLN/zeus/releases
 
 ## bitcoin-nodes
 ### parmanode
