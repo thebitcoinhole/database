@@ -23,6 +23,10 @@
 ### bitcoin-keeper
 - Apr 3, 2025 - v2.1.1 (android) - https://github.com/bithyve/bitcoin-keeper/releases
 - Apr 3, 2025 - v2.1.1 (ios) - https://github.com/bithyve/bitcoin-keeper/releases
+### liana
+- Apr 3, 2025 - v10.0 (windows) - https://github.com/wizardsardine/liana/releases
+- Apr 3, 2025 - v10.0 (macos) - https://github.com/wizardsardine/liana/releases
+- Apr 3, 2025 - v10.0 (linux) - https://github.com/wizardsardine/liana/releases
 
 ## bitcoin-nodes
 ### parmanode
