@@ -20,6 +20,9 @@
 ### zeus
 - Apr 2, 2025 - v0.10.1 (android) - https://github.com/ZeusLN/zeus/releases
 - Apr 2, 2025 - v0.10.1 (ios) - https://github.com/ZeusLN/zeus/releases
+### bitcoin-keeper
+- Apr 3, 2025 - v2.1.1 (android) - https://github.com/bithyve/bitcoin-keeper/releases
+- Apr 3, 2025 - v2.1.1 (ios) - https://github.com/bithyve/bitcoin-keeper/releases
 
 ## bitcoin-nodes
 ### parmanode
