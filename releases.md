@@ -41,3 +41,7 @@
 
 ### mynode-community-edition
 - Mar 29, 2025 - v0.3.35 - https://github.com/mynodebtc/mynode/blob/master/CHANGELOG
+
+## hardware-wallets
+### gridplus-lattice1
+- Apr 7, 2025 - v0.18.7 - https://github.com/GridPlus/lattice-software-releases/releases
