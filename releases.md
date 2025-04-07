@@ -20,6 +20,7 @@
 - Mar 28, 2025 - v2.0.23 (macos) - https://github.com/Blockstream/green_qt/releases
 - Mar 28, 2025 - v2.0.23 (linux) - https://github.com/Blockstream/green_qt/releases
 - Apr 5, 2025 - v4.1.8 (ios) - https://github.com/Blockstream/green_ios/releases
+- Apr 7, 2025 - v4.1.8 (android) - https://github.com/Blockstream/green_android/releases
 
 ### zeus
 - Apr 2, 2025 - v0.10.1 (android) - https://github.com/ZeusLN/zeus/releases
