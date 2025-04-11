@@ -8,3 +8,9 @@
 - Apr 10, 2025 - v1.2.2 (linux) - https://github.com/andreasgriffin/bitcoin-safe/releases
 - Apr 10, 2025 - v1.2.2 (macos) - https://github.com/andreasgriffin/bitcoin-safe/releases
 - Apr 10, 2025 - v1.2.2 (windows) - https://github.com/andreasgriffin/bitcoin-safe/releases
+### stack-wallet
+- Apr 11, 2025 - v2.1.11 (android) - https://github.com/cypherstack/stack_wallet/releases
+- Apr 11, 2025 - v2.1.11 (ios) - https://github.com/cypherstack/stack_wallet/releases
+- Apr 11, 2025 - v2.1.11 (windows) - https://github.com/cypherstack/stack_wallet/releases
+- Apr 11, 2025 - v2.1.11 (macos) - https://github.com/cypherstack/stack_wallet/releases
+- Apr 11, 2025 - v2.1.11 (linux) - https://github.com/cypherstack/stack_wallet/releases
