@@ -18,3 +18,5 @@
 ## hardware-wallets
 ### portal
 - Feb 12, 2025 - v0.3.4 - https://github.com/TwentyTwoHW/portal-software/releases
+### trezor-safe-5
+- Mar 19, 2025 - v2.8.9 - https://github.com/trezor/trezor-firmware/blob/main/core/CHANGELOG.T3T1.md
