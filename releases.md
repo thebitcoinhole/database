@@ -20,3 +20,7 @@
 - Feb 12, 2025 - v0.3.4 - https://github.com/TwentyTwoHW/portal-software/releases
 ### trezor-safe-5
 - Mar 19, 2025 - v2.8.9 - https://github.com/trezor/trezor-firmware/blob/main/core/CHANGELOG.T3T1.md
+### bitkey
+- Oct 29, 2024 - v1.0.91 - https://bitkey.world/en-US/releases
+### frostnap
+- Dec 26, 2024 - v0.0.0-alpha.1 - https://github.com/frostsnap/frostsnap/releases
