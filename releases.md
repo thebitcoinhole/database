@@ -14,3 +14,7 @@
 - Apr 11, 2025 - v2.1.11 (windows) - https://github.com/cypherstack/stack_wallet/releases
 - Apr 11, 2025 - v2.1.11 (macos) - https://github.com/cypherstack/stack_wallet/releases
 - Apr 11, 2025 - v2.1.11 (linux) - https://github.com/cypherstack/stack_wallet/releases
+
+## hardware-wallets
+### portal
+- Feb 12, 2025 - v0.3.4 - https://github.com/TwentyTwoHW/portal-software/releases
