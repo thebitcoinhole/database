@@ -14,6 +14,13 @@
 - Apr 11, 2025 - v2.1.11 (windows) - https://github.com/cypherstack/stack_wallet/releases
 - Apr 11, 2025 - v2.1.11 (macos) - https://github.com/cypherstack/stack_wallet/releases
 - Apr 11, 2025 - v2.1.11 (linux) - https://github.com/cypherstack/stack_wallet/releases
+### bitcoin-core
+- Apr 15, 2025 - v29.0 (windows) - https://github.com/bitcoin/bitcoin/releases
+- Apr 15, 2025 - v29.0 (macos) - https://github.com/bitcoin/bitcoin/releases
+- Apr 15, 2025 - v29.0 (linux) - https://github.com/bitcoin/bitcoin/releases
+### zeus
+- Apr 15, 2025 - v0.10.2 (android) - https://github.com/ZeusLN/zeus/releases
+- Apr 15, 2025 - v0.10.2 (ios) - https://github.com/ZeusLN/zeus/releases
 
 ## hardware-wallets
 ### portal
@@ -24,3 +31,7 @@
 - Oct 29, 2024 - v1.0.91 - https://bitkey.world/en-US/releases
 ### frostnap
 - Dec 26, 2024 - v0.0.0-alpha.1 - https://github.com/frostsnap/frostsnap/releases
+
+## bitcoin-nodes
+### bitcoin-core
+- Apr 15, 2025 - v29.0 - https://github.com/bitcoin/bitcoin/releases
