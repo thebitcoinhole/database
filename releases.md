@@ -31,6 +31,10 @@
 - Oct 29, 2024 - v1.0.91 - https://bitkey.world/en-US/releases
 ### frostnap
 - Dec 26, 2024 - v0.0.0-alpha.1 - https://github.com/frostsnap/frostsnap/releases
+### coldcard-mk4
+- Apr 16, 2025 - v5.4.2 - https://coldcard.com/docs/upgrade
+### coldcard-q
+- Apr 16, 2025 - v1.3.2 - https://coldcard.com/docs/upgrade
 
 ## bitcoin-nodes
 ### bitcoin-core
