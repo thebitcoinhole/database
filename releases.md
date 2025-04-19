@@ -18,6 +18,12 @@
 - Apr 11, 2025 - v2.1.11 (windows) - https://github.com/cypherstack/stack_wallet/releases
 - Apr 11, 2025 - v2.1.11 (macos) - https://github.com/cypherstack/stack_wallet/releases
 - Apr 11, 2025 - v2.1.11 (linux) - https://github.com/cypherstack/stack_wallet/releases
+- Apr 19, 2025 - v2.1.12 (android) - https://github.com/cypherstack/stack_wallet/releases
+- Apr 19, 2025 - v2.1.12 (ios) - https://github.com/cypherstack/stack_wallet/releases
+- Apr 19, 2025 - v2.1.12 (windows) - https://github.com/cypherstack/stack_wallet/releases
+- Apr 19, 2025 - v2.1.12 (macos) - https://github.com/cypherstack/stack_wallet/releases
+- Apr 19, 2025 - v2.1.12 (linux) - https://github.com/cypherstack/stack_wallet/releases
+
 ### bitcoin-core
 - Apr 15, 2025 - v29.0 (windows) - https://github.com/bitcoin/bitcoin/releases
 - Apr 15, 2025 - v29.0 (macos) - https://github.com/bitcoin/bitcoin/releases
