@@ -31,6 +31,10 @@
 ### zeus
 - Apr 15, 2025 - v0.10.2 (android) - https://github.com/ZeusLN/zeus/releases
 - Apr 15, 2025 - v0.10.2 (ios) - https://github.com/ZeusLN/zeus/releases
+### nunchuk
+- Apr 21, 2025 - v1.9.45 (windows) - https://github.com/nunchuk-io/nunchuk-desktop/releases
+- Apr 21, 2025 - v1.9.45 (macos) - https://github.com/nunchuk-io/nunchuk-desktop/releases
+- Apr 21, 2025 - v1.9.45 (linux) - https://github.com/nunchuk-io/nunchuk-desktop/releases
 
 ## hardware-wallets
 ### portal
