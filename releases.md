@@ -55,3 +55,4 @@
 - Apr 15, 2025 - v29.0 - https://github.com/bitcoin/bitcoin/releases
 ### parmanode
 - Apr 20, 2025 - v3.58.2 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
+- Apr 23, 2025 - v3.58.3 - https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt
