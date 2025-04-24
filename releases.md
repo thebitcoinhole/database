@@ -44,6 +44,9 @@
 - Apr 24, 2025 - v2.0.25 (windows) - https://github.com/Blockstream/green_qt/releases
 - Apr 24, 2025 - v2.0.25 (macos) - https://github.com/Blockstream/green_qt/releases
 - Apr 24, 2025 - v2.0.25 (linux) - https://github.com/Blockstream/green_qt/releases
+### bitcoin-keeper
+- Apr 24, 2025 - v2.2.0 (android) - https://github.com/bithyve/bitcoin-keeper/releases
+- Apr 24, 2025 - v2.2.0 (ios) - https://github.com/bithyve/bitcoin-keeper/releases
 
 ## hardware-wallets
 ### portal
