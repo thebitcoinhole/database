@@ -37,6 +37,10 @@
 - Apr 21, 2025 - v1.9.45 (windows) - https://github.com/nunchuk-io/nunchuk-desktop/releases
 - Apr 21, 2025 - v1.9.45 (macos) - https://github.com/nunchuk-io/nunchuk-desktop/releases
 - Apr 21, 2025 - v1.9.45 (linux) - https://github.com/nunchuk-io/nunchuk-desktop/releases
+### green
+- Apr 24, 2025 - v2.0.24 (windows) - https://github.com/Blockstream/green_qt/releases
+- Apr 24, 2025 - v2.0.24 (macos) - https://github.com/Blockstream/green_qt/releases
+- Apr 24, 2025 - v2.0.24 (linux) - https://github.com/Blockstream/green_qt/releases
 
 ## hardware-wallets
 ### portal
