@@ -683,7 +683,7 @@
       ]
     },
     "macos-latest-version": {
-      "value": "v2.0.24"
+      "value": "v2.0.25"
     },
     "macos-latest-release-date": {
       "value": "Apr 24, 2025"
@@ -744,7 +744,7 @@
       ]
     },
     "linux-latest-version": {
-      "value": "v2.0.24"
+      "value": "v2.0.25"
     },
     "linux-latest-release-date": {
       "value": "Apr 24, 2025"
@@ -805,7 +805,7 @@
       ]
     },
     "windows-latest-version": {
-      "value": "v2.0.24"
+      "value": "v2.0.25"
     },
     "windows-latest-release-date": {
       "value": "Apr 24, 2025"
