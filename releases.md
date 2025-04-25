@@ -47,6 +47,9 @@
 ### bitcoin-keeper
 - Apr 24, 2025 - v2.2.0 (android) - https://github.com/bithyve/bitcoin-keeper/releases
 - Apr 24, 2025 - v2.2.0 (ios) - https://github.com/bithyve/bitcoin-keeper/releases
+- Apr 25, 2025 - v0.2.2 (linux) - https://github.com/bithyve/keeper-desktop/releases/
+- Apr 25, 2025 - v0.2.2 (macos) - https://github.com/bithyve/keeper-desktop/releases/
+- Apr 25, 2025 - v0.2.2 (windows) - https://github.com/bithyve/keeper-desktop/releases/
 
 ## hardware-wallets
 ### portal
