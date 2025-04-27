@@ -50,6 +50,8 @@
 - Apr 25, 2025 - v0.2.2 (linux) - https://github.com/bithyve/keeper-desktop/releases/
 - Apr 25, 2025 - v0.2.2 (macos) - https://github.com/bithyve/keeper-desktop/releases/
 - Apr 25, 2025 - v0.2.2 (windows) - https://github.com/bithyve/keeper-desktop/releases/
+- Apr 27, 2025 - v2.2.1 (android) - https://github.com/bithyve/bitcoin-keeper/releases
+- Apr 27, 2025 - v2.2.1 (ios) - https://github.com/bithyve/bitcoin-keeper/releases
 
 ## hardware-wallets
 ### portal
