@@ -15,3 +15,7 @@
 - May 5, 2025 - v2.6.0 (windows) - https://github.com/WalletWasabi/WalletWasabi/releases
 - May 5, 2025 - v2.6.0 (macos) - https://github.com/WalletWasabi/WalletWasabi/releases
 - May 5, 2025 - v2.6.0 (linux) - https://github.com/WalletWasabi/WalletWasabi/releases
+
+## bitcoin-nodes
+### umbrel-diy
+- May 6, 2025 - v1.4.1 - https://github.com/getumbrel/umbrel/releases
