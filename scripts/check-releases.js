@@ -13,6 +13,8 @@ setNostrEnabled(process.argv[3] === 'true' ? true : false)
 
 const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
 
+let hadErrors = false;
+
 const sleep = util.promisify(setTimeout);
 
 async function processReleases() {
@@ -38,10 +40,15 @@ async function processReleases() {
             process.exit(1);
         }
     }
-    console.log("✅ Check releases finished OK");
 }
 
 processReleases();
+
+if (hadErrors) {
+    console.error('❌ One or more items failed. Exiting with error.');
+} else {
+    console.log("✅ Finished successfully")
+}
 
 function fetchRelease(itemType, json) {
 
@@ -339,16 +346,18 @@ function fetchRelease(itemType, json) {
             
             if (latestVersion == undefined) {
                 console.error("latestVersion not found")
-                exit(1);
+                hadErrors = true
+                return
             }
     
             if (latestReleaseDate == undefined) {
                 console.error("latestReleaseDate not found")
-                exit(1);
+                hadErrors = true
+                return
             }
         }
     
-        if (!ignoreVersion(itemId, latestVersion, preReleaseSupported)) {
+        if (!hadErrors && !ignoreVersion(itemId, latestVersion, preReleaseSupported)) {
 
             console.log("Pre processed latestVersion: " + latestVersion)
             if (itemType == "bitcoin-nodes") {
@@ -474,12 +483,14 @@ function fetchRelease(itemType, json) {
     
             if (!isValidVersion(latestVersion, preReleaseSupported)) {
                 console.error('Invalid version found: ' + latestVersion);
-                exit(1);
+                hadErrors = true
+                return
             }
     
             if (!isValidDate(latestReleaseDate)) {
                 console.error('Invalid release data found: ' + latestReleaseDate);
-                exit(1);
+                hadErrors = true
+                return
             }
     
             // Iterate through release assets and collect their file names
@@ -495,7 +506,7 @@ function fetchRelease(itemType, json) {
       })
       .catch((error) => {
         console.error(`Error fetching release information from ${apiUrl}:`, error.message);
-        exit(1);
+        hadErrors = true
       });
 }
 
@@ -560,12 +571,14 @@ function checkRelease(itemType, json, latestVersion, latestReleaseDate) {
 function updateRelease(itemType, json, releaseVersion, releaseDate) {
     if (releaseVersion == undefined) {
         console.error('Missing releaseVersion');
-        exit(1);
+        hadErrors = true
+        return
     }
 
     if (releaseDate == undefined) {
         console.error('Missing releaseDate');
-        exit(1);
+        hadErrors = true
+        return
     }
        
     const filePath = `../item-types/${itemType}/items/${json["item-id"]}.json`;

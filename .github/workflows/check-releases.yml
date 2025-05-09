@@ -41,9 +41,30 @@ jobs:
       working-directory: scripts
 
     - name: Update release
-      id: fetch-release-step
       working-directory: scripts
-      run: node check-releases.js true true
+      run: |
+      
+        # Run node script:
+        # - stdout goes directly to console (1>&1)
+        # - stderr is redirected and captured to variable
+        error_output=$(mktemp)
+        node check-releases.js true true 1>&1 2> "$error_output"
+
+        cat "$error_output"
+        
+        # Parse known end markers from stderr
+        if grep -Fq "❌ One or more items failed. Exiting with error." "$error_output"; then
+          code=10
+        elif [ ! -s "$error_output" ]; then
+          # If there was no error output, assume success
+          code=0
+        else
+          echo "❌ Unrecognized error output. Failing the step."
+          exit 1
+        fi
+    
+        echo "Detected custom exit code: $code"
+        echo "EXIT_CODE=$code" >> "$GITHUB_ENV"
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v7.0.6
@@ -71,3 +92,14 @@ jobs:
           -H "Authorization: Bearer ${{ secrets.TBH_PAT }}" \
           https://api.github.com/repos/${{ secrets.TBH_REPO }}/actions/workflows/update-database-module.yml/dispatches \
           -d '{"ref":"master","inputs":{"triggered_by":"public_repo_commit"}}'
+
+    - name: Final step (conditionally fail)
+      run: |
+        echo "Final exit code: '$EXIT_CODE'"
+    
+        if [ "$EXIT_CODE" = "10" ]; then
+          echo "❌ Failing due to partial success"
+          exit 1
+        else
+          echo "✅ Nothing to fail here"
+        fi
