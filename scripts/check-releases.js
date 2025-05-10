@@ -4,51 +4,411 @@ const axios = require('axios');
 const util = require('util');
 const path = require('path');
 const cheerio = require('cheerio');
+const { platform } = require('os');
 
 eval(fs.readFileSync('./tweet.js', 'utf-8'));
 eval(fs.readFileSync('./nostr.js', 'utf-8'));
+eval(fs.readFileSync('./utils.js', 'utf-8'));
 
 setTwitterEnabled(process.argv[2] === 'true' ? true : false)
 setNostrEnabled(process.argv[3] === 'true' ? true : false)
 
 const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
 
-let hadErrors = false;
+// const sleep = util.promisify(setTimeout);
 
-const sleep = util.promisify(setTimeout);
+// async function processReleases() {
+//     const dirs = fs.readdirSync("../item-types/", { withFileTypes: true })
+//         .filter(dirent => dirent.isDirectory());
 
-async function processReleases() {
-    const dirs = fs.readdirSync("../item-types/", { withFileTypes: true })
-        .filter(dirent => dirent.isDirectory());
+//     for (const dirent of dirs) {
+//         const itemType = dirent.name;
+//         const path = `../item-types/${itemType}/json/check-releases.json`;
 
-    for (const dirent of dirs) {
-        const itemType = dirent.name;
-        const path = `../item-types/${itemType}/json/check-releases.json`;
+//         try {
+//             if (fs.existsSync(path)) {
+//                 const data = fs.readFileSync(path, 'utf8');
+//                 const json = JSON.parse(data);
 
+//                 for (const key of Object.keys(json)) {
+//                     await fetchRelease(itemType, json[key]);
+//                     await sleep(1000);
+//                 }
+//             }
+//         } catch (err) {
+//             console.error(`Error reading or parsing ${path}:`, err);
+//             process.exit(1);
+//         }
+//     }
+// }
+
+//processReleases();
+
+class BaseCommand {
+
+    constructor(itemId, itemType) {
+        this.itemId = itemId;
+        this.itemType = itemType;
+    }
+
+    async execute() {
+        console.log("Request url: " + this.getUrl())
+        var release 
         try {
-            if (fs.existsSync(path)) {
-                const data = fs.readFileSync(path, 'utf8');
-                const json = JSON.parse(data);
-
-                for (const key of Object.keys(json)) {
-                    await fetchRelease(itemType, json[key]);
-                    await sleep(1000);
-                }
-            }
+            const response = await axios.get(this.getUrl(), { headers: this.getHeaders() });
+            release = this.parseRelease(response.data);
         } catch (err) {
-            console.error(`Error reading or parsing ${path}:`, err);
-            process.exit(1);
+          throw new Error(`${err.message}`);
         }
+    
+        if (release == null || release == undefined) {
+          throw new Error(`Release not found`);
+        }
+
+        release.version = this.sanitizeVersion(release.version)
+
+        if (!this.ignoreVersion(release.version)) {
+            // TODO
+
+            if (!isValidVersion(release.version, this.isPreReleaseSupported())) {
+                throw new Error('Invalid version found: ' + release.version);
+            }
+    
+            if (!isValidDate(release.date)) {
+                throw new Error('Invalid release data found: ' + release.date);
+            }
+
+
+        } else {
+            console.log("Ignoring version")
+        }
+    
+        console.log(`✅ ${this.itemId}: ${release.version} (${release.date})`);
+        return { itemId: this.itemId, itemType: this.itemType, platforms: this.getPlatforms(), version: release.version, date: release.date };
+    }
+
+    parseRelease(data) {
+        throw new Error('doExecute method not implemented');
+    }
+
+    getUrl() {
+        throw new Error('getUrl method not implemented');
+    }
+
+    getHeaders() {
+        return {};
+    }
+
+    getPlatforms() {
+        return undefined;
+    }
+
+    sanitizeVersion(version) {
+        version = version.replace(/^Version /, '');
+        version = version.replace(/^Firmware /, '');
+        version = version.replace(/^Release /, '');
+        version = version.replace(/^(v\d+(\.\d+)+):(.*)$/, '$1');
+        version = version.replace(/^Android Release\s*/, '');
+        version = version.replace(/^Release\s*/, '');
+        version = version.replace(/^release_/, '');
+        version = version.replace(/^v\./, '');
+
+        // Check if the input starts with "v"
+        if (!version.startsWith("v")) {
+            // If it doesn't match the version pattern, add the "v" prefix
+            version = "v" + version;
+        }
+
+        return version
+    }
+
+    isPreReleaseSupported() {
+        return false
+    }
+
+    ignoreVersion(version) {
+
+        // Ignore if it ends with "-pre1", "-pre2", etc.
+        var pattern = /-pre\d+$/;
+        if (pattern.test(version)) {
+            return true
+        }
+    
+        // Ignore if it contains "-alpha"
+        if (!this.isPreReleaseSupported() && version.toLowerCase().includes("-alpha")) {
+            return true
+        }
+    
+        // Ignore if contains the word beta
+        if (!this.isPreReleaseSupported() && version.toLowerCase().includes("beta")) {
+            return true
+        }
+    
+        // TODO Move out from here
+        // Seedsigner
+        if (this.itemId == "seedsigner" && version.endsWith("_EXP")) {
+            return true
+        }
+    
+        // Ignore if it ends with "-rc", "-rc1", "-rc2", etc.
+        pattern = /-rc\d*$/;
+        if (!this.isPreReleaseSupported() && pattern.test(version)) {
+            return true
+        }
+    
+        return false
     }
 }
 
-processReleases();
+class GithubCommand extends BaseCommand {
 
-if (hadErrors) {
-    console.error('❌ One or more items failed. Exiting with error.');
-} else {
-    console.log("✅ Finished successfully")
+    constructor(itemId, itemType, githubOwner, githubRepo) {
+        super(itemId, itemType);
+        this.githubOwner = githubOwner;
+        this.githubRepo = githubRepo;
+        this.baseUrl = `https://api.github.com/repos/${this.githubOwner}/${this.githubRepo}`
+    }
 }
+
+class GithubLatestReleaseCommand extends GithubCommand {
+
+    constructor(itemId, itemType, githubOwner, githubRepo) {
+        super(itemId, itemType, githubOwner, githubRepo);
+    }
+
+    parseRelease(data) {
+        console.log("Using latest releases API")
+        var date = getDate(data.published_at)
+        var version = data.name.trim()
+        console.log("Release name: " + version)
+        if (version === undefined || version === "") {
+            version = data.tag_name.trim()
+            console.log("Tag name: " + version)
+        }
+        return { version: version, date: date};
+    }
+
+
+    getUrl() {
+        return `${this.baseUrl}/releases/latest`;
+    }
+}
+
+class GithubAllReleasesCommand extends GithubCommand {
+
+    constructor(itemId, itemType, githubOwner, githubRepo, allReleasesInclude, allReleasesExclude, assetsMatch) {
+        super(itemId, itemType, githubOwner, githubRepo);
+        this.allReleasesInclude = allReleasesInclude
+        this.allReleasesExclude = allReleasesExclude
+        this.assetsMatch = assetsMatch
+    }
+
+    parseRelease(data) {
+        console.log("Using releases API")
+        var version
+        var date
+        data.forEach((release) => {
+            if (version === undefined) {
+                var match = false
+                if (this.allReleasesInclude != undefined) {
+                    match = release.name.toLowerCase().includes(this.allReleasesInclude.toLowerCase())
+                } else if (this.allReleasesExclude != undefined) {
+                    match = !release.name.toLowerCase().includes(this.allReleasesExclude.toLowerCase())
+                } else if (this.assetsMatch != undefined) {
+                    release.assets.forEach((asset) => {
+                        if (asset.name.endsWith(assetsMatch)) {
+                            match = true
+                        }
+                    });
+                } else {
+                    console.error('Not defined any allReleasesInclude or allReleasesExclude or assetsMatch');
+                    exit(1);
+                }
+                if (match) {
+                    body = release.body
+                    date = getDate(release.published_at)
+                    //assets = release.assets
+                    version = release.name.trim()
+                    console.log("Release name: " + version)
+                    if (version === undefined || version === "") {
+                        version = release.tag_name
+                        console.log("Tag name: " + version)
+                    }
+                }
+            }
+        });
+        return { version: version, date: date};
+    }
+
+
+    getUrl() {
+        return `${this.baseUrl}/releases`;
+    }
+}
+
+class GithubTagCommand extends GithubCommand {
+
+    constructor(itemId, itemType, githubOwner, githubRepo) {
+        super(itemId, itemType, githubOwner, githubRepo);
+    }
+
+    parseRelease(data) {
+        var version
+        for (const tag of data) {
+            if (version == undefined && !tag.name.trim().includes("$(MARKETING_VERSION)")) {
+                version = tag.name.trim()
+            }
+        }
+
+        console.log("Tag name: " + version)
+        return { version: version, date: today()};
+    }
+
+    getUrl() {
+        return `${this.baseUrl}/tags`;
+    }
+
+    getHeaders() {
+        return {
+            Accept: 'application/vnd.github.v3+json',
+            Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+        };
+    }
+}
+
+class GitlagTagCommand extends BaseCommand {
+
+    constructor(itemId, itemType, gitlabProjectId) {
+        super(itemId, itemType);
+        this.gitlabProjectId = gitlabProjectId;
+    }
+
+    parseRelease(data) {
+        var version
+        for (const tag of data) {
+            if (version == undefined && !tag.name.trim().includes("$(MARKETING_VERSION)")) {
+                version = tag.name.trim()
+            }
+        }
+
+        console.log("Tag name: " + version)
+        return { version: version, date: today()};
+    }
+
+    getUrl() {
+        return `https://gitlab.com/api/v4/projects/${this.gitlabProjectId}/repository/tags`;
+    }
+
+    getHeaders() {
+        return {
+            Authorization: `Bearer ${process.env.GITLAB_TOKEN}`
+        };
+    }
+}
+
+class ChangeLogCommand extends BaseCommand {
+
+    constructor(itemId, itemType, changelogUrl) {
+        super(itemId, itemType);
+        this.changelogUrl = changelogUrl;
+    }
+
+    parseRelease(data) {
+        // TODO
+        return { version: version, date: date};
+    }
+
+    getUrl() {
+        return this.changelogUrl ;
+    }
+}
+
+class BitkeyCommand extends BaseCommand {
+
+    constructor(itemId, itemType, url) {
+        super(itemId, itemType);
+        this.url = url;
+    }
+
+    parseRelease(data) {
+        var version
+        var date
+        const $ = cheerio.load(data);
+        let found = false;
+
+        $('.border-t.py-6').each((_, element) => {
+            if (found) return
+
+            const dateText = $(element).find('.text-primary50').first().text().trim();
+            const versionText = $(element).find('.font-semibold').first().text().trim();
+            const type = $(element).find('.text-primary50').first().next().text().trim();
+
+            if (type.toLowerCase().includes('firmware')) {
+                version = versionText
+                date = dateText
+                found = true
+            }
+        });
+        return { version: version, date: date }
+    }
+
+    getUrl() {
+        return this.url ;
+    }
+}
+
+class SeedSigner extends GithubTagCommand {
+
+    constructor(itemId, itemType, githubOwner, githubRepo) {
+        super(itemId, itemType, githubOwner, githubRepo);
+    }
+}
+
+(async () => {
+
+  const commands = [
+    new BitkeyCommand("bitkey", "hardware-wallets", "https://bitkey.world/en-US/releases"),
+    new GithubTagCommand("seedsigner", "hardware-wallets", "SeedSigner", "seedsigner")
+  ];
+
+  // Map commands into wrapped tasks with error context
+  const allTasks = commands.map(cmd =>
+    cmd.execute().then(result => ({ result, cmd })).catch(err => {
+      err.itemId = cmd.itemId;
+      return { error: err, cmd };
+    })
+  );
+
+  const results = await Promise.allSettled(allTasks);
+
+  let hadErrors = false;
+
+  results.forEach(result => {
+    if (result.status === 'fulfilled') {
+      const { result: value, cmd, error } = result.value;
+
+      if (error) {
+        console.log(`❌ ${cmd.itemId} error: ${error.message}`);
+        hadErrors = true;
+        return;
+      }
+
+       const { itemId, itemType, platforms, version, date } = value;
+       checkRelease(itemType, itemId, platforms, version, date);
+    } else {
+      console.log(`⚠️ Unexpected rejection: ${result.reason?.message || result.reason}`);
+      hadErrors = true;
+    }
+  });
+
+  if (hadErrors) {
+    console.error('❌ One or more items failed. Exiting with error.');
+  } else {
+    process.stdout.write("✅ Finished successfully\n");
+    process.stdout.write('', () => process.exit(0));
+  }
+
+})();
 
 function fetchRelease(itemType, json) {
 
@@ -67,7 +427,7 @@ function fetchRelease(itemType, json) {
     const preReleaseSupported = itemId == "frostnap"
 
     if (enabled == false) {
-        console.warn(`⚠️ ${json["item-id"]} disabled`)
+        console.warn(`⚠️ ${itemId} disabled`)
         return
     }
     
@@ -96,12 +456,12 @@ function fetchRelease(itemType, json) {
         apiUrl = changelogUrl
         headers = {}
     } else {
-        console.error(`${json["item-id"]} - Not defined api url to use`);
+        console.error(`${itemId} - Not defined api url to use`);
         exit(1);
     }
     
     console.log('---------------------');
-    console.log(`Item Id: ${json["item-id"]}`);
+    console.log(`Item Id: ${itemId}`);
     console.log("Request url: " + apiUrl)
     axios
       .get(apiUrl, { headers })
@@ -499,7 +859,7 @@ function fetchRelease(itemType, json) {
             // });
             //console.log('Release Notes:\n', body);
             //console.log('Asset File Names:', assetFileNames.join());
-            checkRelease(itemType, json, latestVersion, latestReleaseDate);
+            checkRelease(itemType, itemId, json.platforms, latestVersion, latestReleaseDate);
         } else {
             console.log("Ignoring version")
         }
@@ -510,65 +870,56 @@ function fetchRelease(itemType, json) {
       });
 }
 
-function checkRelease(itemType, json, latestVersion, latestReleaseDate) {
+function checkRelease(itemType, itemId, platforms, latestVersion, latestReleaseDate) {
+
+    console.log('---------------------');
+    console.log(`Item Id: ${itemId}`);
+
     // Define the path to your JSON file.
-    const filePath = `../item-types/${itemType}/items/${json["item-id"]}.json`;
+    const filePath = `../item-types/${itemType}/items/${itemId}.json`;
 
     // Read the JSON file.
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) {
-            console.error('Error reading JSON file:', err);
-            exit(1);
-        }
+    const item = readJSONFile(filePath)
+    var releaseVersion
+    var releaseDate
+    if (itemType == "software-wallets") {
 
-        try {
-            const item = JSON.parse(data);
+        // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
+        platforms.forEach(platform => {
+            console.log(platform + ":")
+            var currentVersion = item[`${platform}-support`][`${platform}-latest-version`].value
+            var currentReleaseDate = item[`${platform}-support`][`${platform}-latest-release-date`].value
+            console.log("- Current version found: " + currentVersion + " (" + currentReleaseDate + ")")
+            console.log("- Latest version found: " + latestVersion + " (" + latestReleaseDate + ")")
 
-            var releaseVersion
-            var releaseDate
-            if (itemType == "software-wallets") {
-    
-                // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
-                json.platforms.forEach(platform => {
-                    console.log(platform + ":")
-                    var currentVersion = item[`${platform}-support`][`${platform}-latest-version`].value
-                    var currentReleaseDate = item[`${platform}-support`][`${platform}-latest-release-date`].value
-                    console.log("- Current version found: " + currentVersion + " (" + currentReleaseDate + ")")
-                    console.log("- Latest version found: " + latestVersion + " (" + latestReleaseDate + ")")
-    
-                    if (latestVersion !== currentVersion) {
-                        releaseVersion = latestVersion
-                        releaseDate = latestReleaseDate
-                    }
-                });
-            } else {
-                var currentVersion = item["firmware"]["latest-version"].value
-                var currentReleaseDate = item["firmware"]["latest-release-date"].value
-                console.log("- Current version found: " + currentVersion + " (" + currentReleaseDate + ")")
-                console.log("- Latest version found: " + latestVersion + " (" + latestReleaseDate + ")")
-
-                
-                if (latestVersion !== currentVersion) {
-                    releaseVersion = latestVersion
-                    releaseDate = latestReleaseDate
-                }
+            if (latestVersion !== currentVersion) {
+                releaseVersion = latestVersion
+                releaseDate = latestReleaseDate
             }
+        });
+    } else {
+        var currentVersion = item["firmware"]["latest-version"].value
+        var currentReleaseDate = item["firmware"]["latest-release-date"].value
+        console.log("- Current version found: " + currentVersion + " (" + currentReleaseDate + ")")
+        console.log("- Latest version found: " + latestVersion + " (" + latestReleaseDate + ")")
 
-            if (releaseVersion != undefined) {
-                updateRelease(itemType, json, releaseVersion, releaseDate)
-            } else {
-                console.log("New release not found")
-            }
-            console.log('---------------------');
-
-        } catch (parseError) {
-            console.error('Error parsing JSON:', parseError);
-            exit(1);
+        
+        if (latestVersion !== currentVersion) {
+            releaseVersion = latestVersion
+            releaseDate = latestReleaseDate
         }
-    });
+    }
+
+    if (releaseVersion != undefined) {
+        updateRelease(itemType, itemId, platforms, releaseVersion, releaseDate)
+    } else {
+        console.log("New release not found")
+    }
+    console.log('---------------------');
+
 }
 
-function updateRelease(itemType, json, releaseVersion, releaseDate) {
+function updateRelease(itemType, itemId, platforms, releaseVersion, releaseDate) {
     if (releaseVersion == undefined) {
         console.error('Missing releaseVersion');
         hadErrors = true
@@ -581,7 +932,7 @@ function updateRelease(itemType, json, releaseVersion, releaseDate) {
         return
     }
        
-    const filePath = `../item-types/${itemType}/items/${json["item-id"]}.json`;
+    const filePath = `../item-types/${itemType}/items/${itemId}.json`;
     fs.readFile(filePath, 'utf8', (err, data) => {
         if (err) {
             console.error('Error reading JSON file:', err);
@@ -598,7 +949,7 @@ function updateRelease(itemType, json, releaseVersion, releaseDate) {
             if (itemType == "software-wallets") {
                 // TODO For Bluewallet, some versions are not for all the platforms. Inspect the assets to see which platform to update
 
-                json.platforms.forEach(platform => {
+                platforms.forEach(platform => {
                     currentVersion = item[`${platform}-support`][`${platform}-latest-version`].value
                     currentReleaseDate = item[`${platform}-support`][`${platform}-latest-release-date`].value
                     if (releaseVersion !== currentVersion) {
@@ -645,12 +996,12 @@ function updateRelease(itemType, json, releaseVersion, releaseDate) {
                 });
     
                 var newRelease
-                if (json.platforms != undefined) {
-                    json.platforms.forEach(platform => {
-                        newRelease = updateReleasesFile(itemType, json["item-id"], releaseDate, releaseVersion, changelogUrl, platform);
+                if (platforms != undefined) {
+                    platforms.forEach(platform => {
+                        newRelease = updateReleasesFile(itemType, itemId, releaseDate, releaseVersion, changelogUrl, platform);
                     });
                 } else {
-                    newRelease = updateReleasesFile(itemType, json["item-id"], releaseDate, releaseVersion, changelogUrl, "");
+                    newRelease = updateReleasesFile(itemType, itemId, releaseDate, releaseVersion, changelogUrl, "");
                 }
 
                 if (newRelease) {
@@ -658,7 +1009,7 @@ function updateRelease(itemType, json, releaseVersion, releaseDate) {
                     const oneWeekAgo = new Date();
                     oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
                     if (inputDate > oneWeekAgo) {
-                        postNewRelease(itemType, json["item-id"], item.name, releaseVersion, changelogUrl, item.company, json.platforms)
+                        postNewRelease(itemType, itemId, item.name, releaseVersion, changelogUrl, item.company, platforms)
                     } else {
                         console.log("Post ignored, release date more than one week old.")
                     }
@@ -923,14 +1274,4 @@ function formatYYYYMMDD(inputDate) {
 
     // Return the original input if parsing fails
     return inputDate;
-}
-
-function readJSONFile(filePath) {
-    try {
-        const fileContent = fs.readFileSync(filePath, 'utf8');
-        return JSON.parse(fileContent);
-    } catch (error) {
-        console.error(`Error reading JSON file at ${filePath}:`, error);
-        exit(1)
-    }
 }
