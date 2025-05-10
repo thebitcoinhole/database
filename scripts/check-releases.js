@@ -42,8 +42,6 @@ const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
 //     }
 // }
 
-//processReleases();
-
 class BaseCommand {
 
     constructor(itemId, itemType) {
@@ -313,21 +311,99 @@ class ChangeLogCommand extends BaseCommand {
         this.changelogUrl = changelogUrl;
     }
 
-    parseRelease(data) {
-        // TODO
-        return { version: version, date: date};
-    }
-
     getUrl() {
         return this.changelogUrl ;
     }
 }
 
+class ParmanodeCommand extends ChangeLogCommand {
+
+    constructor() {
+        super("parmanode", "bitcoin-nodes", "https://raw.githubusercontent.com/ArmanTheParman/Parmanode/refs/heads/master/changelog.txt");
+    }
+
+    parseRelease(data) {
+        var version
+        const lines = data.split('\n');
+        const regex = /^Version ([\d.]+)/;
+        for (const line of lines) {
+            // Skip empty lines and lines starting with #
+            if (line.trim() === "" || line.trim().startsWith("#")) {
+                continue;
+            }
+        
+            const match = line.match(regex);
+            if (match) {
+                version = match[1];
+                break; // Stop after finding the first valid version line
+            }
+        }
+        return { version: version, date: today()};
+    }
+}
+
+class MyNodeCommand extends ChangeLogCommand {
+
+    constructor(itemId) {
+        super(itemId, "bitcoin-nodes", "https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG");
+    }
+
+    parseRelease(data) {
+        var version
+        var date
+        // === v0.3.25 ===
+        // - Released 1/11/24
+        const lines = data.split('\n');
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+        
+            if (line.startsWith("===")) {
+                const versionRegex = /^=== v([\d.]+) ===/;
+                const versionMatch = line.match(versionRegex);
+        
+                if (versionMatch) {
+                    version = versionMatch[1];
+        
+                    // Check if the next line exists
+                    const nextLine = lines[i + 1]?.trim();
+                    const dateRegex = /^- Released ([\d.]+)\/([\d.]+)\/([\d.]+)/;
+                    const dateMatch = nextLine.match(dateRegex);
+        
+                    if (dateMatch) {
+                        date = `${getShortMonthByIndex(parseInt(dateMatch[1]) - 1)} ${dateMatch[2]}, ${2000 + parseInt(dateMatch[3])}`;
+                    }
+                }
+        
+                break; // Only need the first match
+            }
+        }
+        return { version: version, date: date};
+    }
+}
+
+class NodlCommand extends ChangeLogCommand {
+
+    constructor(itemId, changelogUrl) {
+        super(itemId, "bitcoin-nodes", changelogUrl);
+    }
+
+    parseRelease(data) {
+        var version
+        const line = data.split('\n')[0]
+        const regex = /^([\d.]+) -/;
+        const match = line.match(regex);
+        if (match) {
+            version = match[1];
+        }
+        return { version: version, date: today()};
+    }
+}
+
 class BitkeyCommand extends BaseCommand {
 
-    constructor(itemId, itemType, url) {
-        super(itemId, itemType);
-        this.url = url;
+    constructor() {
+        super("bitkey", "hardware-wallets");
+        this.url = "https://bitkey.world/en-US/releases";
     }
 
     parseRelease(data) {
@@ -367,8 +443,15 @@ class SeedSigner extends GithubTagCommand {
 (async () => {
 
   const commands = [
-    new BitkeyCommand("bitkey", "hardware-wallets", "https://bitkey.world/en-US/releases"),
-    new GithubTagCommand("seedsigner", "hardware-wallets", "SeedSigner", "seedsigner")
+    new BitkeyCommand(),
+    new GithubTagCommand("seedsigner", "hardware-wallets", "SeedSigner", "seedsigner"),
+    new ParmanodeCommand(),
+    new MyNodeCommand("mynode-community-edition"),
+    new MyNodeCommand("mynode-model-one"),
+    new MyNodeCommand("mynode-model-two"),
+    new MyNodeCommand("mynode-premium"),
+    new NodlCommand("nodl-one-mark-2", "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-one/www/changelog.txt?ref_type=heads"),
+    new NodlCommand("nodl-two", "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-two/www/changelog.txt?ref_type=heads")
   ];
 
   // Map commands into wrapped tasks with error context
@@ -426,10 +509,10 @@ function fetchRelease(itemType, json) {
     const assetsMatch = json["assets-match"]
     const preReleaseSupported = itemId == "frostnap"
 
-    if (enabled == false) {
-        console.warn(`⚠️ ${itemId} disabled`)
-        return
-    }
+    // if (enabled == false) {
+    //     console.warn(`⚠️ ${itemId} disabled`)
+    //     return
+    // }
     
     const githubApiKey = process.env.GITHUB_TOKEN
     const gitlabApiKey = process.env.GITLAB_TOKEN
@@ -554,55 +637,55 @@ function fetchRelease(itemType, json) {
             const lines = body.split('\n');
     
             if (itemId == "parmanode") {
-                const regex = /^Version ([\d.]+)/;
-                for (const line of lines) {
-                    // Skip empty lines and lines starting with #
-                    if (line.trim() === "" || line.trim().startsWith("#")) {
-                        continue;
-                    }
+                // const regex = /^Version ([\d.]+)/;
+                // for (const line of lines) {
+                //     // Skip empty lines and lines starting with #
+                //     if (line.trim() === "" || line.trim().startsWith("#")) {
+                //         continue;
+                //     }
                 
-                    const match = line.match(regex);
-                    if (match) {
-                        latestVersion = match[1];
-                        latestReleaseDate = today();
-                        break; // Stop after finding the first valid version line
-                    }
-                }
+                //     const match = line.match(regex);
+                //     if (match) {
+                //         latestVersion = match[1];
+                //         latestReleaseDate = today();
+                //         break; // Stop after finding the first valid version line
+                //     }
+                // }
             } else if (itemId.startsWith("mynode-")) {
                 // === v0.3.25 ===
                 // - Released 1/11/24
 
-                for (let i = 0; i < lines.length; i++) {
-                    const line = lines[i].trim();
+                // for (let i = 0; i < lines.length; i++) {
+                //     const line = lines[i].trim();
                 
-                    if (line.startsWith("===")) {
-                        const versionRegex = /^=== v([\d.]+) ===/;
-                        const versionMatch = line.match(versionRegex);
+                //     if (line.startsWith("===")) {
+                //         const versionRegex = /^=== v([\d.]+) ===/;
+                //         const versionMatch = line.match(versionRegex);
                 
-                        if (versionMatch) {
-                            latestVersion = versionMatch[1];
+                //         if (versionMatch) {
+                //             latestVersion = versionMatch[1];
                 
-                            // Check if the next line exists
-                            const nextLine = lines[i + 1]?.trim();
-                            const dateRegex = /^- Released ([\d.]+)\/([\d.]+)\/([\d.]+)/;
-                            const dateMatch = nextLine.match(dateRegex);
+                //             // Check if the next line exists
+                //             const nextLine = lines[i + 1]?.trim();
+                //             const dateRegex = /^- Released ([\d.]+)\/([\d.]+)\/([\d.]+)/;
+                //             const dateMatch = nextLine.match(dateRegex);
                 
-                            if (dateMatch) {
-                                latestReleaseDate = `${getShortMonthByIndex(parseInt(dateMatch[1]) - 1)} ${dateMatch[2]}, ${2000 + parseInt(dateMatch[3])}`;
-                            }
-                        }
+                //             if (dateMatch) {
+                //                 latestReleaseDate = `${getShortMonthByIndex(parseInt(dateMatch[1]) - 1)} ${dateMatch[2]}, ${2000 + parseInt(dateMatch[3])}`;
+                //             }
+                //         }
                 
-                        break; // Only need the first match
-                    }
-                }
+                //         break; // Only need the first match
+                //     }
+                // }
             } else if (itemId.startsWith("nodl-")) {
-                const line = lines[0]
-                const regex = /^([\d.]+) -/;
-                const match = line.match(regex);
-                if (match) {
-                    latestVersion = match[1];
-                    latestReleaseDate = today();
-                }
+                // const line = lines[0]
+                // const regex = /^([\d.]+) -/;
+                // const match = line.match(regex);
+                // if (match) {
+                //     latestVersion = match[1];
+                //     latestReleaseDate = today();
+                // }
             } else if (itemId == "coolwallet-pro") {
                 // Coolwallet Pro. Example: ## [332] - 2023-08-10
                 const regex = /^## \[([\d]+)\] - (\d{4}-\d{2}-\d{2})/;

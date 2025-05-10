@@ -22,34 +22,6 @@
       "github-repo": "minibolt",
       "latest-release": true
     },
-    "mynode-community-edition": {
-      "item-id": "mynode-community-edition",
-      "changelog-url": "https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG"
-    },
-    "mynode-model-one": {
-      "item-id": "mynode-model-one",
-      "changelog-url": "https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG"
-    },
-    "mynode-model-two": {
-      "item-id": "mynode-model-two",
-      "changelog-url": "https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG"
-    },
-    "mynode-premium": {
-      "item-id": "mynode-premium",
-      "changelog-url": "https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG"
-    },
-    "nodl-one-mark-2": {
-      "item-id": "nodl-one-mark-2",
-      "changelog-url": "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-one/www/changelog.txt?ref_type=heads"
-    },
-    "nodl-two": {
-      "item-id": "nodl-two",
-      "changelog-url": "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-two/www/changelog.txt?ref_type=heads"
-    },
-    "parmanode": {
-      "item-id": "parmanode",
-      "changelog-url": "https://raw.githubusercontent.com/ArmanTheParman/Parmanode/refs/heads/master/changelog.txt"
-    },
     "raspiblitz": {
       "item-id": "raspiblitz",
       "github-org": "raspiblitz",

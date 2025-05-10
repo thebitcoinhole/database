@@ -13,10 +13,6 @@
       "all-releases": true,
       "all-releases-include": "Multi"
     },
-    "bitkey": {
-      "item-id": "bitkey",
-      "changelog-url": "https://bitkey.world/en-US/releases"
-    },
     "coldcard-mk4": {
       "item-id": "coldcard-mk4",
       "changelog-url": "https://raw.githubusercontent.com/Coldcard/firmware/master/releases/ChangeLog.md"
@@ -135,12 +131,6 @@
       "github-org": "Toporin",
       "github-repo": "SatochipApplet",
       "latest-release": true
-    },
-    "seedsigner": {
-      "item-id": "seedsigner",
-      "github-org": "SeedSigner",
-      "github-repo": "seedsigner",
-      "tag": true
     },
     "specter-diy": {
       "item-id": "specter-diy",
