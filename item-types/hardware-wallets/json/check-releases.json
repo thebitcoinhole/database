@@ -13,18 +13,6 @@
       "all-releases": true,
       "all-releases-include": "Multi"
     },
-    "coldcard-mk4": {
-      "item-id": "coldcard-mk4",
-      "changelog-url": "https://raw.githubusercontent.com/Coldcard/firmware/master/releases/ChangeLog.md"
-    },
-    "coldcard-q": {
-      "item-id": "coldcard-q",
-      "changelog-url": "https://raw.githubusercontent.com/Coldcard/firmware/master/releases/ChangeLog.md"
-    },
-    "coolwallet-pro": {
-      "item-id": "coolwallet-pro",
-      "changelog-url": "https://raw.githubusercontent.com/CoolBitX-Technology/coolwallet-pro-se/main/CHANGELOG.md"
-    },
     "cypherock-x1": {
       "item-id": "cypherock-x1",
       "github-org": "Cypherock",
@@ -137,10 +125,6 @@
       "github-org": "cryptoadvance",
       "github-repo": "specter-diy",
       "latest-release": true
-    },
-    "trezor-model-one": {
-      "item-id": "trezor-model-one",
-      "changelog-url": "https://raw.githubusercontent.com/trezor/trezor-firmware/master/legacy/firmware/CHANGELOG.md"
     },
     "trezor-model-t": {
       "item-id": "trezor-model-t",

@@ -316,6 +316,38 @@ class ChangeLogCommand extends BaseCommand {
     }
 }
 
+class FirstLineChangeLogCommand extends ChangeLogCommand {
+
+    constructor(itemId, itemType, changelogUrl) {
+        super(itemId, itemType, changelogUrl);
+    }
+
+    parseRelease(data) {
+        var version
+        var date
+        const lines = data.split('\n');
+        const regex = this.getRegex();
+        for (const line of lines) {
+            const match = line.match(regex);
+            if (match) {
+                console.log("Matched line: " + line)
+                version = match[1];
+                date = this.formatDate(match[2]);
+                break;
+            }
+        }
+        return { version: version, date: date };
+    }
+
+    getRegex() {
+        throw new Error('getRegex method not implemented');
+    }
+
+    formatDate(date) {
+        throw new Error('formatDate method not implemented');
+    }
+}
+
 class ParmanodeCommand extends ChangeLogCommand {
 
     constructor() {
@@ -399,6 +431,116 @@ class NodlCommand extends ChangeLogCommand {
     }
 }
 
+class CoolWalletProCommand extends FirstLineChangeLogCommand {
+
+    constructor() {
+        super("coolwallet-pro", "hardware-wallets",  "https://raw.githubusercontent.com/CoolBitX-Technology/coolwallet-pro-se/main/CHANGELOG.md");
+    }
+
+    getRegex() {
+        // Coolwallet Pro. Example: ## [332] - 2023-08-10
+        return /^## \[([\d]+)\] - (\d{4}-\d{2}-\d{2})/;
+    }
+
+    formatDate(date) {
+        return formatYYYYMMDD(date)
+    }
+}
+
+class ColdcardMk4Command extends ChangeLogCommand {
+
+    constructor() {
+        super("coldcard-mk4", "hardware-wallets",  "https://raw.githubusercontent.com/Coldcard/firmware/master/releases/ChangeLog.md");
+    }
+
+    parseRelease(data) {
+        var version
+        var date
+        const lines = data.split('\n');
+        // Coldcard Mk4. Example: ## 5.2.2 - 2023-12-21
+        const regex = /^## ([\d.]+) - (\d{4}-\d{2}-\d{2})/;
+        var onSection = false
+        for (const line of lines) {
+            if (onSection == true) {
+                const match = line.match(regex);
+                if (match) {
+                    version = match[1];
+                    date = formatYYYYMMDD(match[2]);
+                    break;
+                }
+            } else if (line == "# Mk4 Specific Changes") {
+                onSection = true
+            }
+        }
+        return { version: version, date: date};
+    }
+}
+
+class ColdcardQCommand extends ChangeLogCommand {
+
+    constructor() {
+        super("coldcard-q", "hardware-wallets",  "https://raw.githubusercontent.com/Coldcard/firmware/master/releases/ChangeLog.md");
+    }
+
+    parseRelease(data) {
+        var version
+        var date
+        const lines = data.split('\n');
+        // Coldcard Q. Example: ## 0.0.6Q - 2024-02-22
+        const regex = /^## ([\d.]+)Q - (\d{4}-\d{2}-\d{2})/;
+        var onSection = false
+        for (const line of lines) {
+            if (onSection == true) {
+                const match = line.match(regex);
+                if (match) {
+                    version = match[1];
+                    date = formatYYYYMMDD(match[2]);
+                    break;
+                }
+            } else if (line == "# Q Specific Changes") {
+                onSection = true
+            }
+        }
+        return { version: version, date: date };
+    }
+}
+
+class MuunAndroidCommand extends FirstLineChangeLogCommand {
+
+    constructor() {
+        super("muun", "software-wallets",  "https://raw.githubusercontent.com/muun/apollo/master/android/CHANGELOG.md");
+    }
+
+    getRegex() {
+        // ## [51.5] - 2023-12-22
+        return /^## \[([\d.]+)\] - (\d{4}-\d{2}-\d{2})/;
+    }
+
+    formatDate(date) {
+        return formatYYYYMMDD(date)
+    }
+
+    getPlatforms() {
+        return ["android"];
+    }
+}
+
+class TrezorModelOneCommand extends FirstLineChangeLogCommand {
+
+    constructor() {
+        super("trezor-model-one", "hardware-wallets",  "https://raw.githubusercontent.com/trezor/trezor-firmware/master/legacy/firmware/CHANGELOG.md");
+    }
+
+    getRegex() {
+        // Example: ## 1.12.1 [15th March 2023]
+        return /^## ([\d.]+) \[(\d{1,2}\w\w \w+ \d{4})\]/;
+    }
+
+    formatDate(date) {
+        return formatDDMonthYYYY(date)
+    }
+}
+
 class BitkeyCommand extends BaseCommand {
 
     constructor() {
@@ -451,7 +593,11 @@ class SeedSigner extends GithubTagCommand {
     new MyNodeCommand("mynode-model-two"),
     new MyNodeCommand("mynode-premium"),
     new NodlCommand("nodl-one-mark-2", "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-one/www/changelog.txt?ref_type=heads"),
-    new NodlCommand("nodl-two", "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-two/www/changelog.txt?ref_type=heads")
+    new NodlCommand("nodl-two", "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-two/www/changelog.txt?ref_type=heads"),
+    new CoolWalletProCommand(),
+    new ColdcardMk4Command(),
+    new ColdcardQCommand(),
+    new MuunAndroidCommand()
   ];
 
   // Map commands into wrapped tasks with error context
@@ -688,47 +834,47 @@ function fetchRelease(itemType, json) {
                 // }
             } else if (itemId == "coolwallet-pro") {
                 // Coolwallet Pro. Example: ## [332] - 2023-08-10
-                const regex = /^## \[([\d]+)\] - (\d{4}-\d{2}-\d{2})/;
-                for (const line of lines) {
-                    const match = line.match(regex);
-                    if (match) {
-                        latestVersion = match[1];
-                        latestReleaseDate = formatYYYYMMDD(match[2]);
-                        break;
-                    }
-                }
+                // const regex = /^## \[([\d]+)\] - (\d{4}-\d{2}-\d{2})/;
+                // for (const line of lines) {
+                //     const match = line.match(regex);
+                //     if (match) {
+                //         latestVersion = match[1];
+                //         latestReleaseDate = formatYYYYMMDD(match[2]);
+                //         break;
+                //     }
+                // }
             } else if (itemId == "coldcard-mk4") {
                 // Coldcard Mk4. Example: ## 5.2.2 - 2023-12-21
-                const regex = /^## ([\d.]+) - (\d{4}-\d{2}-\d{2})/;
-                var onSection = false
-                for (const line of lines) {
-                    if (onSection == true) {
-                        const match = line.match(regex);
-                        if (match) {
-                            latestVersion = match[1];
-                            latestReleaseDate = formatYYYYMMDD(match[2]);
-                            break;
-                        }
-                    } else if (line == "# Mk4 Specific Changes") {
-                        onSection = true
-                    }
-                }
+                // const regex = /^## ([\d.]+) - (\d{4}-\d{2}-\d{2})/;
+                // var onSection = false
+                // for (const line of lines) {
+                //     if (onSection == true) {
+                //         const match = line.match(regex);
+                //         if (match) {
+                //             latestVersion = match[1];
+                //             latestReleaseDate = formatYYYYMMDD(match[2]);
+                //             break;
+                //         }
+                //     } else if (line == "# Mk4 Specific Changes") {
+                //         onSection = true
+                //     }
+                // }
             } else if (itemId == "coldcard-q") {
                 // Coldcard Q. Example: ## 0.0.6Q - 2024-02-22
-                const regex = /^## ([\d.]+)Q - (\d{4}-\d{2}-\d{2})/;
-                var onSection = false
-                for (const line of lines) {
-                    if (onSection == true) {
-                        const match = line.match(regex);
-                        if (match) {
-                            latestVersion = match[1];
-                            latestReleaseDate = formatYYYYMMDD(match[2]);
-                            break;
-                        }
-                    } else if (line == "# Q Specific Changes") {
-                        onSection = true
-                    }
-                }
+                // const regex = /^## ([\d.]+)Q - (\d{4}-\d{2}-\d{2})/;
+                // var onSection = false
+                // for (const line of lines) {
+                //     if (onSection == true) {
+                //         const match = line.match(regex);
+                //         if (match) {
+                //             latestVersion = match[1];
+                //             latestReleaseDate = formatYYYYMMDD(match[2]);
+                //             break;
+                //         }
+                //     } else if (line == "# Q Specific Changes") {
+                //         onSection = true
+                //     }
+                // }
             } else if (itemId == "trezor-model-t" || itemId.startsWith("trezor-safe")) {
                 // Example: ## [2.7.0] (20th March 2024) or ## [2.8.5] (internal release)
                 const regex = /^## \[([\d.]+)\] \((\d{1,2}(?:st|nd|rd|th) \w+ \d{4}|internal release)\)/;
@@ -747,28 +893,28 @@ function fetchRelease(itemType, json) {
                 }
             } else if (itemId == "trezor-model-one") {
                 // Example: ## 1.12.1 [15th March 2023]
-                const regex = /^## ([\d.]+) \[(\d{1,2}\w\w \w+ \d{4})\]/;
-                for (const line of lines) {
-                    const match = line.match(regex);
-                    if (match) {
-                        console.log("Matched line: " + line)
-                        latestVersion = match[1];
-                        latestReleaseDate = formatDDMonthYYYY(match[2]);
-                        break;
-                    }
-                }
+                // const regex = /^## ([\d.]+) \[(\d{1,2}\w\w \w+ \d{4})\]/;
+                // for (const line of lines) {
+                //     const match = line.match(regex);
+                //     if (match) {
+                //         console.log("Matched line: " + line)
+                //         latestVersion = match[1];
+                //         latestReleaseDate = formatDDMonthYYYY(match[2]);
+                //         break;
+                //     }
+                // }
             } else if (itemId == "muun") {
                 // ## [51.5] - 2023-12-22
-                const regex = /^## \[([\d.]+)\] - (\d{4}-\d{2}-\d{2})/;
-                for (const line of lines) {
-                    const match = line.match(regex);
-                    if (match) {
-                        console.log("Matched line: " + line)
-                        latestVersion = match[1];
-                        latestReleaseDate = formatYYYYMMDD(match[2]);
-                        break;
-                    }
-                }
+                // const regex = /^## \[([\d.]+)\] - (\d{4}-\d{2}-\d{2})/;
+                // for (const line of lines) {
+                //     const match = line.match(regex);
+                //     if (match) {
+                //         console.log("Matched line: " + line)
+                //         latestVersion = match[1];
+                //         latestReleaseDate = formatYYYYMMDD(match[2]);
+                //         break;
+                //     }
+                // }
             } else if (itemId == "electrum") {
                 // # Release 4.4.6 (August 18, 2023) (security update)
                 // Find the first line starting with "#"
