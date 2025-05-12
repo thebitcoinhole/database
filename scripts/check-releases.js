@@ -22,33 +22,6 @@ const shortMonths = [
     "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
 ];
 
-// const sleep = util.promisify(setTimeout);
-
-// async function processReleases() {
-//     const dirs = fs.readdirSync("../item-types/", { withFileTypes: true })
-//         .filter(dirent => dirent.isDirectory());
-
-//     for (const dirent of dirs) {
-//         const itemType = dirent.name;
-//         const path = `../item-types/${itemType}/json/check-releases.json`;
-
-//         try {
-//             if (fs.existsSync(path)) {
-//                 const data = fs.readFileSync(path, 'utf8');
-//                 const json = JSON.parse(data);
-
-//                 for (const key of Object.keys(json)) {
-//                     await fetchRelease(itemType, json[key]);
-//                     await sleep(1000);
-//                 }
-//             }
-//         } catch (err) {
-//             console.error(`Error reading or parsing ${path}:`, err);
-//             process.exit(1);
-//         }
-//     }
-// }
-
 class BaseCommand {
 
     constructor(itemId, itemType) {
@@ -74,7 +47,10 @@ class BaseCommand {
         
         if (!this.ignoreVersion(release.version)) {
 
+            console.log("Pre processed version: " + release.version)
             release.version = this.sanitizeVersion(release.version)
+            console.log("Post processed version: " + release.version)
+
             // TODO
     
             if (!isValidVersion(release.version, this.isPreReleaseSupported())) {
@@ -129,6 +105,107 @@ class BaseCommand {
             // If it doesn't match the version pattern, add the "v" prefix
             version = "v" + version;
         }
+
+        // if (itemType == "bitcoin-nodes") {
+        //     // MiniBolt
+        //     latestVersion = latestVersion.replace(/^MiniBolt /, '');
+    
+        //     // Bitcoin Core
+        //     latestVersion = latestVersion.replace(/^Bitcoin Core /, '');
+    
+        //     // Bitcoin Knots
+        //     latestVersion = latestVersion.replace(/^Bitcoin Knots /, '');
+        //     latestVersion = latestVersion.replace(/knots/, '');
+    
+        //     // Umbrel
+        //     latestVersion = latestVersion.replace(/^umbrelOS /, '');
+
+        //     // Raspibolt
+        //     latestVersion = latestVersion.replace(/^RaspiBolt /, '');
+        // } else if (itemType == "hardware-wallets") {
+
+        //     // Bitbox
+        //     latestVersion = latestVersion.replace(/ - Multi$/, '');
+        //     latestVersion = latestVersion.replace(/ - Bitcoin-only$/, '');
+
+        //     // OneKey
+        //     latestVersion = latestVersion.replace(/^mini\//, '');
+        //     latestVersion = latestVersion.replace(/^classic\//, '');
+        //     latestVersion = latestVersion.replace(/^touch\//, '');
+
+        //     // Passport
+        //     latestVersion = latestVersion.replace(/^Passport Firmware /, '');
+        //     latestVersion = latestVersion.replace(/^Passport /, '');
+        //     latestVersion = latestVersion.replace(/ Firmware$/, '');
+
+        //     // Portal
+        //     latestVersion = latestVersion.replace(/^Firmware /, '');
+
+        //     // ProKey
+        //     latestVersion = latestVersion.replace(/^Prokey Firmware /, '');
+
+        //     // Keepkey
+        //     latestVersion = latestVersion.replace(/^Release /, '');
+
+        //     // Krux
+        //     latestVersion = latestVersion.replace(/^Version /, '');
+
+        //     // Keystone
+        //     latestVersion = latestVersion.replace(/-BTC$/, '');
+        //     latestVersion = latestVersion.replace(/-btc$/, '');
+
+        //     // Grid+ Lattice1
+        //     latestVersion = latestVersion.replace(/^HSM-/, '');
+
+        //     // Satochip
+        //     const match = latestVersion.match(/^Satochip (v\d+(\.\d+)+)/)
+        //     if (match) {
+        //         latestVersion = match[1];
+        //     }
+        // } else if (itemType == "software-wallets") {
+
+        //     // Bitcoin Core
+        //     latestVersion = latestVersion.replace(/^Bitcoin Core /, '');
+
+        //     // Bitcoin Keeper
+        //     latestVersion = latestVersion.replace(/^Keeper Desktop /, '');
+
+        //     // My Cytadel: Version 1.5 (Blazing Venus)
+        //     latestVersion = latestVersion.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
+
+        //     // Zeuz: v0.8.5-hotfix
+        //     latestVersion = latestVersion.replace(/-hotfix$/, '');
+
+        //     // Proton Wallet: v1.0.0+58
+        //     latestVersion = latestVersion.replace(/\+\d+$/, '');
+
+        //     // Nunchuk: android.1.9.46
+        //     latestVersion = latestVersion.replace(/^android./, '');
+
+        //     // Phoenix
+        //     if (itemId == "phoenix") {
+        //         latestVersion = latestVersion.replace(/^Android /, '');
+        //         latestVersion = latestVersion.replace(/^Phoenix Android /, '');
+        //         latestVersion = latestVersion.replace(/^Phoenix /, '');
+        //         latestVersion = latestVersion.replace(/^Phoenix Android\/iOS /, '');
+        //     }
+
+        //     // Specter
+        //     latestVersion = latestVersion.replace(/^Specter /, '');
+
+        //     // Stack Wallet
+        //     latestVersion = latestVersion.replace(/^Stack Wallet /, '');
+
+        //     // Wasabi v2.0.4 - Faster Than Fast Latest
+        //     latestVersion = latestVersion.replace(/^Wasabi v(\d+(\.\d+)+) - .*$/, '$1');
+        //     latestVersion = latestVersion.replace(/^Wasabi Wallet v(\d+(\.\d+)+) - .*$/, '$1');
+        //     latestVersion = latestVersion.replace(/^Wasabi Wallet v(\d+(\.\d+)+)*$/, '$1');
+        // }
+
+        // // For example: "2023-09-08T2009-v5.1.4"
+        // if (!preReleaseSupported) {
+        //     latestVersion = latestVersion.replace(/.*-([^:]+)$/, '$1');
+        // }
 
         return version
     }
@@ -672,7 +749,7 @@ async function runCommandsSequentially(commands) {
             hadErrors = true;
         }
 
-        await sleep(1000);
+        await sleep(3000);
     };
 
     if (hadErrors) {
@@ -686,204 +763,6 @@ runCommandsSequentially(commands);
 
 function sleep(ms) {
     return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-
-function fetchRelease(itemType, json) {
-
-    const enabled = json["enabled"]
-    const itemId = json["item-id"]
-    const changelogUrl = json["changelog-url"]
-    const githubOwner = json["github-org"]
-    const githubRepo = json["github-repo"]
-    const gitlabProjectId = json["gitlab-project-id"]
-    const tag = json.tag
-    const latestRelease = json["latest-release"]
-    const allReleases = json["all-releases"]
-    const allReleasesInclude = json["all-releases-include"]
-    const allReleasesExclude = json["all-releases-exclude"]
-    const assetsMatch = json["assets-match"]
-    const preReleaseSupported = itemId == "frostnap"
-
-    // if (enabled == false) {
-    //     console.warn(`⚠️ ${itemId} disabled`)
-    //     return
-    // }
-    
-    const githubApiKey = process.env.GITHUB_TOKEN
-    const gitlabApiKey = process.env.GITLAB_TOKEN
-    
-    var headers = {
-        Accept: 'application/vnd.github.v3+json',
-        Authorization: `Bearer ${githubApiKey}`,
-      };
-    var apiUrl 
-    if (tag == true) {
-        if (gitlabProjectId != undefined) {
-            headers = {
-                Authorization: `Bearer ${gitlabApiKey}`
-              };
-            apiUrl = `https://gitlab.com/api/v4/projects/${gitlabProjectId}/repository/tags`;
-        } else {
-            apiUrl = `https://api.github.com/repos/${githubOwner}/${githubRepo}/tags`;
-        }
-    } else if (latestRelease == true) {
-        apiUrl = `https://api.github.com/repos/${githubOwner}/${githubRepo}/releases/latest`;
-    } else if (allReleases == true) {
-        apiUrl = `https://api.github.com/repos/${githubOwner}/${githubRepo}/releases`;
-    } else if (changelogUrl != undefined) {
-        apiUrl = changelogUrl
-        headers = {}
-    } else {
-        console.error(`${itemId} - Not defined api url to use`);
-        exit(1);
-    }
-    
-    console.log('---------------------');
-    console.log(`Item Id: ${itemId}`);
-    console.log("Request url: " + apiUrl)
-    axios
-      .get(apiUrl, { headers })
-      .then((response) => {
-
-        var latestVersion
-        var latestReleaseDate
-        var body = ""
-
-    
-        if (!hadErrors && !ignoreVersion(itemId, latestVersion, preReleaseSupported)) {
-
-            console.log("Pre processed latestVersion: " + latestVersion)
-            if (itemType == "bitcoin-nodes") {
-                // MiniBolt
-                latestVersion = latestVersion.replace(/^MiniBolt /, '');
-        
-                // Bitcoin Core
-                latestVersion = latestVersion.replace(/^Bitcoin Core /, '');
-        
-                // Bitcoin Knots
-                latestVersion = latestVersion.replace(/^Bitcoin Knots /, '');
-                latestVersion = latestVersion.replace(/knots/, '');
-        
-                // Umbrel
-                latestVersion = latestVersion.replace(/^umbrelOS /, '');
-
-                // Raspibolt
-                latestVersion = latestVersion.replace(/^RaspiBolt /, '');
-            } else if (itemType == "hardware-wallets") {
-    
-                // Bitbox
-                latestVersion = latestVersion.replace(/ - Multi$/, '');
-                latestVersion = latestVersion.replace(/ - Bitcoin-only$/, '');
-    
-                // OneKey
-                latestVersion = latestVersion.replace(/^mini\//, '');
-                latestVersion = latestVersion.replace(/^classic\//, '');
-                latestVersion = latestVersion.replace(/^touch\//, '');
-    
-                // Passport
-                latestVersion = latestVersion.replace(/^Passport Firmware /, '');
-                latestVersion = latestVersion.replace(/^Passport /, '');
-                latestVersion = latestVersion.replace(/ Firmware$/, '');
-    
-                // Portal
-                latestVersion = latestVersion.replace(/^Firmware /, '');
-
-                // ProKey
-                latestVersion = latestVersion.replace(/^Prokey Firmware /, '');
-    
-                // Keepkey
-                latestVersion = latestVersion.replace(/^Release /, '');
-    
-                // Krux
-                latestVersion = latestVersion.replace(/^Version /, '');
-    
-                // Keystone
-                latestVersion = latestVersion.replace(/-BTC$/, '');
-                latestVersion = latestVersion.replace(/-btc$/, '');
-    
-                // Grid+ Lattice1
-                latestVersion = latestVersion.replace(/^HSM-/, '');
-    
-                // Satochip
-                const match = latestVersion.match(/^Satochip (v\d+(\.\d+)+)/)
-                if (match) {
-                    latestVersion = match[1];
-                }
-            } else if (itemType == "software-wallets") {
-
-                // Bitcoin Core
-                latestVersion = latestVersion.replace(/^Bitcoin Core /, '');
-
-                // Bitcoin Keeper
-                latestVersion = latestVersion.replace(/^Keeper Desktop /, '');
-    
-                // My Cytadel: Version 1.5 (Blazing Venus)
-                latestVersion = latestVersion.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
-    
-                // Zeuz: v0.8.5-hotfix
-                latestVersion = latestVersion.replace(/-hotfix$/, '');
-    
-                // Proton Wallet: v1.0.0+58
-                latestVersion = latestVersion.replace(/\+\d+$/, '');
-    
-                // Nunchuk: android.1.9.46
-                latestVersion = latestVersion.replace(/^android./, '');
-    
-                // Phoenix
-                if (itemId == "phoenix") {
-                    latestVersion = latestVersion.replace(/^Android /, '');
-                    latestVersion = latestVersion.replace(/^Phoenix Android /, '');
-                    latestVersion = latestVersion.replace(/^Phoenix /, '');
-                    latestVersion = latestVersion.replace(/^Phoenix Android\/iOS /, '');
-                }
-    
-                // Specter
-                latestVersion = latestVersion.replace(/^Specter /, '');
-    
-                // Stack Wallet
-                latestVersion = latestVersion.replace(/^Stack Wallet /, '');
-    
-                // Wasabi v2.0.4 - Faster Than Fast Latest
-                latestVersion = latestVersion.replace(/^Wasabi v(\d+(\.\d+)+) - .*$/, '$1');
-                latestVersion = latestVersion.replace(/^Wasabi Wallet v(\d+(\.\d+)+) - .*$/, '$1');
-                latestVersion = latestVersion.replace(/^Wasabi Wallet v(\d+(\.\d+)+)*$/, '$1');
-
-                // 2.7.14-1035
-                if (itemId == "muun") {
-                    latestVersion = latestVersion.split("-")[0]
-                }
-            }
-
-            // For example: "2023-09-08T2009-v5.1.4"
-            if (!preReleaseSupported) {
-                latestVersion = latestVersion.replace(/.*-([^:]+)$/, '$1');
-            }
-    
-            latestVersion = latestVersion.replace(/^(v\d+(\.\d+)+):(.*)$/, '$1');
-            latestVersion = latestVersion.replace(/^Android Release\s*/, '');
-            latestVersion = latestVersion.replace(/^Release\s*/, '');
-            latestVersion = latestVersion.replace(/^release_/, '');
-
-            latestVersion = latestVersion.replace(/^v\./, '');
-    
-            // Check if the input starts with "v"
-            if (!latestVersion.startsWith("v")) {
-                // If it doesn't match the version pattern, add the "v" prefix
-                latestVersion = "v" + latestVersion;
-            }
-
-            console.log("Post processed latestVersion: " + latestVersion)
-    
-    
-        } else {
-            console.log("Ignoring version")
-        }
-      })
-      .catch((error) => {
-        console.error(`Error fetching release information from ${apiUrl}:`, error.message);
-        hadErrors = true
-      });
 }
 
 function checkRelease(itemType, itemId, platforms, latestVersion, latestReleaseDate) {
