@@ -1,10 +1,9 @@
 const fs = require('fs');
 const { exit } = require('process');
-const axios = require('axios');
+const request = require('sync-request')
 const util = require('util');
 const path = require('path');
 const cheerio = require('cheerio');
-const { platform } = require('os');
 
 eval(fs.readFileSync('./tweet.js', 'utf-8'));
 eval(fs.readFileSync('./nostr.js', 'utf-8'));
@@ -14,6 +13,14 @@ setTwitterEnabled(process.argv[2] === 'true' ? true : false)
 setNostrEnabled(process.argv[3] === 'true' ? true : false)
 
 const dateOptions = { year: 'numeric', month: 'short', day: 'numeric' };
+const longMonths = [
+    "January", "February", "March", "April", "May", "June",
+    "July", "August", "September", "October", "November", "December"
+  ];
+
+const shortMonths = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+];
 
 // const sleep = util.promisify(setTimeout);
 
@@ -49,25 +56,27 @@ class BaseCommand {
         this.itemType = itemType;
     }
 
-    async execute() {
-        console.log("Request url: " + this.getUrl())
-        var release 
+    execute() {
+        console.log("Request url: " + this.getUrl());
+        let release;
+    
         try {
-            const response = await axios.get(this.getUrl(), { headers: this.getHeaders() });
-            release = this.parseRelease(response.data);
+            const res = request('GET', this.getUrl(), { headers: this.getHeaders() });
+            const data = res.getBody('utf8');
+            release = this.parseRelease(data);
         } catch (err) {
-          throw new Error(`${err.message}`);
+            throw new Error(`${err.message}`);
         }
     
         if (release == null || release == undefined) {
-          throw new Error(`Release not found`);
+            throw new Error(`Release not found`);
         }
-
+    
         release.version = this.sanitizeVersion(release.version)
-
+    
         if (!this.ignoreVersion(release.version)) {
             // TODO
-
+    
             if (!isValidVersion(release.version, this.isPreReleaseSupported())) {
                 throw new Error('Invalid version found: ' + release.version);
             }
@@ -75,14 +84,18 @@ class BaseCommand {
             if (!isValidDate(release.date)) {
                 throw new Error('Invalid release data found: ' + release.date);
             }
-
-
         } else {
             console.log("Ignoring version")
         }
     
         console.log(`✅ ${this.itemId}: ${release.version} (${release.date})`);
-        return { itemId: this.itemId, itemType: this.itemType, platforms: this.getPlatforms(), version: release.version, date: release.date };
+        return {
+            itemId: this.itemId,
+            itemType: this.itemType,
+            platforms: this.getPlatforms(),
+            version: release.version,
+            date: release.date
+        };
     }
 
     parseRelease(data) {
@@ -252,7 +265,7 @@ class GithubTagCommand extends GithubCommand {
 
     parseRelease(data) {
         var version
-        for (const tag of data) {
+        for (const tag of JSON.parse(data)) {
             if (version == undefined && !tag.name.trim().includes("$(MARKETING_VERSION)")) {
                 version = tag.name.trim()
             }
@@ -270,6 +283,7 @@ class GithubTagCommand extends GithubCommand {
         return {
             Accept: 'application/vnd.github.v3+json',
             Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+            "User-Agent": 'MySyncScript/1.0'
         };
     }
 }
@@ -582,9 +596,8 @@ class SeedSigner extends GithubTagCommand {
     }
 }
 
-(async () => {
 
-  const commands = [
+const commands = [
     new BitkeyCommand(),
     new GithubTagCommand("seedsigner", "hardware-wallets", "SeedSigner", "seedsigner"),
     new ParmanodeCommand(),
@@ -598,46 +611,25 @@ class SeedSigner extends GithubTagCommand {
     new ColdcardMk4Command(),
     new ColdcardQCommand(),
     new MuunAndroidCommand()
-  ];
+];
 
-  // Map commands into wrapped tasks with error context
-  const allTasks = commands.map(cmd =>
-    cmd.execute().then(result => ({ result, cmd })).catch(err => {
-      err.itemId = cmd.itemId;
-      return { error: err, cmd };
-    })
-  );
-
-  const results = await Promise.allSettled(allTasks);
-
-  let hadErrors = false;
-
-  results.forEach(result => {
-    if (result.status === 'fulfilled') {
-      const { result: value, cmd, error } = result.value;
-
-      if (error) {
-        console.log(`❌ ${cmd.itemId} error: ${error.message}`);
+let hadErrors = false;
+commands.forEach(command => {
+    try {
+        const result = command.execute()
+        checkRelease(result.itemType, result.itemId, result.platforms, result.version, result.date);
+    } catch (error) {
+        console.log(`❌ ${command.itemId} error: ${error.message}`);
         hadErrors = true;
-        return;
-      }
-
-       const { itemId, itemType, platforms, version, date } = value;
-       checkRelease(itemType, itemId, platforms, version, date);
-    } else {
-      console.log(`⚠️ Unexpected rejection: ${result.reason?.message || result.reason}`);
-      hadErrors = true;
     }
-  });
+});
 
-  if (hadErrors) {
+if (hadErrors) {
     console.error('❌ One or more items failed. Exiting with error.');
-  } else {
-    process.stdout.write("✅ Finished successfully\n");
-    process.stdout.write('', () => process.exit(0));
-  }
+} else {
+    console.log("✅ Finished successfully");
+}
 
-})();
 
 function fetchRelease(itemType, json) {
 
@@ -1254,15 +1246,6 @@ function updateRelease(itemType, itemId, platforms, releaseVersion, releaseDate)
         }
     });
 }
-
-const longMonths = [
-    "January", "February", "March", "April", "May", "June",
-    "July", "August", "September", "October", "November", "December"
-  ];
-
-const shortMonths = [
-    "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-];
 
 function getShortMonthByIndex(index) {
     return shortMonths[index]

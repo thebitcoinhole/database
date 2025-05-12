@@ -5,6 +5,7 @@
     "dotenv": "16.3.1",
     "jsonlint": "1.6.3",
     "nostr-tools": "^2.11.0",
+    "sync-request": "^6.1.0",
     "twitter-api-v2": "^1.20.2",
     "ws": "^8.18.1"
   }
