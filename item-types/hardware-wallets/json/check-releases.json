@@ -125,26 +125,6 @@
       "github-org": "cryptoadvance",
       "github-repo": "specter-diy",
       "latest-release": true
-    },
-    "trezor-model-t": {
-      "item-id": "trezor-model-t",
-      "changelog-url": "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2T1.md"
-    },
-    "trezor-safe-3": {
-      "item-id": "trezor-safe-3",
-      "changelog-url": "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2B1.md"
-    },
-    "trezor-safe-3-btconly": {
-      "item-id": "trezor-safe-3-btconly",
-      "changelog-url": "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2B1.md"
-    },
-    "trezor-safe-5": {
-      "item-id": "trezor-safe-5",
-      "changelog-url": "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T3T1.md"
-    },
-    "trezor-safe-5-btconly": {
-      "item-id": "trezor-safe-5-btconly",
-      "changelog-url": "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T3T1.md"
     }
   }
   

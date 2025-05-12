@@ -58,11 +58,6 @@
     "all-releases": true,
     "assets-match": "dmg"
   },
-  "electrum": {
-    "item-id": "electrum",
-    "changelog-url": "https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES",
-    "platforms": ["windows", "macos", "linux", "android"]
-  },
   "envoy": {
     "item-id": "envoy",
     "github-org": "Foundation-Devices",

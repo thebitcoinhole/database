@@ -71,10 +71,10 @@ class BaseCommand {
         if (release == null || release == undefined) {
             throw new Error(`Release not found`);
         }
-    
-        release.version = this.sanitizeVersion(release.version)
-    
+        
         if (!this.ignoreVersion(release.version)) {
+
+            release.version = this.sanitizeVersion(release.version)
             // TODO
     
             if (!isValidVersion(release.version, this.isPreReleaseSupported())) {
@@ -539,6 +539,26 @@ class MuunAndroidCommand extends FirstLineChangeLogCommand {
     }
 }
 
+class ElectrumCommand extends FirstLineChangeLogCommand {
+
+    constructor() {
+        super("electrum", "software-wallets",  "https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES");
+    }
+
+    getRegex() {
+        // # Release 4.4.6 (August 18, 2023) (security update)
+        return /^# Release ([\d.]+) \(([^)]+)\)/;
+    }
+
+    formatDate(date) {
+        return formatMonthDDYYYY(date)
+    }
+
+    getPlatforms() {
+        return ["windows", "macos", "linux", "android"];
+    }
+}
+
 class TrezorModelOneCommand extends FirstLineChangeLogCommand {
 
     constructor() {
@@ -552,6 +572,35 @@ class TrezorModelOneCommand extends FirstLineChangeLogCommand {
 
     formatDate(date) {
         return formatDDMonthYYYY(date)
+    }
+}
+
+class TrezorModelTSafeCommand extends ChangeLogCommand {
+
+    constructor(itemId, changelogUrl) {
+        super(itemId, "hardware-wallets",  changelogUrl);
+    }
+
+    parseRelease(data) {
+        var version
+        var date
+        const lines = data.split('\n');
+        // Example: ## [2.7.0] (20th March 2024) or ## [2.8.5] (internal release)
+        const regex = /^## \[([\d.]+)\] \((\d{1,2}(?:st|nd|rd|th) \w+ \d{4}|internal release)\)/;
+        for (const line of lines) {
+            const match = line.match(regex);
+            if (match) {
+                version = match[1];
+                date = formatDDMonthYYYY(match[2]);
+                if (match[2] === "internal release") {
+                    date = today()
+                } else {
+                    date = formatDDMonthYYYY(match[2]);
+                }
+                break;
+            }
+        }
+        return { version: version, date: date };
     }
 }
 
@@ -589,16 +638,9 @@ class BitkeyCommand extends BaseCommand {
     }
 }
 
-class SeedSigner extends GithubTagCommand {
-
-    constructor(itemId, itemType, githubOwner, githubRepo) {
-        super(itemId, itemType, githubOwner, githubRepo);
-    }
-}
-
-
 const commands = [
     new BitkeyCommand(),
+    new ElectrumCommand(),
     new GithubTagCommand("seedsigner", "hardware-wallets", "SeedSigner", "seedsigner"),
     new ParmanodeCommand(),
     new MyNodeCommand("mynode-community-edition"),
@@ -610,24 +652,40 @@ const commands = [
     new CoolWalletProCommand(),
     new ColdcardMk4Command(),
     new ColdcardQCommand(),
-    new MuunAndroidCommand()
+    new MuunAndroidCommand(),
+    new TrezorModelOneCommand(),
+    new TrezorModelTSafeCommand("trezor-model-t", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2T1.md"),
+    new TrezorModelTSafeCommand("trezor-safe-3", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2B1.md"),
+    new TrezorModelTSafeCommand("trezor-safe-3-btconly", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2B1.md"),
+    new TrezorModelTSafeCommand("trezor-safe-5", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T3T1.md"),
+    new TrezorModelTSafeCommand("trezor-safe-5-btconly", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T3T1.md")
 ];
 
-let hadErrors = false;
-commands.forEach(command => {
-    try {
-        const result = command.execute()
-        checkRelease(result.itemType, result.itemId, result.platforms, result.version, result.date);
-    } catch (error) {
-        console.log(`❌ ${command.itemId} error: ${error.message}`);
-        hadErrors = true;
-    }
-});
+async function runCommandsSequentially(commands) {
+    let hadErrors = false;
+    for (const command of commands) {
+        try {
+            const result = command.execute()
+            checkRelease(result.itemType, result.itemId, result.platforms, result.version, result.date);
+        } catch (error) {
+            console.log(`❌ ${command.itemId} error: ${error.message}`);
+            hadErrors = true;
+        }
 
-if (hadErrors) {
-    console.error('❌ One or more items failed. Exiting with error.');
-} else {
-    console.log("✅ Finished successfully");
+        await sleep(1000);
+    };
+
+    if (hadErrors) {
+        console.error('❌ One or more items failed. Exiting with error.');
+    } else {
+        console.log("✅ Finished successfully");
+    }
+}
+
+runCommandsSequentially(commands);
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
 
@@ -690,253 +748,8 @@ function fetchRelease(itemType, json) {
 
         var latestVersion
         var latestReleaseDate
-        // var assetFileNames = [];
-    
-        // var assets = []
         var body = ""
 
-        if (itemId == "bitkey") {
-            const $ = cheerio.load(response.data);
-            let found = false;
-
-            $('.border-t.py-6').each((_, element) => {
-                if (found) return;
-
-                const date = $(element).find('.text-primary50').first().text().trim();
-                const versionText = $(element).find('.font-semibold').first().text().trim();
-                const type = $(element).find('.text-primary50').first().next().text().trim();
-
-                if (type.toLowerCase().includes('firmware')) {
-                    latestVersion = versionText
-                    latestReleaseDate = date
-                    found = true
-                }
-            });
-        } else if (latestRelease == true) {
-            console.log("Using latest releases API")
-            body = response.data.body
-    
-            latestReleaseDate = getDate(response.data.published_at)
-            //assets = response.data.assets
-            latestVersion = response.data.name.trim()
-            console.log("Release name: " + latestVersion)
-            if (latestVersion === undefined || latestVersion === "") {
-                latestVersion = response.data.tag_name.trim()
-                console.log("Tag name: " + latestVersion)
-            }
-        } else if (allReleases == true) {
-            console.log("Using releases API")
-            response.data.forEach((release) => {
-                if (latestVersion === undefined) {
-                    var match = false
-                    if (allReleasesInclude != undefined) {
-                        match = release.name.toLowerCase().includes(allReleasesInclude.toLowerCase())
-                    } else if (allReleasesExclude != undefined) {
-                        match = !release.name.toLowerCase().includes(allReleasesExclude.toLowerCase())
-                    } else if (assetsMatch != undefined) {
-                        release.assets.forEach((asset) => {
-                            if (asset.name.endsWith(assetsMatch)) {
-                                match = true
-                            }
-                        });
-                    } else {
-                        console.error('Not defined any allReleasesInclude or allReleasesExclude or assetsMatch');
-                        exit(1);
-                    }
-                    if (match) {
-                        body = release.body
-                        latestReleaseDate = getDate(release.published_at)
-                        //assets = release.assets
-                        latestVersion = release.name.trim()
-                        console.log("Release name: " + latestVersion)
-                        if (latestVersion === undefined || latestVersion === "") {
-                            latestVersion = release.tag_name
-                            console.log("Tag name: " + latestVersion)
-                        }
-                    }
-                }
-            });
-        } else if (tag == true) {
-            console.log("Using tags API")
-            const tags = response.data;
-            latestTag = tags[0];
-
-            for (const tag of tags) {
-                if (latestVersion == undefined && !tag.name.trim().includes("$(MARKETING_VERSION)")) {
-                    latestVersion = tag.name.trim()
-                }
-            }
-
-            console.log("Tag name: " + latestVersion)
-            latestReleaseDate = today()
-        } else if (changelogUrl != undefined) {
-            var body = response.data
-            // Split the content into lines
-            const lines = body.split('\n');
-    
-            if (itemId == "parmanode") {
-                // const regex = /^Version ([\d.]+)/;
-                // for (const line of lines) {
-                //     // Skip empty lines and lines starting with #
-                //     if (line.trim() === "" || line.trim().startsWith("#")) {
-                //         continue;
-                //     }
-                
-                //     const match = line.match(regex);
-                //     if (match) {
-                //         latestVersion = match[1];
-                //         latestReleaseDate = today();
-                //         break; // Stop after finding the first valid version line
-                //     }
-                // }
-            } else if (itemId.startsWith("mynode-")) {
-                // === v0.3.25 ===
-                // - Released 1/11/24
-
-                // for (let i = 0; i < lines.length; i++) {
-                //     const line = lines[i].trim();
-                
-                //     if (line.startsWith("===")) {
-                //         const versionRegex = /^=== v([\d.]+) ===/;
-                //         const versionMatch = line.match(versionRegex);
-                
-                //         if (versionMatch) {
-                //             latestVersion = versionMatch[1];
-                
-                //             // Check if the next line exists
-                //             const nextLine = lines[i + 1]?.trim();
-                //             const dateRegex = /^- Released ([\d.]+)\/([\d.]+)\/([\d.]+)/;
-                //             const dateMatch = nextLine.match(dateRegex);
-                
-                //             if (dateMatch) {
-                //                 latestReleaseDate = `${getShortMonthByIndex(parseInt(dateMatch[1]) - 1)} ${dateMatch[2]}, ${2000 + parseInt(dateMatch[3])}`;
-                //             }
-                //         }
-                
-                //         break; // Only need the first match
-                //     }
-                // }
-            } else if (itemId.startsWith("nodl-")) {
-                // const line = lines[0]
-                // const regex = /^([\d.]+) -/;
-                // const match = line.match(regex);
-                // if (match) {
-                //     latestVersion = match[1];
-                //     latestReleaseDate = today();
-                // }
-            } else if (itemId == "coolwallet-pro") {
-                // Coolwallet Pro. Example: ## [332] - 2023-08-10
-                // const regex = /^## \[([\d]+)\] - (\d{4}-\d{2}-\d{2})/;
-                // for (const line of lines) {
-                //     const match = line.match(regex);
-                //     if (match) {
-                //         latestVersion = match[1];
-                //         latestReleaseDate = formatYYYYMMDD(match[2]);
-                //         break;
-                //     }
-                // }
-            } else if (itemId == "coldcard-mk4") {
-                // Coldcard Mk4. Example: ## 5.2.2 - 2023-12-21
-                // const regex = /^## ([\d.]+) - (\d{4}-\d{2}-\d{2})/;
-                // var onSection = false
-                // for (const line of lines) {
-                //     if (onSection == true) {
-                //         const match = line.match(regex);
-                //         if (match) {
-                //             latestVersion = match[1];
-                //             latestReleaseDate = formatYYYYMMDD(match[2]);
-                //             break;
-                //         }
-                //     } else if (line == "# Mk4 Specific Changes") {
-                //         onSection = true
-                //     }
-                // }
-            } else if (itemId == "coldcard-q") {
-                // Coldcard Q. Example: ## 0.0.6Q - 2024-02-22
-                // const regex = /^## ([\d.]+)Q - (\d{4}-\d{2}-\d{2})/;
-                // var onSection = false
-                // for (const line of lines) {
-                //     if (onSection == true) {
-                //         const match = line.match(regex);
-                //         if (match) {
-                //             latestVersion = match[1];
-                //             latestReleaseDate = formatYYYYMMDD(match[2]);
-                //             break;
-                //         }
-                //     } else if (line == "# Q Specific Changes") {
-                //         onSection = true
-                //     }
-                // }
-            } else if (itemId == "trezor-model-t" || itemId.startsWith("trezor-safe")) {
-                // Example: ## [2.7.0] (20th March 2024) or ## [2.8.5] (internal release)
-                const regex = /^## \[([\d.]+)\] \((\d{1,2}(?:st|nd|rd|th) \w+ \d{4}|internal release)\)/;
-                for (const line of lines) {
-                    const match = line.match(regex);
-                    if (match) {
-                        latestVersion = match[1];
-                        latestReleaseDate = formatDDMonthYYYY(match[2]);
-                        if (match[2] === "internal release") {
-                            latestReleaseDate = today()
-                        } else {
-                            latestReleaseDate = formatDDMonthYYYY(match[2]);
-                        }
-                        break;
-                    }
-                }
-            } else if (itemId == "trezor-model-one") {
-                // Example: ## 1.12.1 [15th March 2023]
-                // const regex = /^## ([\d.]+) \[(\d{1,2}\w\w \w+ \d{4})\]/;
-                // for (const line of lines) {
-                //     const match = line.match(regex);
-                //     if (match) {
-                //         console.log("Matched line: " + line)
-                //         latestVersion = match[1];
-                //         latestReleaseDate = formatDDMonthYYYY(match[2]);
-                //         break;
-                //     }
-                // }
-            } else if (itemId == "muun") {
-                // ## [51.5] - 2023-12-22
-                // const regex = /^## \[([\d.]+)\] - (\d{4}-\d{2}-\d{2})/;
-                // for (const line of lines) {
-                //     const match = line.match(regex);
-                //     if (match) {
-                //         console.log("Matched line: " + line)
-                //         latestVersion = match[1];
-                //         latestReleaseDate = formatYYYYMMDD(match[2]);
-                //         break;
-                //     }
-                // }
-            } else if (itemId == "electrum") {
-                // # Release 4.4.6 (August 18, 2023) (security update)
-                // Find the first line starting with "#"
-                const regex = /^# Release ([\d.]+) \(([^)]+)\)/;
-                for (const line of lines) {
-                    const match = line.match(regex);
-                    if (match) {
-                        console.log("Matched line: " + line)
-                        latestVersion = match[1];
-                        latestReleaseDate = formatMonthDDYYYY(match[2]);
-                        break;
-                    }
-                }
-            } else {
-                console.error("Date parser not found")
-                exit(1);
-            }
-            
-            if (latestVersion == undefined) {
-                console.error("latestVersion not found")
-                hadErrors = true
-                return
-            }
-    
-            if (latestReleaseDate == undefined) {
-                console.error("latestReleaseDate not found")
-                hadErrors = true
-                return
-            }
-        }
     
         if (!hadErrors && !ignoreVersion(itemId, latestVersion, preReleaseSupported)) {
 
@@ -1062,25 +875,7 @@ function fetchRelease(itemType, json) {
 
             console.log("Post processed latestVersion: " + latestVersion)
     
-            if (!isValidVersion(latestVersion, preReleaseSupported)) {
-                console.error('Invalid version found: ' + latestVersion);
-                hadErrors = true
-                return
-            }
     
-            if (!isValidDate(latestReleaseDate)) {
-                console.error('Invalid release data found: ' + latestReleaseDate);
-                hadErrors = true
-                return
-            }
-    
-            // Iterate through release assets and collect their file names
-            // assets.forEach((asset) => {
-            //     assetFileNames.push(asset.name);
-            // });
-            //console.log('Release Notes:\n', body);
-            //console.log('Asset File Names:', assetFileNames.join());
-            checkRelease(itemType, itemId, json.platforms, latestVersion, latestReleaseDate);
         } else {
             console.log("Ignoring version")
         }
@@ -1387,38 +1182,6 @@ function getDate(publishedAt) {
     } else {
         return today()
     }
-}
-
-function ignoreVersion(itemId, latestVersion, preReleaseSupported) {
-
-    // Ignore if it ends with "-pre1", "-pre2", etc.
-    var pattern = /-pre\d+$/;
-    if (pattern.test(latestVersion)) {
-        return true
-    }
-
-    // Ignore if it contains "-alpha"
-    if (!preReleaseSupported && latestVersion.toLowerCase().includes("-alpha")) {
-        return true
-    }
-
-    // Ignore if contains the word beta
-    if (!preReleaseSupported && latestVersion.toLowerCase().includes("beta")) {
-        return true
-    }
-
-    // Seedsigner
-    if (itemId == "seedsigner" && latestVersion.endsWith("_EXP")) {
-        return true
-    }
-
-    // Ignore if it ends with "-rc", "-rc1", "-rc2", etc.
-    pattern = /-rc\d*$/;
-    if (!preReleaseSupported && pattern.test(latestVersion)) {
-        return true
-    }
-
-    return false
 }
 
 function today() {
