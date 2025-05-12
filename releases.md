@@ -7,3 +7,9 @@
 ## hardware-wallets
 ### jade
 - May 9, 2025 - v1.0.35 - https://github.com/Blockstream/Jade/blob/master/CHANGELOG.md
+
+## software-wallets
+### bitcoin-safe
+- May 12, 2025 - v1.3.0 (linux) - https://github.com/andreasgriffin/bitcoin-safe/releases
+- May 12, 2025 - v1.3.0 (macos) - https://github.com/andreasgriffin/bitcoin-safe/releases
+- May 12, 2025 - v1.3.0 (windows) - https://github.com/andreasgriffin/bitcoin-safe/releases
