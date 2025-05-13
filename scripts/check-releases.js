@@ -123,47 +123,7 @@ class BaseCommand {
         version = version.replace(/^v\./, '');
 
         // TODO Move this to each command
-        if (this.itemType == "hardware-wallets") {
-
-            // Bitbox
-            version = version.replace(/ - Multi$/, '');
-            version = version.replace(/ - Bitcoin-only$/, '');
-
-            // OneKey
-            version = version.replace(/^mini\//, '');
-            version = version.replace(/^classic\//, '');
-            version = version.replace(/^touch\//, '');
-
-            // Passport
-            version = version.replace(/^Passport Firmware /, '');
-            version = version.replace(/^Passport /, '');
-            version = version.replace(/ Firmware$/, '');
-
-            // Portal
-            version = version.replace(/^Firmware /, '');
-
-            // ProKey
-            version = version.replace(/^Prokey Firmware /, '');
-
-            // Keepkey
-            version = version.replace(/^Release /, '');
-
-            // Krux
-            version = version.replace(/^Version /, '');
-
-            // Keystone
-            version = version.replace(/-BTC$/, '');
-            version = version.replace(/-btc$/, '');
-
-            // Grid+ Lattice1
-            version = version.replace(/^HSM-/, '');
-
-            // Satochip
-            const match = version.match(/^Satochip (v\d+(\.\d+)+)/)
-            if (match) {
-                version = match[1];
-            }
-        } else if (this.itemType == "software-wallets") {
+        if (this.itemType == "software-wallets") {
 
             // Bitcoin Core
             version = version.replace(/^Bitcoin Core /, '');
@@ -551,6 +511,17 @@ class CoolWalletProCommand extends FirstLineChangeLogCommand {
     }
 }
 
+class SatochipCommand extends GithubLatestReleaseCommand {
+    constructor(itemId) {
+        super(itemId, "hardware-wallets", "Toporin", "SatochipApplet");
+    }
+
+    sanitizeVersion(version) {
+        const match = version.match(/^Satochip (v\d+(\.\d+)+)/);
+        return match ? match[1] : version;
+    }
+}
+
 class TrezorModelOneCommand extends FirstLineChangeLogCommand {
 
     constructor() {
@@ -762,31 +733,95 @@ class UmbrelCommand extends GithubAllReleasesCommand {
 const commands = [
 
     // Hardware Wallets
-    new GithubAllReleasesCommand("bitbox02-btconly", "hardware-wallets", "digitalbitbox", "bitbox02-firmware", undefined, "Bitcoin-only"),
-    new GithubAllReleasesCommand("bitbox02-multi", "hardware-wallets", "digitalbitbox", "bitbox02-firmware", undefined, "Multi"),
+    new (class extends GithubAllReleasesCommand {
+        constructor() {
+            super("bitbox02-btconly", "hardware-wallets", "digitalbitbox", "bitbox02-firmware", undefined, "Bitcoin-only");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/ - Bitcoin-only$/, '');
+        }
+    })(),
+    new (class extends GithubAllReleasesCommand {
+        constructor() {
+            super("bitbox02-multi", "hardware-wallets", "digitalbitbox", "bitbox02-firmware", undefined, "Multi");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/ - Multi$/, '');
+        }
+    })(),
     new BitkeyCommand(),
     new ColdcardMk4Command(),
     new ColdcardQCommand(),
     new CoolWalletProCommand(),
     new GithubLatestReleaseCommand("cypherock-x1", "hardware-wallets", "Cypherock", "x1_wallet_firmware"),
     new GithubLatestReleaseCommand("frostnap", "hardware-wallets", "frostsnap", "frostsnap"),
-    new GithubAllReleasesCommand("gridplus-lattice1", "hardware-wallets", "GridPlus", "lattice-software-releases", undefined, "HSM-"),
+    new (class extends GithubAllReleasesCommand {
+        constructor() {
+            super("gridplus-lattice1", "hardware-wallets", "GridPlus", "lattice-software-releases", undefined, "HSM-");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^HSM-/, '');
+        }
+    })(),
     new GithubTagCommand("jade", "hardware-wallets", "Blockstream", "Jade"),
     new GithubTagCommand("jade-plus", "hardware-wallets", "Blockstream", "Jade"),
     new GithubTagCommand("jade-plus-metal", "hardware-wallets", "Blockstream", "Jade"),
     new GithubLatestReleaseCommand("keepkey", "hardware-wallets", "keepkey", "keepkey-firmware"),
-    new GithubAllReleasesCommand("keystone-3-pro", "hardware-wallets", "KeystoneHQ", "keystone3-firmware", undefined, "-BTC"),
+    new (class extends GithubAllReleasesCommand {
+        constructor() {
+            super("keystone-3-pro", "hardware-wallets", "KeystoneHQ", "keystone3-firmware", undefined, "-BTC");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/-BTC$/, '').replace(/-btc$/, '');
+        }
+    })(),
     new GithubLatestReleaseCommand("krux", "hardware-wallets", "selfcustody", "krux"),
-    new GithubAllReleasesCommand("onekey-classic-1s", "hardware-wallets", "OneKeyHQ", "firmware", undefined, "classic"),
-    new GithubAllReleasesCommand("onekey-classic-1s-pure", "hardware-wallets", "OneKeyHQ", "firmware", undefined, "classic"),
-    new GithubAllReleasesCommand("onekey-pro", "hardware-wallets", "OneKeyHQ", "firmware", undefined, "touch"),
-    new GithubLatestReleaseCommand("passport-batch-2", "hardware-wallets", "Foundation-Devices", "passport2"),
+    new (class extends GithubAllReleasesCommand {
+        constructor() {
+            super("onekey-classic-1s", "hardware-wallets", "OneKeyHQ", "firmware", undefined, "classic");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^classic\//, '');
+        }
+    })(),
+
+    new (class extends GithubAllReleasesCommand {
+        constructor() {
+            super("onekey-classic-1s-pure", "hardware-wallets", "OneKeyHQ", "firmware", undefined, "classic");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^classic\//, '');
+        }
+    })(),
+    new (class extends GithubAllReleasesCommand {
+        constructor() {
+            super("onekey-pro", "hardware-wallets", "OneKeyHQ", "firmware", undefined, "touch");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^touch\//, '');
+        }
+    })(),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("passport-batch-2", "hardware-wallets", "Foundation-Devices", "passport2");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^Passport Firmware /, '').replace(/^Passport /, '').replace(/ Firmware$/, '');
+        }
+    })(),
     new GithubLatestReleaseCommand("portal", "hardware-wallets", "TwentyTwoHW", "portal-software"),
-    new GithubLatestReleaseCommand("prokey-optimum", "hardware-wallets", "prokey-io", "prokey-optimum-firmware"),
-    new GithubLatestReleaseCommand("satochip", "hardware-wallets", "Toporin", "SatochipApplet"),
-    new GithubLatestReleaseCommand("satochip-diy", "hardware-wallets", "Toporin", "SatochipApplet"),
-    new GithubLatestReleaseCommand("specter-diy", "hardware-wallets", "cryptoadvance", "specter-diy"),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("prokey-optimum", "hardware-wallets", "prokey-io", "prokey-optimum-firmware");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^Prokey Firmware /, '');
+        }
+    })(),
+    new SatochipCommand("satochip-diy"),
+    new SatochipCommand("satochip"),
     new GithubTagCommand("seedsigner", "hardware-wallets", "SeedSigner", "seedsigner"),
+    new GithubLatestReleaseCommand("specter-diy", "hardware-wallets", "cryptoadvance", "specter-diy"),
     new TrezorModelOneCommand(),
     new TrezorModelTSafeCommand("trezor-model-t", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2T1.md"),
     new TrezorModelTSafeCommand("trezor-safe-3", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2B1.md"),
