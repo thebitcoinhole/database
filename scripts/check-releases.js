@@ -34,7 +34,7 @@ class BaseCommand {
         let release;
     
         try {
-            const res = request('GET', this.getUrl(), { headers: this.getHeaders() });
+            const res = request('GET', this.getUrl(), { headers: this.getHeaders() });            
             const data = res.getBody('utf8');
             release = this.parseRelease(data);
         } catch (err) {
@@ -249,10 +249,11 @@ class BaseCommand {
 
 class GithubCommand extends BaseCommand {
 
-    constructor(itemId, itemType, githubOwner, githubRepo) {
+    constructor(itemId, itemType, githubOwner, githubRepo, platforms = undefined) {
         super(itemId, itemType);
         this.githubOwner = githubOwner;
         this.githubRepo = githubRepo;
+        this.platforms = platforms
         this.baseUrl = `https://api.github.com/repos/${this.githubOwner}/${this.githubRepo}`
     }
 
@@ -263,13 +264,16 @@ class GithubCommand extends BaseCommand {
             "User-Agent": 'MySyncScript/1.0'
         };
     }
+
+    getPlatforms() {
+        return this.platforms;
+    }
 }
 
 class GithubLatestReleaseCommand extends GithubCommand {
 
     constructor(itemId, itemType, githubOwner, githubRepo, platforms = undefined) {
-        super(itemId, itemType, githubOwner, githubRepo);
-        this.platforms = platforms
+        super(itemId, itemType, githubOwner, githubRepo, platforms);
     }
 
     parseRelease(data) {
@@ -289,20 +293,15 @@ class GithubLatestReleaseCommand extends GithubCommand {
     getUrl() {
         return `${this.baseUrl}/releases/latest`;
     }
-
-    getPlatforms() {
-        return this.platforms;
-    }
 }
 
 class GithubAllReleasesCommand extends GithubCommand {
 
     constructor(itemId, itemType, githubOwner, githubRepo, platforms = undefined, allReleasesInclude = undefined, allReleasesExclude = undefined, assetsMatch = undefined) {
-        super(itemId, itemType, githubOwner, githubRepo);
+        super(itemId, itemType, githubOwner, githubRepo, platforms);
         this.allReleasesInclude = allReleasesInclude
         this.allReleasesExclude = allReleasesExclude
         this.assetsMatch = assetsMatch
-        this.platforms = platforms
     }
 
     parseRelease(data) {
@@ -345,17 +344,12 @@ class GithubAllReleasesCommand extends GithubCommand {
     getUrl() {
         return `${this.baseUrl}/releases`;
     }
-
-    getPlatforms() {
-        return this.platforms;
-    }
 }
 
 class GithubTagCommand extends GithubCommand {
 
     constructor(itemId, itemType, githubOwner, githubRepo, platforms = undefined) {
-        super(itemId, itemType, githubOwner, githubRepo);
-        this.platforms = platforms;
+        super(itemId, itemType, githubOwner, githubRepo, platforms);
     }
 
     parseRelease(data) {
@@ -374,9 +368,6 @@ class GithubTagCommand extends GithubCommand {
         return `${this.baseUrl}/tags`;
     }
 
-    getPlatforms() {
-        return this.platforms;
-    }
 }
 
 class GitlagTagCommand extends BaseCommand {
