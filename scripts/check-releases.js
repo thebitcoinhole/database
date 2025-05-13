@@ -123,23 +123,7 @@ class BaseCommand {
         version = version.replace(/^v\./, '');
 
         // TODO Move this to each command
-        if (this.itemType == "bitcoin-nodes") {
-            // MiniBolt
-            version = version.replace(/^MiniBolt /, '');
-    
-            // Bitcoin Core
-            version = version.replace(/^Bitcoin Core /, '');
-    
-            // Bitcoin Knots
-            version = version.replace(/^Bitcoin Knots /, '');
-            version = version.replace(/knots/, '');
-    
-            // Umbrel
-            version = version.replace(/^umbrelOS /, '');
-
-            // Raspibolt
-            version = version.replace(/^RaspiBolt /, '');
-        } else if (this.itemType == "hardware-wallets") {
+        if (this.itemType == "hardware-wallets") {
 
             // Bitbox
             version = version.replace(/ - Multi$/, '');
@@ -426,7 +410,7 @@ class ChangeLogCommand extends BaseCommand {
     }
 
     getUrl() {
-        return this.changelogUrl ;
+        return this.changelogUrl;
     }
 }
 
@@ -462,102 +446,34 @@ class FirstLineChangeLogCommand extends ChangeLogCommand {
     }
 }
 
-class ParmanodeCommand extends ChangeLogCommand {
+// Hardware Wallets
+
+class BitkeyCommand extends ChangeLogCommand {
 
     constructor() {
-        super("parmanode", "bitcoin-nodes", "https://raw.githubusercontent.com/ArmanTheParman/Parmanode/refs/heads/master/changelog.txt");
-    }
-
-    parseRelease(data) {
-        var version
-        const lines = data.split('\n');
-        const regex = /^Version ([\d.]+)/;
-        for (const line of lines) {
-            // Skip empty lines and lines starting with #
-            if (line.trim() === "" || line.trim().startsWith("#")) {
-                continue;
-            }
-        
-            const match = line.match(regex);
-            if (match) {
-                version = match[1];
-                break; // Stop after finding the first valid version line
-            }
-        }
-        return { version: version, date: today()};
-    }
-}
-
-class MyNodeCommand extends ChangeLogCommand {
-
-    constructor(itemId) {
-        super(itemId, "bitcoin-nodes", "https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG");
+        super("bitkey", "hardware-wallets", "https://bitkey.world/en-US/releases");
     }
 
     parseRelease(data) {
         var version
         var date
-        // === v0.3.25 ===
-        // - Released 1/11/24
-        const lines = data.split('\n');
-        for (let i = 0; i < lines.length; i++) {
-            const line = lines[i].trim();
-        
-            if (line.startsWith("===")) {
-                const versionRegex = /^=== v([\d.]+) ===/;
-                const versionMatch = line.match(versionRegex);
-        
-                if (versionMatch) {
-                    version = versionMatch[1];
-        
-                    // Check if the next line exists
-                    const nextLine = lines[i + 1]?.trim();
-                    const dateRegex = /^- Released ([\d.]+)\/([\d.]+)\/([\d.]+)/;
-                    const dateMatch = nextLine.match(dateRegex);
-        
-                    if (dateMatch) {
-                        date = `${getShortMonthByIndex(parseInt(dateMatch[1]) - 1)} ${dateMatch[2]}, ${2000 + parseInt(dateMatch[3])}`;
-                    }
-                }
-        
-                break; // Only need the first match
+        const $ = cheerio.load(data);
+        let found = false;
+
+        $('.border-t.py-6').each((_, element) => {
+            if (found) return
+
+            const dateText = $(element).find('.text-primary50').first().text().trim();
+            const versionText = $(element).find('.font-semibold').first().text().trim();
+            const type = $(element).find('.text-primary50').first().next().text().trim();
+
+            if (type.toLowerCase().includes('firmware')) {
+                version = versionText
+                date = dateText
+                found = true
             }
-        }
-        return { version: version, date: date};
-    }
-}
-
-class NodlCommand extends ChangeLogCommand {
-
-    constructor(itemId, changelogUrl) {
-        super(itemId, "bitcoin-nodes", changelogUrl);
-    }
-
-    parseRelease(data) {
-        var version
-        const line = data.split('\n')[0]
-        const regex = /^([\d.]+) -/;
-        const match = line.match(regex);
-        if (match) {
-            version = match[1];
-        }
-        return { version: version, date: today()};
-    }
-}
-
-class CoolWalletProCommand extends FirstLineChangeLogCommand {
-
-    constructor() {
-        super("coolwallet-pro", "hardware-wallets",  "https://raw.githubusercontent.com/CoolBitX-Technology/coolwallet-pro-se/main/CHANGELOG.md");
-    }
-
-    getRegex() {
-        // Coolwallet Pro. Example: ## [332] - 2023-08-10
-        return /^## \[([\d]+)\] - (\d{4}-\d{2}-\d{2})/;
-    }
-
-    formatDate(date) {
-        return formatYYYYMMDD(date)
+        });
+        return { version: version, date: date }
     }
 }
 
@@ -619,54 +535,19 @@ class ColdcardQCommand extends ChangeLogCommand {
     }
 }
 
-class MuunAndroidCommand extends FirstLineChangeLogCommand {
+class CoolWalletProCommand extends FirstLineChangeLogCommand {
 
     constructor() {
-        super("muun", "software-wallets",  "https://raw.githubusercontent.com/muun/apollo/master/android/CHANGELOG.md");
+        super("coolwallet-pro", "hardware-wallets",  "https://raw.githubusercontent.com/CoolBitX-Technology/coolwallet-pro-se/main/CHANGELOG.md");
     }
 
     getRegex() {
-        // ## [51.5] - 2023-12-22
-        return /^## \[([\d.]+)\] - (\d{4}-\d{2}-\d{2})/;
+        // Coolwallet Pro. Example: ## [332] - 2023-08-10
+        return /^## \[([\d]+)\] - (\d{4}-\d{2}-\d{2})/;
     }
 
     formatDate(date) {
         return formatYYYYMMDD(date)
-    }
-
-    getPlatforms() {
-        return ["android"];
-    }
-}
-
-class MuuniOSCommand extends GithubTagCommand {
-
-    constructor() {
-        super("muun", "software-wallets", "muun", "falcon", ["ios"]);
-    }
-
-    sanitizeVersion(version) {
-        return version.split("-")[0]
-    }
-}
-
-class ElectrumCommand extends FirstLineChangeLogCommand {
-
-    constructor() {
-        super("electrum", "software-wallets",  "https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES");
-    }
-
-    getRegex() {
-        // # Release 4.4.6 (August 18, 2023) (security update)
-        return /^# Release ([\d.]+) \(([^)]+)\)/;
-    }
-
-    formatDate(date) {
-        return formatMonthDDYYYY(date)
-    }
-
-    getPlatforms() {
-        return ["windows", "macos", "linux", "android"];
     }
 }
 
@@ -715,37 +596,56 @@ class TrezorModelTSafeCommand extends ChangeLogCommand {
     }
 }
 
-class BitkeyCommand extends BaseCommand {
+// Software Wallets
+
+class ElectrumCommand extends FirstLineChangeLogCommand {
 
     constructor() {
-        super("bitkey", "hardware-wallets");
-        this.url = "https://bitkey.world/en-US/releases";
+        super("electrum", "software-wallets",  "https://raw.githubusercontent.com/spesmilo/electrum/master/RELEASE-NOTES");
     }
 
-    parseRelease(data) {
-        var version
-        var date
-        const $ = cheerio.load(data);
-        let found = false;
-
-        $('.border-t.py-6').each((_, element) => {
-            if (found) return
-
-            const dateText = $(element).find('.text-primary50').first().text().trim();
-            const versionText = $(element).find('.font-semibold').first().text().trim();
-            const type = $(element).find('.text-primary50').first().next().text().trim();
-
-            if (type.toLowerCase().includes('firmware')) {
-                version = versionText
-                date = dateText
-                found = true
-            }
-        });
-        return { version: version, date: date }
+    getRegex() {
+        // # Release 4.4.6 (August 18, 2023) (security update)
+        return /^# Release ([\d.]+) \(([^)]+)\)/;
     }
 
-    getUrl() {
-        return this.url ;
+    formatDate(date) {
+        return formatMonthDDYYYY(date)
+    }
+
+    getPlatforms() {
+        return ["windows", "macos", "linux", "android"];
+    }
+}
+
+class MuunAndroidCommand extends FirstLineChangeLogCommand {
+
+    constructor() {
+        super("muun", "software-wallets",  "https://raw.githubusercontent.com/muun/apollo/master/android/CHANGELOG.md");
+    }
+
+    getRegex() {
+        // ## [51.5] - 2023-12-22
+        return /^## \[([\d.]+)\] - (\d{4}-\d{2}-\d{2})/;
+    }
+
+    formatDate(date) {
+        return formatYYYYMMDD(date)
+    }
+
+    getPlatforms() {
+        return ["android"];
+    }
+}
+
+class MuuniOSCommand extends GithubTagCommand {
+
+    constructor() {
+        super("muun", "software-wallets", "muun", "falcon", ["ios"]);
+    }
+
+    sanitizeVersion(version) {
+        return version.split("-")[0]
     }
 }
 
@@ -761,6 +661,102 @@ class MyCitadelCommand extends GithubLatestReleaseCommand {
         return version
     }
 
+}
+
+// Bitcoin Nodes
+
+class MyNodeCommand extends ChangeLogCommand {
+
+    constructor(itemId) {
+        super(itemId, "bitcoin-nodes", "https://raw.githubusercontent.com/mynodebtc/mynode/master/CHANGELOG");
+    }
+
+    parseRelease(data) {
+        var version
+        var date
+        // === v0.3.25 ===
+        // - Released 1/11/24
+        const lines = data.split('\n');
+        for (let i = 0; i < lines.length; i++) {
+            const line = lines[i].trim();
+        
+            if (line.startsWith("===")) {
+                const versionRegex = /^=== v([\d.]+) ===/;
+                const versionMatch = line.match(versionRegex);
+        
+                if (versionMatch) {
+                    version = versionMatch[1];
+        
+                    // Check if the next line exists
+                    const nextLine = lines[i + 1]?.trim();
+                    const dateRegex = /^- Released ([\d.]+)\/([\d.]+)\/([\d.]+)/;
+                    const dateMatch = nextLine.match(dateRegex);
+        
+                    if (dateMatch) {
+                        date = `${getShortMonthByIndex(parseInt(dateMatch[1]) - 1)} ${dateMatch[2]}, ${2000 + parseInt(dateMatch[3])}`;
+                    }
+                }
+        
+                break; // Only need the first match
+            }
+        }
+        return { version: version, date: date};
+    }
+}
+
+class NodlCommand extends ChangeLogCommand {
+
+    constructor(itemId, changelogUrl) {
+        super(itemId, "bitcoin-nodes", changelogUrl);
+    }
+
+    parseRelease(data) {
+        var version
+        const line = data.split('\n')[0]
+        const regex = /^([\d.]+) -/;
+        const match = line.match(regex);
+        if (match) {
+            version = match[1];
+        }
+        return { version: version, date: today()};
+    }
+}
+
+class ParmanodeCommand extends ChangeLogCommand {
+
+    constructor() {
+        super("parmanode", "bitcoin-nodes", "https://raw.githubusercontent.com/ArmanTheParman/Parmanode/refs/heads/master/changelog.txt");
+    }
+
+    parseRelease(data) {
+        var version
+        const lines = data.split('\n');
+        const regex = /^Version ([\d.]+)/;
+        for (const line of lines) {
+            // Skip empty lines and lines starting with #
+            if (line.trim() === "" || line.trim().startsWith("#")) {
+                continue;
+            }
+        
+            const match = line.match(regex);
+            if (match) {
+                version = match[1];
+                break; // Stop after finding the first valid version line
+            }
+        }
+        return { version: version, date: today()};
+    }
+}
+
+class UmbrelCommand extends GithubAllReleasesCommand {
+
+    constructor(itemId) {
+        super(itemId, "bitcoin-nodes", "getumbrel", "umbrel", undefined, "umbrel");
+    }
+
+    sanitizeVersion(version) {
+        return version.replace(/^umbrelOS /, '');
+    }
 }
 
 const commands = [
@@ -830,9 +826,30 @@ const commands = [
     new GithubAllReleasesCommand("stack-wallet", "software-wallets", "cypherstack", "stack_wallet", ["android", "ios", "windows", "macos", "linux"], "Stack Wallet"),
     
     // Bitcoin Nodes
-    new GithubLatestReleaseCommand("bitcoin-core", "bitcoin-nodes", "bitcoin", "bitcoin"),
-    new GithubLatestReleaseCommand("bitcoin-knots", "bitcoin-nodes", "bitcoinknots", "bitcoin"),
-    new GithubLatestReleaseCommand("minibolt", "bitcoin-nodes", "minibolt-guide", "minibolt"),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("bitcoin-core", "bitcoin-nodes", "bitcoin", "bitcoin");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^Bitcoin Core /, '');
+        }
+    })(),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("bitcoin-knots", "bitcoin-nodes", "bitcoinknots", "bitcoin");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^Bitcoin Knots /, '').replace(/knots/, '');
+        }
+    })(),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("minibolt", "bitcoin-nodes", "minibolt-guide", "minibolt");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^MiniBolt /, '');
+        }
+    })(),
     new GitlagTagCommand("citadel", "bitcoin-nodes", "48888641"),
     new MyNodeCommand("mynode-community-edition"),
     new MyNodeCommand("mynode-model-one"),
@@ -842,13 +859,19 @@ const commands = [
     new NodlCommand("nodl-two", "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-two/www/changelog.txt?ref_type=heads"),
     new ParmanodeCommand(),
     new GithubLatestReleaseCommand("raspiblitz", "bitcoin-nodes", "raspiblitz", "raspiblitz"),
-    new GithubLatestReleaseCommand("raspibolt", "bitcoin-nodes", "raspibolt", "raspibolt"),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("raspibolt", "bitcoin-nodes", "raspibolt", "raspibolt");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^RaspiBolt /, '');
+        }
+    })(),
     new GithubLatestReleaseCommand("start9-diy", "bitcoin-nodes", "Start9Labs", "start-os"),
     new GithubLatestReleaseCommand("start9-server-one", "bitcoin-nodes", "Start9Labs", "start-os"),
     new GithubLatestReleaseCommand("start9-server-pure", "bitcoin-nodes", "Start9Labs", "start-os"),
-    new GithubAllReleasesCommand("umbrel-diy", "bitcoin-nodes", "getumbrel", "umbrel", undefined, "umbrel"),
-    new GithubAllReleasesCommand("umbrel-home", "bitcoin-nodes", "getumbrel", "umbrel", undefined, "umbrel")
-    
+    new UmbrelCommand("umbrel-diy"),
+    new UmbrelCommand("umbrel-home")
 ];
 
 async function runCommandsSequentially(commands) {
