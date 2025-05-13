@@ -7,6 +7,8 @@
 ## hardware-wallets
 ### jade
 - May 9, 2025 - v1.0.35 - https://github.com/Blockstream/Jade/blob/master/CHANGELOG.md
+### onekey-classic-1s
+- May 13, 2025 - v3.10.0 - https://github.com/OneKeyHQ/firmware/releases
 
 ## software-wallets
 ### bitcoin-safe
