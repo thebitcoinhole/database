@@ -19,12 +19,6 @@
       "github-repo": "x1_wallet_firmware",
       "latest-release": true
     },
-    "frostnap": {
-      "item-id": "frostnap",
-      "github-org": "frostsnap",
-      "github-repo": "frostsnap",
-      "latest-release": true
-    },
     "gridplus-lattice1": {
       "item-id": "gridplus-lattice1",
       "github-org": "GridPlus",
@@ -50,24 +44,12 @@
       "github-repo": "Jade",
       "tag": true
     },
-    "keepkey": {
-      "item-id": "keepkey",
-      "github-org": "keepkey",
-      "github-repo": "keepkey-firmware",
-      "latest-release": true
-    },
     "keystone-3-pro": {
       "item-id": "keystone-3-pro",
       "github-org": "KeystoneHQ",
       "github-repo": "keystone3-firmware",
       "all-releases": true,
       "all-releases-include": "-BTC"
-    },
-    "krux": {
-      "item-id": "krux",
-      "github-org": "selfcustody",
-      "github-repo": "krux",
-      "latest-release": true
     },
     "onekey-classic-1s": {
       "item-id": "onekey-classic-1s",
@@ -89,42 +71,6 @@
       "github-repo": "firmware",
       "all-releases": true,
       "all-releases-include": "touch"
-    },
-    "passport-batch-2": {
-      "item-id": "passport-batch-2",
-      "github-org": "Foundation-Devices",
-      "github-repo": "passport2",
-      "latest-release": true
-    },
-    "portal": {
-      "item-id": "portal",
-      "github-org": "TwentyTwoHW",
-      "github-repo": "portal-software",
-      "latest-release": true
-    },
-    "prokey-optimum": {
-      "item-id": "prokey-optimum",
-      "github-org": "prokey-io",
-      "github-repo": "prokey-optimum-firmware",
-      "latest-release": true
-    },
-    "satochip": {
-      "item-id": "satochip",
-      "github-org": "Toporin",
-      "github-repo": "SatochipApplet",
-      "latest-release": true
-    },
-    "satochip-diy": {
-      "item-id": "satochip-diy",
-      "github-org": "Toporin",
-      "github-repo": "SatochipApplet",
-      "latest-release": true
-    },
-    "specter-diy": {
-      "item-id": "specter-diy",
-      "github-org": "cryptoadvance",
-      "github-repo": "specter-diy",
-      "latest-release": true
     }
   }
   

@@ -49,9 +49,12 @@ class BaseCommand {
 
             console.log("Pre processed version: " + release.version)
             release.version = this.sanitizeVersion(release.version)
+            // Check if the input starts with "v"
+            if (!release.version.startsWith("v")) {
+                // If it doesn't match the version pattern, add the "v" prefix
+                release.version = "v" + release.version;
+            }
             console.log("Post processed version: " + release.version)
-
-            // TODO
     
             if (!isValidVersion(release.version, this.isPreReleaseSupported())) {
                 throw new Error('Invalid version found: ' + release.version);
@@ -64,7 +67,11 @@ class BaseCommand {
             console.log("Ignoring version")
         }
     
-        console.log(`✅ ${this.itemId}: ${release.version} (${release.date})`);
+        var platforms = ""
+        if (this.getPlatforms() != undefined) {
+            platforms = ` (${this.getPlatforms()})`
+        }
+        console.log(`✅ ${this.itemType} - ${this.itemId}${platforms}: ${release.version} (${release.date})`);
         return {
             itemId: this.itemId,
             itemType: this.itemType,
@@ -100,112 +107,107 @@ class BaseCommand {
         version = version.replace(/^release_/, '');
         version = version.replace(/^v\./, '');
 
-        // Check if the input starts with "v"
-        if (!version.startsWith("v")) {
-            // If it doesn't match the version pattern, add the "v" prefix
-            version = "v" + version;
+        // TODO Move this to each command
+        if (this.itemType == "bitcoin-nodes") {
+            // MiniBolt
+            version = version.replace(/^MiniBolt /, '');
+    
+            // Bitcoin Core
+            version = version.replace(/^Bitcoin Core /, '');
+    
+            // Bitcoin Knots
+            version = version.replace(/^Bitcoin Knots /, '');
+            version = version.replace(/knots/, '');
+    
+            // Umbrel
+            version = version.replace(/^umbrelOS /, '');
+
+            // Raspibolt
+            version = version.replace(/^RaspiBolt /, '');
+        } else if (this.itemType == "hardware-wallets") {
+
+            // Bitbox
+            version = version.replace(/ - Multi$/, '');
+            version = version.replace(/ - Bitcoin-only$/, '');
+
+            // OneKey
+            version = version.replace(/^mini\//, '');
+            version = version.replace(/^classic\//, '');
+            version = version.replace(/^touch\//, '');
+
+            // Passport
+            version = version.replace(/^Passport Firmware /, '');
+            version = version.replace(/^Passport /, '');
+            version = version.replace(/ Firmware$/, '');
+
+            // Portal
+            version = version.replace(/^Firmware /, '');
+
+            // ProKey
+            version = version.replace(/^Prokey Firmware /, '');
+
+            // Keepkey
+            version = version.replace(/^Release /, '');
+
+            // Krux
+            version = version.replace(/^Version /, '');
+
+            // Keystone
+            version = version.replace(/-BTC$/, '');
+            version = version.replace(/-btc$/, '');
+
+            // Grid+ Lattice1
+            version = version.replace(/^HSM-/, '');
+
+            // Satochip
+            const match = version.match(/^Satochip (v\d+(\.\d+)+)/)
+            if (match) {
+                version = match[1];
+            }
+        } else if (this.itemType == "software-wallets") {
+
+            // Bitcoin Core
+            version = version.replace(/^Bitcoin Core /, '');
+
+            // Bitcoin Keeper
+            version = version.replace(/^Keeper Desktop /, '');
+
+            // My Cytadel: Version 1.5 (Blazing Venus)
+            version = version.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
+
+            // Zeuz: v0.8.5-hotfix
+            version = version.replace(/-hotfix$/, '');
+
+            // Proton Wallet: v1.0.0+58
+            version = version.replace(/\+\d+$/, '');
+
+            // Nunchuk: android.1.9.46
+            version = version.replace(/^android./, '');
+
+            // Phoenix
+            if (this.itemId == "phoenix") {
+                version = version.replace(/^Android /, '');
+                version = version.replace(/^Phoenix Android /, '');
+                version = version.replace(/^Phoenix /, '');
+                version = version.replace(/^Phoenix Android\/iOS /, '');
+            }
+
+            // Specter
+            version = version.replace(/^Specter /, '');
+
+            // Stack Wallet
+            version = version.replace(/^Stack Wallet /, '');
+
+            // Wasabi v2.0.4 - Faster Than Fast Latest
+            version = version.replace(/^Wasabi v(\d+(\.\d+)+) - .*$/, '$1');
+            version = version.replace(/^Wasabi Wallet v(\d+(\.\d+)+) - .*$/, '$1');
+            version = version.replace(/^Wasabi Wallet v(\d+(\.\d+)+)*$/, '$1');
         }
 
-        // if (itemType == "bitcoin-nodes") {
-        //     // MiniBolt
-        //     latestVersion = latestVersion.replace(/^MiniBolt /, '');
-    
-        //     // Bitcoin Core
-        //     latestVersion = latestVersion.replace(/^Bitcoin Core /, '');
-    
-        //     // Bitcoin Knots
-        //     latestVersion = latestVersion.replace(/^Bitcoin Knots /, '');
-        //     latestVersion = latestVersion.replace(/knots/, '');
-    
-        //     // Umbrel
-        //     latestVersion = latestVersion.replace(/^umbrelOS /, '');
-
-        //     // Raspibolt
-        //     latestVersion = latestVersion.replace(/^RaspiBolt /, '');
-        // } else if (itemType == "hardware-wallets") {
-
-        //     // Bitbox
-        //     latestVersion = latestVersion.replace(/ - Multi$/, '');
-        //     latestVersion = latestVersion.replace(/ - Bitcoin-only$/, '');
-
-        //     // OneKey
-        //     latestVersion = latestVersion.replace(/^mini\//, '');
-        //     latestVersion = latestVersion.replace(/^classic\//, '');
-        //     latestVersion = latestVersion.replace(/^touch\//, '');
-
-        //     // Passport
-        //     latestVersion = latestVersion.replace(/^Passport Firmware /, '');
-        //     latestVersion = latestVersion.replace(/^Passport /, '');
-        //     latestVersion = latestVersion.replace(/ Firmware$/, '');
-
-        //     // Portal
-        //     latestVersion = latestVersion.replace(/^Firmware /, '');
-
-        //     // ProKey
-        //     latestVersion = latestVersion.replace(/^Prokey Firmware /, '');
-
-        //     // Keepkey
-        //     latestVersion = latestVersion.replace(/^Release /, '');
-
-        //     // Krux
-        //     latestVersion = latestVersion.replace(/^Version /, '');
-
-        //     // Keystone
-        //     latestVersion = latestVersion.replace(/-BTC$/, '');
-        //     latestVersion = latestVersion.replace(/-btc$/, '');
-
-        //     // Grid+ Lattice1
-        //     latestVersion = latestVersion.replace(/^HSM-/, '');
-
-        //     // Satochip
-        //     const match = latestVersion.match(/^Satochip (v\d+(\.\d+)+)/)
-        //     if (match) {
-        //         latestVersion = match[1];
-        //     }
-        // } else if (itemType == "software-wallets") {
-
-        //     // Bitcoin Core
-        //     latestVersion = latestVersion.replace(/^Bitcoin Core /, '');
-
-        //     // Bitcoin Keeper
-        //     latestVersion = latestVersion.replace(/^Keeper Desktop /, '');
-
-        //     // My Cytadel: Version 1.5 (Blazing Venus)
-        //     latestVersion = latestVersion.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
-
-        //     // Zeuz: v0.8.5-hotfix
-        //     latestVersion = latestVersion.replace(/-hotfix$/, '');
-
-        //     // Proton Wallet: v1.0.0+58
-        //     latestVersion = latestVersion.replace(/\+\d+$/, '');
-
-        //     // Nunchuk: android.1.9.46
-        //     latestVersion = latestVersion.replace(/^android./, '');
-
-        //     // Phoenix
-        //     if (itemId == "phoenix") {
-        //         latestVersion = latestVersion.replace(/^Android /, '');
-        //         latestVersion = latestVersion.replace(/^Phoenix Android /, '');
-        //         latestVersion = latestVersion.replace(/^Phoenix /, '');
-        //         latestVersion = latestVersion.replace(/^Phoenix Android\/iOS /, '');
-        //     }
-
-        //     // Specter
-        //     latestVersion = latestVersion.replace(/^Specter /, '');
-
-        //     // Stack Wallet
-        //     latestVersion = latestVersion.replace(/^Stack Wallet /, '');
-
-        //     // Wasabi v2.0.4 - Faster Than Fast Latest
-        //     latestVersion = latestVersion.replace(/^Wasabi v(\d+(\.\d+)+) - .*$/, '$1');
-        //     latestVersion = latestVersion.replace(/^Wasabi Wallet v(\d+(\.\d+)+) - .*$/, '$1');
-        //     latestVersion = latestVersion.replace(/^Wasabi Wallet v(\d+(\.\d+)+)*$/, '$1');
-        // }
-
-        // // For example: "2023-09-08T2009-v5.1.4"
-        // if (!preReleaseSupported) {
-        //     latestVersion = latestVersion.replace(/.*-([^:]+)$/, '$1');
-        // }
+        // For example: "2023-09-08T2009-v5.1.4"
+        if (!this.isPreReleaseSupported()) {
+            version = version.replace(/.*-([^:]+)$/, '$1');
+        }
 
         return version
     }
@@ -256,21 +258,31 @@ class GithubCommand extends BaseCommand {
         this.githubRepo = githubRepo;
         this.baseUrl = `https://api.github.com/repos/${this.githubOwner}/${this.githubRepo}`
     }
+
+    getHeaders() {
+        return {
+            Accept: 'application/vnd.github.v3+json',
+            Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
+            "User-Agent": 'MySyncScript/1.0'
+        };
+    }
 }
 
 class GithubLatestReleaseCommand extends GithubCommand {
 
-    constructor(itemId, itemType, githubOwner, githubRepo) {
+    constructor(itemId, itemType, githubOwner, githubRepo, platforms = undefined) {
         super(itemId, itemType, githubOwner, githubRepo);
+        this.platforms = platforms
     }
 
     parseRelease(data) {
         console.log("Using latest releases API")
-        var date = getDate(data.published_at)
-        var version = data.name.trim()
+        const json = JSON.parse(data)
+        var date = getDate(json.published_at)
+        var version = json.name.trim()
         console.log("Release name: " + version)
         if (version === undefined || version === "") {
-            version = data.tag_name.trim()
+            version = json.tag_name.trim()
             console.log("Tag name: " + version)
         }
         return { version: version, date: date};
@@ -279,6 +291,10 @@ class GithubLatestReleaseCommand extends GithubCommand {
 
     getUrl() {
         return `${this.baseUrl}/releases/latest`;
+    }
+
+    getPlatforms() {
+        return this.platforms;
     }
 }
 
@@ -328,7 +344,6 @@ class GithubAllReleasesCommand extends GithubCommand {
         return { version: version, date: date};
     }
 
-
     getUrl() {
         return `${this.baseUrl}/releases`;
     }
@@ -354,14 +369,6 @@ class GithubTagCommand extends GithubCommand {
 
     getUrl() {
         return `${this.baseUrl}/tags`;
-    }
-
-    getHeaders() {
-        return {
-            Accept: 'application/vnd.github.v3+json',
-            Authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
-            "User-Agent": 'MySyncScript/1.0'
-        };
     }
 }
 
@@ -716,26 +723,72 @@ class BitkeyCommand extends BaseCommand {
 }
 
 const commands = [
+
+    // Hardware Wallets
     new BitkeyCommand(),
-    new ElectrumCommand(),
+    new ColdcardMk4Command(),
+    new ColdcardQCommand(),
+    new CoolWalletProCommand(),
+    new GithubLatestReleaseCommand("cypherock-x1", "hardware-wallets", "Cypherock", "x1_wallet_firmware"),
+    new GithubLatestReleaseCommand("frostnap", "hardware-wallets", "frostsnap", "frostsnap"),
+    new GithubLatestReleaseCommand("keepkey", "hardware-wallets", "keepkey", "keepkey-firmware"),
+    new GithubLatestReleaseCommand("krux", "hardware-wallets", "selfcustody", "krux"),
+    new GithubLatestReleaseCommand("passport-batch-2", "hardware-wallets", "Foundation-Devices", "passport2"),
+    new GithubLatestReleaseCommand("portal", "hardware-wallets", "TwentyTwoHW", "portal-software"),
+    new GithubLatestReleaseCommand("prokey-optimum", "hardware-wallets", "prokey-io", "prokey-optimum-firmware"),
+    new GithubLatestReleaseCommand("satochip", "hardware-wallets", "Toporin", "SatochipApplet"),
+    new GithubLatestReleaseCommand("satochip-diy", "hardware-wallets", "Toporin", "SatochipApplet"),
+    new GithubLatestReleaseCommand("specter-diy", "hardware-wallets", "cryptoadvance", "specter-diy"),
     new GithubTagCommand("seedsigner", "hardware-wallets", "SeedSigner", "seedsigner"),
-    new ParmanodeCommand(),
+    new TrezorModelOneCommand(),
+    new TrezorModelTSafeCommand("trezor-model-t", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2T1.md"),
+    new TrezorModelTSafeCommand("trezor-safe-3", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2B1.md"),
+    new TrezorModelTSafeCommand("trezor-safe-3-btconly", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2B1.md"),
+    new TrezorModelTSafeCommand("trezor-safe-5", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T3T1.md"),
+    new TrezorModelTSafeCommand("trezor-safe-5-btconly", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T3T1.md"),
+
+    // Software Wallets
+    new GithubLatestReleaseCommand("aqua", "software-wallets", "AquaWallet", "aqua-wallet", ["android", "ios"]),
+    new GithubLatestReleaseCommand("bitcoin-core", "software-wallets", "bitcoin", "bitcoin", ["windows", "macos", "linux"]),
+    new GithubLatestReleaseCommand("bitcoin-keeper", "software-wallets", "bithyve", "bitcoin-keeper", ["android", "ios"]),
+    new GithubLatestReleaseCommand("bitcoin-keeper", "software-wallets", "bithyve", "keeper-desktop", ["linux", "macos", "windows"]),
+    new GithubLatestReleaseCommand("bitcoin-safe", "software-wallets", "andreasgriffin", "bitcoin-safe", ["linux", "macos", "windows"]),
+    new ElectrumCommand(),
+    new GithubLatestReleaseCommand("envoy", "software-wallets", "Foundation-Devices", "envoy", ["android", "ios"]),
+    new GithubLatestReleaseCommand("green", "software-wallets", "Blockstream", "green_qt", ["windows", "macos", "linux"]),
+    new GithubLatestReleaseCommand("green", "software-wallets", "Blockstream", "green_android", ["android"]),
+    new GithubLatestReleaseCommand("green", "software-wallets", "Blockstream", "green_ios", ["ios"]),
+    new GithubLatestReleaseCommand("liana", "software-wallets", "wizardsardine", "liana", ["windows", "macos", "linux"]),
+    new GithubLatestReleaseCommand("my-citadel", "software-wallets", "mycitadel", "mycitadel-desktop", ["windows", "macos", "linux"]),
+    new GithubLatestReleaseCommand("my-citadel", "software-wallets", "mycitadel", "mycitadel-apple", ["ios"]),
+    new MuunAndroidCommand(),
+    new GithubLatestReleaseCommand("nunchuk", "software-wallets", "nunchuk-io", "nunchuk-android", ["android"]),
+    new GithubLatestReleaseCommand("nunchuk", "software-wallets", "nunchuk-io", "nunchuk-desktop", ["windows", "macos", "linux"]),
+    new GithubLatestReleaseCommand("phoenix", "software-wallets", "ACINQ", "phoenix", ["android", "ios"]),
+    new GithubLatestReleaseCommand("simple-bitcoin-wallet", "software-wallets", "akumaigorodski", "wallet", ["android"]),
+    new GithubLatestReleaseCommand("sparrow", "software-wallets", "sparrowwallet", "sparrow", ["windows", "macos", "linux"]),
+    new GithubLatestReleaseCommand("specter", "software-wallets", "cryptoadvance", "specter-desktop", ["windows", "macos", "linux", "umbrel-os"]),
+    new GithubLatestReleaseCommand("specter", "software-wallets", "Start9Labs", "specter-startos", ["start-os"]),
+    new GithubLatestReleaseCommand("wasabi-wallet", "software-wallets", "zkSNACKs", "WalletWasabi", ["windows", "macos", "linux"]),
+    new GithubLatestReleaseCommand("zeus", "software-wallets", "ZeusLN", "zeus", ["android", "ios"]),
+    
+    // Bitcoin Nodes
+    new GithubLatestReleaseCommand("bitcoin-core", "bitcoin-nodes", "bitcoin", "bitcoin"),
+    new GithubLatestReleaseCommand("bitcoin-knots", "bitcoin-nodes", "bitcoinknots", "bitcoin"),
+    new GithubLatestReleaseCommand("minibolt", "bitcoin-nodes", "minibolt-guide", "minibolt"),
     new MyNodeCommand("mynode-community-edition"),
     new MyNodeCommand("mynode-model-one"),
     new MyNodeCommand("mynode-model-two"),
     new MyNodeCommand("mynode-premium"),
     new NodlCommand("nodl-one-mark-2", "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-one/www/changelog.txt?ref_type=heads"),
     new NodlCommand("nodl-two", "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/raw/nodl-two/www/changelog.txt?ref_type=heads"),
-    new CoolWalletProCommand(),
-    new ColdcardMk4Command(),
-    new ColdcardQCommand(),
-    new MuunAndroidCommand(),
-    new TrezorModelOneCommand(),
-    new TrezorModelTSafeCommand("trezor-model-t", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2T1.md"),
-    new TrezorModelTSafeCommand("trezor-safe-3", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2B1.md"),
-    new TrezorModelTSafeCommand("trezor-safe-3-btconly", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2B1.md"),
-    new TrezorModelTSafeCommand("trezor-safe-5", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T3T1.md"),
-    new TrezorModelTSafeCommand("trezor-safe-5-btconly", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T3T1.md")
+    new ParmanodeCommand(),
+    new GithubLatestReleaseCommand("raspiblitz", "bitcoin-nodes", "raspiblitz", "raspiblitz"),
+    new GithubLatestReleaseCommand("raspibolt", "bitcoin-nodes", "raspibolt", "raspibolt"),
+    new GithubLatestReleaseCommand("start9-diy", "bitcoin-nodes", "Start9Labs", "start-os"),
+    new GithubLatestReleaseCommand("start9-server-one", "bitcoin-nodes", "Start9Labs", "start-os"),
+    new GithubLatestReleaseCommand("start9-server-pure", "bitcoin-nodes", "Start9Labs", "start-os")
+
 ];
 
 async function runCommandsSequentially(commands) {
@@ -745,11 +798,15 @@ async function runCommandsSequentially(commands) {
             const result = command.execute()
             checkRelease(result.itemType, result.itemId, result.platforms, result.version, result.date);
         } catch (error) {
-            console.log(`❌ ${command.itemId} error: ${error.message}`);
+            var platforms = ""
+            if (command.platforms != undefined) {
+                platforms = ` (${command.platforms})`
+            }
+            console.log(`❌ ${command.itemType} - ${command.itemId}${platforms}: ${error.message}`);
             hadErrors = true;
         }
 
-        await sleep(3000);
+        await sleep(5000);
     };
 
     if (hadErrors) {

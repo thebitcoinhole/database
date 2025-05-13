@@ -1,39 +1,4 @@
 {
-  "aqua": {
-    "item-id": "aqua",
-    "github-org": "AquaWallet",
-    "github-repo": "aqua-wallet",
-    "platforms": ["android", "ios"],
-    "latest-release": true
-  },
-  "bitcoin-core": {
-    "item-id": "bitcoin-core",
-    "github-org": "bitcoin",
-    "github-repo": "bitcoin",
-    "platforms": ["windows", "macos", "linux"],
-    "latest-release": true
-  },
-  "bitcoin-keeper": {
-    "item-id": "bitcoin-keeper",
-    "github-org": "bithyve",
-    "github-repo": "bitcoin-keeper",
-    "platforms": ["android", "ios"],
-    "latest-release": true
-  },
-  "bitcoin-keeper-desktop": {
-    "item-id": "bitcoin-keeper",
-    "github-org": "bithyve",
-    "github-repo": "keeper-desktop",
-    "platforms": ["linux", "macos", "windows"],
-    "latest-release": true
-  },
-  "bitcoin-safektop": {
-    "item-id": "bitcoin-safe",
-    "github-org": "andreasgriffin",
-    "github-repo": "bitcoin-safe",
-    "platforms": ["linux", "macos", "windows"],
-    "latest-release": true
-  },
   "blueWallet-android": {
     "item-id": "bluewallet",
     "github-org": "BlueWallet",
@@ -65,75 +30,12 @@
     "platforms": ["android", "ios"],
     "latest-release": true
   },
-  "green-desktop": {
-    "item-id": "green",
-    "github-org": "Blockstream",
-    "github-repo": "green_qt",
-    "platforms": ["windows", "macos", "linux"],
-    "latest-release": true
-  },
-  "green-android": {
-    "item-id": "green",
-    "github-org": "Blockstream",
-    "github-repo": "green_android",
-    "platforms": ["android"],
-    "latest-release": true
-  },
-  "green-ios": {
-    "item-id": "green",
-    "github-org": "Blockstream",
-    "github-repo": "green_ios",
-    "platforms": ["ios"],
-    "latest-release": true
-  },
-  "liana": {
-    "item-id": "liana",
-    "github-org": "wizardsardine",
-    "github-repo": "liana",
-    "platforms": ["windows", "macos", "linux"],
-    "latest-release": true
-  },
   "muun-ios": {
     "item-id": "muun",
     "github-org": "muun",
     "github-repo": "falcon",
     "tag": true,
     "platforms": ["ios"]
-  },
-  "my-citadel-desktop": {
-    "item-id": "my-citadel",
-    "github-org": "mycitadel",
-    "github-repo": "mycitadel-desktop",
-    "platforms": ["windows", "macos", "linux"],
-    "latest-release": true
-  },
-  "my-citadel-ios": {
-    "item-id": "my-citadel",
-    "github-org": "mycitadel",
-    "github-repo": "mycitadel-apple",
-    "platforms": ["ios"],
-    "latest-release": true
-  },
-  "nunchuk-android": {
-    "item-id": "nunchuk",
-    "github-org": "nunchuk-io",
-    "github-repo": "nunchuk-android",
-    "platforms": ["android"],
-    "latest-release": true
-  },
-  "nunchuk-desktop": {
-    "item-id": "nunchuk",
-    "github-org": "nunchuk-io",
-    "github-repo": "nunchuk-desktop",
-    "platforms": ["windows", "macos", "linux"],
-    "latest-release": true
-  },
-  "phoenix": {
-    "item-id": "phoenix",
-    "github-org": "ACINQ",
-    "github-repo": "phoenix",
-    "platforms": ["android", "ios"],
-    "latest-release": true
   },
   "proton-wallet": {
     "item-id": "proton-wallet",
@@ -142,35 +44,6 @@
     "platforms": ["android"],
     "tag": true
   },
-  "simple-bitcoin-wallet": {
-    "item-id": "simple-bitcoin-wallet",
-    "github-org": "akumaigorodski",
-    "github-repo": "wallet",
-    "platforms": ["android"],
-    "latest-release": true
-  },
-  "sparrow": {
-    "item-id": "sparrow",
-    "github-org": "sparrowwallet",
-    "github-repo": "sparrow",
-    "platforms": ["windows", "macos", "linux"],
-    "latest-release": true
-  },
-  "specter": {
-    "item-id": "specter",
-    "github-org": "cryptoadvance",
-    "github-repo": "specter-desktop",
-    "platforms": ["windows", "macos", "linux", "umbrel-os"],
-    "latest-release": true
-  },
-  "specter-start-os": {
-    "enabled": false,
-    "item-id": "specter",
-    "github-org": "Start9Labs",
-    "github-repo": "specter-startos",
-    "platforms": ["start-os"],
-    "latest-release": true
-  },
   "stack-wallet": {
     "item-id": "stack-wallet",
     "github-org": "cypherstack",
@@ -178,19 +51,5 @@
     "platforms": ["android", "ios", "windows", "macos", "linux"],
     "all-releases": true,
     "all-releases-include": "Stack Wallet"
-  },
-  "wasabi": {
-    "item-id": "wasabi-wallet",
-    "github-org": "zkSNACKs",
-    "github-repo": "WalletWasabi",
-    "platforms": ["windows", "macos", "linux"],
-    "latest-release": true
-  },
-  "zeus": {
-    "item-id": "zeus",
-    "github-org": "ZeusLN",
-    "github-repo": "zeus",
-    "platforms": ["android", "ios"],
-    "latest-release": true
   }
 }

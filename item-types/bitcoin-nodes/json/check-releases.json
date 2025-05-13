@@ -1,56 +1,8 @@
 {
-    "bitcoin-core": {
-      "item-id": "bitcoin-core",
-      "github-org": "bitcoin",
-      "github-repo": "bitcoin",
-      "latest-release": true
-    },
-    "bitcoin-knots": {
-      "item-id": "bitcoin-knots",
-      "github-org": "bitcoinknots",
-      "github-repo": "bitcoin",
-      "latest-release": true
-    },
     "citadel": {
       "item-id": "citadel",
       "gitlab-project-id": "48888641",
       "tag": true
-    },
-    "minibolt": {
-      "item-id": "minibolt",
-      "github-org": "minibolt-guide",
-      "github-repo": "minibolt",
-      "latest-release": true
-    },
-    "raspiblitz": {
-      "item-id": "raspiblitz",
-      "github-org": "raspiblitz",
-      "github-repo": "raspiblitz",
-      "latest-release": true
-    },
-    "raspibolt": {
-      "item-id": "raspibolt",
-      "github-org": "raspibolt",
-      "github-repo": "raspibolt",
-      "latest-release": true
-    },
-    "start9-diy": {
-      "item-id": "start9-diy",
-      "github-org": "Start9Labs",
-      "github-repo": "start-os",
-      "latest-release": true
-    },
-    "start9-server-one": {
-      "item-id": "start9-server-one",
-      "github-org": "Start9Labs",
-      "github-repo": "start-os",
-      "latest-release": true
-    },
-    "start9-server-pure": {
-      "item-id": "start9-server-pure",
-      "github-org": "Start9Labs",
-      "github-repo": "start-os",
-      "latest-release": true
     },
     "umbrel-diy": {
       "item-id": "umbrel-diy",
