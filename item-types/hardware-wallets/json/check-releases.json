@@ -1,30 +1,10 @@
 {
-    "bitbox02-btconly": {
-      "item-id": "bitbox02-btconly",
-      "github-org": "digitalbitbox",
-      "github-repo": "bitbox02-firmware",
-      "all-releases": true,
-      "all-releases-include": "Bitcoin-only"
-    },
-    "bitbox02-multi": {
-      "item-id": "bitbox02-multi",
-      "github-org": "digitalbitbox",
-      "github-repo": "bitbox02-firmware",
-      "all-releases": true,
-      "all-releases-include": "Multi"
-    },
+
     "cypherock-x1": {
       "item-id": "cypherock-x1",
       "github-org": "Cypherock",
       "github-repo": "x1_wallet_firmware",
       "latest-release": true
-    },
-    "gridplus-lattice1": {
-      "item-id": "gridplus-lattice1",
-      "github-org": "GridPlus",
-      "github-repo": "lattice-software-releases",
-      "all-releases": true,
-      "all-releases-include": "HSM-"
     },
     "jade": {
       "item-id": "jade",
@@ -43,34 +23,6 @@
       "github-org": "Blockstream",
       "github-repo": "Jade",
       "tag": true
-    },
-    "keystone-3-pro": {
-      "item-id": "keystone-3-pro",
-      "github-org": "KeystoneHQ",
-      "github-repo": "keystone3-firmware",
-      "all-releases": true,
-      "all-releases-include": "-BTC"
-    },
-    "onekey-classic-1s": {
-      "item-id": "onekey-classic-1s",
-      "github-org": "OneKeyHQ",
-      "github-repo": "firmware",
-      "all-releases": true,
-      "all-releases-include": "classic"
-    },
-    "onekey-classic-1s-pure": {
-      "item-id": "onekey-classic-1s-pure",
-      "github-org": "OneKeyHQ",
-      "github-repo": "firmware",
-      "all-releases": true,
-      "all-releases-include": "classic"
-    },
-    "onekey-pro": {
-      "item-id": "onekey-pro",
-      "github-org": "OneKeyHQ",
-      "github-repo": "firmware",
-      "all-releases": true,
-      "all-releases-include": "touch"
     }
   }
   

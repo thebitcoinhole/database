@@ -3,20 +3,6 @@
       "item-id": "citadel",
       "gitlab-project-id": "48888641",
       "tag": true
-    },
-    "umbrel-diy": {
-      "item-id": "umbrel-diy",
-      "github-org": "getumbrel",
-      "github-repo": "umbrel",
-      "all-releases": true,
-      "all-releases-include": "umbrel"
-    },
-    "umbrel-home": {
-      "item-id": "umbrel-home",
-      "github-org": "getumbrel",
-      "github-repo": "umbrel",
-      "all-releases": true,
-      "all-releases-include": "umbrel"
     }
   }
   

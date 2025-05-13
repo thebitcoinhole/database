@@ -172,9 +172,6 @@ class BaseCommand {
             // Bitcoin Keeper
             version = version.replace(/^Keeper Desktop /, '');
 
-            // My Cytadel: Version 1.5 (Blazing Venus)
-            version = version.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
-
             // Zeuz: v0.8.5-hotfix
             version = version.replace(/-hotfix$/, '');
 
@@ -300,11 +297,12 @@ class GithubLatestReleaseCommand extends GithubCommand {
 
 class GithubAllReleasesCommand extends GithubCommand {
 
-    constructor(itemId, itemType, githubOwner, githubRepo, allReleasesInclude, allReleasesExclude, assetsMatch) {
+    constructor(itemId, itemType, githubOwner, githubRepo, platforms = undefined, allReleasesInclude = undefined, allReleasesExclude = undefined, assetsMatch = undefined) {
         super(itemId, itemType, githubOwner, githubRepo);
         this.allReleasesInclude = allReleasesInclude
         this.allReleasesExclude = allReleasesExclude
         this.assetsMatch = assetsMatch
+        this.platforms = platforms
     }
 
     parseRelease(data) {
@@ -346,6 +344,10 @@ class GithubAllReleasesCommand extends GithubCommand {
 
     getUrl() {
         return `${this.baseUrl}/releases`;
+    }
+
+    getPlatforms() {
+        return this.platforms;
     }
 }
 
@@ -722,17 +724,36 @@ class BitkeyCommand extends BaseCommand {
     }
 }
 
+class MyCitadelCommand extends GithubCommand {
+
+    constructor(githubRepo, platforms) {
+        super("my-citadel", "software-wallets", "mycitadel", githubRepo, platforms);
+    }
+
+    sanitizeVersion(version) {
+        return version.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
+    }
+
+}
+
 const commands = [
 
     // Hardware Wallets
+    new GithubAllReleasesCommand("bitbox02-btconly", "hardware-wallets", "digitalbitbox", "bitbox02-firmware", undefined, "Bitcoin-only"),
+    new GithubAllReleasesCommand("bitbox02-multi", "hardware-wallets", "digitalbitbox", "bitbox02-firmware", undefined, "Multi"),
     new BitkeyCommand(),
     new ColdcardMk4Command(),
     new ColdcardQCommand(),
     new CoolWalletProCommand(),
     new GithubLatestReleaseCommand("cypherock-x1", "hardware-wallets", "Cypherock", "x1_wallet_firmware"),
     new GithubLatestReleaseCommand("frostnap", "hardware-wallets", "frostsnap", "frostsnap"),
+    new GithubAllReleasesCommand("gridplus-lattice1", "hardware-wallets", "GridPlus", "lattice-software-releases", undefined, "HSM-"),
     new GithubLatestReleaseCommand("keepkey", "hardware-wallets", "keepkey", "keepkey-firmware"),
+    new GithubAllReleasesCommand("keystone-3-pro", "hardware-wallets", "KeystoneHQ", "keystone3-firmware", undefined, "-BTC"),
     new GithubLatestReleaseCommand("krux", "hardware-wallets", "selfcustody", "krux"),
+    new GithubAllReleasesCommand("onekey-classic-1s", "hardware-wallets", "OneKeyHQ", "firmware", undefined, "classic"),
+    new GithubAllReleasesCommand("onekey-classic-1s-pure", "hardware-wallets", "OneKeyHQ", "firmware", undefined, "classic"),
+    new GithubAllReleasesCommand("onekey-pro", "hardware-wallets", "OneKeyHQ", "firmware", undefined, "touch"),
     new GithubLatestReleaseCommand("passport-batch-2", "hardware-wallets", "Foundation-Devices", "passport2"),
     new GithubLatestReleaseCommand("portal", "hardware-wallets", "TwentyTwoHW", "portal-software"),
     new GithubLatestReleaseCommand("prokey-optimum", "hardware-wallets", "prokey-io", "prokey-optimum-firmware"),
@@ -746,7 +767,7 @@ const commands = [
     new TrezorModelTSafeCommand("trezor-safe-3-btconly", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T2B1.md"),
     new TrezorModelTSafeCommand("trezor-safe-5", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T3T1.md"),
     new TrezorModelTSafeCommand("trezor-safe-5-btconly", "https://raw.githubusercontent.com/trezor/trezor-firmware/refs/heads/main/core/CHANGELOG.T3T1.md"),
-
+    
     // Software Wallets
     new GithubLatestReleaseCommand("aqua", "software-wallets", "AquaWallet", "aqua-wallet", ["android", "ios"]),
     new GithubLatestReleaseCommand("bitcoin-core", "software-wallets", "bitcoin", "bitcoin", ["windows", "macos", "linux"]),
@@ -759,8 +780,8 @@ const commands = [
     new GithubLatestReleaseCommand("green", "software-wallets", "Blockstream", "green_android", ["android"]),
     new GithubLatestReleaseCommand("green", "software-wallets", "Blockstream", "green_ios", ["ios"]),
     new GithubLatestReleaseCommand("liana", "software-wallets", "wizardsardine", "liana", ["windows", "macos", "linux"]),
-    new GithubLatestReleaseCommand("my-citadel", "software-wallets", "mycitadel", "mycitadel-desktop", ["windows", "macos", "linux"]),
-    new GithubLatestReleaseCommand("my-citadel", "software-wallets", "mycitadel", "mycitadel-apple", ["ios"]),
+    new MyCitadelCommand("mycitadel-desktop", ["windows", "macos", "linux"]),
+    new MyCitadelCommand("mycitadel-apple", ["ios"]),
     new MuunAndroidCommand(),
     new GithubLatestReleaseCommand("nunchuk", "software-wallets", "nunchuk-io", "nunchuk-android", ["android"]),
     new GithubLatestReleaseCommand("nunchuk", "software-wallets", "nunchuk-io", "nunchuk-desktop", ["windows", "macos", "linux"]),
@@ -771,7 +792,11 @@ const commands = [
     new GithubLatestReleaseCommand("specter", "software-wallets", "Start9Labs", "specter-startos", ["start-os"]),
     new GithubLatestReleaseCommand("wasabi-wallet", "software-wallets", "zkSNACKs", "WalletWasabi", ["windows", "macos", "linux"]),
     new GithubLatestReleaseCommand("zeus", "software-wallets", "ZeusLN", "zeus", ["android", "ios"]),
-    
+    new GithubAllReleasesCommand("bluewallet", "mobile-wallets", "BlueWallet", "BlueWallet", ["android"], undefined, undefined, "apk"),
+    new GithubAllReleasesCommand("bluewallet", "mobile-wallets", "BlueWallet", "BlueWallet", ["ios"], undefined, undefined, "ipa"),
+    new GithubAllReleasesCommand("bluewallet", "mobile-wallets", "BlueWallet", "BlueWallet", ["macos"], undefined, undefined, "dmg"),
+    new GithubAllReleasesCommand("stack-wallet", "mobile-wallets", "cypherstack", "stack_wallet", ["android", "ios", "windows", "macos", "linux"], "Stack Wallet"),
+
     // Bitcoin Nodes
     new GithubLatestReleaseCommand("bitcoin-core", "bitcoin-nodes", "bitcoin", "bitcoin"),
     new GithubLatestReleaseCommand("bitcoin-knots", "bitcoin-nodes", "bitcoinknots", "bitcoin"),
@@ -787,8 +812,10 @@ const commands = [
     new GithubLatestReleaseCommand("raspibolt", "bitcoin-nodes", "raspibolt", "raspibolt"),
     new GithubLatestReleaseCommand("start9-diy", "bitcoin-nodes", "Start9Labs", "start-os"),
     new GithubLatestReleaseCommand("start9-server-one", "bitcoin-nodes", "Start9Labs", "start-os"),
-    new GithubLatestReleaseCommand("start9-server-pure", "bitcoin-nodes", "Start9Labs", "start-os")
-
+    new GithubLatestReleaseCommand("start9-server-pure", "bitcoin-nodes", "Start9Labs", "start-os"),
+    new GithubAllReleasesCommand("umbrel-diy", "bitcoin-nodes", "getumbrel", "umbrel", undefined, "umbrel"),
+    new GithubAllReleasesCommand("umbrel-home", "bitcoin-nodes", "getumbrel", "umbrel", undefined, "umbrel")
+    
 ];
 
 async function runCommandsSequentially(commands) {

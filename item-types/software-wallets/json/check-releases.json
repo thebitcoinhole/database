@@ -1,35 +1,4 @@
 {
-  "blueWallet-android": {
-    "item-id": "bluewallet",
-    "github-org": "BlueWallet",
-    "github-repo": "BlueWallet",
-    "platforms": ["android"],
-    "all-releases": true,
-    "assets-match": "apk"
-  },
-  "blueWallet-ios": {
-    "item-id": "bluewallet",
-    "github-org": "BlueWallet",
-    "github-repo": "BlueWallet",
-    "platforms": ["ios"],
-    "all-releases": true,
-    "assets-match": "ipa"
-  },
-  "blueWallet-macos": {
-    "item-id": "bluewallet",
-    "github-org": "BlueWallet",
-    "github-repo": "BlueWallet",
-    "platforms": ["macos"],
-    "all-releases": true,
-    "assets-match": "dmg"
-  },
-  "envoy": {
-    "item-id": "envoy",
-    "github-org": "Foundation-Devices",
-    "github-repo": "envoy",
-    "platforms": ["android", "ios"],
-    "latest-release": true
-  },
   "muun-ios": {
     "item-id": "muun",
     "github-org": "muun",
@@ -43,13 +12,5 @@
     "github-repo": "flutter-app",
     "platforms": ["android"],
     "tag": true
-  },
-  "stack-wallet": {
-    "item-id": "stack-wallet",
-    "github-org": "cypherstack",
-    "github-repo": "stack_wallet",
-    "platforms": ["android", "ios", "windows", "macos", "linux"],
-    "all-releases": true,
-    "all-releases-include": "Stack Wallet"
   }
 }
