@@ -13,3 +13,8 @@
 - May 12, 2025 - v1.3.0 (linux) - https://github.com/andreasgriffin/bitcoin-safe/releases
 - May 12, 2025 - v1.3.0 (macos) - https://github.com/andreasgriffin/bitcoin-safe/releases
 - May 12, 2025 - v1.3.0 (windows) - https://github.com/andreasgriffin/bitcoin-safe/releases
+### bluewallet
+- May 13, 2025 - v7.1.8 (android) - https://github.com/BlueWallet/BlueWallet/releases
+- May 13, 2025 - v7.1.8 (macos) - https://github.com/BlueWallet/BlueWallet/releases
+### nunchuk
+- May 13, 2025 - v1.68 (android) - https://github.com/nunchuk-io/nunchuk-android/releases
