@@ -121,44 +121,7 @@ class BaseCommand {
         version = version.replace(/^Release\s*/, '');
         version = version.replace(/^release_/, '');
         version = version.replace(/^v\./, '');
-
-        // TODO Move this to each command
-        if (this.itemType == "software-wallets") {
-
-            // Bitcoin Core
-            version = version.replace(/^Bitcoin Core /, '');
-
-            // Bitcoin Keeper
-            version = version.replace(/^Keeper Desktop /, '');
-
-            // Zeuz: v0.8.5-hotfix
-            version = version.replace(/-hotfix$/, '');
-
-            // Proton Wallet: v1.0.0+58
-            version = version.replace(/\+\d+$/, '');
-
-            // Nunchuk: android.1.9.46
-            version = version.replace(/^android./, '');
-
-            // Phoenix
-            if (this.itemId == "phoenix") {
-                version = version.replace(/^Android /, '');
-                version = version.replace(/^Phoenix Android /, '');
-                version = version.replace(/^Phoenix /, '');
-                version = version.replace(/^Phoenix Android\/iOS /, '');
-            }
-
-            // Specter
-            version = version.replace(/^Specter /, '');
-
-            // Stack Wallet
-            version = version.replace(/^Stack Wallet /, '');
-
-            // Wasabi v2.0.4 - Faster Than Fast Latest
-            version = version.replace(/^Wasabi v(\d+(\.\d+)+) - .*$/, '$1');
-            version = version.replace(/^Wasabi Wallet v(\d+(\.\d+)+) - .*$/, '$1');
-            version = version.replace(/^Wasabi Wallet v(\d+(\.\d+)+)*$/, '$1');
-        }
+        version = version.replace(/-hotfix$/, '');
 
         // For example: "2023-09-08T2009-v5.1.4"
         if (!this.isPreReleaseSupported()) {
@@ -831,10 +794,35 @@ const commands = [
 
     // Software Wallets
     new GithubLatestReleaseCommand("aqua", "software-wallets", "AquaWallet", "aqua-wallet", ["android", "ios"]),
-    new GithubLatestReleaseCommand("bitcoin-core", "software-wallets", "bitcoin", "bitcoin", ["windows", "macos", "linux"]),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("bitcoin-core", "software-wallets", "bitcoin", "bitcoin", ["windows", "macos", "linux"]);
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^Bitcoin Core /, '');
+        }
+    })(),
     new GithubLatestReleaseCommand("bitcoin-keeper", "software-wallets", "bithyve", "bitcoin-keeper", ["android", "ios"]),
-    new GithubLatestReleaseCommand("bitcoin-keeper", "software-wallets", "bithyve", "keeper-desktop", ["linux", "macos", "windows"]),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("bitcoin-keeper", "software-wallets", "bithyve", "keeper-desktop", ["linux", "macos", "windows"]);
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^Keeper Desktop /, '');
+        }
+    })(),
     new GithubLatestReleaseCommand("bitcoin-safe", "software-wallets", "andreasgriffin", "bitcoin-safe", ["linux", "macos", "windows"]),
+    new GithubAllReleasesCommand("bluewallet", "software-wallets", "BlueWallet", "BlueWallet", ["android"], undefined, undefined, "apk"),
+    new GithubAllReleasesCommand("bluewallet", "software-wallets", "BlueWallet", "BlueWallet", ["ios"], undefined, undefined, "ipa"),
+    new GithubAllReleasesCommand("bluewallet", "software-wallets", "BlueWallet", "BlueWallet", ["macos"], undefined, undefined, "dmg"),
+    new (class extends GithubAllReleasesCommand {
+        constructor() {
+            super("stack-wallet", "software-wallets", "cypherstack", "stack_wallet", ["android", "ios", "windows", "macos", "linux"], "Stack Wallet");
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^Stack Wallet /, '');
+        }
+    })(), 
     new ElectrumCommand(),
     new GithubLatestReleaseCommand("envoy", "software-wallets", "Foundation-Devices", "envoy", ["android", "ios"]),
     new GithubLatestReleaseCommand("green", "software-wallets", "Blockstream", "green_qt", ["windows", "macos", "linux"]),
@@ -845,21 +833,58 @@ const commands = [
     new MyCitadelCommand("mycitadel-apple", ["ios"]),
     new MuunAndroidCommand(),
     new MuuniOSCommand(),
-    new GithubLatestReleaseCommand("nunchuk", "software-wallets", "nunchuk-io", "nunchuk-android", ["android"]),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("nunchuk", "software-wallets", "nunchuk-io", "nunchuk-android", ["android"]);
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^android\./, '');
+        }
+    })(),
     new GithubLatestReleaseCommand("nunchuk", "software-wallets", "nunchuk-io", "nunchuk-desktop", ["windows", "macos", "linux"]),
-    new GithubLatestReleaseCommand("phoenix", "software-wallets", "ACINQ", "phoenix", ["android", "ios"]),
-    new GithubTagCommand("proton-wallet", "software-wallets", "ProtonWallet", "flutter-app", ["android"]),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("phoenix", "software-wallets", "ACINQ", "phoenix", ["android", "ios"]);
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^Android /, '')
+                        .replace(/^Phoenix Android /, '')
+                        .replace(/^Phoenix /, '')
+                        .replace(/^Phoenix Android\/iOS /, '');
+        }
+    })(),
+    new (class extends GithubTagCommand {
+        constructor() {
+            super("proton-wallet", "software-wallets", "ProtonWallet", "flutter-app", ["android"]);
+        }
+        sanitizeVersion(version) {
+            return version.replace(/\+\d+$/, '');
+        }
+    })(),
     new GithubLatestReleaseCommand("simple-bitcoin-wallet", "software-wallets", "akumaigorodski", "wallet", ["android"]),
     new GithubLatestReleaseCommand("sparrow", "software-wallets", "sparrowwallet", "sparrow", ["windows", "macos", "linux"]),
-    new GithubLatestReleaseCommand("specter", "software-wallets", "cryptoadvance", "specter-desktop", ["windows", "macos", "linux", "umbrel-os"]),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("specter", "software-wallets", "cryptoadvance", "specter-desktop", ["windows", "macos", "linux", "umbrel-os"]);
+        }
+        sanitizeVersion(version) {
+            return version.replace(/^Specter /, '');
+        }
+    })(),
     new GithubLatestReleaseCommand("specter", "software-wallets", "Start9Labs", "specter-startos", ["start-os"]),
-    new GithubLatestReleaseCommand("wasabi-wallet", "software-wallets", "zkSNACKs", "WalletWasabi", ["windows", "macos", "linux"]),
+    new (class extends GithubLatestReleaseCommand {
+        constructor() {
+            super("wasabi-wallet", "software-wallets", "zkSNACKs", "WalletWasabi", ["windows", "macos", "linux"]);
+        }
+        sanitizeVersion(version) {
+            return version
+            .replace(/^Wasabi v(\d+(\.\d+)+) - .*$/, '$1')
+            .replace(/^Wasabi Wallet v(\d+(\.\d+)+) - .*$/, '$1')
+            .replace(/^Wasabi Wallet v(\d+(\.\d+)+)*$/, '$1');
+        }
+    })(),    
     new GithubLatestReleaseCommand("zeus", "software-wallets", "ZeusLN", "zeus", ["android", "ios"]),
-    new GithubAllReleasesCommand("bluewallet", "software-wallets", "BlueWallet", "BlueWallet", ["android"], undefined, undefined, "apk"),
-    new GithubAllReleasesCommand("bluewallet", "software-wallets", "BlueWallet", "BlueWallet", ["ios"], undefined, undefined, "ipa"),
-    new GithubAllReleasesCommand("bluewallet", "software-wallets", "BlueWallet", "BlueWallet", ["macos"], undefined, undefined, "dmg"),
-    new GithubAllReleasesCommand("stack-wallet", "software-wallets", "cypherstack", "stack_wallet", ["android", "ios", "windows", "macos", "linux"], "Stack Wallet"),
-    
+
     // Bitcoin Nodes
     new (class extends GithubLatestReleaseCommand {
         constructor() {
