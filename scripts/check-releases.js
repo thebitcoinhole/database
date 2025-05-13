@@ -34,8 +34,8 @@ class BaseCommand {
         let release;
     
         try {
-            const res = await axios.get(this.getUrl(), { headers: this.getHeaders() });
-            release = this.parseRelease(res.data);
+            const data = await this.fetchWithRetry(this.getUrl(), this.getHeaders());
+            release = this.parseRelease(data);
         } catch (err) {
             throw new Error(`${err.message}`);
         }
@@ -78,6 +78,22 @@ class BaseCommand {
             version: release.version,
             date: release.date
         };
+    }
+
+    async fetchWithRetry(url, headers, retries = 3, delayMs = 3000) {
+        for (let i = 0; i < retries; i++) {
+            try {
+                const res = await axios.get(url, { headers });
+                return res.data;
+            } catch (err) {
+                if (err.response?.status === 429 && i < retries - 1) {
+                    console.warn(`429 received. Retrying in ${delayMs}ms...`);
+                    await sleep(delayMs);
+                } else {
+                    throw err;
+                }
+            }
+        }
     }
 
     parseRelease(data) {
@@ -729,7 +745,9 @@ class MyCitadelCommand extends GithubLatestReleaseCommand {
     }
 
     sanitizeVersion(version) {
-        return version.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
+        version = version.replace(/^Version (\d+(\.\d+)+) \(.*\)$/, '$1');
+        version = version.replace(/^Release /, '');
+        return version
     }
 
 }
@@ -836,8 +854,6 @@ async function runCommandsSequentially(commands) {
             console.log(`❌ ${command.itemType} - ${command.itemId}${platforms}: ${error.message}`);
             hadErrors = true;
         }
-
-        await sleep(1000);
     };
 
     if (hadErrors) {
