@@ -1,6 +1,6 @@
 const fs = require('fs');
 const { exit } = require('process');
-const request = require('sync-request')
+const axios = require('axios');
 const util = require('util');
 const path = require('path');
 const cheerio = require('cheerio');
@@ -29,14 +29,13 @@ class BaseCommand {
         this.itemType = itemType;
     }
 
-    execute() {
+    async execute() {
         console.log("Request url: " + this.getUrl());
         let release;
     
         try {
-            const res = request('GET', this.getUrl(), { headers: this.getHeaders() });            
-            const data = res.getBody('utf8');
-            release = this.parseRelease(data);
+            const res = await axios.get(this.getUrl(), { headers: this.getHeaders() });
+            release = this.parseRelease(res.data);
         } catch (err) {
             throw new Error(`${err.message}`);
         }
@@ -278,12 +277,11 @@ class GithubLatestReleaseCommand extends GithubCommand {
 
     parseRelease(data) {
         console.log("Using latest releases API")
-        const json = JSON.parse(data)
-        var date = getDate(json.published_at)
-        var version = json.name.trim()
+        var date = getDate(data.published_at)
+        var version = data.name.trim()
         console.log("Release name: " + version)
         if (version === undefined || version === "") {
-            version = json.tag_name.trim()
+            version = data.tag_name.trim()
             console.log("Tag name: " + version)
         }
         return { version: version, date: date};
@@ -308,7 +306,7 @@ class GithubAllReleasesCommand extends GithubCommand {
         console.log("Using releases API")
         var version
         var date
-        JSON.parse(data).forEach((release) => {
+        data.forEach((release) => {
             if (version === undefined) {
                 var match = false
                 if (this.allReleasesInclude != undefined) {
@@ -317,7 +315,7 @@ class GithubAllReleasesCommand extends GithubCommand {
                     match = !release.name.toLowerCase().includes(this.allReleasesExclude.toLowerCase())
                 } else if (this.assetsMatch != undefined) {
                     release.assets.forEach((asset) => {
-                        if (asset.name.endsWith(assetsMatch)) {
+                        if (asset.name.endsWith(this.assetsMatch)) {
                             match = true
                         }
                     });
@@ -326,7 +324,6 @@ class GithubAllReleasesCommand extends GithubCommand {
                     exit(1);
                 }
                 if (match) {
-                    body = release.body
                     date = getDate(release.published_at)
                     //assets = release.assets
                     version = release.name.trim()
@@ -354,7 +351,7 @@ class GithubTagCommand extends GithubCommand {
 
     parseRelease(data) {
         var version
-        for (const tag of JSON.parse(data)) {
+        for (const tag of data) {
             if (version == undefined && !tag.name.trim().includes("$(MARKETING_VERSION)")) {
                 version = tag.name.trim()
             }
@@ -798,10 +795,10 @@ const commands = [
     new GithubLatestReleaseCommand("specter", "software-wallets", "Start9Labs", "specter-startos", ["start-os"]),
     new GithubLatestReleaseCommand("wasabi-wallet", "software-wallets", "zkSNACKs", "WalletWasabi", ["windows", "macos", "linux"]),
     new GithubLatestReleaseCommand("zeus", "software-wallets", "ZeusLN", "zeus", ["android", "ios"]),
-    new GithubAllReleasesCommand("bluewallet", "mobile-wallets", "BlueWallet", "BlueWallet", ["android"], undefined, undefined, "apk"),
-    new GithubAllReleasesCommand("bluewallet", "mobile-wallets", "BlueWallet", "BlueWallet", ["ios"], undefined, undefined, "ipa"),
-    new GithubAllReleasesCommand("bluewallet", "mobile-wallets", "BlueWallet", "BlueWallet", ["macos"], undefined, undefined, "dmg"),
-    new GithubAllReleasesCommand("stack-wallet", "mobile-wallets", "cypherstack", "stack_wallet", ["android", "ios", "windows", "macos", "linux"], "Stack Wallet"),
+    new GithubAllReleasesCommand("bluewallet", "software-wallets", "BlueWallet", "BlueWallet", ["android"], undefined, undefined, "apk"),
+    new GithubAllReleasesCommand("bluewallet", "software-wallets", "BlueWallet", "BlueWallet", ["ios"], undefined, undefined, "ipa"),
+    new GithubAllReleasesCommand("bluewallet", "software-wallets", "BlueWallet", "BlueWallet", ["macos"], undefined, undefined, "dmg"),
+    new GithubAllReleasesCommand("stack-wallet", "software-wallets", "cypherstack", "stack_wallet", ["android", "ios", "windows", "macos", "linux"], "Stack Wallet"),
     
     // Bitcoin Nodes
     new GithubLatestReleaseCommand("bitcoin-core", "bitcoin-nodes", "bitcoin", "bitcoin"),
@@ -829,7 +826,7 @@ async function runCommandsSequentially(commands) {
     let hadErrors = false;
     for (const command of commands) {
         try {
-            const result = command.execute()
+            const result = await command.execute();
             checkRelease(result.itemType, result.itemId, result.platforms, result.version, result.date);
         } catch (error) {
             var platforms = ""
@@ -840,7 +837,7 @@ async function runCommandsSequentially(commands) {
             hadErrors = true;
         }
 
-        await sleep(5000);
+        await sleep(1000);
     };
 
     if (hadErrors) {
