@@ -639,6 +639,17 @@ class MuunAndroidCommand extends FirstLineChangeLogCommand {
     }
 }
 
+class MuuniOSCommand extends GithubTagCommand {
+
+    constructor() {
+        super("muun", "software-wallets", "muun", "falcon", ["ios"]);
+    }
+
+    sanitizeVersion(version) {
+        return version.split("-")[0]
+    }
+}
+
 class ElectrumCommand extends FirstLineChangeLogCommand {
 
     constructor() {
@@ -802,7 +813,7 @@ const commands = [
     new MyCitadelCommand("mycitadel-desktop", ["windows", "macos", "linux"]),
     new MyCitadelCommand("mycitadel-apple", ["ios"]),
     new MuunAndroidCommand(),
-    new GithubTagCommand("muun", "software-wallets", "muun", "falcon", ["ios"]),
+    new MuuniOSCommand(),
     new GithubLatestReleaseCommand("nunchuk", "software-wallets", "nunchuk-io", "nunchuk-android", ["android"]),
     new GithubLatestReleaseCommand("nunchuk", "software-wallets", "nunchuk-io", "nunchuk-desktop", ["windows", "macos", "linux"]),
     new GithubLatestReleaseCommand("phoenix", "software-wallets", "ACINQ", "phoenix", ["android", "ios"]),
