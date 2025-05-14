@@ -365,7 +365,7 @@
         "You can create, reset, erase device w/ the PIN. There's also a self-destroy function after 10 times wrong tries."
       ]
     },
-    "login-countdown": {
+    "time-delay-to-unlock": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

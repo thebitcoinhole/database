@@ -505,10 +505,10 @@
       ]
     },
     "android-latest-version": {
-      "value": "v7.1.5"
+      "value": "v7.1.8"
     },
     "android-latest-release-date": {
-      "value": "Mar 27, 2025"
+      "value": "May 13, 2025"
     },
     "android-release-notes": {
       "value": "YES",
@@ -670,10 +670,10 @@
       ]
     },
     "macos-latest-version": {
-      "value": "v7.1.5"
+      "value": "v7.1.8"
     },
     "macos-latest-release-date": {
-      "value": "Mar 27, 2025"
+      "value": "May 13, 2025"
     },
     "macos-release-notes": {
       "value": "YES",

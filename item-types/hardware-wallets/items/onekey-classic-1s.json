@@ -265,10 +265,10 @@
       "supported": false
     },
     "latest-version": {
-      "value": "v3.9.0"
+      "value": "v3.10.0"
     },
     "latest-release-date": {
-      "value": "Aug 12, 2024"
+      "value": "May 13, 2025"
     },
     "release-notes": {
       "value": "YES",
@@ -356,7 +356,7 @@
         "10 wrong code attempts trigger self-erase"
       ]
     },
-    "login-countdown": {
+    "time-delay-to-unlock": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

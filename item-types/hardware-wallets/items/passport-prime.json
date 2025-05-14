@@ -348,16 +348,8 @@
       "supported": true,
       "flag": "positive",
       "texts": [
-        "In the event that an incorrect PIN is entered 21 times, the device will self destruct and become permanently useless."
-      ]
-    },
-    "brick-reset-pin": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "texts": [
-        "The Secure Element includes monotonic counters that enable PIN attempt tracking, where the Secure Element will “brick” itself by no longer permitting login attempts if the maximum number of attempts is exceeded.",
-        "Automatic erase after 10 PIN attempts"
+        "In the event that an incorrect PIN is entered 21 times, the device will self destruct and become permanently useless.",
+        "The Secure Element includes monotonic counters that enable PIN attempt tracking, where the Secure Element will “brick” itself by no longer permitting login attempts if the maximum number of attempts is exceeded."
       ],
       "links": [
         {
@@ -366,7 +358,12 @@
         }
       ]
     },
-    "login-countdown": {
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "time-delay-to-unlock": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

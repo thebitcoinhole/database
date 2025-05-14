@@ -350,7 +350,7 @@
       "value": "NO",
       "supported": false
     },
-    "login-countdown": {
+    "time-delay-to-unlock": {
       "value": "NO",
       "supported": false
     },

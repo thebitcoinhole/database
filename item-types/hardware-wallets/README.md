@@ -147,7 +147,7 @@ All the features supported:
 | Device Lock | device-lock | Dynamic Keypad | dynamic-keypad |
 | Device Lock | device-lock | Countdown to Brick/Reset PIN | countdown-brick-reset-pin |
 | Device Lock | device-lock | Brick/Reset me PIN | brick-reset-pin |
-| Device Lock | device-lock | Login Countdown | login-countdown |
+| Device Lock | device-lock | Time Delay to Unlock | time-delay-to-unlock |
 | Device Lock | device-lock | Anti-phishing words | anti-phishing-words |
 | Device Lock | device-lock | Alphanumeric PIN | alphanumeric-pin |
 | Device Lock | device-lock | Pattern Lock | pattern-lock |

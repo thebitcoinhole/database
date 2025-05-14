@@ -317,7 +317,7 @@
       "supported": false,
       "flag": "negative"
     },
-    "login-countdown": {
+    "time-delay-to-unlock": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
