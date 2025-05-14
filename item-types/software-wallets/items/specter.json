@@ -765,10 +765,10 @@
       "flag": "positive"
     },
     "start-os-latest-version": {
-      "value": "v2.0.2.2"
+      "value": "v2.1.1.2"
     },
     "start-os-latest-release-date": {
-      "value": "Jul 6, 2023"
+      "value": "May 9, 2025"
     },
     "start-os-release-notes": {
       "value": "YES",

@@ -20,3 +20,5 @@
 - May 13, 2025 - v7.1.8 (macos) - https://github.com/BlueWallet/BlueWallet/releases
 ### nunchuk
 - May 13, 2025 - v1.68 (android) - https://github.com/nunchuk-io/nunchuk-android/releases
+### specter
+- May 9, 2025 - v2.1.1.2 (start-os) - https://github.com/Start9Labs/specter-startos/releases
