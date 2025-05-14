@@ -22,3 +22,5 @@
 - May 13, 2025 - v1.68 (android) - https://github.com/nunchuk-io/nunchuk-android/releases
 ### specter
 - May 9, 2025 - v2.1.1.2 (start-os) - https://github.com/Start9Labs/specter-startos/releases
+### proton-wallet
+- May 14, 2025 - v1.2.1 (android) - https://github.com/ProtonWallet/flutter-app/blob/master/CHANGELOG.md
