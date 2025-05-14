@@ -76,3 +76,10 @@ async function postTweet() {
     await postTweetWithImage(text, imagePath)
   }
 }
+
+module.exports = {
+  setTwitterEnabled,
+  postTweet,
+  appendImageToTweet,
+  appendTextToTweet
+};

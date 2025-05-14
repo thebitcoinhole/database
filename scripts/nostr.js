@@ -111,3 +111,10 @@ function postNostr() {
         postOnNostr(text)
     }
   }
+
+module.exports = {
+  setNostrEnabled,
+  postNostr,
+  appendNostrPublicKeyTag,
+  appendTextToNostr
+};

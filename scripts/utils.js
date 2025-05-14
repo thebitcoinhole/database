@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 // Function to search for all JSON files in a directory
 function findJSONFiles(directory) {
     return fs.readdirSync(directory).filter((file) => file.endsWith('.json'));
@@ -19,3 +21,9 @@ function safeReadJSONFile(filePath) {
     }
     return undefined
 }
+
+module.exports = {
+    findJSONFiles,
+    readJSONFile,
+    safeReadJSONFile
+  };
