@@ -9,6 +9,10 @@
 - May 9, 2025 - v1.0.35 - https://github.com/Blockstream/Jade/blob/master/CHANGELOG.md
 ### onekey-classic-1s
 - May 13, 2025 - v3.10.0 - https://github.com/OneKeyHQ/firmware/releases
+### coldcard-mk4
+- May 14, 2025 - v5.4.3 - https://coldcard.com/docs/upgrade
+### coldcard-q
+- May 14, 2025 - v1.3.3 - https://coldcard.com/docs/upgrade
 
 ## software-wallets
 ### bitcoin-safe
