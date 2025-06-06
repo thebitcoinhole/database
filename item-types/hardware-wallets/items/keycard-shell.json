@@ -371,8 +371,8 @@
       "flag": "negative"
     },
     "multiple-private-keys": {
-      "value": "YES",
-      "flag": "positive",
+      "value": "YES (Extra cards required)",
+      "flag": "neutral",
       "supported": true
     },
     "passphrase-support": {
