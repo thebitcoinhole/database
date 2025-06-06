@@ -50,7 +50,9 @@
   },
   "size-materials": {
     "warranty": {
-      "value": "NO"
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "weight": {
       "value": "?"
