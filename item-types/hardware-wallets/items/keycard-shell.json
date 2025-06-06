@@ -8,11 +8,11 @@
       "value": "2025"
     },
     "assembled-in": {
-      "value": "?"
+      "value": "China"
     },
     "diy": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     }
   },
   "company": "keycard",
@@ -26,7 +26,7 @@
   },
   "official-store": {
     "po-box-support": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     },
     "btc-on-chain": {
@@ -50,13 +50,13 @@
   },
   "size-materials": {
     "warranty": {
-      "value": "?"
+      "value": "NO"
     },
     "weight": {
       "value": "?"
     },
     "dimensions": {
-      "value": "?"
+      "value": "105 x 65 x 19 mm"
     },
     "materials": {
       "value": "Plastic"
@@ -66,9 +66,9 @@
       "supported": false
     },
     "waterproof": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     }
   },
   "display": {
@@ -81,7 +81,7 @@
       "value": "TFT"
     },
     "gorilla-glass": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     },
     "color-screen": {
@@ -99,7 +99,7 @@
       "flag": "positive"
     },
     "screen-resolution": {
-      "value": "?"
+      "value": "320x 240 px"
     }
   },
   "input": {
@@ -131,8 +131,8 @@
       "flag": "positive"
     },
     "usb-charging": {
-      "value": "?",
-      "supported": false
+      "value": "USB-C",
+      "supported": true
     },
     "wireless-charging": {
       "value": "NO",
@@ -158,8 +158,9 @@
       "supported": false
     },
     "nfc": {
-      "value": "NO",
-      "supported": false
+      "value": "YES (Keycard only)",
+      "flag": "positive",
+      "supported": true
     },
     "microsd-card": {
       "value": "NO",
@@ -195,12 +196,12 @@
       ]
     },
     "deterministic-nonces": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     },
     "anti-klepto": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true
     }
   },
   "networks": {
@@ -210,8 +211,9 @@
       "flag": "positive"
     },
     "btc-testnet": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "alt-coins": {
       "value": "YES",
@@ -299,7 +301,7 @@
   },
   "device-lock": {
     "pin-lock": {
-      "value": "?"
+      "value": "On Device"
     },
     "dummy-wallet": {
       "value": "YES",
@@ -315,9 +317,9 @@
       "flag": "negative"
     },
     "countdown-brick-reset-pin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "brick-reset-pin": {
       "value": "NO",
@@ -350,31 +352,33 @@
   },
   "private-keys": {
     "stateless": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "user-added-entropy": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "multiple-private-keys": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "passphrase-support": {
-      "value": "?",
-      "supported": false
+      "value": "YES, planned",
+      "supported": true
     },
     "passphrase-entry": {
-      "value": "?"
+      "value": "On Device"
     },
     "master-key-fingerprint": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "bip85": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     },
     "shamir-backup": {
@@ -403,8 +407,9 @@
       "flag": "positive"
     },
     "create-24-words": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "display-12-24-words": {
       "value": "YES",
@@ -412,45 +417,42 @@
       "flag": "positive"
     },
     "import-12-words": {
-      "value": "?",
-      "supported": false
+      "value": "On Device"
     },
     "import-24-words": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "seed-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "address-format": {
     "legacy": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "nested-segwit": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "native-segwit": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "taproot": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     }
   },
   "addresses": {
     "view-address-text": {
-      "value": "?",
-      "supported": false
+      "value": "On Device"
     },
     "view-address-qr": {
-      "value": "?",
-      "supported": false
+      "value": "On Device"
     },
     "export-address-sdcard": {
       "value": "NO",
@@ -458,7 +460,7 @@
       "flag": "negative"
     },
     "verify-address-qr": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     }
   },
@@ -491,12 +493,12 @@
       "flag": "negative"
     },
     "change-verification": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "change-address-display": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true
     }
   },
   "fees": {
@@ -516,7 +518,7 @@
       "flag": "positive"
     },
     "maximum-fee-protection": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     }
   },
@@ -580,16 +582,37 @@
       "supported": false
     },
     "windows-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Open source on Github",
+          "url": "https://github.com/status-im/status-desktop/releases"
+        }
+      ]
     },
     "macos-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Open source on Github",
+          "url": "https://github.com/status-im/status-desktop/releases"
+        }
+      ]
     },
     "linux-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Open source on Github",
+          "url": "https://github.com/status-im/status-desktop/releases"
+        }
+      ]
     },
     "chrome-extension": {
       "value": "NO",
@@ -604,12 +627,24 @@
       "supported": false
     },
     "android-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Open source on Github",
+          "url": "https://github.com/status-im/status-desktop/releases"
+        }
+      ]
     },
     "ios-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Open source on Github",
+          "url": "https://github.com/status-im/status-desktop/releases"
+        }
+      ]
     }
   },
   "third-party-apps": {
