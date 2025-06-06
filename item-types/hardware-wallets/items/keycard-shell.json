@@ -455,10 +455,14 @@
   },
   "addresses": {
     "view-address-text": {
-      "value": "On Device"
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "view-address-qr": {
-      "value": "On Device"
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "export-address-sdcard": {
       "value": "NO",
@@ -467,7 +471,8 @@
     },
     "verify-address-qr": {
       "value": "NO",
-      "supported": false
+      "supported": false,
+      "flag": "negative"
     }
   },
   "signing": {
@@ -500,11 +505,13 @@
     },
     "change-verification": {
       "value": "YES",
-      "supported": true
+      "supported": true,
+      "flag": "positive"
     },
     "change-address-display": {
       "value": "YES",
-      "supported": true
+      "supported": true,
+      "flag": "positive"
     }
   },
   "fees": {
@@ -525,7 +532,8 @@
     },
     "maximum-fee-protection": {
       "value": "NO",
-      "supported": false
+      "supported": false,
+      "flag": "negative"
     }
   },
   "privacy": {
@@ -588,37 +596,16 @@
       "supported": false
     },
     "windows-app": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Open source on Github",
-          "url": "https://github.com/status-im/status-desktop/releases"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     },
     "macos-app": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Open source on Github",
-          "url": "https://github.com/status-im/status-desktop/releases"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     },
     "linux-app": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Open source on Github",
-          "url": "https://github.com/status-im/status-desktop/releases"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     },
     "chrome-extension": {
       "value": "NO",
@@ -633,24 +620,12 @@
       "supported": false
     },
     "android-app": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "Open source on Github",
-          "url": "https://github.com/status-im/status-mobile/releases"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     },
     "ios-app": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "Open source on Github",
-          "url": "https://github.com/status-im/status-mobile/releases"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     }
   },
   "third-party-apps": {
