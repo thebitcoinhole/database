@@ -162,9 +162,11 @@
       "supported": false
     },
     "nfc": {
-      "value": "YES (Keycard only)",
-      "flag": "positive",
-      "supported": true
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Keycard only"
+      ]
     },
     "microsd-card": {
       "value": "NO",
