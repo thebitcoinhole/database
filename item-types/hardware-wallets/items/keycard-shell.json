@@ -84,6 +84,7 @@
     },
     "gorilla-glass": {
       "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "color-screen": {
@@ -101,7 +102,7 @@
       "flag": "positive"
     },
     "screen-resolution": {
-      "value": "320x 240 px"
+      "value": "320 x 240 px"
     }
   },
   "input": {
@@ -199,11 +200,13 @@
     },
     "deterministic-nonces": {
       "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "anti-klepto": {
       "value": "YES",
-      "supported": true
+      "supported": true,
+      "flag": "positive"
     }
   },
   "networks": {
@@ -303,7 +306,8 @@
   },
   "device-lock": {
     "pin-lock": {
-      "value": "On Device"
+      "value": "On Device",
+      "flag": "positive"
     },
     "dummy-wallet": {
       "value": "YES",
