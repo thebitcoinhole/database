@@ -191,8 +191,9 @@
       "flag": "positive"
     },
     "deterministic-nonces": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "anti-klepto": {
       "value": "NO",
