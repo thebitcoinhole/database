@@ -373,19 +373,23 @@
       "supported": true
     },
     "passphrase-support": {
-      "value": "YES, planned",
-      "supported": true
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
     },
     "passphrase-entry": {
-      "value": "On Device"
+      "value": "SOON - On Device"
+      "flag": "neutral"
     },
     "master-key-fingerprint": {
       "value": "YES",
-      "supported": true
+      "supported": true,
+      "flag": "positive"
     },
     "bip85": {
       "value": "NO",
-      "supported": false
+      "supported": false,
+      "flag": "negative"
     },
     "shamir-backup": {
       "value": "NO",
@@ -423,11 +427,14 @@
       "flag": "positive"
     },
     "import-12-words": {
-      "value": "On Device"
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "import-24-words": {
-      "value": "YES",
-      "supported": true
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "seed-qr": {
       "value": "YES",
@@ -438,19 +445,23 @@
   "address-format": {
     "legacy": {
       "value": "YES",
-      "supported": true
+      "supported": true,
+      "flag": "positive"
     },
     "nested-segwit": {
       "value": "YES",
-      "supported": true
+      "supported": true,
+      "flag": "positive"
     },
     "native-segwit": {
       "value": "YES",
-      "supported": true
+      "supported": true,
+      "flag": "positive"
     },
     "taproot": {
       "value": "NO",
-      "supported": false
+      "supported": false,
+      "flag": "negative"
     }
   },
   "addresses": {
