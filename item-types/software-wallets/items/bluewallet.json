@@ -271,6 +271,17 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "batch-transactions": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "High fees and transactions pending - What to do",
+          "url": "https://bluewallet.io/high-fees-and-transactions-pending-what-to-do/"
+        }
+      ]
     }
   },
   "signing": {
@@ -461,17 +472,6 @@
     }
   },
   "other-features": {
-    "batch-transactions": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "High fees and transactions pending - What to do",
-          "url": "https://bluewallet.io/high-fees-and-transactions-pending-what-to-do/"
-        }
-      ]
-    },
     "miniscript": {
       "value": "NO",
       "supported": false,

@@ -139,7 +139,7 @@ All the features supported:
 | Firmware | firmware | Free & Open Source (FOSS) | open-source |
 | Firmware | firmware | License | license |
 | Firmware | firmware | Reproducible Builds | reproducible-builds |
-| Device Lock | device-lock | PIN entry | pin-entry |
+| Device Lock | device-lock | PIN Lock | pin-lock |
 | Device Lock | device-lock | Dynamic Keypad | dynamic-keypad |
 | Device Lock | device-lock | Countdown to Brick/Reset PIN | countdown-brick-reset-pin |
 | Device Lock | device-lock | Brick/Reset me PIN | brick-reset-pin |
@@ -148,7 +148,7 @@ All the features supported:
 | Device Lock | device-lock | Alphanumeric PIN | alphanumeric-pin |
 | Device Lock | device-lock | Pattern Lock | pattern-lock |
 | Device Lock | device-lock | Fingerprint Lock | fingerprint-lock |
-| Device Lock | device-lock | Dummy/Decoy Wallet | dummy-wallet |
+| Device Lock | device-lock | Dummy/Decoy/Duress Wallet | dummy-wallet |
 | Private Keys | private-keys | Stateless | stateless |
 | Private Keys | private-keys | User Added Entropy | user-added-entropy |
 | Private Keys | private-keys | Multiple Private Keys | multiple-private-keys |
@@ -166,6 +166,7 @@ All the features supported:
 | Private Keys | private-keys | 12 Words BIP-39 Seed Import | import-12-words |
 | Private Keys | private-keys | 24 Words BIP-39 Seed Import | import-24-words |
 | Private Keys | private-keys | SeedQR Backup / Import | seed-qr |
+| Private Keys | private-keys | Key Teleport | key-teleport |
 | Address Format | address-format | Legacy (P2PKH) | legacy |
 | Address Format | address-format | Nested Segwit (P2SH) | nested-segwit |
 | Address Format | address-format | Native Segwit (P2WPKH) | native-segwit |
@@ -182,6 +183,10 @@ All the features supported:
 | Signing | signing | Sign Messages | message-signing |
 | Signing | signing | Change Verification | change-verification |
 | Signing | signing | Change Address Display | change-address-display |
+| Spending Policy | spending-policy | Magnitude Limits | magnitude-limits |
+| Spending Policy | spending-policy | Velocity Limits | velocity-limits |
+| Spending Policy | spending-policy | Whitelisted Addresses | whitelisted-addresses |
+| Spending Policy | spending-policy | 2FA Authentication | 2fa-authentication |
 | Fees | fees | Fee Control | fee-control |
 | Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
 | Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |
@@ -206,16 +211,20 @@ All the features supported:
 | Official Apps | official-apps | Edge Extension | edge-extension |
 | Official Apps | official-apps | Android App | android-app |
 | Official Apps | official-apps | iOS App | ios-app |
-| Third-Party Apps / Services | third-party-apps | Nunchuk | nunchuk |
-| Third-Party Apps / Services | third-party-apps | Electrum | electrum |
-| Third-Party Apps / Services | third-party-apps | Sparrow | sparrow |
-| Third-Party Apps / Services | third-party-apps | Specter Desktop | specter-desktop |
+| Third-Party Apps / Services | third-party-apps | Bitcoin Keeper | bitcoin-keeper |
+| Third-Party Apps / Services | third-party-apps | Bitcoin Safe | bitcoin-safe |
 | Third-Party Apps / Services | third-party-apps | Blockstream Green | blockstream-green |
 | Third-Party Apps / Services | third-party-apps | BlueWallet | bluewallet |
-| Third-Party Apps / Services | third-party-apps | Bitcoin Keeper | bitcoin-keeper |
-| Third-Party Apps / Services | third-party-apps | Liana | liana |
 | Third-Party Apps / Services | third-party-apps | Casa | casa |
+| Third-Party Apps / Services | third-party-apps | Electrum | electrum |
+| Third-Party Apps / Services | third-party-apps | Liana | liana |
+| Third-Party Apps / Services | third-party-apps | Nunchuk | nunchuk |
+| Third-Party Apps / Services | third-party-apps | Sparrow | sparrow |
+| Third-Party Apps / Services | third-party-apps | Specter Desktop | specter-desktop |
+| Third-Party Apps / Services | third-party-apps | Theya | theya |
 | Third-Party Apps / Services | third-party-apps | Unchained | unchained |
+| Third-Party Apps / Services | third-party-apps | Wasabi Wallet | wasabi-wallet |
+| Third-Party Apps / Services | third-party-apps | Zeus | zeus |
 
 ## Website
 

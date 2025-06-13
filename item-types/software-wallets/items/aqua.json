@@ -267,6 +267,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "batch-transactions": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "signing": {
@@ -425,11 +430,6 @@
     }
   },
   "other-features": {
-    "batch-transactions": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "miniscript": {
       "value": "NO",
       "supported": false,

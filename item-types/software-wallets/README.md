@@ -127,7 +127,9 @@ All the features supported:
 | Send | send | Scan Address from Text (OCR) | scan-address-ocr |
 | Send | send | Send to Internal Address | send-internal-address |
 | Send | send | Multiple Send Addresses | multiple-send-addresses |
+| Send | send | Batch Transactions | batch-transactions |
 | Signing | signing | Sign by USB | usb-data |
+| Signing | signing | Sign by PSBT File | psbt-file |
 | Signing | signing | Sign by NFC | nfc |
 | Signing | signing | Sign by QR | qr |
 | Signing | signing | UR2.0 Animated QRs | ur-2-animated-qrs |
@@ -140,6 +142,7 @@ All the features supported:
 | Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
 | Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |
 | Privacy | privacy | Coin Control | coin-control |
+| Privacy | privacy | Transaction Labeling | transaction-labeling |
 | Privacy | privacy | Labels Import/Export (BIP329) | labels-import-export-bip329 |
 | Privacy | privacy | Coinjoin | coinjoin |
 | Privacy | privacy | Hide Sensitive Data | hide-sensitive-data |
@@ -154,8 +157,6 @@ All the features supported:
 | Full Node Integration | node-integration | Fulcrum Server Integration | fulcrum-server |
 | Full Node Integration | node-integration | Dojo Server Integration | dojo-server |
 | Full Node Integration | node-integration | Tor | tor |
-| Other Features | other-features | Transaction Labeling | transaction-labeling |
-| Other Features | other-features | Batch Transactions | batch-transactions |
 | Other Features | other-features | Miniscript | miniscript |
 | Other Features | other-features | Taproot Miniscript | taproot-miniscript |
 | Other Features | other-features | Timelocks | timelocks |

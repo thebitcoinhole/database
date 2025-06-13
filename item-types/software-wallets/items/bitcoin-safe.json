@@ -275,6 +275,11 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "batch-transactions": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "signing": {
@@ -446,11 +451,6 @@
     }
   },
   "other-features": {
-    "batch-transactions": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "miniscript": {
       "value": "NO",
       "supported": false,

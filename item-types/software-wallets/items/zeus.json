@@ -270,6 +270,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "batch-transactions": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
     }
   },
   "signing": {
@@ -431,11 +436,6 @@
     }
   },
   "other-features": {
-    "batch-transactions": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
-    },
     "miniscript": {
       "value": "NO",
       "supported": false,
