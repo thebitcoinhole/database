@@ -376,13 +376,13 @@
       "supported": true
     },
     "passphrase-support": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "passphrase-entry": {
-      "value": "SOON - On Device",
-      "flag": "neutral"
+      "value": "On Device",
+      "flag": "positive"
     },
     "master-key-fingerprint": {
       "value": "YES",

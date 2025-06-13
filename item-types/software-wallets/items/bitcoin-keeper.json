@@ -75,9 +75,9 @@
       "flag": "positive"
     },
     "duress-pin": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "dynamic-keypad": {
       "value": "NO",
@@ -105,9 +105,9 @@
       "flag": "positive"
     },
     "dummy-wallet": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "private-keys": {
@@ -446,9 +446,9 @@
       "flag": "negative"
     },
     "timelocks": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "encrypted-storage": {
       "value": "YES",
