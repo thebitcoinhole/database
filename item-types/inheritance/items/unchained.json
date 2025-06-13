@@ -397,7 +397,7 @@
         }
       ]
     },
-    "passport-batch-2": {
+    "passport-core": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

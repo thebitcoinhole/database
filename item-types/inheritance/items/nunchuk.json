@@ -511,7 +511,7 @@
       "flag": "positive",
       "supported": true
     },
-    "passport-batch-2": {
+    "passport-core": {
       "value": "YES",
       "flag": "positive",
       "supported": true

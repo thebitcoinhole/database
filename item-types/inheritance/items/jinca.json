@@ -443,7 +443,7 @@
         }
       ]
     },
-    "passport-batch-2": {
+    "passport-core": {
       "value": "Exporting private keys",
       "supported": true,
       "flag": "neutral",
