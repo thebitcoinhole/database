@@ -220,7 +220,7 @@ All the features supported:
 | Hardware Wallets Support | hardware-wallets-support | Krux | krux |
 | Hardware Wallets Support | hardware-wallets-support | Ledger Nano S Plus | ledger-nano-s-plus |
 | Hardware Wallets Support | hardware-wallets-support | Ledger Nano X | ledger-nano-x |
-| Hardware Wallets Support | hardware-wallets-support | Passport Batch 2 | passport-batch-2 |
+| Hardware Wallets Support | hardware-wallets-support | Passport Core | passport-core |
 | Hardware Wallets Support | hardware-wallets-support | Portal | portal |
 | Hardware Wallets Support | hardware-wallets-support | SeedSigner | seedsigner |
 | Hardware Wallets Support | hardware-wallets-support | Specter DIY | specter-diy |

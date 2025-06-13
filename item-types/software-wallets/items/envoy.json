@@ -377,6 +377,17 @@
         }
       ]
     },
+    "transaction-labeling": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Tags, Notes + Coin Control",
+          "url": "https://docs.foundationdevices.com/envoy/tags"
+        }
+      ]
+    },
     "labels-import-export-bip329": {
       "value": "NO",
       "supported": false,
@@ -463,17 +474,6 @@
     }
   },
   "other-features": {
-    "transaction-labeling": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Tags, Notes + Coin Control",
-          "url": "https://docs.foundationdevices.com/envoy/tags"
-        }
-      ]
-    },
     "batch-transactions": {
       "value": "NO",
       "supported": false,

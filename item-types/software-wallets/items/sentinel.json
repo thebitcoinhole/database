@@ -344,6 +344,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "transaction-labeling": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "labels-import-export-bip329": {
       "value": "NO",
       "supported": false,
@@ -424,11 +429,6 @@
     }
   },
   "other-features": {
-    "transaction-labeling": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "batch-transactions": {
       "value": "NO",
       "supported": false,
