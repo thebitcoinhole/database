@@ -111,14 +111,7 @@ All the features supported:
 | Power | power | Battery Size | battery-size |
 | Power | power | USB charging | usb-charging |
 | Power | power | Wireless charging | wireless-charging |
-| Connectivity | connectivity | USB Data | usb-data |
-| Connectivity | connectivity | Bluetooth | bluetooth |
-| Connectivity | connectivity | Wifi | wifi |
-| Connectivity | connectivity | Ethernet | ethernet |
-| Connectivity | connectivity | NFC | nfc |
-| Connectivity | connectivity | microSD card | microsd-card |
-| Connectivity | connectivity | QR scanner | qr-scanner |
-| Connectivity | connectivity | 100% Air-gapped | air-gapped |
+| Security | security | 100% Air-gapped | air-gapped |
 | Security | security | Secure Element | secure-element |
 | Security | security | Supply Chain & Physical Attacks Protection | supply-chain-physical-attacks |
 | Security | security | Deterministic nonces (RFC6979) | deterministic-nonces |
@@ -177,12 +170,17 @@ All the features supported:
 | Receive Addresses | addresses | Verify Address from QR | verify-address-qr |
 | Signing | signing | Multi-sig (PSBTs) | multi-sig |
 | Signing | signing | Frost | frost |
-| Signing | signing | UR2.0 Animated QRs | ur-2-animated-qrs |
-| Signing | signing | BBQr | bbqr |
 | Signing | signing | NFC Push Tx | nfc-push-tx |
 | Signing | signing | Sign Messages | message-signing |
 | Signing | signing | Change Verification | change-verification |
 | Signing | signing | Change Address Display | change-address-display |
+| Signing Methods | signing-methods | Sign via USB | usb |
+| Signing Methods | signing-methods | Sign via Bluetooth | bluetooth |
+| Signing Methods | signing-methods | Sign via NFC | nfc |
+| Signing Methods | signing-methods | Sign via microSD card | microsd-card |
+| Signing Methods | signing-methods | Sign via QR | qr |
+| Signing Methods | signing-methods | UR2.0 Animated QRs | ur-2-animated-qrs |
+| Signing Methods | signing-methods | BBQr | bbqr |
 | Spending Policy | spending-policy | Magnitude Limits | magnitude-limits |
 | Spending Policy | spending-policy | Velocity Limits | velocity-limits |
 | Spending Policy | spending-policy | Whitelisted Addresses | whitelisted-addresses |

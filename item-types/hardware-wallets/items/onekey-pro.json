@@ -144,40 +144,7 @@
       "supported": true
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "USB-C",
-      "supported": true
-    },
-    "bluetooth": {
-      "value": "YES",
-      "supported": true,
-      "texts": [
-        "You can enable/disable Bluetooth by software, but not by hardware."
-      ]
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "YES",
-      "supported": true
-    },
-    "microsd-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
+  "security": {
     "air-gapped": {
       "value": "Only for transactions",
       "supported": true,
@@ -185,9 +152,7 @@
       "texts": [
         "Firmware upgrades are not air-gapped, USB or Bluetooth required."
       ]
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "YES (4x EAL 6+)",
       "supported": true,
@@ -528,15 +493,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -555,6 +511,42 @@
     },
     "change-address-display": {
       "value": "?",
+      "supported": false
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "USB-C",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "You can enable/disable Bluetooth by software, but not by hardware."
+      ]
+    },
+    "nfc": {
+      "value": "?",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
       "supported": false
     }
   },

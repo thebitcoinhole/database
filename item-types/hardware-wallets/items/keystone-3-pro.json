@@ -145,40 +145,7 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "USB-C",
-      "supported": true
-    },
-    "bluetooth": {
-      "value": "NO",
-      "supported": false
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "NO",
-      "supported": false
-    },
-    "microsd-card": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "texts": [
-        "Transaction Signing via QR Code: By using QR code transmissions, are eliminated potential malware infiltration risks and delivered a level of transparency that just isn't possible with Bluetooth or USB."
-      ]
-    },
+  "security": {
     "air-gapped": {
       "value": "YES",
       "supported": true,
@@ -193,9 +160,7 @@
           "url": "https://blog.keyst.one/ever-wondered-what-your-hardware-wallet-inputs-and-outputs-9b33b4cedafd"
         }
       ]
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "YES (3) (PCI)",
       "supported": true,
@@ -671,15 +636,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -695,6 +651,42 @@
     },
     "change-address-display": {
       "value": "?",
+      "supported": false
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Transaction Signing via QR Code: By using QR code transmissions, are eliminated potential malware infiltration risks and delivered a level of transparency that just isn't possible with Bluetooth or USB."
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
       "supported": false
     }
   },

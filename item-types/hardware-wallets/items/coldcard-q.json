@@ -144,63 +144,12 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "USB-C (disabled by default)",
-      "supported": true,
-      "texts": [
-        "Encrypted USB communication (MiTM protection)"
-      ],
-      "links": [
-        {
-          "title": "Tutorial: Disable NFC and USB",
-          "url": "https://www.youtube.com/watch?v=GGqJNTUycs4"
-        }
-      ]
-    },
-    "bluetooth": {
-      "value": "NO",
-      "supported": false
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "YES (disabled by default)",
-      "supported": true,
-      "links": [
-        {
-          "title": "NFC-V Compatibility",
-          "url": "https://coldcard.com/docs/coldcard-mk4#nfc-v"
-        },
-        {
-          "title": "Tutorial: Disable NFC and USB",
-          "url": "https://www.youtube.com/watch?v=GGqJNTUycs4"
-        }
-      ]
-    },
-    "microsd-card": {
-      "value": "YES (2)",
-      "supported": true,
-      "flag": "positive"
-    },
-    "qr-scanner": {
-      "value": "YES (with LED illumination)",
-      "supported": true,
-      "flag": "positive"
-    },
+  "security": {
     "air-gapped": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "YES (2)",
       "supported": true,
@@ -693,16 +642,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "bbqr": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "nfc-push-tx": {
       "value": "YES",
       "supported": true,
@@ -732,6 +671,62 @@
       "flag": "positive"
     },
     "change-address-display": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "USB-C (disabled by default)",
+      "supported": true,
+      "texts": [
+        "Encrypted USB communication (MiTM protection)"
+      ],
+      "links": [
+        {
+          "title": "Tutorial: Disable NFC and USB",
+          "url": "https://www.youtube.com/watch?v=GGqJNTUycs4"
+        }
+      ]
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES (disabled by default)",
+      "supported": true,
+      "links": [
+        {
+          "title": "NFC-V Compatibility",
+          "url": "https://coldcard.com/docs/coldcard-mk4#nfc-v"
+        },
+        {
+          "title": "Tutorial: Disable NFC and USB",
+          "url": "https://www.youtube.com/watch?v=GGqJNTUycs4"
+        }
+      ]
+    },
+    "microsd-card": {
+      "value": "YES (2 slots)",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "With LED illumination"
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

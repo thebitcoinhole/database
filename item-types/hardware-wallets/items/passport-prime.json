@@ -1,7 +1,7 @@
 {
   "id": "passport-prime",
   "name": "Passport Prime",
-  "coming-soon": true,
+  "purchasable": true,
   "basic-information": {
     "year": {
       "value": "2025"
@@ -146,50 +146,12 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "YES",
-      "supported": true
-    },
-    "bluetooth": {
-      "value": "YES",
-      "supported": true
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "YES (Not for Signing at launch)",
-      "supported": true,
-      "texts": [
-        "NFC for writing to Keycards and FIDO2 security keys. NFC for signing will be supported in the future"
-      ]
-    },
-    "microsd-card": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "texts": [
-        "Omnivision Camera for QR scanning"
-      ]
-    },
+  "security": {
     "air-gapped": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "YES",
       "supported": true,
@@ -590,15 +552,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -617,6 +570,45 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false,
+      "texts": [
+        "NFC for signing will be supported in the future"
+      ]
+    },
+    "microsd-card": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Omnivision Camera for QR scanning"
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
     }
   },
   "spending-policy": {

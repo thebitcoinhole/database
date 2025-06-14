@@ -148,37 +148,7 @@
       ]
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "NO",
-      "supported": false
-    },
-    "bluetooth": {
-      "value": "NO",
-      "supported": false
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "YES",
-      "supported": true
-    },
-    "microsd-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
+  "security": {
     "air-gapped": {
       "value": "Only for transactions",
       "supported": true,
@@ -186,9 +156,7 @@
       "texts": [
         "Firmware upgrades are not air-gapped, NFC is required."
       ]
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "YES",
       "supported": true,
@@ -504,15 +472,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -528,6 +487,39 @@
     },
     "change-address-display": {
       "value": "?",
+      "supported": false
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
       "supported": false
     }
   },

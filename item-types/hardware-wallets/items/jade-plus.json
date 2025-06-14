@@ -154,54 +154,7 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "USB-C",
-      "supported": true
-    },
-    "bluetooth": {
-      "value": "YES",
-      "supported": true,
-      "texts": [
-        "You have the option to install a firmware variant with Bluetooth disabled"
-      ]
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "NO",
-      "supported": false
-    },
-    "microsd-card": {
-      "value": "MicroSD Card adapter required",
-      "supported": true,
-      "flag": "neutral"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "texts": [
-        "Camera: GC0308 640x480px",
-        "Camera for fully air-gapped transactions: Scan and display QR codes directly on Jade to send bitcoin and verify addresses - no USB or Bluetooth connection required."
-      ],
-      "links": [
-        {
-          "title": "Blockstream Jade: Air-Gapped Transactions Using QR Scan",
-          "url": "https://blog.blockstream.com/blockstream-jade-qr-scan/"
-        },
-        {
-          "title": "How Does QR Scan Work with Blockstream Jade?",
-          "url": "https://www.youtube.com/watch?v=J1goSxsgXMU"
-        }
-      ]
-    },
+  "security": {
     "air-gapped": {
       "value": "YES",
       "supported": true,
@@ -212,9 +165,7 @@
           "url": "https://blog.blockstream.com/blockstream-jade-qr-scan/"
         }
       ]
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "NO",
       "supported": false,
@@ -616,15 +567,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -649,6 +591,56 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "USB-C",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "You have the option to install a firmware variant with Bluetooth disabled"
+      ]
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "MicroSD Card adapter required",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Camera: GC0308 640x480px",
+        "Camera for fully air-gapped transactions: Scan and display QR codes directly on Jade to send bitcoin and verify addresses - no USB or Bluetooth connection required."
+      ],
+      "links": [
+        {
+          "title": "Blockstream Jade: Air-Gapped Transactions Using QR Scan",
+          "url": "https://blog.blockstream.com/blockstream-jade-qr-scan/"
+        },
+        {
+          "title": "How Does QR Scan Work with Blockstream Jade?",
+          "url": "https://www.youtube.com/watch?v=J1goSxsgXMU"
+        }
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
     }
   },
   "spending-policy": {

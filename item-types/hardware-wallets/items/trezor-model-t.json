@@ -144,44 +144,12 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "USB-C",
-      "supported": true
-    },
-    "bluetooth": {
-      "value": "NO",
-      "supported": false
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "NO",
-      "supported": false
-    },
-    "microsd-card": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "qr-scanner": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
+  "security": {
     "air-gapped": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "NO",
       "supported": false,
@@ -632,15 +600,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -665,6 +624,39 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "USB-C",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
     }
   },
   "spending-policy": {

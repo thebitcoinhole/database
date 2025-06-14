@@ -138,37 +138,7 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "NO",
-      "supported": false
-    },
-    "bluetooth": {
-      "value": "NO",
-      "supported": false
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "YES",
-      "supported": true
-    },
-    "microsd-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "qr-scanner": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
+  "security": {
     "air-gapped": {
       "value": "NO",
       "supported": false,
@@ -179,9 +149,7 @@
         "- When restoring a wallet, you need to write the seedphrase on the companion mobile app.",
         "NOTE: When creating/restoring a wallet, the seed phrase is displayed, but it is not saved on the phone. It is also programmatically blocked from screenshots or recordings. Users can do either of these processes in Airplane mode for added security."
       ]
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "YES (EAL6+)",
       "supported": true,
@@ -491,15 +459,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -518,6 +477,39 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
     }
   },
   "spending-policy": {

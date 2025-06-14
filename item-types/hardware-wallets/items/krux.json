@@ -167,44 +167,12 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "NO",
-      "supported": false
-    },
-    "bluetooth": {
-      "value": "NO",
-      "supported": false
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "NO",
-      "supported": false
-    },
-    "microsd-card": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
+  "security": {
     "air-gapped": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "NO",
       "supported": false,
@@ -558,16 +526,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "bbqr": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -586,6 +544,40 @@
       "flag": "positive"
     },
     "change-address-display": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

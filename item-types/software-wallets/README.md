@@ -128,10 +128,10 @@ All the features supported:
 | Send | send | Send to Internal Address | send-internal-address |
 | Send | send | Multiple Send Addresses | multiple-send-addresses |
 | Send | send | Batch Transactions | batch-transactions |
-| Signing | signing | Sign by USB | usb-data |
-| Signing | signing | Sign by PSBT File | psbt-file |
-| Signing | signing | Sign by NFC | nfc |
-| Signing | signing | Sign by QR | qr |
+| Signing | signing | Sign via USB | usb-data |
+| Signing | signing | Sign via PSBT File | psbt-file |
+| Signing | signing | Sign via NFC | nfc |
+| Signing | signing | Sign via QR | qr |
 | Signing | signing | UR2.0 Animated QRs | ur-2-animated-qrs |
 | Signing | signing | BBQr | bbqr |
 | Signing | signing | Sign Messages | message-signing |

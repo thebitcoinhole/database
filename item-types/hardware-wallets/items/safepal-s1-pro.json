@@ -146,40 +146,7 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "NO",
-      "supported": false
-    },
-    "bluetooth": {
-      "value": "NO",
-      "supported": false
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "NO",
-      "supported": false
-    },
-    "microsd-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "texts": [
-        "The camera is shifted to the middle of the device to capture QR codes more intuitively"
-      ]
-    },
+  "security": {
     "air-gapped": {
       "value": "Only for transactions",
       "supported": true,
@@ -197,9 +164,7 @@
           "url": "https://medium.com/@safepalwallet/10-reasons-why-safepal-s1-is-secure-part-ii-3ee4c67d365a"
         }
       ]
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "YES (EAL5+)",
       "supported": true,
@@ -561,15 +526,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -585,6 +541,42 @@
     },
     "change-address-display": {
       "value": "?",
+      "supported": false
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "The camera is shifted to the middle of the device to capture QR codes more intuitively"
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
       "supported": false
     }
   },

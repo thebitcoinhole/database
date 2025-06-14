@@ -144,40 +144,7 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "USB-C (disabled by default)",
-      "supported": true
-    },
-    "bluetooth": {
-      "value": "NO",
-      "supported": false
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "YES",
-      "supported": true,
-      "texts": [
-        "Keycard only"
-      ]
-    },
-    "microsd-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
+  "security": {
     "air-gapped": {
       "value": "Only for transactions",
       "supported": true,
@@ -185,9 +152,7 @@
       "texts": [
         "Firmware upgrades are not air-gapped, USB is required."
       ]
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "YES (EAL6+)",
       "supported": true,
@@ -505,15 +470,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -532,6 +488,42 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "USB-C (disabled by default)",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Keycard only"
+      ]
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
     }
   },
   "spending-policy": {

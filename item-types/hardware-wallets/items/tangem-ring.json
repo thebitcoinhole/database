@@ -143,47 +143,12 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "NO",
-      "supported": false
-    },
-    "bluetooth": {
-      "value": "NO",
-      "supported": false
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "YES",
-      "supported": true,
-      "texts": [
-        "Like the Tangem cards, the ring is equipped with NFC (Near Field Communication) antennas, enabling effortless communication with compatible devices — any NFC-enabled smartphone. This allows for seamless transactions and easy management of cryptocurrency holdings."
-      ]
-    },
-    "microsd-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "qr-scanner": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
+  "security": {
     "air-gapped": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "YES (EAL6+)",
       "supported": true,
@@ -545,15 +510,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -572,6 +528,42 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Like the Tangem cards, the ring is equipped with NFC (Near Field Communication) antennas, enabling effortless communication with compatible devices — any NFC-enabled smartphone. This allows for seamless transactions and easy management of cryptocurrency holdings."
+      ]
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
     }
   },
   "spending-policy": {

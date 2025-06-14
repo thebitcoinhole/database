@@ -148,47 +148,12 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "NO",
-      "supported": false,
-      "texts": [
-        "The USB-C port is configured exclusively for power delivery, with only the power and ground connections active. All data lines are physically disconnected, a design aspect that is visibly apparent on the transparent circuit board."
-      ]
-    },
-    "bluetooth": {
-      "value": "NO",
-      "supported": false
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "NO",
-      "supported": false
-    },
-    "microsd-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "qr-scanner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
+  "security": {
     "air-gapped": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "YES (EAL6+)",
       "supported": true,
@@ -506,15 +471,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -530,6 +486,42 @@
     },
     "change-address-display": {
       "value": "?",
+      "supported": false
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "NO",
+      "supported": false,
+      "texts": [
+        "The USB-C port is configured exclusively for power delivery, with only the power and ground connections active. All data lines are physically disconnected, a design aspect that is visibly apparent on the transparent circuit board."
+      ]
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
       "supported": false
     }
   },

@@ -140,47 +140,12 @@
       "supported": false
     }
   },
-  "connectivity": {
-    "usb-data": {
-      "value": "Micro-USB",
-      "supported": true
-    },
-    "bluetooth": {
-      "value": "YES",
-      "supported": true,
-      "texts": [
-        "Encrypted Bluetooth. The Bluetooth connection can only be initialized when the wallet is turned on within a proximity of 10 meters. The design of our product uses  AES256 Encryption to communicate between a CoolWallet and your phone along with a dedicated pairing passcode. Thus, any unauthorized devices are prohibited to communicate with the card for data retrieval."
-      ]
-    },
-    "wifi": {
-      "value": "NO",
-      "supported": false
-    },
-    "ethernet": {
-      "value": "NO",
-      "supported": false
-    },
-    "nfc": {
-      "value": "NO",
-      "supported": false
-    },
-    "microsd-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "qr-scanner": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
+  "security": {
     "air-gapped": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    }
-  },
-  "security": {
+    },
     "secure-element": {
       "value": "YES (EAL5+)",
       "supported": true,
@@ -493,15 +458,6 @@
       "supported": false,
       "flag": "negative"
     },
-    "ur-2-animated-qrs": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false
-    },
     "nfc-push-tx": {
       "value": "NO",
       "supported": false
@@ -517,6 +473,42 @@
     },
     "change-address-display": {
       "value": "?",
+      "supported": false
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "Micro-USB",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Encrypted Bluetooth. The Bluetooth connection can only be initialized when the wallet is turned on within a proximity of 10 meters. The design of our product uses  AES256 Encryption to communicate between a CoolWallet and your phone along with a dedicated pairing passcode. Thus, any unauthorized devices are prohibited to communicate with the card for data retrieval."
+      ]
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
       "supported": false
     }
   },
