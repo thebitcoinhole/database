@@ -266,6 +266,11 @@
     }
   },
   "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "taproot-multi-sig": {
       "value": "NO",
       "supported": false,
@@ -312,11 +317,6 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
     }
   },
   "fees": {
