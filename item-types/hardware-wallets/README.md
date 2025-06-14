@@ -174,17 +174,19 @@ All the features supported:
 | Signing | signing | Sign Messages | message-signing |
 | Signing | signing | Change Verification | change-verification |
 | Signing | signing | Change Address Display | change-address-display |
-| Signing Connectivity | signing-methods | Sign via USB | usb |
-| Signing Connectivity | signing-methods | Sign via Bluetooth | bluetooth |
-| Signing Connectivity | signing-methods | Sign via NFC | nfc |
-| Signing Connectivity | signing-methods | Sign via microSD card | microsd-card |
-| Signing Connectivity | signing-methods | Sign via QR | qr |
-| Signing Connectivity | signing-methods | UR2.0 Animated QRs | ur-2-animated-qrs |
-| Signing Connectivity | signing-methods | BBQr | bbqr |
-| Spending Policy | spending-policy | Magnitude Limits | magnitude-limits |
-| Spending Policy | spending-policy | Velocity Limits | velocity-limits |
-| Spending Policy | spending-policy | Whitelisted Addresses | whitelisted-addresses |
-| Spending Policy | spending-policy | 2FA Authentication | 2fa-authentication |
+| Signing Connectivity | signing-connectivity | Sign via USB | usb |
+| Signing Connectivity | signing-connectivity | Sign via Bluetooth | bluetooth |
+| Signing Connectivity | signing-connectivity | Sign via NFC | nfc |
+| Signing Connectivity | signing-connectivity | Sign via microSD card | microsd-card |
+| Signing Connectivity | signing-connectivity | Sign via QR | qr |
+| Signing Connectivity | signing-connectivity | UR2.0 Animated QRs | ur-2-animated-qrs |
+| Signing Connectivity | signing-connectivity | BBQr | bbqr |
+| Spending Conditions | spending-conditions | Magnitude Limits | magnitude-limits |
+| Spending Conditions | spending-conditions | Velocity Limits | velocity-limits |
+| Spending Conditions | spending-conditions | Whitelisted Addresses | whitelisted-addresses |
+| Spending Conditions | spending-conditions | 2FA Authentication | 2fa-authentication |
+| Spending Conditions | spending-conditions | Miniscript | miniscript |
+| Spending Conditions | spending-conditions | Taproot Miniscript | taproot-miniscript |
 | Fees | fees | Fee Control | fee-control |
 | Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
 | Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |
@@ -193,8 +195,6 @@ All the features supported:
 | Privacy | privacy | Custom Node | custom-node |
 | Privacy | privacy | Tor | tor |
 | Privacy | privacy | Silent Payments | silent-payments |
-| Other Features | other-features | Miniscript | miniscript |
-| Other Features | other-features | Taproot Miniscript | taproot-miniscript |
 | Other Features | other-features | Virtual Disk Mode | virtual-disk-mode |
 | Other Features | other-features | Password Manager | password-manager |
 | Other Features | other-features | U2F authentication | u2f-authentication |

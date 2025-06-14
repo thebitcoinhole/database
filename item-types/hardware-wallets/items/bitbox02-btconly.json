@@ -686,6 +686,38 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "miniscript": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BitBox 08.2023 Motterascio update",
+          "url": "https://bitbox.swiss/blog/bitbox-08-2023-marinelli-update/"
+        },
+        {
+          "title": "Understanding Bitcoin Miniscript - Part I",
+          "url": "https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-1/"
+        },
+        {
+          "title": "Understanding Bitcoin Miniscript - Part II",
+          "url": "https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/"
+        },
+        {
+          "title": "Understanding Bitcoin Miniscript - Part III",
+          "url": "https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-3/"
+        },
+        {
+          "title": "Exploring Bitcoin Miniscript with Liana and the BitBox02",
+          "url": "https://bitbox.swiss/blog/exploring-bitcoin-miniscript-with-liana-and-the-bitbox02/"
+        }
+      ]
+    },
+    "taproot-miniscript": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "fees": {
@@ -736,38 +768,6 @@
     }
   },
   "other-features": {
-    "miniscript": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "BitBox 08.2023 Motterascio update",
-          "url": "https://bitbox.swiss/blog/bitbox-08-2023-marinelli-update/"
-        },
-        {
-          "title": "Understanding Bitcoin Miniscript - Part I",
-          "url": "https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-1/"
-        },
-        {
-          "title": "Understanding Bitcoin Miniscript - Part II",
-          "url": "https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/"
-        },
-        {
-          "title": "Understanding Bitcoin Miniscript - Part III",
-          "url": "https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-3/"
-        },
-        {
-          "title": "Exploring Bitcoin Miniscript with Liana and the BitBox02",
-          "url": "https://bitbox.swiss/blog/exploring-bitcoin-miniscript-with-liana-and-the-bitbox02/"
-        }
-      ]
-    },
-    "taproot-miniscript": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "virtual-disk-mode": {
       "value": "NO",
       "supported": false

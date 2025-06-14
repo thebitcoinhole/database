@@ -586,6 +586,16 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "fees": {
@@ -633,16 +643,6 @@
     }
   },
   "other-features": {
-    "miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "taproot-miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "virtual-disk-mode": {
       "value": "NO",
       "supported": false

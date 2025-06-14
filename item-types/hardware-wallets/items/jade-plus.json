@@ -663,6 +663,22 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "miniscript": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Miniscript on Blockstream Jade",
+          "url": "https://www.youtube.com/watch?v=ARl3dMDVjTA"
+        }
+      ]
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "fees": {
@@ -709,22 +725,6 @@
     }
   },
   "other-features": {
-    "miniscript": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Miniscript on Blockstream Jade",
-          "url": "https://www.youtube.com/watch?v=ARl3dMDVjTA"
-        }
-      ]
-    },
-    "taproot-miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
     "virtual-disk-mode": {
       "value": "NO",
       "supported": false
