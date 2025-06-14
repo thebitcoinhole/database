@@ -174,13 +174,13 @@ All the features supported:
 | Signing | signing | Sign Messages | message-signing |
 | Signing | signing | Change Verification | change-verification |
 | Signing | signing | Change Address Display | change-address-display |
-| Signing Methods | signing-methods | Sign via USB | usb |
-| Signing Methods | signing-methods | Sign via Bluetooth | bluetooth |
-| Signing Methods | signing-methods | Sign via NFC | nfc |
-| Signing Methods | signing-methods | Sign via microSD card | microsd-card |
-| Signing Methods | signing-methods | Sign via QR | qr |
-| Signing Methods | signing-methods | UR2.0 Animated QRs | ur-2-animated-qrs |
-| Signing Methods | signing-methods | BBQr | bbqr |
+| Signing Connectivity | signing-methods | Sign via USB | usb |
+| Signing Connectivity | signing-methods | Sign via Bluetooth | bluetooth |
+| Signing Connectivity | signing-methods | Sign via NFC | nfc |
+| Signing Connectivity | signing-methods | Sign via microSD card | microsd-card |
+| Signing Connectivity | signing-methods | Sign via QR | qr |
+| Signing Connectivity | signing-methods | UR2.0 Animated QRs | ur-2-animated-qrs |
+| Signing Connectivity | signing-methods | BBQr | bbqr |
 | Spending Policy | spending-policy | Magnitude Limits | magnitude-limits |
 | Spending Policy | spending-policy | Velocity Limits | velocity-limits |
 | Spending Policy | spending-policy | Whitelisted Addresses | whitelisted-addresses |

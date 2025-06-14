@@ -549,7 +549,7 @@
       "flag": "positive"
     }
   },
-  "signing-methods": {
+  "signing-connectivity": {
     "usb": {
       "value": "NO",
       "supported": false
@@ -583,7 +583,7 @@
       "flag": "positive"
     }
   },
-  "spending-policy": {
+  "spending-conditions": {
     "magnitude-limits": {
       "value": "NO",
       "supported": false,

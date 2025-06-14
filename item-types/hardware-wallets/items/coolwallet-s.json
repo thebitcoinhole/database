@@ -476,7 +476,7 @@
       "supported": false
     }
   },
-  "signing-methods": {
+  "signing-connectivity": {
     "usb": {
       "value": "Micro-USB",
       "supported": true
@@ -512,7 +512,7 @@
       "supported": false
     }
   },
-  "spending-policy": {
+  "spending-conditions": {
     "magnitude-limits": {
       "value": "NO",
       "supported": false,

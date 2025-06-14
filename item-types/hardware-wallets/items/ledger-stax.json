@@ -492,7 +492,7 @@
       "flag": "negative"
     }
   },
-  "signing-methods": {
+  "signing-connectivity": {
     "usb": {
       "value": "USB-C",
       "supported": true
@@ -525,7 +525,7 @@
       "supported": false
     }
   },
-  "spending-policy": {
+  "spending-conditions": {
     "magnitude-limits": {
       "value": "NO",
       "supported": false,

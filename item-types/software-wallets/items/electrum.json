@@ -299,7 +299,7 @@
       "flag": "positive"
     }
   },
-  "signing-methods": {
+  "signing-connectivity": {
     "usb": {
       "value": "YES",
       "supported": true,

@@ -292,7 +292,7 @@
       "flag": "positive"
     }
   },
-  "signing-methods": {
+  "signing-connectivity": {
     "usb": {
       "value": "NO",
       "supported": false,

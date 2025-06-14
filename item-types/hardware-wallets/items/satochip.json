@@ -512,7 +512,7 @@
       "flag": "negative"
     }
   },
-  "signing-methods": {
+  "signing-connectivity": {
     "usb": {
       "value": "Adapter Required",
       "supported": true,
@@ -548,7 +548,7 @@
       "supported": false
     }
   },
-  "spending-policy": {
+  "spending-conditions": {
     "magnitude-limits": {
       "value": "NO",
       "supported": false,

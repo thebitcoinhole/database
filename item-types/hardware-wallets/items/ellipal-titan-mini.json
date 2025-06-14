@@ -510,7 +510,7 @@
       "supported": false
     }
   },
-  "signing-methods": {
+  "signing-connectivity": {
     "usb": {
       "value": "NO",
       "supported": false
@@ -546,7 +546,7 @@
       "supported": false
     }
   },
-  "spending-policy": {
+  "spending-conditions": {
     "magnitude-limits": {
       "value": "NO",
       "supported": false,

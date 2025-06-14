@@ -300,7 +300,7 @@
       "flag": "negative"
     }
   },
-  "signing-methods": {
+  "signing-connectivity": {
     "usb": {
       "value": "NO",
       "supported": false,

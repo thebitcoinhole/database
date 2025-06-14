@@ -132,12 +132,12 @@ All the features supported:
 | Signing | signing | Taproot Multi-sig (MuSig2) | taproot-multi-sig |
 | Signing | signing | Frost | frost |
 | Signing | signing | Sign Messages | message-signing |
-| Signing Methods | signing-methods | Sign via USB | usb |
-| Signing Methods | signing-methods | Sign via PSBT File | psbt-file |
-| Signing Methods | signing-methods | Sign via NFC | nfc |
-| Signing Methods | signing-methods | Sign via QR | qr |
-| Signing Methods | signing-methods | UR2.0 Animated QRs | ur-2-animated-qrs |
-| Signing Methods | signing-methods | BBQr | bbqr |
+| Signing Connectivity | signing-methods | Sign via USB | usb |
+| Signing Connectivity | signing-methods | Sign via PSBT File | psbt-file |
+| Signing Connectivity | signing-methods | Sign via NFC | nfc |
+| Signing Connectivity | signing-methods | Sign via QR | qr |
+| Signing Connectivity | signing-methods | UR2.0 Animated QRs | ur-2-animated-qrs |
+| Signing Connectivity | signing-methods | BBQr | bbqr |
 | Fees | fees | Fee Control | fee-control |
 | Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
 | Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |

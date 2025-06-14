@@ -295,7 +295,7 @@
       "flag": "negative"
     }
   },
-  "signing-methods": {
+  "signing-connectivity": {
     "usb": {
       "value": "YES",
       "supported": true,

@@ -676,7 +676,7 @@
       "flag": "positive"
     }
   },
-  "signing-methods": {
+  "signing-connectivity": {
     "usb": {
       "value": "USB-C (disabled by default)",
       "supported": true,
@@ -732,7 +732,7 @@
       "flag": "positive"
     }
   },
-  "spending-policy": {
+  "spending-conditions": {
     "magnitude-limits": {
       "value": "YES",
       "supported": true,
