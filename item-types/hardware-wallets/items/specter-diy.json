@@ -493,8 +493,8 @@
   },
   "signing-connectivity": {
     "usb": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "bluetooth": {
       "value": "NO",
