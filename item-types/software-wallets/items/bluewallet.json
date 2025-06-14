@@ -285,43 +285,6 @@
     }
   },
   "signing": {
-    "usb-data": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "psbt-file": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "nfc": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "qr": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ur-2-animated-qrs": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "message-signing": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    }
-  },
-  "multisig": {
     "multi-sig": {
       "value": "YES",
       "supported": true,
@@ -347,6 +310,43 @@
       "flag": "negative"
     },
     "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing-methods": {
+    "usb": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "psbt-file": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

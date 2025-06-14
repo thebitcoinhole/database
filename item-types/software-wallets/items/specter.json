@@ -266,7 +266,29 @@
     }
   },
   "signing": {
-    "usb-data": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot-multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing-methods": {
+    "usb": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
@@ -292,28 +314,6 @@
       "flag": "positive"
     },
     "bbqr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "message-signing": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    }
-  },
-  "multisig": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "taproot-multi-sig": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "frost": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

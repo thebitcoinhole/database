@@ -136,6 +136,7 @@
     },
     "usb-charging": {
       "value": "USB-C",
+      "flag": "positive",
       "supported": true
     },
     "wireless-charging": {

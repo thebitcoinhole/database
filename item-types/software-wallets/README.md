@@ -128,16 +128,16 @@ All the features supported:
 | Send | send | Send to Internal Address | send-internal-address |
 | Send | send | Multiple Send Addresses | multiple-send-addresses |
 | Send | send | Batch Transactions | batch-transactions |
-| Signing | signing | Sign via USB | usb-data |
-| Signing | signing | Sign via PSBT File | psbt-file |
-| Signing | signing | Sign via NFC | nfc |
-| Signing | signing | Sign via QR | qr |
-| Signing | signing | UR2.0 Animated QRs | ur-2-animated-qrs |
-| Signing | signing | BBQr | bbqr |
+| Signing | signing | Multi-sig (PSBTs) | multi-sig |
+| Signing | signing | Taproot Multi-sig (MuSig2) | taproot-multi-sig |
+| Signing | signing | Frost | frost |
 | Signing | signing | Sign Messages | message-signing |
-| Multi-Sig | multisig | Multi-sig (PSBTs) | multi-sig |
-| Multi-Sig | multisig | Taproot Multi-sig (MuSig2) | taproot-multi-sig |
-| Multi-Sig | multisig | Frost | frost |
+| Signing Methods | signing-methods | Sign via USB | usb |
+| Signing Methods | signing-methods | Sign via PSBT File | psbt-file |
+| Signing Methods | signing-methods | Sign via NFC | nfc |
+| Signing Methods | signing-methods | Sign via QR | qr |
+| Signing Methods | signing-methods | UR2.0 Animated QRs | ur-2-animated-qrs |
+| Signing Methods | signing-methods | BBQr | bbqr |
 | Fees | fees | Fee Control | fee-control |
 | Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
 | Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |

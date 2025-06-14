@@ -280,7 +280,41 @@
     }
   },
   "signing": {
-    "usb-data": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "A new Multisig Standard and Nunchuk 1.0",
+          "url": "https://nunchuk.io/blog/a-new-multisig-standard-and-nunchuk-10-pVDPJ4bAAg5v1bALEMzYXh"
+        }
+      ]
+    },
+    "taproot-multi-sig": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Introducing Taproot Multisig Wallet",
+          "url": "https://nunchuk.io/blog/taproot-multisig"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "message-signing": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "signing-methods": {
+    "usb": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
@@ -309,40 +343,6 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
-    },
-    "message-signing": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    }
-  },
-  "multisig": {
-    "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "A new Multisig Standard and Nunchuk 1.0",
-          "url": "https://nunchuk.io/blog/a-new-multisig-standard-and-nunchuk-10-pVDPJ4bAAg5v1bALEMzYXh"
-        }
-      ]
-    },
-    "taproot-multi-sig": {
-      "value": "BETA",
-      "supported": true,
-      "flag": "neutral",
-      "links": [
-        {
-          "title": "Introducing Taproot Multisig Wallet",
-          "url": "https://nunchuk.io/blog/taproot-multisig"
-        }
-      ]
-    },
-    "frost": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
     }
   },
   "fees": {
