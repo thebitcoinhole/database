@@ -354,6 +354,29 @@
       "flag": "negative"
     }
   },
+  "spending-conditions": {
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "timelocks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "What is Blockstream Green's timelock feature?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/900003167766-What-is-Blockstream-Green-s-timelock-feature"
+        }
+      ]
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -484,27 +507,6 @@
     }
   },
   "other-features": {
-    "miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "taproot-miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "timelocks": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "What is Blockstream Green's timelock feature?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/900003167766-What-is-Blockstream-Green-s-timelock-feature"
-        }
-      ]
-    },
     "encrypted-storage": {
       "value": "YES",
       "supported": true,

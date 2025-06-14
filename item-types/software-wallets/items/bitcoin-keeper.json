@@ -333,6 +333,23 @@
       "flag": "negative"
     }
   },
+  "spending-conditions": {
+    "miniscript": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "timelocks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -435,21 +452,6 @@
     }
   },
   "other-features": {
-    "miniscript": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "taproot-miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "timelocks": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "encrypted-storage": {
       "value": "YES",
       "supported": true,

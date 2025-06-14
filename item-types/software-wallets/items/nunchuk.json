@@ -345,6 +345,26 @@
       "flag": "positive"
     }
   },
+  "spending-conditions": {
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "timelocks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "Nunchuk use their servers for delivering timelocks instead of the bitcoin native timelocks."
+      ]
+    }
+  },
   "fees": {
     "fee-control": {
       "value": "YES",
@@ -471,24 +491,6 @@
     }
   },
   "other-features": {
-    "miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "taproot-miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    },
-    "timelocks": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "texts": [
-        "Nunchuk use their servers for delivering timelocks instead of the bitcoin native timelocks."
-      ]
-    },
     "encrypted-storage": {
       "value": "YES",
       "supported": true,

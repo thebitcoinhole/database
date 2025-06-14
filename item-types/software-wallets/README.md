@@ -138,6 +138,9 @@ All the features supported:
 | Signing Connectivity | signing-connectivity | Sign via QR | qr |
 | Signing Connectivity | signing-connectivity | UR2.0 Animated QRs | ur-2-animated-qrs |
 | Signing Connectivity | signing-connectivity | BBQr | bbqr |
+| Spending Conditions | spending-conditions | Miniscript | miniscript |
+| Spending Conditions | spending-conditions | Taproot Miniscript | taproot-miniscript |
+| Spending Conditions | spending-conditions | Timelocks | timelocks |
 | Fees | fees | Fee Control | fee-control |
 | Fees | fees | Replace-by-fee (RBF) | replace-by-fee |
 | Fees | fees | Child-pays-for-parent (CPFP) | child-pays-for-parent |
@@ -157,9 +160,6 @@ All the features supported:
 | Full Node Integration | node-integration | Fulcrum Server Integration | fulcrum-server |
 | Full Node Integration | node-integration | Dojo Server Integration | dojo-server |
 | Full Node Integration | node-integration | Tor | tor |
-| Other Features | other-features | Miniscript | miniscript |
-| Other Features | other-features | Taproot Miniscript | taproot-miniscript |
-| Other Features | other-features | Timelocks | timelocks |
 | Other Features | other-features | Encrypted Storage | encrypted-storage |
 | Other Features | other-features | Dark Mode | dark-mode |
 | Other Features | other-features | Wallet Rollover | wallet-rollover |
