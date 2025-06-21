@@ -278,8 +278,8 @@
       "supported": true
     },
     "upgrade-via-bluetooth": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "upgrade-via-nfc": {
       "value": "NO",
