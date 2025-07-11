@@ -770,9 +770,9 @@
       "flag": "positive"
     },
     "bitcoin-keeper": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "liana": {
       "value": "YES",

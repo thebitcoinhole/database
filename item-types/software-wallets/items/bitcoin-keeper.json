@@ -297,9 +297,9 @@
       "flag": "negative"
     },
     "message-signing": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "signing-connectivity": {
@@ -905,9 +905,9 @@
       "flag": "positive"
     },
     "krux": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "tapsigner": {
       "value": "YES",
