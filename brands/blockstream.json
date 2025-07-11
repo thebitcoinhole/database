@@ -11,11 +11,11 @@
   },
   "blog": {
     "value": "blog.blockstream.com",
-    "url": "https://blog.blockstream.com/blockstream-jade/"
+    "url": "https://blog.blockstream.com"
   },
   "twitter": {
-    "value": "@BlockstreamJade",
-    "url": "https://x.com/BlockstreamJade"
+    "value": "@Blockstream",
+    "url": "https://x.com/Blockstream"
   },
   "nostr": {
     "value": "Blockstream",
