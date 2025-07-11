@@ -30,14 +30,14 @@
       "supported": false
     },
     "btc-on-chain": {
-      "value": "SOON",
-      "flag": "neutral",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "btc-lightning": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "alt-coins": {
       "value": "NO"

@@ -1,8 +1,7 @@
 {
   "id": "frostnap",
   "name": "Frostnap",
-  "coming-soon": true,
-  "price-history-enabled": false,
+  "pre-order": true,
   "basic-information": {
     "year": {
       "value": "2025"
@@ -472,9 +471,9 @@
   },
   "spending-conditions": {
     "magnitude-limits": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "velocity-limits": {
       "value": "NO",
