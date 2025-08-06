@@ -1,0 +1,59 @@
+{
+  "id": "bitcoin-vs-altcoins",
+  "name": "Bitcoin vs Altcoins",
+  "short-description": "The Battle for Dominance",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "e53 Publishing"
+    },
+    "pages": {
+      "value": "276"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Phil Champagne"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://bitcoinvsaltcoinsbook.com/"
+    },
+    "twitter": {
+      "value": "@egg_descrambler",
+      "url": "https://x.com/egg_descrambler"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Have you ever wondered about the debate over which cryptocurrency or blockchain project is the best? Whether you are personally in the midst of this raging battle or have never heard of it, Bitcoin vs Altcoins gives a powerful examination of this historic phenomena.\n\nToo often, we witness pointless insults thrown at the other camp, devoid of sound arguments and constructive discussions. Why is there such a heated argument in one asset class that is not present in others, such as in the stock market?\n\nDoes it really matter if other cryptocurrencies exist? How would things be different if Bitcoin had been the sole cryptocurrency around since 2009? The question arises, is bitcoin after all an outdated first draft of the crypto concept, or is it sufficiently resilient to remain the dominant cryptocurrency?\n\nIn this book, Phil Champagne, the author of The Book of Satoshi, explores the big picture. Through topics including gold & silver, real estate, the economy (Proof-of-Debt), consensus mechanisms (Proof-of-Work, Proof-of Stake, and Proof-of Authority), smart contracts, Lighting Network, decentralization, resilience, network effect and much more, be ready to take an honest look at the whole picture, no matter which side you’re currently on.\n\nA cryptocurrency’s ability to be resilient against manipulation is as strong as its consensus mechanism and its network effect.\n\nWant to learn more about the battle for dominance? Join Phil in this journey, Bitcoin vs Altcoins."
+}

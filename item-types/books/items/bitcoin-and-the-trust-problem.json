@@ -1,0 +1,66 @@
+{
+  "id": "bitcoin-and-the-trust-problem",
+  "name": "Bitcoin and The Trust Problem",
+  "short-description": "How bitcoin plays a role in fixing our world of trust",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Konsensus Network"
+    },
+    "pages": {
+      "value": "166"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Karo Zagorus"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://bitcoiner.bio/btcdragonlord"
+    },
+    "twitter": {
+      "value": "@btcdragonlord",
+      "url": "https://x.com/btcdragonlord"
+    },
+    "nostr": {
+      "value": "Karo Zagorus",
+      "url": "https://primal.net/p/npub1t2jqazwvw3drtja7uwcyxuslalctln6g9p7zpw6ps9tvdswzm4cs9fhgkn"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Digital (EPUB)",
+          "url": "https://bitcoinbook.shop/products/bitcoin-and-the-trust-problem?Format=Digital+%28EPUB%29"
+        }
+      ]
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Is Bitcoin adoption accelerated by the Abuse of Trust?\nThis question might not come off to many as an important one, not even for myself when I started writing this as my Master's Thesis back in 2019.\nThe lingering question about Bitcoin was always there, perhaps because I was still not so sure about the world around me and what Bitcoin represents but without question this piece of writing is my own rabbit hole story. It is my own research into what is wrong with the world as of today, answering the question about why Bitcoin exists and how it survives. Join me on my journey to better understand the effects that play a crucial role in the dissolution of trust in our modern world."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-and-black-america",
+  "name": "Bitcoin & Black America",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "109"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Isaiah Jackson"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@bitcoinzay",
+      "url": "https://x.com/bitcoinzay"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Ready for a change in black economics? Join the Bitcoin revolution. Bitcoin and Black America is a dynamic new book that explores the synergy between black economics, Bitcoin and blockchain technology. The global financial system is changing and the digital revolution will not be televised.\n\nWe explore how to incorporate cryptocurrency in your business, job and educational institution. This book also outlines the need for separation from the racist banking system and a comprehensive list of black professionals actively working in the Blockchain industry."
+}

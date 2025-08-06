@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "Frostsnap Tech"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "frostsnap.com",
+    "url": "https://frostsnap.com/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@FrostsnapTech",
+    "url": "https://x.com/FrostsnapTech"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "frostsnap",
+    "url": "https://github.com/frostsnap"
+  }
+}

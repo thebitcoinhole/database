@@ -1,0 +1,36 @@
+{
+  "brand": {
+    "value": "HWLT"
+  },
+  "headquarters": {
+    "value": "United Arab Emirates"
+  },
+  "website": {
+    "value": "era-wallet.com",
+    "url": "https://era-wallet.com/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://medium.com/@erawallet"
+  },
+  "twitter": {
+    "value": "@era_wallet",
+    "url": "https://x.com/era_wallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "ERAWLT",
+    "url": "https://github.com/ERAWLT"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

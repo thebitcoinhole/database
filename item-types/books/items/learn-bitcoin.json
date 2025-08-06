@@ -1,0 +1,59 @@
+{
+  "id": "learn-bitcoin",
+  "name": "Learn Bitcoin",
+  "short-description": "Become Financially Sovereign",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "PoshMedia"
+    },
+    "pages": {
+      "value": "192"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Anita Posch"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://anitaposch.com/"
+    },
+    "twitter": {
+      "value": "@AnitaPosch",
+      "url": "https://x.com/AnitaPosch"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Learn Bitcoin is the best Bitcoin book to decide why and how you should begin to invest in Bitcoin. It presents the new Bitcoin standard in all its facets from technical, economical, political and social implications to how it evolves in the current monetary landscape. It provides a step-by-step roadmap to navigate this new financial world and sets you up with concrete recommendations on bitcoin investing, earning and storing bitcoin. Ascending the staircase of financial sovereignty will grant you personal freedom and control over your bitcoin money.\nIn this book you will find answers to the questions of what money is, where it comes from, its history, blockchain technology and Bitcoin specifically. It gives answers to the why and how to use Bitcoin while debunking popular myths and misunderstandings surrounding cryptocurrencies. You'll find a deep dive into Bitcoin's development since its inception in 2008 and an outlook on the future of cryptocurrency based on Bitcoin.\nWhile mainstream media and economic pundits in the Western world think that it's just a tool for speculation, my goal is to spread the word about Bitcoin as an enabler of financial fairness and social change. What goes unmentioned in most other publications are the positive real world implications that a truly permissionless, uncensorable, neutral digital asset with a fixed supply offers.\nLater the cryptocurrency book focuses on the more practical applications of Bitcoin (BTC) and how you can safely acquire and store it. You will learn how to gain confidence by starting with small amounts, how to minimize the existing risks and proceed strategically and efficiently in storing your wealth for the long-term.\nThis is neither financial advice, nor a trading guide to the thousands of Altcoins in existence. If you are only interested in short-term gains, treating money like you're gambling in a casino, this book is not for you. It's for people who want to (l)earn and understand the fundamentals of Bitcoin and control their funds in a self-sovereign manner.\nTestimonials\n\"Anita Posch's work makes Bitcoin approachable, understandable and compelling to those who are new to Bitcoin and helps them on their journey to become experts. In an environment filled with noise, her work is crystal clear and honest.\" - Andreas M. Antonopoulos, author \"Mastering Bitcoin\" and \"The Internet of Money\"\n\"'What is Bitcoin?' To even begin to start answering this question, one must first ask 'what is money?' Anita takes the reader through this journey of learning about money so that they can understand why Bitcoin is the next leap forward in financial technology. Once you know the 'why?' then there is the issue of 'how?' With great sovereignty comes great responsibility; in order to safely navigate this new system you’ll need the knowledge and tools that this book provides.\" - Jameson Lopp, Co-founder & CTO, Casa\n\"Anita has distilled what has taken most Bitcoiners years to learn (myself included) into a few hour read. The masterful organization and flow from one subject area to the next actually make Bitcoin seem simple to explain. It is hard to believe she is able to tackle the enormity of Bitcoin in so few pages. Anita gives numerous clear and understandable examples of how Bitcoin improves the lives of those who have been excluded and/or enslaved by the current financial system.\" - Michael Peterson, Bitcoin Beach, El Salvador\n\"Anita has done tremendous work in the Bitcoin community, including and especially the content she has produced about Bitcoin’s use in less-privileged regions of the world. Her book is a concise and approachable introduction to Bitcoin that covers all of the major topics for someone to get started.\" - Lyn Alden, Investment Strategist"
+}

@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Zengo"
+  },
+  "headquarters": {
+    "value": "Israel"
+  },
+  "website": {
+    "value": "zengo.com",
+    "url": "https://zengo.com/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://zengo.com/blog/"
+  },
+  "twitter": {
+    "value": "@zengo",
+    "url": "https://x.com/zengo"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@ZengoWallet",
+    "url": "https://www.youtube.com/@ZengoWallet"
+  },
+  "github": {
+    "value": "Zengo-X",
+    "url": "https://github.com/Zengo-X"
+  }
+}

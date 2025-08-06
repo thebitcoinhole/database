@@ -1,0 +1,59 @@
+{
+  "id": "better-money",
+  "name": "Better Money",
+  "short-description": "Gold, Fiat, or Bitcoin?",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Cambridge University Press"
+    },
+    "pages": {
+      "value": "185"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Lawrence H. White"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://www.cato.org/alt-m"
+    },
+    "twitter": {
+      "value": "@lawrencehwhite1",
+      "url": "https://x.com/lawrencehwhite1"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "The recent rise of dollar, pound, and euro inflation rates has rekindled the debate over potential alternative monies, particularly gold and Bitcoin. Though Bitcoin has been much discussed in recent years, a basic understanding of how it and gold would work as monetary standards is rare. Accessibly written by a pioneering economist, Better Money explains and evaluates gold, fiat, and Bitcoin standards without hype. White uses simple supply-and-demand analysis to explain how these standards work, evaluating their relative merits and explaining their response to shocks, allowing for informed comparisons between them. This book addresses common misunderstandings of the gold standard and Bitcoin, using historical evidence to review the history of money with emphasis on the contest between market and government provision. Known for his work on alternative monetary institutions, White offers a reasoned discussion of which standard is most likely to provide a better money."
+}

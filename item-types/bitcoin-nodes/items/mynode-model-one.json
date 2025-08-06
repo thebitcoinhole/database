@@ -1,0 +1,356 @@
+{
+  "id": "mynode-model-one",
+  "name": "Model One",
+  "full-name": "MyNode Model One",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2022"
+    }
+  },
+  "company": "my-node",
+  "communities": {
+    "telegram": {
+      "value": "myNode",
+      "url": "https://t.me/mynode_btc"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
+    "warranty": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "weight": {
+      "value": "?"
+    },
+    "dimensions": {
+      "value": "?"
+    },
+    "cpu": {
+      "value": "Quad core Cortex-A72"
+    },
+    "ram": {
+      "value": "8 GB"
+    },
+    "storage": {
+      "value": "1/2 TB"
+    },
+    "ethernet": {
+      "value": "Gigabit Ethernet",
+      "supported": true,
+      "flag": "positive"
+    },
+    "wifi": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Connect WiFi",
+          "url": "https://mynodebtc.github.io/device/connect-wifi.html"
+        }
+      ]
+    },
+    "hdmi": {
+      "value": "2x micro-HDMI",
+      "supported": true
+    },
+    "usb": {
+      "value": "2x USB 2.0 / 2x USB 3.0",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "Manually",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to edit the Bitcoin config file"
+      ]
+    },
+    "btc-signet": {
+      "value": "Manually",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to edit the Bitcoin config file"
+      ]
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "MyNode"
+    },
+    "bitcoin-only": {
+      "value": "NO"
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://github.com/mynodebtc/mynode/blob/master/CHANGELOG"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/mynodebtc/mynode"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "license": {
+      "value": "Creative Commons NonCommercial",
+      "supported": false,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/mynodebtc/mynode/blob/master/LICENSE.md"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "-",
+      "supported": false
+    },
+    "macos": {
+      "value": "-",
+      "supported": false
+    },
+    "linux": {
+      "value": "-",
+      "supported": false
+    },
+    "pc-disk-image": {
+      "value": "-",
+      "supported": false
+    },
+    "virtual-machine": {
+      "value": "-",
+      "supported": false
+    },
+    "raspberry-pi-4": {
+      "value": "-",
+      "supported": false
+    },
+    "raspberry-pi-5": {
+      "value": "-",
+      "supported": false
+    },
+    "rock-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rock-pro-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rockpi-4": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "libre-relay": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
+    },
+    "mempool-visualizer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
+    },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "JoinMarket",
+          "url": "https://mynodebtc.github.io/coinjoin/joinmarket.html"
+        }
+      ]
+    },
+    "btcpay-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BTCPay Server",
+          "url": "https://mynodebtc.github.io/btcpay-server/setup.html"
+        }
+      ]
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Electrum Server",
+          "url": "https://mynodebtc.github.io/electrum/electrum.html"
+        }
+      ]
+    },
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "samourai-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "official-marketplace": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "thirdparty-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-restore": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "health-checks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ssl": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tailscale": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  }
+}

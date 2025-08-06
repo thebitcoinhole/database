@@ -1,0 +1,140 @@
+{
+  "id": "ellipal-seed-phrase-steel",
+  "name": "Seed Phrase Steel",
+  "full-name": "Ellipal Seed Phrase Steel",
+  "purchasable": true,
+  "company": "ellipal",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via Crypto.com Pay or Coinbase Commerce)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "YES (via Crypto.com Pay or Coinbase Commerce)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "126.5g / 4.46oz"
+    },
+    "dimensions": {
+      "value": "70 x 57 x 6 mm"
+    },
+    "materials": {
+      "value": "Stainless Steel",
+      "texts": [
+        "316 stainless steel"
+      ]
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "The Seed Phrase Steel can withstand temperatures up to 2649.2°F (1454°C), protecting your crypto backup even in the event of a house fire reaching 1500°F (815°C)."
+      ]
+    },
+    "crush-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "corrosion-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "shock-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "stress-tests": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "Partially",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "Lock Hole. The device has a hole that you can use to secure with a padlock (not included)"
+      ]
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "1 share",
+      "flag": "neutral",
+      "supported": true
+    },
+    "hexadecimal-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "ascii-strings": {
+      "value": "YES (up to 96 chars)",
+      "flag": "positive",
+      "supported": true
+    }
+  }
+}

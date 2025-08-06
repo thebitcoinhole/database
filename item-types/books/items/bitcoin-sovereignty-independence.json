@@ -1,0 +1,59 @@
+{
+  "id": "bitcoin-sovereignty-independence",
+  "name": "Bitcoin: Sovereignty & Independence",
+  "short-description": "",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Konsensus Network"
+    },
+    "pages": {
+      "value": "153"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Knut Svanholm"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://www.knutsvanholm.com/"
+    },
+    "twitter": {
+      "value": "@knutsvanholm",
+      "url": "https://x.com/knutsvanholm"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Through clear and elegant writing, Knut Svanholm takes us on a philosophical journey to explore the new language of money that Bitcoin creates, while never losing touch with what is happening in the world.\n\nUsing metaphors and examples, Knut Svanholm highlights the shortcomings of the old boxes we have been operating within. He urges us to critically examine them, challenge them, and envision a future where we exercise greater autonomy over our lives, both financially and socially.\n\nThis book is provocatory and it needs to be. It's hard to imagine something we've never experienced, and it's hard to picture a different reality from the one that we are so immersed in. The author forces us to face this reality and confront our own behaviors. He exposes the rigged coercion game we're part of and shows us how bitcoin can take us out of it if we accept the challenge.\n\nBitcoin is not something you believe in, but something you need to understand and define for yourself. \"Sovereignty & Independence\" in its striking simplicity is a pleasure to read and will help you do just that."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "programming-bitcoin",
+  "name": "Programming Bitcoin",
+  "short-description": "Learn How to Program Bitcoin from Scratch",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "O'Reilly Media"
+    },
+    "pages": {
+      "value": "322"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Jimmy Song"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@jimmysong",
+      "url": "https://x.com/jimmysong"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@jimmysongbitcoin",
+      "url": "https://www.youtube.com/@jimmysongbitcoin"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Dive into Bitcoin technology with this hands-on guide from one of the leading teachers on Bitcoin and Bitcoin programming. Author Jimmy Song shows Python programmers and developers how to program a Bitcoin library from scratch. You’ll learn how to work with the basics, including the math, blocks, network, and transactions behind this popular cryptocurrency and its blockchain payment system.\nBy the end of the book, you'll understand how this cryptocurrency works under the hood by coding all the components necessary for a Bitcoin library. Learn how to create transactions, get the data you need from peers, and send transactions over the network. Whether you’re exploring Bitcoin applications for your company or considering a new career path, this practical book will get you started.\n- Parse, validate, and create bitcoin transactions\n- Learn how to use the Bitcoin Script smart contract language\n- Work with exercises in each chapter to build a Bitcoin library from scratch\n- Understand how to secure a blockchain by verifying proof of work\n- Program Bitcoin using Python 3 and libraries including pycoin\n- Understand how simplified payment verification and light wallets work\n- Work with public-key cryptography and cryptographic primitives"
+}

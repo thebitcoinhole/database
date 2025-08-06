@@ -1,0 +1,58 @@
+{
+  "id": "cryptoeconomics",
+  "name": "Cryptoeconomics",
+  "short-description": "Fundamental Principles of Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "331"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Eric Voskuil"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@evoskuil",
+      "url": "https://x.com/evoskuil"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Do you think you know something about Bitcoin and Austrian Economics? If so you may be ready for Cryptoeconomics. This is not a work for the uninitiated. The content is dense – it does not repeat itself. It is not a contribution to the echo chamber, will not show you how to set up a wallet, the future price, or what to do.\nCryptoeconomics applies rational economic principles to Bitcoin, demonstrating flaws and unnecessary complexities in them, and in common understandings of Bitcoin. It will improve your understanding of both. Bitcoin requires a new, rigorous, and comprehensive discipline. \nThis is it.\nBitcoin is something new. It seems to defy understanding. Has there ever been a fixed supply money? Is there another case of production cost varying directly with product price? Is there anything else with a competitive yet fixed rate of transactability? To see past the hype, understand the value proposition, security model, and economic behavior, this may be your only source.\nBitcoin is economics, technology, and security. Without incorporating all of these aspects, errors will be made. Economists, technologists, security experts, and even numerologists have attempted to explain it. Each brings a limited perspective, failing to incorporate essential aspects. The author found himself uniquely qualified to integrate them.\nHis work in Bitcoin began with a hardware wallet. He spent a year analyzing threats, working with electronics design, hardware exploitation, and state surveillance experts. He chose the Libbitcoin software library, as Satoshi’s prototype was not factored for development and was largely financed by the Bitcoin Foundation, a corporate consortium. He later dedicated himself to Libbitcoin, eventually writing or editing all of its ~500,000 lines of code. Few have comparable experience with such a comprehensive Bitcoin stack.\nAs a combat-experienced fighter pilot in the U.S. Navy he experienced state threats. He became a highly-qualified Strike Fighter Tactics Instructor, in which his primary role was tactics analysis and threat presentation. He also advised for the Navy on the Strike Fighter Training System network, Joint Strike Fighter, early GPS weapons, and F/A-18 systems. His understanding of the physical nature of all security was enhanced by decades of training in Japanese martial arts, achieving black belt rankings in five disciplines.\nHis degree and experience in computer science mixed with extensive business experience, founding several companies. He has worked at IBM and as a Principle Architect at Microsoft, two of the world’s largest companies. The latter purchased his first startup, and his second was acquired by Veritas Capital. He was awarded three related U.S. patents. Eventually he became an angel investor, sharing his experience with other entrepreneurs.\nAs CTO of his first company he published three computer security advisories via Computer Emergency Response Team. Each was derived entirely from his reading of user documentation. Later he earned a seat on the DHS Open Vulnerability Assessment Language advisory board for his work on software patching. In recent years he uncovered material security flaws in each of the first three iterations of a popular “secure element” hardware wallet, again from review of user documentation.\nThirty years of self-study in free market economics was reinforced by extensive global travel. In visiting over 80 countries he has interacted with people on five continents. Still often traveling on a motorcycle with only a shoulder bag, he obtains intimate understanding of global economic realities. From Zimbabwean black market currency traders, to Tanzanian coffee pickers, Venezuelan refugees, Mongolian shepherds, Okinawan jazz musicians, Lao monks, etc. – the world is not as often presented.\nThe ability to integrate these diverse and relevant experiences led to Cryptoeconomics. This is your next stop."
+}

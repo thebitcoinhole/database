@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "value": "D'CENT"
+  },
+  "headquarters": {
+    "value": "Korea"
+  },
+  "website": {
+    "value": "dcentwallet.com",
+    "url": "https://dcentwallet.com/"
+  },
+  "blog": {
+    "value": "medium.com/dcentwallet",
+    "url": "https://medium.com/dcentwallet"
+  },
+  "twitter": {
+    "value": "@DCENTwallets",
+    "url": "https://x.com/DCENTwallets"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "DcentWallet",
+    "url": "https://github.com/DcentWallet"
+  }
+}

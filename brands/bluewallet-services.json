@@ -1,0 +1,38 @@
+{
+  "brand": {
+    "value": "Bluewallet Services"
+  },
+  "headquarters": {
+    "value": "Spain"
+  },
+  "website": {
+    "value": "bluewallet.io",
+    "url": "https://bluewallet.io/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://bluewallet.io/blog/"
+  },
+  "twitter": {
+    "value": "@bluewalletio",
+    "url": "https://x.com/bluewalletio"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@bluewallet4755",
+    "url": "https://www.youtube.com/@bluewallet4755"
+  },
+  "github": {
+    "value": "BlueWallet",
+    "url": "https://github.com/BlueWallet"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "Bluewallet",
+    "url": "https://discord.com/invite/btWq2Aby2z"
+  }
+}

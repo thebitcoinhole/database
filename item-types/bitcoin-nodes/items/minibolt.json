@@ -1,0 +1,364 @@
+{
+  "id": "minibolt",
+  "name": "MiniBolt",
+  "buildable": true,
+  "basic-information": {
+    "year": {
+      "value": "2022"
+    }
+  },
+  "company": "mini-bolt",
+  "communities": {
+    "telegram": {
+      "value": "MiniBolt",
+      "url": "https://t.me/minibolt"
+    },
+    "reddit": {
+      "value": "MiniBolt",
+      "url": "https://www.reddit.com/r/minibolt"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "-",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "-",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "-",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "DIY"
+    },
+    "warranty": {
+      "value": "-",
+      "supported": false
+    },
+    "weight": {
+      "value": "-"
+    },
+    "dimensions": {
+      "value": "-"
+    },
+    "cpu": {
+      "value": "-"
+    },
+    "ram": {
+      "value": "-"
+    },
+    "storage": {
+      "value": "-"
+    },
+    "ethernet": {
+      "value": "-",
+      "supported": true
+    },
+    "wifi": {
+      "value": "-",
+      "supported": true
+    },
+    "hdmi": {
+      "value": "-",
+      "supported": true
+    },
+    "usb": {
+      "value": "-",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "-",
+      "supported": true
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "MiniBolt on Testnet",
+          "url": "https://v2.minibolt.info/bonus-guides/bitcoin/minibolt-on-testnet"
+        }
+      ]
+    },
+    "btc-regtest": {
+      "value": "NO",
+      "supported": false
+    },
+    "btc-signet": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "MiniBolt"
+    },
+    "bitcoin-only": {
+      "value": "YES"
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://github.com/minibolt-guide/minibolt/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/minibolt-guide/minibolt"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "supported": false,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/minibolt-guide/minibolt/blob/main/LICENSE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "pc-disk-image": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "virtual-machine": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "raspberry-pi-4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "raspberry-pi-5": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rock-64": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rock-pro-64": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rockpi-4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "libre-relay": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockchain explorer: BTC RPC Explorer",
+          "url": "https://v2.minibolt.info/bitcoin/bitcoin/blockchain-explorer"
+        }
+      ]
+    },
+    "mempool-visualizer": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coinjoin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btcpay-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BTCPay Server",
+          "url": "https://v2.minibolt.info/bonus-guides/bitcoin/btcpay-server"
+        }
+      ]
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Electrs",
+          "url": "https://v2.minibolt.info/bonus-guides/bitcoin/electrs"
+        }
+      ]
+    },
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Fulcrum server",
+          "url": "https://v2.minibolt.info/itcoin/bitcoin/electrum-server"
+        }
+      ]
+    },
+    "samourai-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Electrum Wallet Desktop",
+          "url": "https://v2.minibolt.info/bonus-guides/bitcoin/electrum-wallet-desktop"
+        }
+      ]
+    },
+    "sparrow-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Desktop wallet: Sparrow wallet",
+          "url": "https://v2.minibolt.info/bitcoin/bitcoin/desktop-wallet"
+        }
+      ]
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "official-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "thirdparty-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-restore": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "health-checks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ssl": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tailscale": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

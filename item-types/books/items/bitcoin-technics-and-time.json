@@ -1,0 +1,58 @@
+{
+  "id": "bitcoin-technics-and-time",
+  "name": "Bitcoin, Technics and Time",
+  "short-description": "Philosophical exploration through history, technology and timechain",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2022"
+    },
+    "publisher": {
+      "value": "Konsensus Network"
+    },
+    "pages": {
+      "value": "74"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Pietro Battistella"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@batpie",
+      "url": "https://x.com/batpie"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "The increase of interest in bitcoin and cryptocurrencies is undeniable. Whether considered a hazardous investment, a financial bubble, or the best monetary technology that ever existed, bitcoin is now, to various degrees, taken seriously by governments, corporations, media, and society at large. Nevertheless, the implications of this phenomenon and its philosophical underpinnings remain elusive and hard to grasp.In this short book, Pietro Battistella explores the philosophical connections between technology, history, and bitcoin. In a journey between Martin Heidegger and Augustine of Hippo, Emanuele Severino and Jacques Ellul, the author relates bitcoin to the concepts of technics and time grounded in the history of Western thought. Battistella argues that this nexus provides a framework to interpret bitcoin and places Satoshi's \"timechain\" coherently in the philosophical conversation, notwithstanding its disruptive and revolutionary scope. In an effort to advance our individual and collective understanding of this phenomenon and in light of its growing adoption, the ambition of this work is to encourage further philosophical explorations in the bitcoin space, to the benefit of the overall marketplace of ideas."
+}

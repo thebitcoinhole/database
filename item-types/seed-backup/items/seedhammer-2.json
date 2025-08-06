@@ -1,0 +1,136 @@
+{
+  "id": "seedhammer-2",
+  "name": "SeedHammer II",
+  "purchasable": true,
+  "company": "seed-hammer",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "4000g / 141oz"
+    },
+    "dimensions": {
+      "value": "210 x 210 x 210 mm"
+    },
+    "materials": {
+      "value": "Stainless Steel",
+      "links": [
+        {
+          "title": "The SeedHammer Metal Plates",
+          "url": "https://seedhammer.com/article/the-seedhammer-metal-plates"
+        }
+      ]
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crush-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "corrosion-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shock-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "stress-tests": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "hexadecimal-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "ascii-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  }
+}

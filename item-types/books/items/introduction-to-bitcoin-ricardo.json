@@ -1,0 +1,57 @@
+{
+  "id": "introduction-to-bitcoin-ricardo",
+  "name": "Introduction to Bitcoin",
+  "short-description": "Understanding Peer-to-Peer Networks, Digital Signatures, the Blockchain, Proof-of-Work, Mining, Network Attacks, Bitcoin Core",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "Expiscor Books"
+    },
+    "pages": {
+      "value": "61"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "David Ricardo"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Introduction to Bitcoin is the people's guide to Bitcoin. This book is written for those who want to understand how Bitcoin works without relying on equations and complex coding languages. With the help of cypherpunks, David Ricardo brings the history of early digital currencies to life from early encryption software to digital currency experiments. In straightforward language, he explains Bitcoin's peer-to-peer network, digital signatures, the blockchain, proof-of-work, mining, network attacks, and Bitcoin's underlying software. All readers will quickly gain a clear understanding of Bitcoin and the future implications of the Bitcoin network, including energy expenditure and the Lightning Networ. Included is an overview on how to safely store bitcoin, as well as a review of the people who have been suspected by the media of being Satoshi Nakamoto, the creator of Bitcoin. With simple diagrams, full-color images, and clear explanations, this is the introductory guide for anyone who wishes to understand Bitcoin.Included is Satoshi Nakamoto's whitepaper Bitcoin: A Peer-to-Peer Electronic Cash System."
+}

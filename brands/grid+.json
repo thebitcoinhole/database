@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Grid+"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "gridplus.io",
+    "url": "https://gridplus.io/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://blog.gridplus.io/"
+  },
+  "twitter": {
+    "value": "@gridplus",
+    "url": "https://x.com/gridplus"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@GridPlus",
+    "url": "https://www.youtube.com/@GridPlus"
+  },
+  "github": {
+    "value": "GridPlus",
+    "url": "https://github.com/GridPlus"
+  }
+}

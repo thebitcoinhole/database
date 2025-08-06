@@ -1,0 +1,59 @@
+{
+  "id": "how-to-explain-bitcoin-to-your-mum",
+  "name": "How to Explain Bitcoin to your mum",
+  "short-description": "The complete guide to Bitcoin for novices, experts and mums everywhere",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2018"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "156"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Jason Deane"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://jasonadeane.medium.com/"
+    },
+    "twitter": {
+      "value": "@JasonADeane",
+      "url": "https://x.com/JasonADeane"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "It’s hard enough to explain what Bitcoin is to someone who has never heard of it, but where do you even start for someone who doesn’t use the internet? Or have a mobile phone? Like, for example, my mum.\n\n\nThis book is the answer. Written with the absolute beginner in mind and using non-technical analogies, it will take you through everything from understanding what it is, how it works, who runs it and what could happen next as use of this fascinating – and divisive - alternative to money spreads throughout the world.\n\nSo, whether you’re a total novice and want to learn all the essential facts, a Bitcoin guru who wants to find simple ways to explain it to other people or just curious about the whole thing, this book is for you."
+}

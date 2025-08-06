@@ -1,0 +1,742 @@
+{
+  "id": "bc-vault",
+  "name": "BC Vault",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2018"
+    },
+    "assembled-in": {
+      "value": "Slovenia"
+    },
+    "diy": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "company": "real-security",
+  "communities": {
+    "telegram": {
+      "value": "@BC_Vault",
+      "url": "https://t.me/BC_Vault"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "official-store": {
+    "po-box-support": {
+      "value": "?",
+      "supported": false
+    },
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "warranty": {
+      "value": "2 years",
+      "flag": "positive"
+    },
+    "weight": {
+      "value": "41g / 1.446 oz"
+    },
+    "dimensions": {
+      "value": "57 x 100 x 10 mm"
+    },
+    "materials": {
+      "value": "Plastic/Aluminium"
+    },
+    "available-in-colors": {
+      "value": "YES",
+      "texts": [
+        "Full graphic customisation"
+      ],
+      "links": [
+        {
+          "title": "Customize your BC Vault",
+          "url": "https://bc-vault.com/customize-your-bc-vault/"
+        }
+      ]
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "OLED"
+    },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "color-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "2.42\"",
+      "flag": "positive"
+    },
+    "screen-resolution": {
+      "value": "128 x 64 px"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "Buttons"
+    },
+    "qwerty-keyboard": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "removable-battery": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "usb-charging": {
+      "value": "USB-C",
+      "flag": "positive",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "security": {
+    "air-gapped": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "secure-element": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BC Vault does include some mitigations to make it more difficult for attackers:",
+        "- The device is glued shut. BC Vault is difficult to open without noticeable damage to the outside.",
+        "- The firmware is signed by us and cannot be tampered with",
+        "- The application verifies the signed transaction data returned from the device to protect against a rogue device that has been tampered with",
+        "- Tamper evident packaging"
+      ]
+    },
+    "deterministic-nonces": {
+      "value": "?",
+      "supported": false
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "secure-boot": {
+      "value": "?",
+      "supported": false
+    },
+    "upgradable-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade-via-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-external-storage": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-cable": {
+      "value": "YES",
+      "supported": true
+    },
+    "upgrade-via-bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://bc-vault.com/category/release-notes-en/"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "license": {
+      "value": "-"
+    },
+    "reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "device-lock": {
+    "pin-lock": {
+      "value": "On Device",
+      "flag": "positive",
+      "texts": [
+        "A PIN is composed of jogger input combination – UP, DOWN, LEFT and RIGHT. It is at your own discretion to use as long a PIN as you feel comfortable with. You can even choose, not to use a PIN at all and use empty input (just confirm empty combination), but we do not recommend that.",
+        "Wallet PIN - used for sending currencies from individual wallets with the combination of Wallet Password in the Application"
+      ]
+    },
+    "dummy-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "time-delay-to-unlock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "YES (Via computer)",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Why do I need to shake my BC Vault?",
+          "url": "https://support.bc-vault.com/support/solutions/articles/43000079985-why-do-i-need-to-shake-my-bc-vault-"
+        }
+      ]
+    },
+    "multiple-private-keys": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "passphrase-support": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passphrase-entry": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Encrypted Micro SD card backup"
+      ]
+    },
+    "backup-recovery-nfc-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "key-teleport": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "addresses": {
+    "view-address-text": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "view-address-qr": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Does BC Vault support multi-signature access to wallets?",
+          "url": "https://support.bc-vault.com/support/solutions/articles/43000374160-does-bc-vault-support-multi-signature-access-to-wallets-"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-signing": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "change-verification": {
+      "value": "?",
+      "supported": false
+    },
+    "change-address-display": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "USB-C",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "spending-conditions": {
+    "magnitude-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "velocity-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "whitelisted-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "2fa-authentication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How can I speedup or replace a BTC transaction after it's been sent to the blockchain and it is still pending?",
+          "url": "https://support.bc-vault.com/support/solutions/articles/43000626327-how-can-i-speedup-or-replace-an-eth-erc20-btc-ltc-grs-doge-transaction-after-it-s-been-sent-to-the"
+        }
+      ]
+    },
+    "child-pays-for-parent": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "maximum-fee-protection": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "custom-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "virtual-disk-mode": {
+      "value": "NO",
+      "supported": false
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "YES",
+      "supported": true
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "windows-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "macos-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "linux-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "ios-app": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "third-party-apps": {
+    "bitcoin-safe": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "theya": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "wasabi-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "zeus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nunchuk": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-keeper": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "liana": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

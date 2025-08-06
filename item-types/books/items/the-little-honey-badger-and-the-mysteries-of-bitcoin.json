@@ -1,0 +1,58 @@
+{
+  "id": "the-little-honey-badger-and-the-mysteries-of-bitcoin",
+  "name": "The Little Honey Badger",
+  "short-description": "The Little Honey Badger And the Mysteries of Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "39"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Benjamin Colombier"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@BenjaminColomb9",
+      "url": "https://x.com/BenjaminColomb9"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "\"The Little Honey Badger and the Mysteries of Bitcoin\" is a captivating story\nthat introduces young readers to the complex world of Bitcoin in a fun and accessible way.\nThrough the adventures of the little Honey Badger, you will discover the fundamentals of Bitcoin, blockchain, and the principles of digital security, while developing your curiosity and spirit of exploration."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-and-the-future-of-money",
+  "name": "Bitcoin: And the Future of Money",
+  "short-description": "How does it work? How do you invest? How risky is it?",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2014"
+    },
+    "publisher": {
+      "value": "Triumph Books"
+    },
+    "pages": {
+      "value": "258"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Jose Pagliery"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "The digital currency founded by Satoshi Nakamoto in 2009 challenges everything we've come to accept about money, financial institutions, and even government. The currency is anonymous and can be traded internationally-without the fees, government regulation, and oversight by banks and government-backed securities. But Bitcoin is not without risk-the currency's value has fluctuated wildly since inception, and $400 billion suddenly disappeared overnight with the fall of Mt.Gox. Bitcoin: Everything You Need to Know About the Digital Currency Revolution provides a detailed look at the impact and future implications of digital currency. CNNMoney.com's Jose Pagliery details digital currency's origins, how the system works, and how Bitcoin is used today. The book also examines the economic impact of a digital, global currency, including perspectives from free market proponents such as Ron Paul to federal regulators who defend the need for central banks. Pagliery also explores the dark side of Bitcoin, including interviews with the FBI and a Bitcoin entrepreneur currently in federal prison. Bitcoin is essential reading for anyone looking to understand a financial innovation that will forever change how we think about money."
+}

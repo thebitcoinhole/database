@@ -1,0 +1,147 @@
+{
+  "id": "seedor-safe",
+  "name": "Seedor Safe",
+  "purchasable": true,
+  "company": "seedor",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "230g / 8.11oz"
+    },
+    "dimensions": {
+      "value": "67 x 25 mm"
+    },
+    "materials": {
+      "value": "Stainless Steel",
+      "texts": [
+        "316L for extra corrosion resistance"
+      ]
+    },
+    "include-all-tools": {
+      "value": "Starter Set required",
+      "flag": "neutral",
+      "supported": false
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crush-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "corrosion-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shock-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "stress-tests": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Bitcoin Steel Wallet Stresstest - what can the Seedor Safe withstand?",
+          "url": "https://www.seedor.io/en-int/blogs/info/bitcoin-steel-wallet-stresstest-was-halt-der-seedor-safe-aus"
+        },
+        {
+          "title": "Bitcoin Seed Storage Stress Test & Review by Jameson Lopp",
+          "url": "https://www.seedor.io/blogs/info/bitcoin-seed-storage-stress-test-review-by-jameson-lopp"
+        }
+      ]
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "1 share",
+      "flag": "neutral",
+      "supported": true
+    },
+    "hexadecimal-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "ascii-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "One capsule can fit 44 discs, each with 10 characters + 2 characters for the position."
+      ]
+    }
+  }
+}

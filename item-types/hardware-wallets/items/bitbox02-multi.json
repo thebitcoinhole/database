@@ -1,0 +1,916 @@
+{
+  "id": "bitbox02-multi",
+  "name": "BitBox02 Multi",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "assembled-in": {
+      "value": "Switzerland"
+    },
+    "diy": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "company": "bit-box",
+  "communities": {
+    "telegram": {
+      "value": "BitBox",
+      "url": "https://t.me/bitboxwallet"
+    },
+    "reddit": {
+      "value": "BitBoxWallet",
+      "url": "https://www.reddit.com/r/BitBoxWallet/"
+    }
+  },
+  "official-store": {
+    "po-box-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Bestelle die BitBox02 Hardware-Wallet, ohne deine Adresse preiszugeben",
+          "url": "https://bitbox.swiss/blog/bestelle-die-bitbox02-hardware-wallet-ohne-angabe-der-privaten-adresse/"
+        }
+      ]
+    },
+    "btc-on-chain": {
+      "value": "YES (via BTCPay or Crypto.com Pay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES (via Crypto.com Pay)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "warranty": {
+      "value": "2 years",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "BitBoxCare: extra peace of mind for your BitBox02",
+          "url": "https://bitbox.swiss/blog/bitboxcare-extra-peace-of-mind-for-your-bitbox02/"
+        }
+      ]
+    },
+    "weight": {
+      "value": "12g / 0.42oz"
+    },
+    "dimensions": {
+      "value": "54.5 x 25.4 x 9.6 mm"
+    },
+    "materials": {
+      "value": "Polycarbonate"
+    },
+    "available-in-colors": {
+      "value": "NO",
+      "supported": false
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Here's why a hardware wallet absolutely needs a display",
+          "url": "https://bitbox.swiss/blog/heres-why-a-hardware-wallet-absolutely-needs-a-display/"
+        }
+      ]
+    },
+    "screen-type": {
+      "value": "OLED"
+    },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "color-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "1.38\"",
+      "flag": "neutral"
+    },
+    "screen-resolution": {
+      "value": "128 x 64 px"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "Buttons"
+    },
+    "qwerty-keyboard": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "removable-battery": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "usb-charging": {
+      "value": "USB-C",
+      "flag": "positive",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative"
+    }
+  },
+  "security": {
+    "air-gapped": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Does airgap make Bitcoin hardware wallets more secure?",
+          "url": "https://bitbox.swiss/blog/does-airgap-make-bitcoin-hardware-wallets-more-secure/"
+        }
+      ]
+    },
+    "secure-element": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "A miniature computer (aka a microcontroller chip) inside the BitBox02 allows running open-source security code that is available from high-quality publicly-vetted repositories. A separate secure chip, the ATECC608B hardens access to your wallet in multiple ways."
+      ],
+      "links": [
+        {
+          "title": "Best of both worlds: using a secure chip with open source firmware",
+          "url": "https://bitbox.swiss/blog/best-of-both-worlds-using-a-secure-chip-with-open-source-firmware/"
+        }
+      ]
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Secure chip: As a fallback to avoid brute force attacks if the 10-attempt limit imposed by the microcontroller is somehow bypassed by a thief, a monotonic counter in the secure chip limits the total attempts of device-password entries. In addition, password stretching increases the amount of time needed to test each possible password, making such attacks infeasibly difficult.",
+        "Epoxy potting: A specialized solvent-resistant epoxy is applied over the microcontroller and secure chip to completely encapsulate it. Once dry, the epoxy bonds the chips to the casing of the BitBox02. If the casing is opened to access the chips, the chips will be physically ripped off the PCB, thus destroying the BitBox02.",
+        "Breaking pins: The glue used to attach both halves of the BitBox02 casing is specially chosen to create a permanent bond between the pins of the top casing and the pin holes of the bottom casing. An attempt at separating both halves of the casing will physically break the pins. Two halves can no longer cleanly re-attach, thus making it obvious to the user that the BitBox02 has been opened."
+      ],
+      "links": [
+        {
+          "title": "Anti-klepto explained: how the BitBox02 protects you against leaking private keys",
+          "url": "https://bitbox.swiss/blog/anti-klepto-explained-protection-against-leaking-private-keys/"
+        },
+        {
+          "title": "How we mitigate supply chain attacks",
+          "url": "https://bitbox.swiss/blog/supply-chain-attacks/"
+        }
+      ]
+    },
+    "deterministic-nonces": {
+      "value": "YES",
+      "supported": true
+    },
+    "anti-klepto": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "How almost all hardware wallets can steal your seed",
+          "url": "https://bitbox.swiss/blog/how-almost-all-hardware-wallets-can-steal-your-seed/"
+        },
+        {
+          "title": "Anti-klepto explained: how the BitBox02 protects you against leaking private keys",
+          "url": "https://bitbox.swiss/blog/anti-klepto-explained-protection-against-leaking-private-keys/"
+        }
+      ]
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "List of Supported Tokens",
+          "url": "https://bitbox.swiss/coins/"
+        }
+      ]
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "secure-boot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgradable-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade-via-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-external-storage": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-cable": {
+      "value": "YES",
+      "supported": true
+    },
+    "upgrade-via-bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/digitalbitbox/bitbox02-firmware/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/digitalbitbox/bitbox02-firmware"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "Apache 2.0",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/digitalbitbox/bitbox02-firmware/blob/master/LICENSE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Reproducible builds",
+          "url": "https://github.com/digitalbitbox/bitbox02-firmware/tree/master/releases#reproducible-builds"
+        },
+        {
+          "title": "How to independently verify the BitBox02 firmware",
+          "url": "https://bitbox.swiss/blog/how-to-independently-verify-the-bitbox02-firmware/"
+        },
+        {
+          "title": "WalletScrutiny.com",
+          "url": "https://walletscrutiny.com/hardware/bitBox2/#result"
+        }
+      ]
+    }
+  },
+  "device-lock": {
+    "pin-lock": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "dummy-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "If you type in an incorrect device password 10x times, then your device will reset to factory reset."
+      ]
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "time-delay-to-unlock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "Optional Stateless Use",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Did you know that you can use the BitBox02 as a 'stateless' signer?",
+          "url": "https://x.com/BitBoxSwiss/status/1659232386368917504"
+        }
+      ]
+    },
+    "user-added-entropy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Roll your own Bitcoin seed",
+          "url": "https://bitbox.swiss/blog/roll-the-dice-generate-your-own-seed/"
+        }
+      ]
+    },
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Benefits and risks of using an optional passphrase",
+          "url": "https://bitbox.swiss/blog/optional-passphrases-benefits-and-risks/"
+        },
+        {
+          "title": "Should you have a passphrase on your hardware wallet backup? | Shift Crypto Webinar#2",
+          "url": "https://www.youtube.com/watch?v=jRZ5cCW1r8c"
+        }
+      ]
+    },
+    "passphrase-entry": {
+      "value": "On Device",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "A ransom attack on Trezor's and KeepKey's passphrase handling",
+          "url": "https://bitbox.swiss/blog/a-ransom-attack-on-trezors-and-keepkeys-passphrase-handling/"
+        },
+        {
+          "title": "The five biggest flaws in hardware wallets and how the BitBox02 fixes them",
+          "url": "https://bitbox.swiss/blog/the-five-biggest-flaws-in-hardware-wallets-and-how-the-bitbox02-fixes-them/"
+        }
+      ]
+    },
+    "master-key-fingerprint": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bip85": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "YES (Not encrypted)",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Why microSD backups should not be encrypted by default",
+          "url": "https://bitbox.swiss/blog/why-microsd-backups-should-not-be-encrypted-by-default/"
+        }
+      ]
+    },
+    "backup-recovery-nfc-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "key-teleport": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BitBox 03.2022 Glärnisch Update",
+          "url": "https://bitbox.swiss/blog/bitbox-03-2022-glaernisch-update/"
+        },
+        {
+          "title": "Taproot - planting the seeds for Bitcoin applications",
+          "url": "https://bitbox.swiss/blog/taproot-planting-the-seeds-for-bitcoin-applications/"
+        }
+      ]
+    }
+  },
+  "addresses": {
+    "view-address-text": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How nearly all personal hardware wallet multisig setups are insecure",
+          "url": "https://bitbox.swiss/blog/how-nearly-all-personal-hardware-wallet-multisig-setups-are-insecure/"
+        },
+        {
+          "title": "The pitfalls of multisig when using hardware wallets",
+          "url": "https://bitbox.swiss/blog/the-pitfalls-of-multisig-when-using-hardware-wallets/"
+        },
+        {
+          "title": "How to create a Multi-Signature Wallet with Sparrow and your BitBox02",
+          "url": "https://bitbox.swiss/blog/how-to-create-a-multi-signature-wallet-with-sparrow-and-your-bitbox02/"
+        },
+        {
+          "title": "The five biggest flaws in hardware wallets and how the BitBox02 fixes them",
+          "url": "https://bitbox.swiss/blog/the-five-biggest-flaws-in-hardware-wallets-and-how-the-bitbox02-fixes-them/"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing a message with Sparrow Wallet",
+          "url": "https://support.bitbox.swiss/sparrow-wallet/sign-message-bitbox02-sparrow"
+        },
+        {
+          "title": "How can I sign messages via Electrum with my BitBox02?",
+          "url": "https://support.bitbox.swiss/electrum/how-to-sign-messages-electrum-bitbox02"
+        }
+      ]
+    },
+    "change-verification": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-address-display": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "USB-C",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "spending-conditions": {
+    "magnitude-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "velocity-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "whitelisted-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "2fa-authentication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BitBox 08.2023 Motterascio update",
+          "url": "https://bitbox.swiss/blog/bitbox-08-2023-marinelli-update/"
+        },
+        {
+          "title": "Understanding Bitcoin Miniscript - Part I",
+          "url": "https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-1/"
+        },
+        {
+          "title": "Understanding Bitcoin Miniscript - Part II",
+          "url": "https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-2/"
+        },
+        {
+          "title": "Understanding Bitcoin Miniscript - Part III",
+          "url": "https://bitbox.swiss/blog/understanding-bitcoin-miniscript-part-3/"
+        },
+        {
+          "title": "Exploring Bitcoin Miniscript with Liana and the BitBox02",
+          "url": "https://bitbox.swiss/blog/exploring-bitcoin-miniscript-with-liana-and-the-bitbox02/"
+        }
+      ]
+    },
+    "taproot-miniscript": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "maximum-fee-protection": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BitBox02 shows the transaction fee on its own display. The user can verify that the transaction fee has not been altered. It will even warn the user if the fee is unreasonably high (more than 10% of the transaction amount)."
+      ]
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "Only Sending",
+      "supported": true,
+      "flag": "neutral"
+    }
+  },
+  "other-features": {
+    "virtual-disk-mode": {
+      "value": "NO",
+      "supported": false
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "YES",
+      "supported": true
+    },
+    "fido-authentication": {
+      "value": "YES",
+      "supported": true
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "windows-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "macos-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "linux-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=ch.shiftcrypto.bitboxapp"
+        }
+      ]
+    },
+    "ios-app": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "third-party-apps": {
+    "bitcoin-safe": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "theya": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "wasabi-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "zeus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "blockstream-green": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "bluewallet": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "How to create a watch-only wallet for your BitBox02",
+          "url": "https://bitbox.swiss/blog/how-to-create-a-watch-only-wallet/"
+        }
+      ]
+    },
+    "bitcoin-keeper": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liana": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

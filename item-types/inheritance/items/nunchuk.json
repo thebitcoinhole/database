@@ -1,0 +1,560 @@
+{
+  "id": "nunchuk",
+  "name": "Nunchuk",
+  "purchasable": true,
+  "company": "nunchuk",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "private-keys": {
+    "non-custodial": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "provider-independence": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false,
+      "texts": [
+        "The Owner can decide to keep the beneficiaries in the dark about the existence of the inheritance and don't distribute the beneficiary keys immediately. So, beneficiaries can't collude with the provider to gain unauthorized access to your funds.",
+        "Instead, if the the beneficiary keys are distributed from zero day, collusion between the provider and the beneficiary could happen."
+      ]
+    },
+    "single-sig": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "multi-sig": {
+      "value": "Required (2-of-4)",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "The service only safekeeps one of the keys in your multisig wallet, which requires multiple keys to withdraw funds. The service never has custody of your bitcoins."
+      ]
+    },
+    "required-hardware-wallet": {
+      "value": "Tapsigner/Coldcard + 2 hardware keys",
+      "supported": true
+    },
+    "key-replacement-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Advancing Bitcoin Security: Seamless Key Replacement for Multisig Wallets",
+          "url": "https://nunchuk.io/blog/key-replacement"
+        }
+      ]
+    },
+    "beneficiary-key-lost-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "health-checks": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "health-checks-reminders": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "passing-down-alternatives": {
+    "direct-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "The simplest way to use the plan is to give the Beneficiary direct control over the two secrets. Upon the Activation Date, they can claim the inheritance for themselves."
+      ]
+    },
+    "indirect-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "You can choose to leave both secrets with a trusted guardian. This can be the Trustee of your estate plan. Upon the Activation Date, the Trustee can help the Beneficiary claim the inheritance on their behalf."
+      ]
+    },
+    "joint-control": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Split the two secrets between the Beneficiary and the Trustee. This will help ensure that each one only has partial control over your bitcoins. Upon the Activation Date, the Beneficiary and Trustee will need to bring together the two secrets in order to claim the inheritance."
+      ]
+    },
+    "multiple-beneficiaries": {
+      "value": "1 per Multisig",
+      "flag": "neutral",
+      "supported": true
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "Manually",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "There is no automatic support to assign percentages to the beneficiares. You need to manually assign the percentage of your funds to each multisig wallet assigned to each beneficiary"
+      ]
+    }
+  },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Nunchuk inheritance plan is built on cryptographic secrets, not proof of identity. That means both you and your Beneficiary can keep your privacy.",
+        "Each inheritance plan is uniquely identified by a Magic Phrase. The phrase will allow the Beneficiary or Trustee to locate the inheritance's backup data stored on Nunchuk server.",
+        "The inheritance's backup data is protected by a password. You will need this password in order to recover the inheritance key during the claiming process."
+      ]
+    },
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Advanced Coin Control with Nunchuk",
+          "url": "https://nunchuk.io/blog/coin-control"
+        }
+      ]
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-for-beneficiary": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "notifications-to-beneficiary": {
+      "value": "YES (by email)",
+      "flag": "positive",
+      "supported": true
+    },
+    "onchain-timelock": {
+      "value": "NO",
+      "supported": false
+    },
+    "timelock-refresh-method": {
+      "value": "On App",
+      "flag": "positive"
+    },
+    "zero-cost-to-update-timelock": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "waiting-period-to-claim": {
+      "value": "Defined by the owner",
+      "texts": [
+        "The Owner sets a timelock on the inheritance.",
+        "Before the timelock expires, claiming is disallowed.",
+        "As long as the Owner is alive, they can keep refreshing the timelock indefinitely.",
+        "After the timelock has expired, the Beneficiary can create an account and start a claim. Claiming requires the Beneficiary to know two cryptographic secrets: the Magic Phrase, and the Backup Password.",
+        "Once a claim is initiated, an optional Buffer Period ensues (7 days or 30 days).",
+        "During the Buffer Period, Nunchuk will notify the Owner of the claiming attempt several times."
+      ]
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-googleplay-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.nunchuk.android"
+        }
+      ]
+    },
+    "android-apk-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download Android APK",
+          "url": "https://github.com/nunchuk-io/nunchuk-android/releases"
+        }
+      ]
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/nunchuk-io/nunchuk-android/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/nunchuk-io/nunchuk-android"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/nunchuk-io/nunchuk-android/blob/master/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073"
+        }
+      ]
+    },
+    "ios-release-notes": {
+      "value": "?",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "ios-open-source": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/releases"
+        }
+      ]
+    },
+    "macos-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop"
+        }
+      ]
+    },
+    "macos-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/blob/main/LICENSE"
+        }
+      ]
+    },
+    "macos-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/releases"
+        }
+      ]
+    },
+    "linux-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop"
+        }
+      ]
+    },
+    "linux-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/blob/main/LICENSE"
+        }
+      ]
+    },
+    "linux-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/releases"
+        }
+      ]
+    },
+    "windows-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop"
+        }
+      ]
+    },
+    "windows-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/blob/main/LICENSE"
+        }
+      ]
+    },
+    "windows-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "hardware-wallets-support": {
+    "bitbox02": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coldcard-mk4": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "coldcard-q": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "cypherock-x1": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "jade": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "keystone-3-pro": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "ledger-nano-s-plus": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "ledger-nano-X": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "passport-core": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "portal": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seedsigner": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "specter-diy": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "tapsigner": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "trezor-model-one": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "trezor-safe-3": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "trezor-safe-5": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "trezor-model-t": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  }
+}

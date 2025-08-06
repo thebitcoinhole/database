@@ -1,0 +1,36 @@
+{
+  "brand": {
+    "value": "Bitcoin Core Project"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "bitcoincore.org",
+    "url": "https://bitcoincore.org/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://bitcoincore.org/en/blog/"
+  },
+  "twitter": {
+    "value": "@bitcoincoreorg",
+    "url": "https://x.com/bitcoincoreorg"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "bitcoin",
+    "url": "https://github.com/bitcoin"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "MiniBolt"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "minibolt.info",
+    "url": "https://minibolt.info"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "-"
+  },
+  "nostr": {
+    "value": "MiniBolt",
+    "url": "https://primal.net/p/nprofile1qqs8vwc980ph5zfyc9hc7knq0q4hcxks49dehjkx09cmx4vef6x6l8c9lz6rd"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "minibolt-guide",
+    "url": "https://github.com/minibolt-guide"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "Bitcoin Knots"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "bitcoinknots.org",
+    "url": "https://bitcoinknots.org/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@BitcoinKnots",
+    "url": "https://x.com/BitcoinKnots"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "bitcoinknots",
+    "url": "https://github.com/bitcoinknots/bitcoin"
+  }
+}

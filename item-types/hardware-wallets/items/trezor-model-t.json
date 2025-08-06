@@ -1,0 +1,927 @@
+{
+  "id": "trezor-model-t",
+  "name": "Model T",
+  "full-name": "Trezor Model T",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2018"
+    },
+    "assembled-in": {
+      "value": "Czech Republic"
+    },
+    "diy": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "company": "trezor",
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "TREZOR",
+      "url": "https://www.reddit.com/r/TREZOR"
+    }
+  },
+  "official-store": {
+    "po-box-support": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "btc-on-chain": {
+      "value": "YES (via Confirmo.net)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via Confirmo.net)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "warranty": {
+      "value": "2 years",
+      "flag": "positive",
+      "supported": true
+    },
+    "weight": {
+      "value": "92g / 3.25oz"
+    },
+    "dimensions": {
+      "value": "64 x 39 x 10 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "available-in-colors": {
+      "value": "NO",
+      "supported": false
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "LCD"
+    },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "color-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "touch-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-size": {
+      "value": "1.54\"",
+      "flag": "neutral"
+    },
+    "screen-resolution": {
+      "value": "240 x 240 px"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "Touch Screen"
+    },
+    "qwerty-keyboard": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "removable-battery": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
+    "usb-charging": {
+      "value": "USB-C",
+      "flag": "positive",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "security": {
+    "air-gapped": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "secure-element": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Stay safe shopping for hardware wallets",
+          "url": "https://blog.trezor.io/stay-safe-shopping-for-hardware-wallets-543f144e3d24"
+        }
+      ]
+    },
+    "deterministic-nonces": {
+      "value": "YES",
+      "supported": true
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Bitcoin testnet",
+          "url": "https://trezor.io/learn/a/bitcoin-testnet"
+        }
+      ]
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "List of Supported Tokens",
+          "url": "https://trezor.io/coins/"
+        }
+      ]
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Bitcoin-only firmware on Trezor",
+          "url": "https://shop.trezor.io/btc-only/"
+        }
+      ]
+    },
+    "secure-boot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgradable-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to install and update Trezor firmware",
+          "url": "https://www.youtube.com/watch?v=gRCoWsGbP4g"
+        }
+      ]
+    },
+    "upgrade-via-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-external-storage": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-cable": {
+      "value": "YES",
+      "supported": true
+    },
+    "upgrade-via-bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/trezor/trezor-firmware/blob/main/core/CHANGELOG.T2T1.md"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/trezor/trezor-firmware"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Open Source Security and Hardware Obsolescence",
+          "url": "https://blog.trezor.io/open-source-and-hardware-obsolescence-ce526d5eec8f"
+        }
+      ]
+    },
+    "license": {
+      "value": "GPLv3",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/trezor/trezor-firmware/blob/master/LICENSE.md"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Reproducible build",
+          "url": "https://docs.trezor.io/trezor-firmware/common/reproducible-build.html"
+        },
+        {
+          "title": "BitcoinBinary.org",
+          "url": "https://bitcoinbinary.org/"
+        },
+        {
+          "title": "WalletScrutiny.com",
+          "url": "https://walletscrutiny.com/hardware/trezorT/#result"
+        }
+      ]
+    }
+  },
+  "device-lock": {
+    "pin-lock": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "dummy-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "After 16 incorrect attempts, your device wipes itself, making it possible to access your funds only with the use of your backup"
+      ],
+      "links": [
+        {
+          "title": "Common security threats",
+          "url": "https://trezor.io/learn/a/common-security-threats#Brute_forcing_the_Trezor_PIN"
+        }
+      ]
+    },
+    "brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Create wipe code to erase device",
+          "url": "https://trezor.io/learn/a/create-wipe-code-to-erase-device"
+        }
+      ]
+    },
+    "time-delay-to-unlock": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Is your passphrase strong enough?",
+          "url": "https://blog.trezor.io/is-your-passphrase-strong-enough-d687f44c63af"
+        },
+        {
+          "title": "5 Reasons Why You Should Use a Passphrase (And 3 Reasons Why You Maybe Shouldn't)",
+          "url": "https://blog.trezor.io/5-reasons-why-you-should-use-a-passphrase-and-3-reasons-why-you-maybe-shouldnt-411c3935ac81"
+        }
+      ]
+    },
+    "passphrase-entry": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Protecting your Bitcoin inheritance with Shamir backup",
+          "url": "https://blog.trezor.io/protecting-your-bitcoin-inheritance-with-shamir-backup-77b5bc77ea5a"
+        },
+        {
+          "title": "Shamir Backup — A Better Way to Secure Your Keys",
+          "url": "https://blog.trezor.io/shamir-backup-the-revolution-of-private-keys-backup-is-here-858687ed7fe7"
+        },
+        {
+          "title": "Dev Corner: A Detailed Guide to Shamir Backup",
+          "url": "https://blog.trezor.io/https-blog-trezor-io-dev-corner-shamir-backup-guide-5f9957ff1008"
+        },
+        {
+          "title": "Open-Source Standards Unchained",
+          "url": "https://blog.trezor.io/open-source-standards-unchained-slip-0039-for-individuals-and-groups-cae3e9573410"
+        },
+        {
+          "title": "How to use Shamir Backup with Trezor Model T",
+          "url": "https://www.youtube.com/watch?v=W54g3T4WyIg"
+        },
+        {
+          "title": "Multisig and split backups: two ways to keep your bitcoin more secure",
+          "url": "https://blog.trezor.io/multisig-and-split-backups-two-ways-to-make-your-bitcoin-more-secure-7174ba78ce45"
+        }
+      ]
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-nfc-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Seed Backup 12 vs 24 Words",
+          "url": "https://trezor.io/learn/a/seed-backup-12-vs-24-words"
+        }
+      ]
+    },
+    "create-24-words": {
+      "value": "Via Command Line",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Seed Backup 12 vs 24 Words",
+          "url": "https://trezor.io/learn/a/seed-backup-12-vs-24-words"
+        }
+      ]
+    },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "key-teleport": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Pay-to-Public-Key-Hash (P2PKH)",
+          "url": "https://trezor.io/learn/a/pay-to-public-key-hash-p2pkh"
+        }
+      ]
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Pay-to-Script-Hash (P2SH)",
+          "url": "https://trezor.io/learn/a/pay-to-script-hash-p2sh"
+        }
+      ]
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "What is Taproot?",
+          "url": "https://trezor.io/learn/a/what-is-taproot"
+        }
+      ]
+    }
+  },
+  "addresses": {
+    "view-address-text": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "What is Multisig?",
+          "url": "https://trezor.io/learn/a/what-is-multisig"
+        },
+        {
+          "title": "Multisig and split backups: two ways to keep your bitcoin more secure",
+          "url": "https://blog.trezor.io/multisig-and-split-backups-two-ways-to-make-your-bitcoin-more-secure-7174ba78ce45"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Sign & Verify",
+          "url": "https://trezor.io/learn/a/sign-verify"
+        }
+      ]
+    },
+    "change-verification": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-address-display": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "USB-C",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "spending-conditions": {
+    "magnitude-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "velocity-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "whitelisted-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "2fa-authentication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "maximum-fee-protection": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Coin control in Trezor Suite",
+          "url": "https://trezor.io/learn/a/coin-control-in-trezor-suite"
+        }
+      ]
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Connecting your wallet to your own node",
+          "url": "https://blog.trezor.io/connecting-your-wallet-to-a-full-node-edf56693b545"
+        }
+      ]
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "virtual-disk-mode": {
+      "value": "NO",
+      "supported": false
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false,
+      "links": [
+        {
+          "title": "Ending support for Trezor Password Manager",
+          "url": "https://blog.trezor.io/ending-support-for-trezor-password-manager-23319d16b31c"
+        }
+      ]
+    },
+    "u2f-authentication": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Two-Factor Authentication",
+          "url": "https://blog.trezor.io/featurefriday-two-factor-authentication-7ef1adadaca8"
+        }
+      ]
+    },
+    "fido-authentication": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "OpenSSH with fido and Trezor",
+          "url": "https://blog.trezor.io/openssh-with-fido-and-trezor-e565c2277"
+        },
+        {
+          "title": "What is fido?",
+          "url": "https://trezor.io/guides/bonus-tools/what-is-fido2"
+        }
+      ]
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Hardware-based SSH/GPG/age agent",
+          "url": "https://github.com/romanz/trezor-agent"
+        }
+      ]
+    }
+  },
+  "official-apps": {
+    "web-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "windows-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "macos-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "linux-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.trezor.suite"
+        }
+      ]
+    },
+    "ios-app": {
+      "value": "YES (View only)",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/app/id1631884497"
+        }
+      ]
+    }
+  },
+  "third-party-apps": {
+    "bitcoin-safe": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "theya": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "wasabi-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "zeus": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "blockstream-green": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bluewallet": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "bitcoin-keeper": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liana": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Setting up Trezor Model T for use with Casa",
+          "url": "https://support.keys.casa/hc/en-us/articles/360045416171-Setting-up-Trezor-Model-T-for-use-with-Casa"
+        }
+      ]
+    },
+    "unchained": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  }
+}

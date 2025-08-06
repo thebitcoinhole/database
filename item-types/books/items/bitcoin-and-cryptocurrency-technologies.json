@@ -1,0 +1,61 @@
+{
+  "id": "bitcoin-and-cryptocurrency-technologies",
+  "name": "Bitcoin and Cryptocurrency Technologies",
+  "short-description": "A Comprehensive Introduction",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2016"
+    },
+    "publisher": {
+      "value": "Princeton University Press"
+    },
+    "pages": {
+      "value": "328"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Many",
+      "texts": [
+        "Arvind Narayanan, Joseph Bonneau, Edward Felten, Andrew Miller, Steven Goldfeder"
+      ]
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@random_walker",
+      "url": "https://x.com/random_walker"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Bitcoin and Cryptocurrency Technologies provides a comprehensive introduction to the revolutionary yet often misunderstood new technologies of digital currency. Whether you are a student, software developer, tech entrepreneur, or researcher in computer science, this authoritative and self-contained book tells you everything you need to know about the new global money for the Internet age.\n\nHow do Bitcoin and its block chain actually work? How secure are your bitcoins? How anonymous are their users? Can cryptocurrencies be regulated? These are some of the many questions this book answers. It begins by tracing the history and development of Bitcoin and cryptocurrencies, and then gives the conceptual and practical foundations you need to engineer secure software that interacts with the Bitcoin network as well as to integrate ideas from Bitcoin into your own projects. Topics include decentralization, mining, the politics of Bitcoin, altcoins and the cryptocurrency ecosystem, the future of Bitcoin, and more.\n\n- An essential introduction to the new technologies of digital currency\n- Covers the history and mechanics of Bitcoin and the block chain, security, decentralization, anonymity, politics and regulation, altcoins, and much more\n- Features an accompanying website that includes instructional videos for each chapter, homework problems, programming assignments, and lecture slides\n- Also suitable for use with the authors' Coursera online course\n- Electronic solutions manual (available only to professors)"
+}

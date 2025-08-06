@@ -1,0 +1,60 @@
+{
+  "id": "mastering-bitcoin",
+  "name": "Mastering Bitcoin",
+  "short-description": "Programming the Open Blockchain",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "O'Reilly Media"
+    },
+    "pages": {
+      "value": "400"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Andreas M. Antonopoulos, David A. Harding"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://aantonop.com/"
+    },
+    "twitter": {
+      "value": "@aantonop",
+      "url": "https://x.com/aantonop"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@aantonop",
+      "url": "https://www.youtube.com/@aantonop"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Join the technological revolution that's taking the financial world by storm. \nMastering Bitcoin is your guide through the seemingly complex world of Bitcoin, providing the knowledge you need to participate in the internet of money. Whether you're building the next killer app, investing in a startup, or simply curious about the technology, this revised and expanded third edition provides essential detail to get you started.   \nBitcoin, the first successful decentralized digital currency, has already spawned a multibillion-dollar global economy open to anyone with the knowledge and passion to participate. \nMastering Bitcoin provides the knowledge. You supply the passion.  \nThe third edition includes: \n- A broad introduction to Bitcoin and its underlying blockchain—ideal for nontechnical users, investors, and business executives \n- An explanation of Bitcoin's technical foundation and cryptographic currency for developers, engineers, and software and systems architects \n- Details of the Bitcoin decentralized network, peer-to-peer architecture, transaction lifecycle, and security principles \n- New developments such as Taproot, Tapscript, Schnorr signatures, and the Lightning Network \n- A deep dive into Bitcoin applications, including how to combine the building blocks offered by this platform into powerful new tools \n- User stories, analogies, examples, and code snippets illustrating key technical concepts"
+}

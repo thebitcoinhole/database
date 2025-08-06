@@ -1,0 +1,62 @@
+{
+  "id": "decrypting-money",
+  "name": "Decrypting Money",
+  "short-description": "A Comprehensive Introduction to Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Lioncrest Publishing"
+    },
+    "pages": {
+      "value": "276"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Many",
+      "texts": [
+        "Marco Krohn, Anthony Jefferies, Marco Streng, Zoran Balkic"
+      ]
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://decryptingmoney.com/"
+    },
+    "twitter": {
+      "value": "@Marco_Streng",
+      "url": "https://x.com/Marco_Streng"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Bitcoin is more than an investment. It’s more than electronic cash, or a form of payment. Bitcoin is security, equality, and independence. Bitcoin is gold—a gold tailor-made for the internet age.\nIn Decrypting Money, cryptocurrency experts Marco Krohn, Anthony Jefferies, Marco Streng, and Zoran Balkic pull back the curtain on the world of public ledgers, decentralization, mining, blockchains, and private keys. They reveal a place where printing presses cannot debase money and funds are safely—and quickly—transferred over insecure networks. Without technical jargon or complicated formulae, this insightful resource provides everyone from the bitcoin novice to the experienced user with background knowledge on the history of money, the characteristics of sound money, and the deep rabbit hole of cryptocurrencies. \nDecrypting Money is the jumpstart you need to understand cryptocurrencies and make your money truly yours."
+}

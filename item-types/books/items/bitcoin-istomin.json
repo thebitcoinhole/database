@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-istomin",
+  "name": "Bitcoin",
+  "short-description": "",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2017"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "28"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Andrus Istomin"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "paperback": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Bitcoin is here to stay and now is the time for you to get familiarized with it. If you don't want to be left behind in the next technological revaluation, then this book on Bitcoin is for you. Inside this easy-to-read, easy-to-understand guide on Bitcoin, you will learn how Bitcoin and other digital currencies work, everything that you need to know to set up your own Bitcoin account, earn some coin by mining them or even buy some from others. You don't have to worry about intimidating terms like Bitcoin wallet, private key, the blockchain, or mining because after reading this guide you will have all the answers to all your questions about Bitcoin. Here Is A Preview Of What You'll Learn\n- Chapter 1 Introduction to Bitcoin\n- Chapter 2 Know About Bitcoin Wallet\n- Chapter 3 Getting Your First Bitcoin\n- Chapter 4 Mining Bitcoin\n- Chapter 5 Bitcoin Mining in 2017: Staying Afloat in Difficult Environment"
+}

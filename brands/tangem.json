@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Tangem"
+  },
+  "headquarters": {
+    "value": "Switzerland"
+  },
+  "website": {
+    "value": "tangem.com",
+    "url": "https://tangem.com/"
+  },
+  "blog": {
+    "value": "tangem.com/en/blog",
+    "url": "https://tangem.com/en/blog/"
+  },
+  "twitter": {
+    "value": "@tangem",
+    "url": "https://x.com/tangem"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@tangem3890",
+    "url": "https://www.youtube.com/@tangem_official"
+  },
+  "github": {
+    "value": "tangem",
+    "url": "https://github.com/tangem"
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "id": "black-seed-ink",
+  "name": "Black Seed Ink",
+  "purchasable": true,
+  "company": "black-seed-ink",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via Coinbase Commerce)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "YES (via Coinbase Commerce)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "?"
+    },
+    "dimensions": {
+      "value": "89 x 54 x 0.8 mm"
+    },
+    "materials": {
+      "value": "Stainless Steel",
+      "texts": [
+        ".8mm thick 304 grade stainless steel"
+      ]
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Scribe tool included"
+      ]
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crush-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "corrosion-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shock-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "stress-tests": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Stress Test Outcome",
+          "url": "https://blackseedink.com/pages/cold-wallet-stress-test-outcome"
+        },
+        {
+          "title": "Black Seed Ink Review",
+          "url": "https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/black-seed-ink/"
+        }
+      ]
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "1 share",
+      "flag": "neutral",
+      "supported": true
+    },
+    "hexadecimal-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "ascii-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  }
+}

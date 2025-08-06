@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-independence-reimagined",
+  "name": "Bitcoin: Independence reimagined",
+  "short-description": "",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "107"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Knut Svanholm, Daniel Prince"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "This follow-up to \"Bitcoin: Sovereignty Through Mathematics\" describes the old boxes we have been operating within, and how Bitcoin encourages us to challenge and reshape them. It takes the reader deeper down the rabbit hole and reveals how the honey badger that lives there is still indifferent to people's opinions about it."
+}

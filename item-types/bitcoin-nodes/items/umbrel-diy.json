@@ -1,0 +1,403 @@
+{
+  "id": "umbrel-diy",
+  "name": "Umbrel DIY",
+  "buildable": true,
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    }
+  },
+  "company": "umbrel",
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "-",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "-",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "-",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "DIY"
+    },
+    "warranty": {
+      "value": "-",
+      "supported": false
+    },
+    "weight": {
+      "value": "-"
+    },
+    "dimensions": {
+      "value": "-"
+    },
+    "cpu": {
+      "value": "-"
+    },
+    "ram": {
+      "value": "2/4/8 GB",
+      "texts": [
+        "Raspberry Pi 4. All 2 GB, 4 GB and 8 GB RAM variants work with umbrelOS. Pick 8 GB RAM for maximum performance.",
+        "ROCK64. Supports up to 4GB 1600MHz LPDDR3 memory.",
+        "RockPro64. Supports up to 4GB of dual-channel LPDDR4 memory.",
+        "RockPi 4. Supports up to 4GB LPDDR4 3200Mb/s RAM."
+      ]
+    },
+    "storage": {
+      "value": "1+ TB",
+      "texts": [
+        "1 TB or more is recommended"
+      ]
+    },
+    "ethernet": {
+      "value": "Gigabit Ethernet",
+      "flag": "positive",
+      "supported": true
+    },
+    "wifi": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless",
+        "ROCK64. No wifi support unless you buy a expansion module.",
+        "RockPro64. No wifi support unless you buy a expansion module.",
+        "RockPi 4. On board 802.11 ac wifi offers 2.4G & 5G WLAN connectivity"
+      ]
+    },
+    "hdmi": {
+      "value": "YES/NO",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. 2x micro-HDMI® ports (up to 4kp60 supported)",
+        "ROCK64. No HDMI",
+        "RockPro64. 1 HDMI port",
+        "RockPi 4. 1 HDMI port"
+      ]
+    },
+    "usb": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2 USB 3.0 ports; 2 USB 2.0 ports.",
+        "ROCK64. 2x USB 2.0 Host. 1x USB 3.0 Host",
+        "RockPro64. 2x USB 2.0 Host. 1x USB 3.0 Host. 1x USB-C Host (With video out)",
+        "RockPi 4. 1x USB 3.0 OTG. 1x USB 3.0 HOST. 2x USB 2.0 HOST"
+      ]
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. Bluetooth 5.0",
+        "ROCK64. No bluetooth support unless you buy a expansion module",
+        "RockPro64. No bluetooth support unless you buy a expansion module",
+        "RockPi 4. Bluetooh 5.0"
+      ]
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-signet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "umbrelOS"
+    },
+    "bitcoin-only": {
+      "value": "NO"
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://github.com/getumbrel/umbrel/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/getumbrel/umbrel"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "license": {
+      "value": "PolyForm Noncommercial License 1.0.0",
+      "supported": false,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/getumbrel/umbrel/blob/master/LICENSE.md"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "pc-disk-image": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "virtual-machine": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "raspberry-pi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to set up a Bitcoin Node with Umbrel on a Raspberry Pi 4",
+          "url": "https://medium.com/the-bitcoin-hole/how-to-set-up-a-bitcoin-node-with-umbrel-on-a-raspberry-pi-5-2fe3e47b4ac1"
+        }
+      ]
+    },
+    "raspberry-pi-5": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to set up a Bitcoin Node with Umbrel on a Raspberry Pi 5",
+          "url": "https://medium.com/the-bitcoin-hole/how-to-set-up-a-bitcoin-node-with-umbrel-on-a-raspberry-pi-4-32a22535c4bb"
+        }
+      ]
+    },
+    "rock-64": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "rock-pro-64": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "rockpi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "libre-relay": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "lightning-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
+    },
+    "mempool-visualizer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
+    },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "JoinMarket"
+      ]
+    },
+    "btcpay-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrumx": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "fulcrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "samourai-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "official-marketplace": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Introducing the Umbrel App Store",
+          "url": "https://blog.getumbrel.com/introducing-the-umbrel-app-store-7a2068c64a10"
+        }
+      ]
+    },
+    "thirdparty-marketplace": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Community App Stores allow you to install apps on your Umbrel that may not be available in the official Umbrel App Store. They also make it easy to test beta versions of Umbrel apps, then provide valuable feedback to developers before they release their apps on the official Umbrel App Store."
+      ],
+      "links": [
+        {
+          "title": "Learn More",
+          "url": "https://github.com/getumbrel/umbrel-community-app-store"
+        }
+      ]
+    },
+    "backup-restore": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "Umbrel does not offer a means of backing up other services. If you want to back up your Bitcoin node, or your data, messages, or passwords from other services, you will need to SSH into your Umbrel, then use the command line to manually export data from each service using an over-the-air protocol such as FTP or SMB. You will need to research each service to determine exactly what data should be exported and in what format, and you will need to perform your own encryption if you want the backups to be encrypted."
+      ]
+    },
+    "health-checks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "There is no health check system for services in Umbrel. It is up to the user to know what constitutes health for each service and to manually inspect logs and use SSH and the command line to determine if their services are healthy."
+      ]
+    },
+    "ssl": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "Umbrel uses an unencrypted http connection for communicating over the LAN. If your LAN is secure, this is not an issue. But anyone with access to your LAN, including guests who have your WiFi password or who plug in via Ethernet, would trivially be able to sniff traffic."
+      ]
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tailscale": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  }
+}

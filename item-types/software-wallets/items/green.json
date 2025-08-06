@@ -1,0 +1,1023 @@
+{
+  "id": "green",
+  "name": "Blockstream App (Green)",
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    }
+  },
+  "company": "blockstream",
+  "communities": {
+    "telegram": {
+      "value": "Blockstream Green Community",
+      "url": "https://t.me/blockstream_green"
+    },
+    "reddit": {
+      "value": "blockstream",
+      "url": "https://www.reddit.com/r/blockstream/"
+    }
+  },
+  "networks": {
+    "bitcoin-only": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-signet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-network": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "currency": {
+    "fiat": {
+      "value": "Many",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "sats": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "exchange-rate-provider": {
+      "value": "Many"
+    }
+  },
+  "app-lock": {
+    "pin-lock": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "duress-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fingerprint-lock": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dummy-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "private-keys": {
+    "hot-keys": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "multiple-wallets": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-output-descriptor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "restore-output-descriptor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-phrase-autocomplete": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "inapp-keyboard": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ]
+    },
+    "nested-segwit": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ]
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ],
+      "links": [
+        {
+          "title": "Blockstream Green: Primed for Taproot Activation",
+          "url": "https://blog.blockstream.com/en-blockstream-green-primed-for-taproot-activation/"
+        }
+      ]
+    }
+  },
+  "receive": {
+    "view-address-text": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-multiple-addresses": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "verify-address-text": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "send": {
+    "scan-address-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "scan-address-ocr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "send-internal-address": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "multiple-send-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "batch-transactions": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "Non Standard",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "How does Blockstream Green's 2FA multisig protection work?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/900001391763-How-does-Blockstream-Green-s-2FA-multisig-protection-work"
+        },
+        {
+          "title": "How to set up a 2FA protected account",
+          "url": "https://www.youtube.com/watch?v=CyCQjjSYIBY"
+        }
+      ]
+    },
+    "taproot-multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How can I sign or authenticate a message, using an address of my wallet?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/26127251627545-How-can-I-sign-or-authenticate-a-message-using-an-address-of-my-wallet"
+        }
+      ]
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "psbt-file": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "spending-conditions": {
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "timelocks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "What is Blockstream Green's timelock feature?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/900003167766-What-is-Blockstream-Green-s-timelock-feature"
+        }
+      ]
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I speed up my transaction?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/900002241863-How-do-I-speed-up-my-transaction"
+        }
+      ]
+    },
+    "child-pays-for-parent": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockstream Green: Coin Control",
+          "url": "https://blog.blockstream.com/blockstream-green-coin-control/"
+        },
+        {
+          "title": "Coin Control in Blockstream Green",
+          "url": "https://www.youtube.com/watch?v=Ddin_1ymaBc"
+        }
+      ]
+    },
+    "transaction-labeling": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "labels-import-export-bip329": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coinjoin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hide-sensitive-data": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "stealth-mode": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "built-in-secure-communication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "paynyms": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "node-integration": {
+    "own-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Connecting Blockstream Green to a Personal Electrum Server",
+          "url": "https://www.youtube.com/watch?v=Skk6MfZW-as"
+        }
+      ]
+    },
+    "local-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "fulcrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dojo-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Enabling Tor in Blockstream Green",
+          "url": "https://www.youtube.com/watch?v=4RWzp59QEOw"
+        }
+      ]
+    }
+  },
+  "other-features": {
+    "encrypted-storage": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Gain Privacy with the Encrypted Blob",
+          "url": "https://blog.blockstream.com/en-gain-privacy-with-the-encrypted-blob/"
+        }
+      ]
+    },
+    "dark-mode": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "wallet-rollover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-googleplay-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet"
+        }
+      ]
+    },
+    "android-apk-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download Android APK",
+          "url": "https://github.com/Blockstream/green_android/releases"
+        }
+      ]
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_android/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Blockstream/green_android"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Blockstream/green_android/blob/master/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BitcoinBinary.org",
+          "url": "https://bitcoinbinary.org/"
+        },
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/com.greenaddress.greenbits_android_wallet/"
+        }
+      ]
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590"
+        },
+        {
+          "title": "Blockstream Green UX Beta Now Available on iOS",
+          "url": "https://blog.blockstream.com/blockstream-green-makes-it-easier-to-secure-your-stack-beta-now-open-2/"
+        }
+      ]
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_ios/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "iOS Source Code",
+          "url": "https://github.com/Blockstream/green_ios"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Blockstream/green_ios/blob/master/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/iphone/io.blockstream.green/"
+        }
+      ]
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "web-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "web-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "web-license": {
+      "value": "-",
+      "supported": false
+    },
+    "web-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockstream Green Now on Desktop",
+          "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
+        }
+      ]
+    },
+    "macos-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_qt/releases"
+        }
+      ]
+    },
+    "macos-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Blockstream/green_qt"
+        }
+      ]
+    },
+    "macos-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "Desktop License",
+          "url": "https://github.com/Blockstream/green_qt/blob/master/LICENSE"
+        }
+      ]
+    },
+    "macos-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockstream Green Now on Desktop",
+          "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
+        }
+      ]
+    },
+    "linux-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_qt/releases"
+        }
+      ]
+    },
+    "linux-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Blockstream/green_qt"
+        }
+      ]
+    },
+    "linux-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Blockstream/green_qt/blob/master/LICENSE"
+        }
+      ]
+    },
+    "linux-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockstream Green Now on Desktop",
+          "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
+        }
+      ]
+    },
+    "windows-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/green_qt/releases"
+        }
+      ]
+    },
+    "windows-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Blockstream/green_qt"
+        }
+      ]
+    },
+    "windows-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Blockstream/green_qt/blob/master/LICENSE"
+        }
+      ]
+    },
+    "windows-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "umbrel-os-support": {
+    "umbrel-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "start-os-support": {
+    "start-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware-wallets-support": {
+    "jade": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coldcard-mk4": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "coldcard-q": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "bitbox02-btconly": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "keystone-3-pro": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passport-core": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "portal": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "trezor-model-one": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-model-t": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-safe-3": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-safe-5": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ledger-nano-s-plus": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ledger-nano-x": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seedsigner": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "specter-diy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "krux": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "paid-services": {
+    "assisted-self-custody": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "inheritance-planning": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

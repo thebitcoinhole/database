@@ -1,0 +1,32 @@
+{
+  "brand": {
+    "value": "Umbrel"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "umbrel.com",
+    "url": "https://umbrel.com/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://blog.getumbrel.com/"
+  },
+  "twitter": {
+    "value": "@umbrel",
+    "url": "https://x.com/umbrel"
+  },
+  "nostr": {
+    "value": "Umbrel",
+    "url": "https://primal.net/p/npub1aghreq2dpz3h3799hrawev5gf5zc2kt4ch9ykhp9utt0jd3gdu2qtlmhct"
+  },
+  "youtube": {
+    "value": "@UmbrelYT",
+    "url": "https://www.youtube.com/@UmbrelYT"
+  },
+  "github": {
+    "value": "getumbrel",
+    "url": "https://github.com/getumbrel"
+  }
+}

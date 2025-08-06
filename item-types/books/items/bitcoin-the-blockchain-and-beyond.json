@@ -1,0 +1,60 @@
+{
+  "id": "bitcoin-the-blockchain-and-beyond",
+  "name": "Bitcoin, the Blockchain and Beyond",
+  "short-description": "A 360-Degree onboarding guide to the first cryptocurrency and blockchain",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2017"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "301"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Jean-Luc Verhelst"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://jeanlucverhelst.com/"
+    },
+    "twitter": {
+      "value": "@JLVerhelst",
+      "url": "https://x.com/JLVerhelst"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@jeanlucverhelst",
+      "url": "https://www.youtube.com/jeanlucverhelst"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Stay tuned for the paper version published in September via www.bitcoinblockchainbook.com.\n\nThis book takes you on a journey to the future of currency and the blockchain universe. \n A 360-Degrees onboarding guide\n  Starting from the basics, it moves on to explaining everything you need to know to make up your own mind on the potential, strengths, weaknesses, and limitations of Bitcoin, cryptocurrencies, the blockchain technology and how they will change the world (or not).  The book addresses the following: \n 1) BITCOIN AND THE BLOCKCHAIN \n Understand the inner workings of Bitcoin and the Blockchain step by step. How are bitcoins created? What are the rules? What is a decentralized consensus? How secure is it? What are the challenges and potential solutions? \n 2) THE ECOSYSTEM \n Get ready to know everything you need before using cryptocurrencies. What are your options to store them? How do wallets differ from one another? Where and how can you spend them? \n 3) IS IT MONEY? IS IT CURRENCY? \n Make up your mind on whether Bitcoin has what it takes to be real money or currency. Through a historical perspective, discover what constitutes good money and a good currency before reflecting on whether Bitcoin can be money or currency. \n 4) THE BIGGER PICTURE \n Sense the bigger picture surrounding Bitcoin. How do political, economic, and regulatory forces affect Bitcoin and how does Bitcoin affect them? Given Bitcoin's strengths and weaknesses, what role is it likely to play in the future? \n 5) CRYPTOCURRENCIES AND INNOVATIONS \n Push your thinking to new levels by discovering alternative cryptocurrencies serving different purposes and using different consensus or distribution mechanisms (such as ICOs). Ever heard of auxiliary proof-of-work and its pitfalls? \n 6) BEYOND CRYPTOCURRENCIES \n Discover the true potential of the blockchain technology, from smart-contracts to decentralized autonomous organizations (DAOs). This part of the book unleashes what blockchain means for your business and for society. How does it reinvent our identity, basic income, and our democracies?"
+}

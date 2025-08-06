@@ -1,0 +1,57 @@
+{
+  "id": "what-is-money-the-saylor-series",
+  "name": "What Is Money? The Saylor Series",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2022"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "405"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Michael Saylor, Robert Breedlove"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@saylor",
+      "url": "https://x.com/saylor"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "What is Money?\n Attempting to answer this seemingly simple question gave rise to this masterful dialogue between Michael Saylor and Robert Breedlove in late 2020. Setting out with the intention to unravel the mysteries of money, Michael Saylor takes us on a philosophical odyssey exploring anthropology, energy, and technology spanning from The Stone Age to The Digital Age in an effort to help people truly grasp the historic significance of Bitcoin."
+}

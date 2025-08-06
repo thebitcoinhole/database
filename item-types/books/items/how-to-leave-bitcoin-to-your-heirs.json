@@ -1,0 +1,60 @@
+{
+  "id": "how-to-leave-bitcoin-to-your-heirs",
+  "name": "How to Leave Bitcoin to Your Heirs",
+  "short-description": "A simple inheritance plan for your self-custody bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "44"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Anthony S. Park"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://anthonyspark.com/"
+    },
+    "twitter": {
+      "value": "@anthonyparkhere",
+      "url": "https://x.com/anthonyparkhere"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@AnthonySPark",
+      "url": "https://www.youtube.com/@AnthonySPark"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "This easy-to-read guide answers all your questions about setting up an inheritance plan for your self-custody bitcoin:\n- How will my bitcoin transfer to my heirs when I die?\n- How do I make sure my heirs will actually receive my bitcoin?\n- What is a bitcoin inheritance plan, and how can I make one?\n- How can I simplify my plan so that it will actually exist (and work)?\n- When should I make my plan?\n- How much will it cost?\n- And much more"
+}

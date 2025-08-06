@@ -1,0 +1,59 @@
+{
+  "id": "the-promise-of-bitcoin",
+  "name": "The Promise of Bitcoin",
+  "short-description": "The Future of Money and How It Can Work for You",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "McGraw Hill"
+    },
+    "pages": {
+      "value": "300"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Bobby C. Lee"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://www.bobbylee.com/"
+    },
+    "twitter": {
+      "value": "@bobbyclee",
+      "url": "https://x.com/bobbyclee"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "From the cofounder of the longest-running Bitcoin exchange comes a compelling argument for how this digital currency will transform the global economy—and how it can work for you.\nA financial revolution is materializing before our eyes. The way individuals, organizations, and governments conduct transactions—from purchasing a book online to acquiring major corporations to delivering billions in financial aid—will look vastly different in the near future. Bitcoin is spearheading this revolution and may be the best investment opportunity of our time, yet most people have yet to understand its promise.In this book, Bobby C. Lee, one of the earliest, most successful pioneers in the cryptocurrency space, debunks myths and dispels fears that surround Bitcoin, arguing that this rational, logical system is superior to traditional monetary systems. He cites signs of Bitcoin’s widening acceptance: a growing community of users worldwide and multiple initiatives for investing in and holding bitcoin among major financial services organizations and institutional investors who control trillions in assets.Lee offers a primer on the best strategies for investing in this digital currency, the value of which will only continue to grow. He discusses the pros and cons, and covers the complicated yet more profitable method of acquiring bitcoin, mining. He offers predictions for the future, including price, trajectory, use, and participation in the larger economy—as well as developments in regulation, technology, business, and society.Invest in the promise of Bitcoin today."
+}

@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Ellipal"
+  },
+  "headquarters": {
+    "value": "Hong Kong"
+  },
+  "website": {
+    "value": "ellipal.com",
+    "url": "https://www.ellipal.com/"
+  },
+  "blog": {
+    "value": "ellipal.com/blogs/news",
+    "url": "https://www.ellipal.com/blogs/news"
+  },
+  "twitter": {
+    "value": "@ellipalwallet",
+    "url": "https://x.com/ellipalwallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@ellipal3906",
+    "url": "https://www.youtube.com/@ellipalwallet"
+  },
+  "github": {
+    "value": "ELLIPAL",
+    "url": "https://github.com/ELLIPAL"
+  }
+}

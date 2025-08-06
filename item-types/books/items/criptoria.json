@@ -1,0 +1,59 @@
+{
+  "id": "criptoria",
+  "name": "Criptoria",
+  "short-description": "De Turing a Nakamoto",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    },
+    "publisher": {
+      "value": "Prometea"
+    },
+    "pages": {
+      "value": "270"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Alfre Mancera"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://alfre.info/"
+    },
+    "twitter": {
+      "value": "@albibeno",
+      "url": "https://x.com/albibeno"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@AlfreMancera13",
+      "url": "https://www.youtube.com/AlfreMancera13"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "inventing-bitcoin",
+  "name": "Inventing Bitcoin",
+  "short-description": "The Technology Behind The First Truly Scarce and Decentralized Money Explained",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "108"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Yan Pritzker"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://www.inventingbitcoin.com/"
+    },
+    "twitter": {
+      "value": "@skwp",
+      "url": "https://x.com/skwp"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Bitcoin may well be the greatest invention of our time, and most people have no idea what it is, or how it works. Walking through its invention step by step, this short two hour read is critical before you invest.\nNo technical expertise required! Read it, then share it with your loved ones.\n“It was much quicker and easier to understand than I expected [...] After reading it I sold some of my alts for more bitcoin. I’m on the edge of becoming a maximalist because of you.” - Nako Mbelle, Around The Coin Podcast\n\"Inventing Bitcoin's been getting buzz recently for good reason. @skwp wrote possibly the easiest, most informative intro to Bitcoin.\"- @cryptograffiti, Crypto Artist"
+}

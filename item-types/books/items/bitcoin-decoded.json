@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-decoded",
+  "name": "Bitcoin Decoded",
+  "short-description": "Bitcoin Beginner's Guide to Mining and the Strategies to Make Money with Cryptocurrencies.",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2014"
+    },
+    "publisher": {
+      "value": "Propellerhead Marketing Group"
+    },
+    "pages": {
+      "value": "98"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Brett Combs, Tom Mitsoff"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Bitcoin: Is it a Boom or a Bubble?Hardly a day passes where Bitcoin isn't being discussed by the media. You need a high level of understanding and expertise to be able to swim safely in the Bitcoin pool.This book is the equivalent of the swimming lessons you took as a kid. Once finished, you'll be able to enter into the water safely, and be aware of both the potential dangers and thrills of the deep end.\nBitcoin Decoded teaches you...\n- What is Bitcoin\n- How Bitcoin Works\n- How You Get Bitcoin\n- How to Make Money with Bitcoin\n- How is Bitcoin created\n- What is Bitcoin mining\n- List of resources to find latest Bitcoin news and information online\nDon't worry about getting lost in technical terms. We are The Bitcoin Coaches and you will learn everything step by step in the only Bitcoin guide you will ever need.Bitcoin Decoded is packed with over 100 pages of up-to-date information about this new amazing way we pay for things and make money while doing it. We’ve updated the book with new information since the original was released early in 2014. In just a few months, the Bitcoin market has seen enough major changes that it we felt it important to keep our readers as up to date on developments as is possible.New information in this updated version of the book includes:Interviews with cryptocurrency pioneers Charlie Lee, Stan Larimer and Sunny King, shedding light on why so-called “altcoins” are so importantHow you can make money in the Bitcoin marketand … you won’t read this anywhere else … our EXCLUSIVE reasons why we believe Bitcoin’s value will again skyrocket. (It’s not a matter of IF, but WHEN.) You haven’t read … and won’t read … this anywhere else!You’re here because you’re looking for a way to understand more about Bitcoin. In “Bitcoin Decoded,” you have discovered the book which has been and remains one of the top-selling books about Bitcoin on Amazon and Kindle."
+}

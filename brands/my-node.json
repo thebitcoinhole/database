@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "value": "MyNode"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "mynodebtc.com",
+    "url": "https://mynodebtc.com/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@mynodebtc",
+    "url": "https://x.com/mynodebtc"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@mynode",
+    "url": "https://www.youtube.com/@mynode"
+  },
+  "github": {
+    "value": "mynodebtc",
+    "url": "https://github.com/mynodebtc"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "brand": {
+    "value": "Wizardsardine"
+  },
+  "headquarters": {
+    "value": "Portugal"
+  },
+  "website": {
+    "value": "wizardsardine.com",
+    "url": "https://wizardsardine.com/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://wizardsardine.com/blog/"
+  },
+  "twitter": {
+    "value": "@Wizardsardine",
+    "url": "https://x.com/Wizardsardine"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@wizardsardine",
+    "url": "https://www.youtube.com/@wizardsardine"
+  },
+  "github": {
+    "value": "wizardsardine",
+    "url": "https://github.com/wizardsardine"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "CompoSecure"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "getarculus.com",
+    "url": "https://www.getarculus.com/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@thisisarculus",
+    "url": "https://x.com/thisisarculus"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@thisisarculus",
+    "url": "https://www.youtube.com/@thisisarculus"
+  },
+  "github": {
+    "value": "-"
+  }
+}

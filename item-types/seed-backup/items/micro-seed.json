@@ -1,0 +1,138 @@
+{
+  "id": "micro-seed",
+  "name": "MicroSeed",
+  "purchasable": true,
+  "company": "microseed",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "1000g / 35.27g"
+    },
+    "dimensions": {
+      "value": "62 x 62 x 62 mm"
+    },
+    "materials": {
+      "value": "Titanium or Stainless steel"
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crush-proof": {
+      "value": "Partially",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "No if upright, yes if flat"
+      ]
+    },
+    "corrosion-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shock-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "stress-tests": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "hexadecimal-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "ascii-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Up to 240 characters (120 characters on each side)"
+      ]
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "mastering-bitcoin-for-starters",
+  "name": "Mastering Bitcoin for Starters",
+  "short-description": "",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2018"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "47"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Sam Sutton"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Bitcoin: Mastering Bitcoin for Starters is the ultimate guide that will teach you how to master the number one cryptocurrency in the world, Bitcoin. Learn the ins and outs of Bitcoin, as well as how you can turn it into a highly profitable investment. This book unveils the secrets that will help you master Bitcoin. \n\nLearn:\n\n- What Bitcoin is\n- What a cryptocurrency is\n- History of bitcoin\n- Blockchain technology\n- How a Bitcoin transaction works\n- The different types of bitcoin wallets\n- Businesses that use and accept bitcoins\n- Effective and powerful investing strategies\n- Different ways to mine bitcoins\n- Bitcoin security \nAnd so much more!"
+}

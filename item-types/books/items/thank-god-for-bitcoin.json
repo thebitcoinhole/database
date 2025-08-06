@@ -1,0 +1,60 @@
+{
+  "id": "thank-god-for-bitcoin",
+  "name": "Thank God for Bitcoin",
+  "short-description": "The Creation, Corruption and Redemption of Money",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    },
+    "publisher": {
+      "value": "Bitcoin and Bible Group"
+    },
+    "pages": {
+      "value": "148"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Many",
+      "texts": [
+        "Bitcoin and Bible Group, Jimmy Song, Gabe Higgins, Derek Waltchack, Robert Breedlove, J.M. Bush, Julia Tourianski, Lyle Pratt, George Mekhail"
+      ]
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "\"There is an economic storm brewing that threatens the sandy foundations of our monetary system.\" - From the Foreword by Russell Okung, Super Bowl Champion\nMoney is a fact of everyday life. We earn it, spend it and save it. We’re tempted to worship it and to trust it to provide for our needs. While much has been written about the power, danger, and stewardship of money, little has been written about what money actually is and whether or not money itself is moral. That information gap has been exploited to enrich a privileged few, enslave millions, and reap confusion and division throughout the world. How did this happen and what can we do about it?\nThank God for Bitcoin explores the ways in which the current monetary system is broken and what can be done to fix it. It explores the creation of money, its corruption and its potential redemption. It looks at how Bitcoin is redeeming the ills of our corrupt monetary system and how the ongoing transition to sound money is a source of hope for a broken world."
+}

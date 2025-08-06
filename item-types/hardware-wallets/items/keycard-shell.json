@@ -1,0 +1,738 @@
+{
+  "id": "keycard-shell",
+  "name": "Keycard Shell",
+  "purchasable": true,
+  "pre-order": true,
+  "basic-information": {
+    "year": {
+      "value": "2025"
+    },
+    "assembled-in": {
+      "value": "China"
+    },
+    "diy": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "company": "keycard",
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "official-store": {
+    "po-box-support": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "btc-on-chain": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "warranty": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "weight": {
+      "value": "?"
+    },
+    "dimensions": {
+      "value": "105 x 65 x 19 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "available-in-colors": {
+      "value": "NO",
+      "supported": false
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "TFT"
+    },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "color-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "2\"",
+      "flag": "positive"
+    },
+    "screen-resolution": {
+      "value": "320 x 240 px"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "Buttons"
+    },
+    "qwerty-keyboard": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "With the use of a very common replaceable Nokia BL-4C battery."
+      ]
+    },
+    "removable-battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "battery-size": {
+      "value": "900 mAh",
+      "flag": "positive"
+    },
+    "usb-charging": {
+      "value": "USB-C",
+      "flag": "positive",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "security": {
+    "air-gapped": {
+      "value": "Only for transactions",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Firmware upgrades are not air-gapped, USB is required."
+      ]
+    },
+    "secure-element": {
+      "value": "YES (EAL6+)",
+      "supported": true,
+      "flag": "positive"
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "The open-source protocol allows any wallet using the Keycard to check it's genuine and not counterfeited."
+      ]
+    },
+    "deterministic-nonces": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "anti-klepto": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "secure-boot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgradable-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade-via-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-external-storage": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-cable": {
+      "value": "YES",
+      "supported": true
+    },
+    "upgrade-via-bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://github.com/keycard-tech/keycard-shell/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/keycard-tech/keycard-shell"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/keycard-tech/keycard-shell/blob/master/LICENSE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "device-lock": {
+    "pin-lock": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "dummy-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "A feature added in version 3.1.0 of the applet is a duress PIN, which is completely transparent in the API and undetectable. It changes the keys generated during derivation in a deterministic way. Wallets should make sure they account for this by hiding balance and wallet address until proper authentication, and eventually be able to transparently switch to using the addresses generated after inserting the duress PIN."
+      ]
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "time-delay-to-unlock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "multiple-private-keys": {
+      "value": "YES (Extra cards required)",
+      "flag": "neutral",
+      "supported": true
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passphrase-entry": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-nfc-card": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-12-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "key-teleport": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "addresses": {
+    "view-address-text": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-signing": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "change-verification": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-address-display": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "USB-C (disabled by default)",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Keycard only"
+      ]
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "spending-conditions": {
+    "magnitude-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "velocity-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "whitelisted-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "2fa-authentication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "maximum-fee-protection": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "virtual-disk-mode": {
+      "value": "NO",
+      "supported": false
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "ios-app": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "third-party-apps": {
+    "bitcoin-safe": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "theya": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "wasabi-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "zeus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-keeper": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "liana": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

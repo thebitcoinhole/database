@@ -1,0 +1,59 @@
+{
+  "id": "bitcoin-hard-money-you-cant-fck-with",
+  "name": "Bitcoin: Hard Money You Can't F*ck With",
+  "short-description": "Why bitcoin will be the next global reserve currency",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    },
+    "publisher": {
+      "value": "Going Parabolic Publishing"
+    },
+    "pages": {
+      "value": "220"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Jason A. Williams"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://bitcoinhard.money/"
+    },
+    "twitter": {
+      "value": "@GoingParabolic",
+      "url": "https://x.com/GoingParabolic"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Bitcoin is hard money you can’t f*ck with.\n\nNo-one controls it. No governments, no companies, no central banks, no money printing. It’s a revolution as big as the internet. And it’s never been hacked.\n\nEntrepreneur and investor Jason A. Williams is the first author to put bitcoin in context of the 2020 crisis - a year of financial disaster and unprecedented money creation (money printer go brrr!)\n\nNot only was bitcoin the best-performing asset on the planet in 2020, it quietly established itself as the next global reserve currency as central banks around the world desperately printed their money into oblivion.\n\nHard Money You Can’t F*ck With explains bitcoin in simple, readable terms and maps out how this ‘magic internet money’ will grow into the best form of money we’ve ever had.\n\nWhat’s inside?\n\nPart 1: Why Bitcoin Matters Now\n\n- What is bitcoin?\n- Who created it?\n- Why bitcoin is ‘money you can’t f*ck with’\n- How bitcoin emerged out of the 2008 banking crisis.\n- Why money printing slowly destroys your wealth.\n\nPart 2: A brief history of money (and money printing)\n\n- Take a step back and learn ‘what exactly is money?’\n- Why ‘printing cash’ has always led to the death of currency.\n- Why bitcoin is the best form of money ever created.\n\nPart 3: How bitcoin becomes the next global reserve currency\n\n- A deep dive into the 2020 financial crisis and how bitcoin emerged strongest\n- The emergence of national digital currencies to compete.\n- Why some nation states are now holding and trading in bitcoin."
+}

@@ -1,0 +1,58 @@
+{
+  "id": "bitcoin-for-dummies",
+  "name": "Bitcoin For Dummies",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2022"
+    },
+    "publisher": {
+      "value": "For Dummies"
+    },
+    "pages": {
+      "value": "285"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Peter Kent, Tyler Bain"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://www.dummies.com/"
+    },
+    "twitter": {
+      "value": "@ForDummies",
+      "url": "https://x.com/ForDummies"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "A primer on the currency alternative that's changing the world\n\nBitcoin can be a bit puzzling to the uninitiated. Ledger? Blockchain? Mining? These cryptocurrency concepts aren't going away, and there are tremendous opportunities for those with some know-how to get onboard with the crypto culture. Bitcoin For Dummies helps you get un-puzzled, learn the Bitcoin basics, and discover the possibilities in the new world of digital currencies.\n\nWith this 100% new edition, you can step into the fascinating culture of cryptocurrency and learn how to use Bitcoin as a currency or an investment vehicle. A little bit of knowledge will go a long way, and you’ll be ready to sail smoothly ahead as the crypto tsunami advances.\n\n- Demystify Bitcoin and learn how to buy and sell cryptocurrency\n- Create a digital wallet and make everyday purchases using Bitcoin\n- Discover the ins and outs of investing in Bitcoin and other up-and-coming cryptocurrencies\n- Participate in the cutting-edge culture of crypto\n\nBitcoin For Dummies is great for beginning Bitcoin users and investors who need to know the basics about getting started with Bitcoin and cryptocurrency."
+}

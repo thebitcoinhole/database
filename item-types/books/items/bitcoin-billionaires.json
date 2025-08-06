@@ -1,0 +1,58 @@
+{
+  "id": "bitcoin-billionaires",
+  "name": "Bitcoin Billionaires",
+  "short-description": "A True Story of Genius, Betrayal, and Redemption",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "Flatiron Books"
+    },
+    "pages": {
+      "value": "279"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Ben Mezrich"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@benmezrich",
+      "url": "https://x.com/benmezrich"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "From Ben Mezrich, the New York Times bestselling author of The Accidental Billionaires and Bringing Down the House, comes Bitcoin Billionaires --the fascinating story of brothers Tyler and Cameron Winklevoss's big bet on crypto-currency and its dazzling pay-off.\n Ben Mezrich's 2009 bestseller The Accidental Billionaires is the definitive account of Facebook's founding and the basis for the Academy Award–winning film The Social Network. Two of the story's iconic characters are Harvard students Tyler and Cameron Winklevoss: identical twins, Olympic rowers, and foils to Mark Zuckerberg. Bitcoin Billionaires is the story of the brothers’ redemption and revenge in the wake of their epic legal battle with Facebook. Planning to start careers as venture capitalists, the brothers quickly discover that no one will take their money after their fight with Zuckerberg. While nursing their wounds in Ibiza, they accidentally run into an eccentric character who tells them about a brand-new idea: cryptocurrency. Immersing themselves in what is then an obscure and sometimes sinister world, they begin to realize “crypto” is, in their own words, \"either the next big thing or total bulls--t.\" There’s nothing left to do but make a bet. From the Silk Road to the halls of the Securities and Exchange Commission, Bitcoin Billionaires will take us on a wild and surprising ride while illuminating a tantalizing economic future. On November 26, 2017, the Winklevoss brothers became the first bitcoin billionaires. Here’s the story of how they got there—as only Ben Mezrich could tell it."
+}

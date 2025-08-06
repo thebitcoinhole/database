@@ -1,0 +1,58 @@
+{
+  "id": "the-bitcoin-dictionary",
+  "name": "The Bitcoin Dictionary",
+  "short-description": "A Reference and Primer for Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "97"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Ansel Lindner"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@AnselLindner",
+      "url": "https://x.com/AnselLindner"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Bitcoin jargon demystified.\n Download years of knowledge about bitcoin, blockchain, and cryptocurrency in 80 easy-to-read pages. \n\nThis book can be used as a beginner's guide but is also a mandatory addition to any growing Bitcoin library.\n\nAnsel Lindner includes over 180 Bitcoin related terms, concepts and idioms in The Bitcoin Dictionary. Terms are presented in a mini-Wikipedia style. A clear and concise definition followed by a Discussion section and Related terms to help you flow through this reference book.\n\nBitcoin is much more than the sum of its parts. To understand it properly you must be exposed to core concepts from a diverse set of disciplines including economics, cryptography, mathematics, computer science, political science, and game theory. The Bitcoin Dictionary gives you the important pieces from which to build your understanding."
+}

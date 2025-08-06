@@ -1,0 +1,62 @@
+{
+  "id": "resistance-money",
+  "name": "Resistance Money",
+  "short-description": "A Philosophical Case for Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    },
+    "publisher": {
+      "value": "Routledge"
+    },
+    "pages": {
+      "value": "322"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Many",
+      "texts": [
+        "Andrew M. Bailey, Bradley Rettler, Craig Warmke"
+      ]
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://www.resistance.money/"
+    },
+    "twitter": {
+      "value": "@resistancemoney",
+      "url": "https://x.com/resistancemoney"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Bitcoin isn't just for criminals, speculators, or wealthy Silicon Valley entrepreneurs – despite what the headlines say. In an imperfect world of rampant inflation, creeping authoritarianism, surveillance, censorship, and financial exclusion, bitcoin empowers individuals to elude the expanding reach and tightening grip of institutions both public and private. So although bitcoin is money, it isn't just money. Bitcoin is resistancenmoney.\nResistance Money: A Philosophical Case for Bitcoin begins by explaining why bitcoin was invented, how it works, and where it fits among other kinds of money. The authors then offer a framework for evaluating bitcoin from a global perspective and use it to examine bitcoin’s monetary policy, censorship-resistance, privacy, inclusion, and energy use. The book develops a comprehensive and measured case that bitcoin is a net benefit to the world, despite its imperfections. Resistance Money is intended for all, from the clueless to the specialist, from the proponent to the die-hard skeptic, and everyone in between.\nKey Features:\n- Provides a philosophical approach that makes use of multiple disciplines in its analysis\n- Offers a clearly written, measured academic treatment of bitcoin, comprehensive in scope and free of ideological baggage\n- Includes information on the financial, social, and environmental costs of bitcoin, how these costs are sometimes exaggerated, and how they might be mitigated\n- Addresses the strongest arguments against bitcoin and shows how some succeed and most come up short."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "digital-gold",
+  "name": "Digital Gold",
+  "short-description": "Bitcoin and the Inside Story of the Misfits and Millionaires Trying to Reinvent Money",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2016"
+    },
+    "publisher": {
+      "value": "Harper Paperbacks"
+    },
+    "pages": {
+      "value": "435"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Nathaniel Popper"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://www.nathanielpopper.com/"
+    },
+    "twitter": {
+      "value": "@nathanielpopper",
+      "url": "https://x.com/nathanielpopper"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "A New York Times technology and business reporter charts the dramatic rise of Bitcoin and the fascinating personalities who are striving to create a new global money for the Internet age.\nDigital Gold is New York Times reporter Nathaniel Popper’s brilliant and engrossing history of Bitcoin, the landmark digital money and financial technology that has spawned a global social movement.\nThe notion of a new currency, maintained by the computers of users around the world, has been the butt of many jokes, but that has not stopped it from growing into a technology worth billions of dollars, supported by the hordes of followers who have come to view it as the most important new idea since the creation of the Internet. Believers from Beijing to Buenos Aires see the potential for a financial system free from banks and governments. More than just a tech industry fad, Bitcoin has threatened to decentralize some of society’s most basic institutions.\nAn unusual tale of group invention, Digital Gold charts the rise of the Bitcoin technology through the eyes of the movement’s colorful central characters, including an Argentinian millionaire, a Chinese entrepreneur, Tyler and Cameron Winklevoss, and Bitcoin’s elusive creator, Satoshi Nakamoto. Already, Bitcoin has led to untold riches for some, and prison terms for others."
+}

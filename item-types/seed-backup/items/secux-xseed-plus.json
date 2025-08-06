@@ -1,0 +1,131 @@
+{
+  "id": "secux-xseed-plus",
+  "name": "X-SEED Plus",
+  "purchasable": true,
+  "company": "secu-x",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "?"
+    },
+    "dimensions": {
+      "value": "86 x 54 x 1.5 mm"
+    },
+    "materials": {
+      "value": "Stainless Steel & Aluminum"
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "texts": [
+        "Industrial-grade stainless steel plates can resist fire and temperature as high as 2649 °F / 1454 °C."
+      ]
+    },
+    "crush-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "corrosion-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "shock-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "stress-tests": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "YES (4)",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "4 shares",
+      "flag": "positive",
+      "supported": true
+    },
+    "hexadecimal-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "ascii-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-and-lightning-network-on-raspberry-pi",
+  "name": "Bitcoin and Lightning Network on Raspberry Pi",
+  "short-description": "Running Nodes on Pi3, Pi4 and Pi Zero",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "Apress"
+    },
+    "pages": {
+      "value": "417"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Harris Brakmić"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Compile and run Bitcoin full nodes, lightning nodes, and user-friendly web-apps that help abstract the complexities of Bitcoin. This book not only explains the tools and techniques to help readers build their own banks and banking apps, but it also tells a story. Starting with the origins of Bitcoin—what it is and why we need it—find out what its strengths and limitations are. Understand the nature of mining and why so much energy is put into it.  The blockchain itself will be reviewed, as well, and compared to other options such as a normal SQL database or a simple spreadsheet.\nWith this book, you can control Bitcoin wallets via RPC commands on a Raspberry Pi. Configure, compile, and run two implementation of the Lightning Network-compatible daemons: LND and c-lightning. And employ user-friendly web apps that abstract the complexities of Bitcoin/Lightning-Network.\nThe Internet of Information is currently transitioning to the Internet of Things, which in turn may well  be followed by the Internet of Value (or Money). However, there is no evolution without happy users and Bitcoin will never reach the same heights like the original internet without having offered “useful” and “easy to use” tools. Just like nobody would ever want to use UUCP to send messages via web the same applies to current cryptocurrency tools. These are hard to use and very unforgiving. But, the evolution doesn’t stop here and many easy-to-use tools are already available. We will meet some of them when building apps for the Lightning Network, a new technology running on top of Bitcoin’s blockchain that makes it possible to generate billions of transactions within a single second.  \nWhat You'll Learn\n\n- Control Bitcoin wallets via console RPC commands\n- Run two implementation of the Lightning Network compatible daemons\n- Simplify the complexities of Bitcoin and the Lightning network with user-friendly web apps\nWho This Book Is For\nThis book is for Makers familiar with the basics of Linux command line processes."
+}

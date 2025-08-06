@@ -1,0 +1,38 @@
+{
+  "brand": {
+    "value": "Wasabi Wallet"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "/wasabiwallet.io",
+    "url": "https://wasabiwallet.io/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://blog.wasabiwallet.website/"
+  },
+  "twitter": {
+    "value": "@wasabiwallet",
+    "url": "https://x.com/wasabiwallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@WasabiWallet",
+    "url": "https://youtube.com/c/WasabiWallet"
+  },
+  "github": {
+    "value": "WalletWasabi",
+    "url": "https://github.com/WalletWasabi"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "Wasabi Wallet",
+    "url": "https://discord.gg/nm7YHEZnJs"
+  }
+}

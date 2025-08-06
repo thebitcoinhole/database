@@ -1,0 +1,58 @@
+{
+  "id": "baffled-by-bitcoin",
+  "name": "Baffled By Bitcoin",
+  "short-description": "A Simple Guide To The Money Of Tomorrow",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "180"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Bit Noi"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@BitNoi",
+      "url": "https://x.com/BitNoi"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "So you’ve heard of Bitcoin. But it’s just a new type of currency, right? Nothing to get too excited about.\n\nIt might be more important than you realize. \nBaffled By Bitcoin promises to decipher the new world of digital currencies and help you understand how and why Bitcoin could revolutionize our lives. Written in plain, simple, easy-to-understand terms, you will discover what Bitcoin is, how it works, and why we need it. You’ll also learn some of the most common criticisms of Bitcoin debunked fairly and honestly.\n\nYour Bitcoin questions are answered. What is Bitcoin? Who created it? Where are bitcoin kept? What is Bitcoin mining? What is the Halving? Was it just a bubble? What happens next? And most importantly, why should you use it? You will uncover how our current financial system works, its problems, and why Bitcoin offers a revolutionary alternative.\n\nIdeal for cryptocurrency beginners and avid Bitcoiners alike, if you’re feeling baffled by Bitcoin, this is the book for you."
+}

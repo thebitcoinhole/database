@@ -1,0 +1,364 @@
+{
+  "id": "raspiblitz",
+  "name": "RaspiBlitz",
+  "buildable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    }
+  },
+  "company": "raspi-blitz",
+  "communities": {
+    "telegram": {
+      "value": "raspiblitz",
+      "url": "https://t.me/raspiblitz"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "-",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "-",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "-",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "DIY"
+    },
+    "warranty": {
+      "value": "-",
+      "supported": false
+    },
+    "weight": {
+      "value": "-"
+    },
+    "dimensions": {
+      "value": "-"
+    },
+    "cpu": {
+      "value": "Quad core Cortex-A72"
+    },
+    "ram": {
+      "value": "4/8 GB",
+      "texts": [
+        "Raspberry Pi 4. Pick 8 GB RAM for maximum performance."
+      ]
+    },
+    "storage": {
+      "value": "1+ TB",
+      "texts": [
+        "1 TB or more is recommended"
+      ]
+    },
+    "ethernet": {
+      "value": "Gigabit Ethernet",
+      "flag": "positive",
+      "supported": true
+    },
+    "wifi": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless"
+      ]
+    },
+    "hdmi": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. 2x micro-HDMI® ports (up to 4kp60 supported)"
+      ]
+    },
+    "usb": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2 USB 3.0 ports; 2 USB 2.0 ports."
+      ]
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. Bluetooth 5.0"
+      ]
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-signet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "RaspiBlitz"
+    },
+    "bitcoin-only": {
+      "value": "YES"
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://github.com/raspiblitz/raspiblitz/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/raspiblitz/raspiblitz"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/raspiblitz/raspiblitz/blob/v1.10/LICENSE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pc-disk-image": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "virtual-machine": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "raspberry-pi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to set up a Bitcoin Node with RaspiBlitz on a Raspberry Pi 4",
+          "url": "https://medium.com/the-bitcoin-hole/how-to-set-up-a-bitcoin-node-with-raspiblitz-on-a-raspberry-pi-4-ebe0c614046c"
+        }
+      ]
+    },
+    "raspberry-pi-5": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to set up a Bitcoin Node with RaspiBlitz on a Raspberry Pi 5",
+          "url": "https://medium.com/the-bitcoin-hole/how-to-set-up-a-bitcoin-node-with-raspiblitz-on-a-raspberry-pi-5-b00e07b2b875"
+        }
+      ]
+    },
+    "rock-64": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rock-pro-64": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rockpi-4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "libre-relay": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "mempool-visualizer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "JoinMarket"
+      ]
+    },
+    "btcpay-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "samourai-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "?",
+      "supported": false
+    },
+    "official-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "thirdparty-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-restore": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "health-checks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ssl": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "HTTPS with LetsEncrypt (free)",
+          "url": "https://github.com/raspiblitz/raspiblitz/tree/v1.10#https-with-letsencrypt-free"
+        }
+      ]
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tailscale": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "bitcoin-money",
+  "name": "Bitcoin Money",
+  "short-description": "A Tale of Bitville Discovering Good Money",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "28"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Michael Caras"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@Michael_Caras",
+      "url": "https://x.com/Michael_Caras"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "The kids in Bitville realize they need a tool to help them trade with each other. As they explore using different types of money, a strange boy moves to town and suggests a new idea...\nBitcoin Money is a story for all ages which helps answer the question \"Why Bitcoin?\""
+}

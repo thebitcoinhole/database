@@ -1,0 +1,60 @@
+{
+  "id": "mastering-the-lightning-network",
+  "name": "Mastering the Lightning Network",
+  "short-description": "A Second Layer Blockchain Protocol for Instant Bitcoin Payments",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "O'Reilly Media"
+    },
+    "pages": {
+      "value": "735"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Andreas M. Antonopoulos"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://aantonop.com/"
+    },
+    "twitter": {
+      "value": "@aantonop",
+      "url": "https://x.com/aantonop"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@aantonop",
+      "url": "https://www.youtube.com/@aantonop"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "The Lightning Network (LN) is a rapidly growing second-layer payment protocol that works on top of Bitcoin to provide near-instantaneous transactions between two parties. With this practical guide, authors Andreas M. Antonopoulos, Olaoluwa Osuntokun, and Rene Pickhardt explain how this advancement will enable the next level of scale for Bitcoin, increasing speed and privacy while reducing fees.\nIdeal for developers, systems architects, investors, and entrepreneurs looking to gain a better understanding of LN, this book demonstrates why experts consider LN a critical solution to Bitcoin's scalability problem. You'll learn how LN has the potential to support far more transactions than today's financial networks.\nThis book examines:\n- How the Lightning Network addresses the challenge of blockchain scaling\n- The Basis of Lightning Technology (BOLT) standards documents\n- The five layers of the Lightning Network Protocol Suite\n- LN basics, including wallets, nodes, and how to operate one\n- Lightning payment channels, onion routing, and gossip protocol\n- Finding paths across payment channels to transport Bitcoin off-chain from sender to recipient"
+}

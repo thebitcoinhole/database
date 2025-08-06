@@ -1,0 +1,57 @@
+{
+  "id": "early-bird-gets-the-bitcoin",
+  "name": "Early Bird Gets The Bitcoin",
+  "short-description": "The Ultimate Guide To Everything About Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2018"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "81"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Andrew K. Courey"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "If you are looking for an easy to understand introduction to Bitcoin in plain language, this is the book for you!\n\nBitcoin, blockchain, Ethereum, ICOs, cryptocurrencies - these are some of the important terms that you will learn about in this book. \n\nWe will start with an introduction to Bitcoin, and then review the history of Bitcoin. We will then explain how blockchain works, because it is essential to all cryptocurrencies. Next, we will walk through Bitcoin wallets, Bitcoin mining, and of course Bitcoin hacks. \n\nAfterwards, we will have a discussion about investing in Bitcoin, and the risks of Bitcoin crashing. Lastly, we will review another cryptocurrency called Ethereum, and discuss ICOs, which stands for initial coin offerings. \n\nThe appendix provides some supplemental information on resources for further reading about Bitcoin, as well as a dictionary of key terms and 12 interesting Bitcoin products/services.\n\nI am very passionate about Bitcoin, and I hope that after reading this book you are too!"
+}

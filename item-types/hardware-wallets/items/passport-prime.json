@@ -1,0 +1,867 @@
+{
+  "id": "passport-prime",
+  "name": "Passport Prime",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2025"
+    },
+    "assembled-in": {
+      "value": "USA"
+    },
+    "diy": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "company": "foundation-devices",
+  "communities": {
+    "telegram": {
+      "value": "Foundation Community",
+      "url": "https://t.me/foundationdevices"
+    },
+    "reddit": {
+      "value": "Foundation Devices",
+      "url": "https://www.reddit.com/r/FoundationDevices/"
+    }
+  },
+  "official-store": {
+    "po-box-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "warranty": {
+      "value": "1 year",
+      "flag": "positive",
+      "supported": true
+    },
+    "weight": {
+      "value": "93g / 3.28oz"
+    },
+    "dimensions": {
+      "value": "104 x 55.5 x 11 mm"
+    },
+    "materials": {
+      "value": "Aluminium"
+    },
+    "available-in-colors": {
+      "value": "YES",
+      "supported": true
+    },
+    "waterproof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Pending certification"
+      ]
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "IPS"
+    },
+    "gorilla-glass": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "color-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "touch-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-size": {
+      "value": "3.5\"",
+      "flag": "positive"
+    },
+    "screen-resolution": {
+      "value": "480 x 800 px"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "Touch Screen"
+    },
+    "qwerty-keyboard": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "removable-battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "1100 mAh",
+      "flag": "positive"
+    },
+    "usb-charging": {
+      "value": "USB-C",
+      "flag": "positive",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "security": {
+    "air-gapped": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "secure-element": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "EP #4 - What in the world is a secure element?",
+          "url": "https://www.youtube.com/watch?v=CaD1wcm5btQ"
+        }
+      ]
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Tamper-evident seal on the outside of the box",
+        "Supply chain validation",
+        "Active tamper protection"
+      ],
+      "links": [
+        {
+          "title": "How Passport protects your Bitcoin",
+          "url": "https://foundation.xyz/2023/08/how-passport-protects-your-bitcoin/"
+        }
+      ]
+    },
+    "deterministic-nonces": {
+      "value": "YES",
+      "supported": true
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "secure-boot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Developer PubKey",
+          "url": "https://docs.foundation.xyz/advanced/developer-pubkey/"
+        }
+      ]
+    },
+    "upgradable-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Update will be via Bluetooth initially, but later via external storage options"
+      ]
+    },
+    "upgrade-via-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-external-storage": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-cable": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-bluetooth": {
+      "value": "YES",
+      "supported": true
+    },
+    "upgrade-via-nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "release-notes": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "source-available": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "GPLv3"
+    },
+    "reproducible-builds": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Why Reproducibility Matters",
+          "url": "https://foundation.xyz/2023/08/why-reproducibility-matters/"
+        }
+      ]
+    }
+  },
+  "device-lock": {
+    "pin-lock": {
+      "value": "On Device",
+      "flag": "positive",
+      "texts": [
+        "6 to 12 digits length"
+      ]
+    },
+    "dummy-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "In the event that an incorrect PIN is entered 21 times, the device will self destruct and become permanently useless.",
+        "The Secure Element includes monotonic counters that enable PIN attempt tracking, where the Secure Element will “brick” itself by no longer permitting login attempts if the maximum number of attempts is exceeded."
+      ],
+      "links": [
+        {
+          "title": "Security",
+          "url": "https://github.com/Foundation-Devices/passport-firmware/blob/main/SECURITY/SECURITY.md"
+        }
+      ]
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "time-delay-to-unlock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Using PIN Security Words on Passport",
+          "url": "https://www.youtube.com/watch?v=1EjGq_Pah30"
+        }
+      ]
+    },
+    "alphanumeric-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "Optional Stateless Use",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Temporary Seed",
+          "url": "https://docs.foundation.xyz/passport/passport-menu/more/#temporary-seed"
+        }
+      ]
+    },
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "multiple-private-keys": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Passphrases – What/Why/Now?",
+          "url": "https://foundation.xyz/2021/10/passphrases-what-why-how/"
+        },
+        {
+          "title": "Using a Passphrase with Passport",
+          "url": "https://www.youtube.com/watch?v=lVNbszZXkq8"
+        }
+      ]
+    },
+    "passphrase-entry": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bip85": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "All your wallets, one backup",
+          "url": "https://foundation.xyz/tag/bip85/"
+        }
+      ]
+    },
+    "shamir-backup": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "YES (encrypted)",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Why we love encrypted MicroSD Backups",
+          "url": "https://foundation.xyz/2023/01/why-we-love-encrypted-microsd-backups/"
+        },
+        {
+          "title": "User Guide: Backup",
+          "url": "https://docs.foundationdevices.com/passport/backup"
+        }
+      ]
+    },
+    "backup-recovery-nfc-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Make 12 words the standard",
+          "url": "https://foundation.xyz/2023/06/make-12-words-the-standard/"
+        }
+      ]
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "You can export Passport's master seed phrase via SeedQR. Both Compact and standard SeedQR are supported."
+      ]
+    },
+    "key-teleport": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "addresses": {
+    "view-address-text": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Verify Address",
+          "url": "https://docs.foundationdevices.com/passport/account#verify-address"
+        }
+      ]
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Multisig - Is it for me?",
+          "url": "https://foundation.xyz/2021/11/multisig-is-it-for-me/"
+        },
+        {
+          "title": "EP #5 - Is multisig for everyone?",
+          "url": "https://www.youtube.com/watch?v=CQsXHmJfkZg"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-verification": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-address-display": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false,
+      "texts": [
+        "NFC for signing will be supported in the future"
+      ]
+    },
+    "microsd-card": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Omnivision Camera for QR scanning"
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "spending-conditions": {
+    "magnitude-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "velocity-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "whitelisted-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "2fa-authentication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "maximum-fee-protection": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Connecting Envoy To Your Own Bitcoin Node",
+          "url": "https://www.youtube.com/watch?v=kKWAaVaGsN4"
+        }
+      ]
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "virtual-disk-mode": {
+      "value": "YES",
+      "supported": true
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "YES",
+      "supported": true
+    },
+    "fido-authentication": {
+      "value": "YES",
+      "supported": true
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.foundationdevices.envoy"
+        }
+      ]
+    },
+    "ios-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/envoy-by-foundation/id1584811818"
+        }
+      ]
+    }
+  },
+  "third-party-apps": {
+    "bitcoin-safe": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "theya": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "wasabi-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "zeus": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Using Passport Hardware Wallet With Nunchuk Mobile",
+          "url": "https://www.youtube.com/watch?v=NG4pQKrGgVQ"
+        }
+      ]
+    },
+    "electrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Passport Wallet Tutorial - Electrum Desktop Set Up (Single Signature)",
+          "url": "https://www.youtube.com/watch?v=mVT7oIIV7zM"
+        }
+      ]
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Using Passport Hardware Wallet With Sparrow Desktop Wallet",
+          "url": "https://www.youtube.com/watch?v=tbT6tlr0uyk"
+        }
+      ]
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Passport Wallet Tutorial - Specter Desktop Set Up (Multi Signature)",
+          "url": "https://www.youtube.com/watch?v=vDNfw3WWHJ0"
+        },
+        {
+          "title": "Using Passport Hardware Wallet With Specter Desktop",
+          "url": "https://www.youtube.com/watch?v=U_EntPUO4yY"
+        }
+      ]
+    },
+    "blockstream-green": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "bluewallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-keeper": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liana": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "CoolBitX"
+  },
+  "headquarters": {
+    "value": "Taiwan"
+  },
+  "website": {
+    "value": "coolwallet.io",
+    "url": "https://www.coolwallet.io/"
+  },
+  "blog": {
+    "value": "coolwallet.io/blog",
+    "url": "https://www.coolwallet.io/blog/"
+  },
+  "twitter": {
+    "value": "@coolwallet",
+    "url": "https://x.com/coolwallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@coolwallet",
+    "url": "https://www.youtube.com/@coolwallet"
+  },
+  "github": {
+    "value": "CoolBitX-Technology",
+    "url": "https://github.com/CoolBitX-Technology"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "orange-coin-good",
+  "name": "Orange Coin Good",
+  "short-description": "The Value of Bitcoin - Book One",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    },
+    "publisher": {
+      "value": "Bitcoin Citadel Press"
+    },
+    "pages": {
+      "value": "119"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "jimbo"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@jimbocoin",
+      "url": "https://x.com/jimbocoin"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "This book answers one question: How can Bitcoin, a purely digital money that's not backed by anything, have any value to people at all? You'll learn that Bitcoin is three things: a programmable money, a computer network, and a social phenomenon. These parts are mutually reinforcing, inseparable and governed by consensus. You'll find out how Bitcoin works for you. You'll learn how to set up a wallet and how to use it to receive Bitcoin. Lastly, you'll see what Bitcoin achieves when we compare it to gold and to fiat currencies. Bitcoin is the first and most rival, excludable, digital good. It is the hardest money ever conceived. We need good money. Orange Coin Good."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-answered",
+  "name": "Bitcoin Answered",
+  "short-description": "A Beginner's Guide to Everything Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "Aude Publishing"
+    },
+    "pages": {
+      "value": "208"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Jon Law"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "paperback": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Bitcoin Answered disentangles the fragmented web of information around Bitcoin being received by the general public through a simple, question-based format. The book breaks down the scope of Bitcoin, digital currencies, and blockchain, and provides an understanding of Bitcoin from a sentiment, technical, historical, and conceptual standpoint, all in a simplistic and visual-backed manner. Simply put, we're your one-stop shop for Bitcoin understanding. The 100+ questions and answers include:\n- What is Bitcoin?\n- Who started Bitcoin?\n- Can Bitcoin be hacked?\n- Will Bitcoin run out?\n- Is Bitcoin a scam?\n- Is Bitcoin anonymous?\n- Is Bitcoin outdated?\n- How is Bitcoin mined?\n- Is Bitcoin a good investment?\n- Does Bitcoin have intrinsic value?\n- Was Bitcoin the first cryptocurrency?\n- How popular is Bitcoin?\n... and more!"
+}

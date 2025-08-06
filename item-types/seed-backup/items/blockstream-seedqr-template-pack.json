@@ -1,0 +1,134 @@
+{
+  "id": "blockstream-seedqr-template-pack",
+  "name": "SeedQR Template Pack",
+  "full-name": "Blockstream SeedQR Template Pack",
+  "purchasable": true,
+  "company": "blockstream",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES (via BTCPay)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "?"
+    },
+    "dimensions": {
+      "value": "?"
+    },
+    "materials": {
+      "value": "Paper"
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "water-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "fire-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "crush-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "corrosion-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shock-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "stress-tests": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-24-words": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "seed-qr": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "hexadecimal-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "ascii-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  }
+}

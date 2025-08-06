@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "KeepKey"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "keepkey.com",
+    "url": "https://www.keepkey.com/"
+  },
+  "blog": {
+    "value": "keepkey.com/blog",
+    "url": "https://www.keepkey.com/blog"
+  },
+  "twitter": {
+    "value": "@keepkeydevs",
+    "url": "https://x.com/keepkeydevs"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@keepkey6256",
+    "url": "https://www.youtube.com/@keepkey6256"
+  },
+  "github": {
+    "value": "keepkey",
+    "url": "https://github.com/keepkey"
+  }
+}

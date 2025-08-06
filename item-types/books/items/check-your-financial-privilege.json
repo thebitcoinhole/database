@@ -1,0 +1,58 @@
+{
+  "id": "check-your-financial-privilege",
+  "name": "Check Your Financial Privilege",
+  "short-description": "Inside the global bitcoin revolution",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2022"
+    },
+    "publisher": {
+      "value": "BTC Media"
+    },
+    "pages": {
+      "value": "269"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Alex Gladstein"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@gladstein",
+      "url": "https://x.com/gladstein"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Alex Gladstein has a lot to say about Bitcoin, human rights, financial privilege, and personal freedom. In Check Your Financial Privilege, he says it, starting with the fact that anyone born into a reserve currency like the euro, yen, or pound has financial privilege over the 89% of the world population born into weaker systems.\nIn Nigeria, human rights activists depend on Bitcoin for donations after crackdowns by authoritarian regimes. In Cuba, after a dual-currency system devalued the peso, those who saved in Bitcoin managed to stay afloat. In El Salvador, where remittance fees and exchange rates can eat away a simple money transfer to family members in need, Bitcoin offers hope with lower fees and faster transactions (and now it's legal tender).\nAs CSO of the Human Rights Foundation, Gladstein is uniquely positioned to detail the rise of Bitcoin from cypherpunk dream to the real-life Bitcoin stories happening to real people across the globe. For people around the world, outside of Wall Street, Bitcoin offers a means of freedom from inflation, political strife, and an outdated monetary system. For these people, the majority of the world’s population, it might even save their lives.\n\"In Zimbabwe our biggest note became an astonishing but useless one hundred trillion dollar note. We lost everything because a brutal and corrupt government took it all. Alex Gladstein reveals what Bitcoin can and is doing for people who are at the mercy of political looting gangs in designer suits backed by the military. He shows how Bitcoin is a genuine chance at freedom for billions of people trapped in financial oppression.\"—--Evan Mawarire, Zimbabwean Pastor and Pro-Democracy Advocate\n“Alex has done a fantastic job reporting on the use of Bitcoin by people throughout the developing world as a tool against both authoritarianism and high inflation. This aspect of Bitcoin remains poorly understood in general, which is what makes his detailed work on the topic so useful.”--Lyn Alden, Founder, Lyn Alden Investment Strategy\n“’Cash Rules Everything Around Me.’ This incredible Wu-Tang hook references everything Alex explores in these chapters on the control exerted by governments and corporations through monetary policy, and how the Bitcoin protocol will help free us all.--Jack Dorsey, Co-founder and former CEO, Twitter; Founder and CEO, Block, Inc.\n“Alex is one of the few experts who truly understands what Bitcoin can mean for the billions living under dictatorship -- but also, how the current system creates & sustains inequality, authoritarianism, and imperialism. This collection of essays is a must-read for those invested in anti-authoritarian, progressive, and democratic causes.\"--Iyad el-Baghdadi, Arab Spring activist and President, Kawaakibi Foundation\n\"This book is the first of its kind thanks to a holistic approach, guiding the reader through multiple layers of finance, economics, politics, and history in a beautiful way with clarity and fluidity. Gladstein shows how this novel money is defying traditional wealth-building methods by working with humanity rather than against it.\"--Farida Nabourema, Togolese writer, human rights defender, and Pan-Africanist\nAlex Gladstein is a regular contributor to Bitcoin Magazine"
+}

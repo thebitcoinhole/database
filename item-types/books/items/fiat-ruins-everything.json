@@ -1,0 +1,58 @@
+{
+  "id": "fiat-ruins-everything",
+  "name": "Fiat Ruins Everything",
+  "short-description": "How Our Financial System Is Rigged and How Bitcoin Fixes It",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Bitcoin Magazine Books"
+    },
+    "pages": {
+      "value": "340"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Jimmy Song"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@jimmysong",
+      "url": "https://x.com/jimmysong"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "You are being stolen from. Your money is being debased, your labor is being debased, your civilization and all of its institutions are being debased. You're having to work longer for less pay. You see your friends and family less and less. You eat worse food, you sleep a little less, and your neighborhood gets a little more impersonal every year. Your life is getting worse, and you are paying for someone else's excess. How did this happen, and why is it happening? Fiat Ruins Everything is an analysis of the debasement of the modern world from our banking system and real estate to our educational system and art. Learn why these systems keep getting worse and why Bitcoin will make things better.\nFiat Ruins Everything delivers a knockout punch, unmasking the pervasive destruction caused by the fiat currency system while highlighting the hope found in Bitcoin. The riveting narrative cuts to the heart of society’s ills and exposes the dark truth of our current financial system while also offering a transformative vision for the future. This is essential reading for anyone that feels played by the current system but knows, deep down inside, that prosperity and abundance can still be achieved.\n— Preston Pysh, Host of The Investor's Podcast \nIf you sense that something is wrong, but you can’t quite put your finger on it, read this book. Society is being corrupted and Jimmy neatly spells out why with excellent examples that bring his point home. This is a wide-ranging book touching on morality, economics, family, investing, business, and even airline miles. But more than just spelling out problems, Jimmy offers solutions. Fiat Ruins Everything is a thoughtful exploration tracing out the many problems brought about by fiat money, and it’s well worth the read.\n— Stephan Livera, Host of the Stephan Livera Podcast \nFor the vast majority of people living in modernity, it is becoming increasingly difficult to make ends meet. Few understand that this is a direct consequence of the central planning of money. We do not live in a free market economy – we live under the monopolistic dominion of central banks and their weapons of choice: fiat currencies. When money is monopolized and systematically debased, the users of money bear the burden of offsetting the depreciation of their savings by obtaining other sources of income. Seeing that the systematic inflationary theft of fiat currency causes a net reduction in productivity, new sources of income become harder to generate at the same time they are becoming more widely demanded. In other words, fiat currency supply inflation not only steals wealth from savers, but it also inhibits their ability to create new wealth. The only escape from this proverbial “rock and a hard place” is by gaining a deeper understanding of money and then opting out of the fiat currency pyramid scheme. In Fiat Ruins Everything, author Jimmy Song does an excellent job explaining the malevolent nature of fiat currency, and why sound money is the only viable solution to our modern economic malaise.\n— Robert Breedlove, Host of The \"What is Money?\" Show\nJimmy Song is a Bitcoin developer, educator, and entrepreneur. He’s a programmer with over 20 years’ experience, an open source contributor to many different Bitcoin projects, and the author of Programming Bitcoin, The Little Bitcoin Book, Thank God for Bitcoin, and Bitcoin and the American Dream. Jimmy has been a lecturer at the University of Texas, an expert witness in legal cases involving Bitcoin, and is an advisor to multiple companies. Jimmy writes a weekly newsletter, Bitcoin Tech Talk, and has a podcast Bitcoin Fixes This."
+}

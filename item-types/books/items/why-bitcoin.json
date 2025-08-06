@@ -1,0 +1,57 @@
+{
+  "id": "why-bitcoin",
+  "name": "Why Bitcoin?",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Konsensus Network"
+    },
+    "pages": {
+      "value": "107"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Tomer Strolight"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@TomerStrolight",
+      "url": "https://x.com/TomerStrolight"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Nobody will make you choose bitcoin as your money, so why should you choose it? \nWhy is it not like anything you’ve ever seen before? \nWhy does it use energy? \nWhy can nobody stop it?\nWhy is it important?\nWhy is it so much more than mere money?\nAnd why are the number of people using bitcoin growing so quickly all over the world?\nThese are just a few of the questions answered in the book you are holding.\nWhy Bitcoin? is a book for bitcoin beginners and experts alike, with short, insightful chapters on dozens of the most common bitcoin questions."
+}

@@ -1,0 +1,58 @@
+{
+  "id": "bitcoin-clarity",
+  "name": "Bitcoin Clarity",
+  "short-description": "The Complete Beginners Guide to Understanding",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    },
+    "publisher": {
+      "value": "Bickers & Son"
+    },
+    "pages": {
+      "value": "235"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Kiara Bickers"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@kiarabickers",
+      "url": "https://x.com/kiarabickers"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "\"The best book about bitcoin I’ve read to date. It’s a damn masterpiece.\" —Leigh Cuen, Reporter with CoinDesk\"I am in my sixties and never understood what Bitcoin consisted of. This really opened my eyes and made me understand... A must read. Never too late to learn something new.\" —Steven, Five Star Reviewer\n\"This is truly one of the best books for readers to begin to understand something as complex as bitcoin. Really tactical and well written. Highly recommend.\" —Marcus, Five Star Reviewer\n\"Excellent explanations (and diagrams) with lots of humor and intelligence. I knew very little about Bitcoin before reading this book, but I now have the knowledge needed to decide whether to invest in Bitcoin and how much to buy.\" —Helen, Five Star Reviewer\nAre you trying to understand \"magical internet money\"?\nThe path to understanding Bitcoin isn't always straightforward. News reports, soundbites, and market tickers could never tell the whole story. People don't accept or see Bitcoin as \"digital gold\" just because the phrase is used to explain it. People only understand Bitcoin once they've found a new perspective, that allows them to see the value in it for themselves.\nKiara Bickers’ provides a fresh way of approaching Bitcoin, without price hype or industry jargon. Using mental models and visuals, Bitcoin Clarity unfolds the hidden knowledge of how the blockchain works and why it's valued. Whether you're all in or a skeptical investor, the book will transform the way you look at money and cryptocurrency forever."
+}

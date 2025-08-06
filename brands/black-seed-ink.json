@@ -1,0 +1,27 @@
+{
+  "brand": {
+    "value": "Black Seed Ink"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "blackseedink.com",
+    "url": "https://blackseedink.com/"
+  },
+  "blog": {
+    "value": "blackseedink.com/blogs/news",
+    "url": "https://blackseedink.com/blogs/news/"
+  },
+  "twitter": {
+    "value": "@black_seed_ink",
+    "url": "https://x.com/black_seed_ink"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@blackseedink",
+    "url": "https://www.youtube.com/@blackseedink"
+  }
+}

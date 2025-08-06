@@ -1,0 +1,61 @@
+{
+  "id": "the-bitcoin-standard",
+  "name": "The Bitcoin Standard",
+  "short-description": "The Decentralized Alternative to Central Banking",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2018"
+    },
+    "publisher": {
+      "value": "Wiley"
+    },
+    "pages": {
+      "value": "298"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Saifedean Ammous"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://saifedean.com/"
+    },
+    "twitter": {
+      "value": "@saifedean",
+      "url": "https://x.com/saifedean"
+    },
+    "nostr": {
+      "value": "saifedean",
+      "url": "https://primal.net/p/npub1gdu7w6l6w65qhrdeaf6eyywepwe7v7ezqtugsrxy7hl7ypjsvxksd76nak"
+    },
+    "youtube": {
+      "value": "@saifedean",
+      "url": "https://www.youtube.com/@saifedean"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "When a pseudonymous programmer introduced “a new electronic cash system that’s fully peer-to-peer, with no trusted third party” to a small online mailing list in 2008, very few paid attention. Ten years later, and against all odds, this upstart autonomous decentralized software offers an unstoppable and globally-accessible hard money alternative to modern central banks. The Bitcoin Standard analyzes the historical context to the rise of Bitcoin, the economic properties that have allowed it to grow quickly, and its likely economic, political, and social implications.\nWhile Bitcoin is a new invention of the digital age, the problem it purports to solve is as old as human society itself: transferring value across time and space. Ammous takes the reader on an engaging journey through the history of technologies performing the functions of money, from primitive systems of trading limestones and seashells, to metals, coins, the gold standard, and modern government debt. Exploring what gave these technologies their monetary role, and how most lost it, provides the reader with a good idea of what makes for sound money, and sets the stage for an economic discussion of its consequences for individual and societal future-orientation, capital accumulation, trade, peace, culture, and art. Compellingly, Ammous shows that it is no coincidence that the loftiest achievements of humanity have come in societies enjoying the benefits of sound monetary regimes, nor is it coincidental that monetary collapse has usually accompanied civilizational collapse.\nWith this background in place, the book moves on to explain the operation of Bitcoin in a functional and intuitive way. Bitcoin is a decentralized, distributed piece of software that converts electricity and processing power into indisputably accurate records, thus allowing its users to utilize the Internet to perform the traditional functions of money without having to rely on, or trust, any authorities or infrastructure in the physical world. Bitcoin is thus best understood as the first successfully implemented form of digital cash and digital hard money. With an automated and perfectly predictable monetary policy, and the ability to perform final settlement of large sums across the world in a matter of minutes, Bitcoin’s real competitive edge might just be as a store of value and network for final settlement of large payments—a digital form of gold with a built-in settlement infrastructure.\nAmmous’ firm grasp of the technological possibilities as well as the historical realities of monetary evolution provides for a fascinating exploration of the ramifications of voluntary free market money. As it challenges the most sacred of government monopolies, Bitcoin shifts the pendulum of sovereignty away from governments in favor of individuals, offering us the tantalizing possibility of a world where money is fully extricated from politics and unrestrained by borders.\nThe final chapter of the book explores some of the most common questions surrounding Bitcoin: Is Bitcoin mining a waste of energy? Is Bitcoin for criminals? Who controls Bitcoin, and can they change it if they please? How can Bitcoin be killed? And what to make of all the thousands of Bitcoin knock-offs, and the many supposed applications of Bitcoin’s ‘blockchain technology’? \nThe Bitcoin Standard is the essential resource for a clear understanding of the rise of the Internet’s decentralized, apolitical, free-market alternative to national central banks."
+}

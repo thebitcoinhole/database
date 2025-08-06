@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "value": "SafePal"
+  },
+  "headquarters": {
+    "value": "Singapore"
+  },
+  "website": {
+    "value": "safepal.io",
+    "url": "https://www.safepal.io/"
+  },
+  "blog": {
+    "value": "blog.safepal.io",
+    "url": "https://blog.safepal.io/"
+  },
+  "twitter": {
+    "value": "@iSafePal",
+    "url": "https://x.com/iSafePal"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@SafePalWallet",
+    "url": "https://www.youtube.com/@SafePalWallet"
+  },
+  "github": {
+    "value": "-"
+  }
+}

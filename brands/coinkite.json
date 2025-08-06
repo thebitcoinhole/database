@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Coinkite"
+  },
+  "headquarters": {
+    "value": "Canada"
+  },
+  "website": {
+    "value": "coinkite.com",
+    "url": "https://coinkite.com/"
+  },
+  "blog": {
+    "value": "blog.coinkite.com",
+    "url": "https://blog.coinkite.com/"
+  },
+  "twitter": {
+    "value": "@COLDCARDwallet",
+    "url": "https://x.com/COLDCARDwallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@CoinkiteInc",
+    "url": "https://www.youtube.com/@CoinkiteInc"
+  },
+  "github": {
+    "value": "Coldcard",
+    "url": "https://github.com/Coldcard"
+  }
+}

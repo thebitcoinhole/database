@@ -1,0 +1,141 @@
+{
+  "id": "graphene",
+  "name": "Graphene",
+  "purchasable": true,
+  "company": "ngrave",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "?"
+    },
+    "dimensions": {
+      "value": "?"
+    },
+    "materials": {
+      "value": "Stainless Steel"
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "GRAPHENE Punch Pen included"
+      ]
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Temperatures up to 1375°C (2507°F) mean nothing to GRAPHENE."
+      ]
+    },
+    "crush-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "corrosion-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shock-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "stress-tests": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Split your backup in two undecipherable parts",
+        "Benefit from the double security layer by storing and safeguarding each plate separately. If someone finds one of the plates, they will not be able to read your NGRAVE Perfect Key."
+      ]
+    },
+    "tamper-evident-seal": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "1 share",
+      "flag": "neutral",
+      "supported": true
+    },
+    "hexadecimal-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "ascii-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  }
+}

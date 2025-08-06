@@ -1,0 +1,57 @@
+{
+  "id": "how-to-mine-bitcoin",
+  "name": "How To Mine Bitcoin",
+  "short-description": "A Beginners' Guide To Mine And Invest In Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "Independently published"
+    },
+    "pages": {
+      "value": "57"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Shirleen Seamons"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "If you want to understand all of the factors involved in running a profitable BTC mining operation, this is the book for you. Before you invest your time and money, read this explanation to discover whether mining is rеаllу fоr уоu. In the book, the author concentrates mostly on Bitcoin. After reading this guide, you'll be able to determine if it's a good idea to try mining bitcoin and how to get set up."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-internals",
+  "name": "Bitcoin Internals",
+  "short-description": "A Technical Guide to Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2013"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "56"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Chris Clark"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "\"There are three eras of currency: Commodity-based, politically-based, and now, math-based.\" - Chris Dixon, Internet Entrepreneur and Investor (as quoted by bitcoin.org)\n\n\"Bitcoin will do to banks what email did to the postal industry.\" - Rick Falkvinge, IT Entrepreneur\n\nBitcoin is a revolutionary new digital currency that has the potential to create a paradigm shift in money and banking. No government or corporation controls Bitcoin; it's operated by a decentralized network of computers that anyone can join. This is the first time the world has ever seen such a radically new monetary system. But to fully appreciate Bitcoin, you need to see what's going on under the hood.\n\n\"[Bitcoin] is a techno tour de force.\" - Bill Gates, Founder of Microsoft\n\nBitcoin Internals will guide you through the inner workings of the Bitcoin system, exposing its brilliant design and all the underlying technologies that make it possible. You'll learn:\n- how the Blockchain records ownership of Bitcoins and prevents double-spending\n- the cryptographic techniques used for transaction processing\n- how solving a proof of work problem can create new money in mining\n- the precursors that led to the development of Bitcoin\n- and much more."
+}

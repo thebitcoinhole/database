@@ -1,0 +1,331 @@
+{
+  "id": "parmanode",
+  "name": "Parmanode",
+  "installable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    }
+  },
+  "company": "arman-the-parman",
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "-",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "-",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "-",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "Software"
+    },
+    "warranty": {
+      "value": "-",
+      "supported": false
+    },
+    "weight": {
+      "value": "-"
+    },
+    "dimensions": {
+      "value": "-"
+    },
+    "cpu": {
+      "value": "-"
+    },
+    "ram": {
+      "value": "-"
+    },
+    "storage": {
+      "value": "-"
+    },
+    "ethernet": {
+      "value": "-",
+      "supported": true
+    },
+    "wifi": {
+      "value": "-",
+      "supported": true
+    },
+    "hdmi": {
+      "value": "-",
+      "supported": true
+    },
+    "usb": {
+      "value": "-",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "-",
+      "supported": true
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-regtest": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-signet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "Parmanode"
+    },
+    "bitcoin-only": {
+      "value": "YES"
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://github.com/ArmanTheParman/Parmanode/blob/master/changelog.txt"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/ArmanTheParman/Parmanode"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/ArmanTheParman/Parmanode/blob/master/LICENSE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "pc-disk-image": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "virtual-machine": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "raspberry-pi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "raspberry-pi-5": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "rock-64": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "rock-pro-64": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "rockpi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "libre-relay": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer"
+      ]
+    },
+    "mempool-visualizer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer"
+      ]
+    },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "ParmaJoin (JoinMarket)"
+      ]
+    },
+    "btcpay-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "samourai-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "sparrow-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "official-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "thirdparty-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-restore": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "health-checks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ssl": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tailscale": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

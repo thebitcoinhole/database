@@ -1,0 +1,59 @@
+{
+  "id": "b-is-for-bitcoin",
+  "name": "B Is for Bitcoin",
+  "short-description": "The Essential Guide to All Things Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "167"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Seb Bunney, Daz Bea"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://lookingglasseducation.com/"
+    },
+    "twitter": {
+      "value": "@dazbea",
+      "url": "https://x.com/dazbea"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Are you looking to uncover the mysteries of Bitcoin and discover what makes it such a game-changing innovation?Look no further than B is for Bitcoin, where Seb and Daz take you on an exciting journey through the history, technology, and features of this magical internet money.From the enigmatic creator, Satoshi Nakamoto, to acquiring and taking self-custody, this comprehensive book covers everything you need to know. With their jargon-free, easy-to-understand approach, Seb and Daz make it simple for anyone to grasp the complexities of Bitcoin.Whether you're a curious investor, a tech enthusiast, or a beginner eager to understand the future of money, this book is the perfect resource for you. So why wait?Here's a glimpse of what to expect:\nChapter 1 - The Origins of Bitcoin\nDive into the fascinating story of how Bitcoin came to be and the mysterious founder Satoshi Nakamoto.\nChapter 2 - The Technology & Protocol Underpinning Bitcoin\nExplore Bitcoin's fundamental pillars, such as decentralization, blockchain, hashing, mining, public/private key cryptography, the ledger, UTXOs, and transaction fees.\nChapter 3 - The Various Ways to Interact with Bitcoin\nDiscover the many ways to engage with Bitcoin, whether as a miner, developer, or node. Explore on-chain and off-chain transactions, the mempool, acquiring Bitcoin, and the importance of self-custody.\nChapter 4 - The Lifecycle of a Bitcoin\nObserve the fictional lifecycle of a Bitcoin, from birth to transacting, to the lightning network and eventually to its ultimate destination in cold storage."
+}

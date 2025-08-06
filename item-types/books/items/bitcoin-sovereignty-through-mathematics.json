@@ -1,0 +1,59 @@
+{
+  "id": "bitcoin-sovereignty-through-mathematics",
+  "name": "Bitcoin: Sovereignty through mathematics",
+  "short-description": "",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "107"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Knut Svanholm"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://www.knutsvanholm.com/"
+    },
+    "twitter": {
+      "value": "@knutsvanholm",
+      "url": "https://x.com/knutsvanholm"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "What makes Bitcoin so special? What sets Bitcoin apart from every other monetary asset that preceded it? What is a monetary asset in the first place? What is money? What is inflation? Who benefits from it? What is scarcity? Is Bitcoin's mining process wasteful? Is Bitcoin a religion or a rejection of religious beliefs? All of this and more, inside."
+}

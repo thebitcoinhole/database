@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "Ministry of Nodes"
+  },
+  "headquarters": {
+    "value": "Australia"
+  },
+  "website": {
+    "value": "ministryofnodes.com.au",
+    "url": "https://www.ministryofnodes.com.au/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@ministryofnodes",
+    "url": "https://x.com/ministryofnodes"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@ministryofnodes",
+    "url": "https://www.youtube.com/@ministryofnodes"
+  },
+  "github": {
+    "value": "-"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "the-fiat-standard",
+  "name": "The Fiat Standard",
+  "short-description": "The Debt Slavery Alternative to Human Civilization",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "The Saif House"
+    },
+    "pages": {
+      "value": "424"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Saifedean Ammous"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://saifedean.com/"
+    },
+    "twitter": {
+      "value": "@saifedean",
+      "url": "https://x.com/saifedean"
+    },
+    "nostr": {
+      "value": "saifedean",
+      "url": "https://primal.net/p/npub1gdu7w6l6w65qhrdeaf6eyywepwe7v7ezqtugsrxy7hl7ypjsvxksd76nak"
+    },
+    "youtube": {
+      "value": "@saifedean",
+      "url": "https://www.youtube.com/@saifedean"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "In The Fiat Standard, world-renowned economist Saifedean Ammous applies his unique analytical lens to the fiat monetary system, explaining it as a feat of engineering and technology just as he did for bitcoin in his global bestseller The Bitcoin Standard.\nThis time, Ammous delves into the world’s earlier shift from the gold standard to today’s system of government-backed fiat money—outlining the fiat standard’s purposes and failures; deriving the wider economic, political, and social implications of its use; and examining how bitcoin will affect it over time.\nWith penetrating insight, Ammous analyzes global political currencies by analogy to bitcoin: how they’re “mined” whenever government-guaranteed entities create loans, their lack of inherent restraints on inflation, and the rampant government intervention that has resulted in heavy, devastating, and persistent distortions to global markets for food, fuel, science, and education.\nThrough these comparisons, Ammous demonstrates that bitcoin could be our next step forward—providing high salability across space, just like the fiat system, but without the unchecked fiat-denominated debt. Rather than a messy hyperinflationary collapse, the rise of bitcoin could look like a debt jubilee and an orderly upgrade to the world’s monetary operating system, revolutionizing global capital and energy markets."
+}

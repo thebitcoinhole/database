@@ -1,0 +1,27 @@
+{
+  "brand": {
+    "value": "Cryptotag"
+  },
+  "headquarters": {
+    "value": "Netherlands"
+  },
+  "website": {
+    "value": "cryptotag.io",
+    "url": "https://cryptotag.io/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@CRYPTO_TAG",
+    "url": "https://x.com/CRYPTO_TAG"
+  },
+  "nostr": {
+    "value": "cryptotag",
+    "url": "https://primal.net/p/npub1jg552aulj07skd6e7y2hu0vl5g8nl5jvfw8jhn6jpjk0vjd0waksvl6n8n"
+  },
+  "youtube": {
+    "value": "@cryptotag5406",
+    "url": "https://www.youtube.com/@CryptotagOfficial"
+  }
+}

@@ -1,0 +1,739 @@
+{
+  "id": "era-wallet",
+  "name": "Era Wallet",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2025"
+    },
+    "assembled-in": {
+      "value": "China"
+    },
+    "diy": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "company": "hwlt",
+  "communities": {
+    "telegram": {
+      "value": "ERA Wallet",
+      "url": "https://t.me/erawlt"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "official-store": {
+    "po-box-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "warranty": {
+      "value": "1 year",
+      "flag": "positive"
+    },
+    "weight": {
+      "value": "45g / 1.58oz"
+    },
+    "dimensions": {
+      "value": "54 x 87 x 5.5 mm"
+    },
+    "materials": {
+      "value": "Aluminum"
+    },
+    "available-in-colors": {
+      "value": "NO"
+    },
+    "waterproof": {
+      "value": "IPX7",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "ERA Wallet meets the IPX7 standard, providing full dust protection and resistance to water splashes. It remains reliable in high-humidity environments and accidental water exposure."
+      ]
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "E-Ink"
+    },
+    "gorilla-glass": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "color-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "touch-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-size": {
+      "value": "2.7\"",
+      "flag": "positive"
+    },
+    "screen-resolution": {
+      "value": "264 x 176 px"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "Touch Screen"
+    },
+    "qwerty-keyboard": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "ERA Wallet's 170mAh lithium-ion battery delivers up to 180 days of standby and 10 hours of active use. Fast charging and power efficiency ensure reliability in any situation."
+      ]
+    },
+    "removable-battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "170 mAh",
+      "flag": "positive"
+    },
+    "usb-charging": {
+      "value": "NO",
+      "supported": false
+    },
+    "wireless-charging": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Qi wireless charging adds convenience and prevents port wear—just place the device on a pad to charge automatically."
+      ]
+    }
+  },
+  "security": {
+    "air-gapped": {
+      "value": "Only for transactions",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Firmware upgrades are not air-gapped, NFC is required."
+      ]
+    },
+    "secure-element": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "The certified Secure Element chip (ATECC608c) securely stores data and executes critical operations.",
+        "It resists physical attacks, prevents tampering and data extraction, and ensures long-term key storage in a protected, isolated environment."
+      ]
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Device Authenticity Check: Verify the authenticity of the hardware and firmware via QR codes and the mobile app."
+      ]
+    },
+    "deterministic-nonces": {
+      "value": "YES",
+      "supported": true
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "secure-boot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Secure bootloader for firmware protection. Secure Boot On every startup, the device verifies that the installed firmware has a valid signature."
+      ]
+    },
+    "upgradable-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Signed firmware updates are delivered via NFC using the companion mobile app (iOS & Android)."
+      ]
+    },
+    "upgrade-via-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-external-storage": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-cable": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-nfc": {
+      "value": "YES",
+      "supported": true
+    },
+    "release-notes": {
+      "value": "NO",
+      "flag": "negative"
+    },
+    "source-available": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "open-source": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "license": {
+      "value": "?"
+    },
+    "reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "device-lock": {
+    "pin-lock": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "dummy-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "5 wrong attempts: device is permanently bricked and data wiped"
+      ]
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "time-delay-to-unlock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "True Random Key Generation: 5 sources of entropy (touch input, camera, accelerometer, hardware RNG, and Secure Element Generated Entropy)."
+      ]
+    },
+    "multiple-private-keys": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "ERA Wallet supports up to 10 independent wallets with unique seed phrases. "
+      ]
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passphrase-entry": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bip85": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "shamir-backup": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-nfc-card": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "The ERA Recovery Card is a secure alternative to paper backups for storing seed phrases. Data is encrypted and protected from unauthorized access. The durable chip safeguards information for up to 50 years, resisting water, dust, and impact."
+      ]
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-12-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "key-teleport": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "addresses": {
+    "view-address-text": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-verification": {
+      "value": "?",
+      "supported": false
+    },
+    "change-address-display": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "spending-conditions": {
+    "magnitude-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "velocity-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "whitelisted-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "2fa-authentication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "maximum-fee-protection": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "virtual-disk-mode": {
+      "value": "NO",
+      "supported": false
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.hwlt.android.serviceapp"
+        }
+      ]
+    },
+    "ios-app": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "third-party-apps": {
+    "bitcoin-safe": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "theya": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "wasabi-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "zeus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-keeper": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "liana": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

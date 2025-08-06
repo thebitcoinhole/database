@@ -1,0 +1,36 @@
+{
+  "brand": {
+    "value": "Theya"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "theya.us",
+    "url": "https://www.theya.us/"
+  },
+  "blog": {
+    "value": "blog.theya.us",
+    "url": "https://blog.theya.us/"
+  },
+  "twitter": {
+    "value": "@TheyaBitcoin",
+    "url": "https://x.com/TheyaBitcoin"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@theya-bitcoin",
+    "url": "https://www.youtube.com/@theya-bitcoin"
+  },
+  "github": {
+    "value": "-"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

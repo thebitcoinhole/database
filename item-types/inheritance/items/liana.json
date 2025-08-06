@@ -1,0 +1,517 @@
+{
+  "id": "liana",
+  "name": "Liana",
+  "purchasable": true,
+  "company": "wizardsardine",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "private-keys": {
+    "non-custodial": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "provider-independence": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "single-sig": {
+      "value": "Optional",
+      "flag": "positive",
+      "supported": true
+    },
+    "multi-sig": {
+      "value": "Optional",
+      "flag": "positive",
+      "supported": true
+    },
+    "required-hardware-wallet": {
+      "value": "NO",
+      "supported": false
+    },
+    "key-replacement-support": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "beneficiary-key-lost-protection": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "You can configure an extra recovery option in case your beneficiaries lost their keys.",
+        "Also, you can subscribe to Safety Net, so if you ever lose access, after a long time of inactivity, a professional custodian will be able to recover them for you."
+      ]
+    },
+    "health-checks": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "health-checks-reminders": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "passing-down-alternatives": {
+    "direct-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "indirect-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "joint-control": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "multiple-beneficiaries": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "Manually",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "There is no automatic support to assign percentages to the beneficiares. You need to manually assign the percentage of your funds to each multisig wallet assigned to each beneficiary"
+      ]
+    }
+  },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-for-beneficiary": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "notifications-to-beneficiary": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "onchain-timelock": {
+      "value": "YES",
+      "supported": true
+    },
+    "timelock-refresh-method": {
+      "value": "Move coins to new address",
+      "flag": "negative"
+    },
+    "zero-cost-to-update-timelock": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false,
+      "texts": [
+        "You need to execute a transaction to update the timelock, so the on-chain fee needs to be paid"
+      ]
+    },
+    "waiting-period-to-claim": {
+      "value": "Defined by the owner"
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-googleplay-support": {
+      "value": "-",
+      "supported": false
+    },
+    "android-apk-support": {
+      "value": "-",
+      "supported": false
+    },
+    "android-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "android-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "android-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "android-license": {
+      "value": "-",
+      "supported": false
+    },
+    "android-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Liana Lite",
+          "url": "https://lianalite.com/"
+        }
+      ]
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/wizardsardine/liana/releases"
+        }
+      ]
+    },
+    "macos-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/wizardsardine/liana"
+        }
+      ]
+    },
+    "macos-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-license": {
+      "value": "BSD 3-Clause",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/wizardsardine/liana/blob/master/LICENCE"
+        }
+      ]
+    },
+    "macos-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Reproducible builds",
+          "url": "https://github.com/wizardsardine/liana#reproducible-builds"
+        }
+      ]
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/wizardsardine/liana/releases"
+        }
+      ]
+    },
+    "linux-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/wizardsardine/liana"
+        }
+      ]
+    },
+    "linux-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-license": {
+      "value": "BSD 3-Clause",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/wizardsardine/liana/blob/master/LICENCE"
+        }
+      ]
+    },
+    "linux-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Reproducible builds",
+          "url": "https://github.com/wizardsardine/liana#reproducible-builds"
+        }
+      ]
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/wizardsardine/liana/releases"
+        }
+      ]
+    },
+    "windows-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/wizardsardine/liana"
+        }
+      ]
+    },
+    "windows-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-license": {
+      "value": "BSD 3-Clause",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/wizardsardine/liana/blob/master/LICENCE"
+        }
+      ]
+    },
+    "windows-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Reproducible builds",
+          "url": "https://github.com/wizardsardine/liana#reproducible-builds"
+        }
+      ]
+    }
+  },
+  "hardware-wallets-support": {
+    "bitbox02": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coldcard-mk4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/SIGNING_DEVICES.md"
+        }
+      ]
+    },
+    "coldcard-q": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/SIGNING_DEVICES.md"
+        }
+      ]
+    },
+    "cypherock-x1": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "jade": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "keystone-3-pro": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-s-plus": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ledger-nano-X": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passport-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "portal": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seedsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-diy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-one": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-safe-3": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-safe-5": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-t": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

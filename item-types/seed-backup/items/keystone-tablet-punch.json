@@ -1,0 +1,153 @@
+{
+  "id": "keystone-tablet-punch",
+  "name": "Tablet Punch",
+  "full-name": "Keystone Tablet Punch",
+  "purchasable": true,
+  "company": "keystone",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via Open Node or Coinbase Commerce)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via Open Node)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES (via Coinbase Commerce)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "430g / 15.1oz"
+    },
+    "dimensions": {
+      "value": "100 x 78 x 7.5 mm"
+    },
+    "materials": {
+      "value": "Stainless Steel"
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Automatic Center Punch included"
+      ]
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "Partially",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "Designed to be indestructible with a fireproof threshold of 1399 to 1455°C / 2550 to 2651°F"
+      ],
+      "links": [
+        {
+          "title": "Jameson Lopp's stress tests",
+          "url": "https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/keystone-tablet-punch/"
+        }
+      ]
+    },
+    "crush-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "corrosion-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shock-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "stress-tests": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Jameson Lopp's stress tests",
+          "url": "https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/keystone-tablet-punch/"
+        }
+      ]
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "Partially",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "3 Lock Hole. The Keystone Tablet Punch has three holes with different sizes that you can use to secure with padlocks (not included)"
+      ]
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "1 share",
+      "flag": "neutral",
+      "supported": true
+    },
+    "hexadecimal-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "ascii-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  }
+}

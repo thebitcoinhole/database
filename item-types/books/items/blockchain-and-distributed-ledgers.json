@@ -1,0 +1,57 @@
+{
+  "id": "blockchain-and-distributed-ledgers",
+  "name": "Blockchain And Distributed Ledgers",
+  "short-description": "Mathematics, Technology, And Economics",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "World Scientific"
+    },
+    "pages": {
+      "value": "808"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Alexander Lipton, Adrien Treccani"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "This textbook focuses on distributed ledger technology (DLT) and its potential impact on society at large. It aims to offer a detailed and self-contained introduction to the founding principles behind DLT accessible to a well-educated but not necessarily mathematically oriented audience. DLT allows solving many complicated problems arising in economics, banking, and finance, industry, trade, and other fields. However, to reap the ultimate benefits, one has to overcome some of its inherent limitations and use it judiciously. Not surprisingly, amid increasing applications of DLT, misconceptions are formed over its use. The book thoroughly dispels these misconceptions via an impartial assessment of the arguments rooted in scientific reasoning.Blockchain and Distributed Ledgers: Mathematics, Technology, and Economics offers a detailed and self-contained introduction to DLT, blockchains, and cryptocurrencies and seeks to equip the reader with an ability to participate in the crypto economy meaningfully."
+}

@@ -1,0 +1,60 @@
+{
+  "id": "history-echoes-bitcoin",
+  "name": "History Echoes Bitcoin",
+  "short-description": "",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Zoom Out"
+    },
+    "pages": {
+      "value": "186"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Tim Niemeyer"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://sites.google.com/view/historyechoesbitcoin/home"
+    },
+    "twitter": {
+      "value": "@HistEchoBTC",
+      "url": "https://x.com/HistEchoBTC"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@HistEchoBTC",
+      "url": "https://www.youtube.com/@HistEchoBTC"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "History Echoes Bitcoin serves as a connection between history and the properties represented in Bitcoin. Of those are permissionlessness, gaining consensus, decentralization, trust minimization, censorship resistance, open source collaboration, immutability, and scarcity. Each one has shown throughout history to be beneficial to mankind. Each one has moved humanity forward in one way or another. Every historical example or non-example provided in this book serves as a lesson for us to either choose to learn from or ignore. This book aims to show how the properties that give Bitcoin its value are each individually beneficial and collectively compelling. Zoom out..."
+}

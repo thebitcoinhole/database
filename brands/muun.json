@@ -1,0 +1,36 @@
+{
+  "brand": {
+    "value": "Muun"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "muun.com",
+    "url": "https://muun.com/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://blog.muun.com/"
+  },
+  "twitter": {
+    "value": "@muunwallet",
+    "url": "https://x.com/muunwallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "muun",
+    "url": "https://github.com/muun"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

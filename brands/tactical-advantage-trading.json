@@ -1,0 +1,34 @@
+{
+  "brand": {
+    "value": "Tactical Advantage Trading"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "-"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "-"
+  },
+  "nostr": {
+    "value": "SBW",
+    "url": "https://primal.net/p/npub1chxa2um7gl65ymyaagjrqys39mtzlwnm2drcs6qkqmme7k4edq4qghrjdd"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "Tactical-Advantage-Trading",
+    "url": "https://github.com/Tactical-Advantage-Trading"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "the-bitcoin-handbook",
+  "name": "The Bitcoin Handbook",
+  "short-description": "Key Concepts in Economics, Technology & Psychology",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Konsensus Network"
+    },
+    "pages": {
+      "value": "91"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Anil Patel"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "The Bitcoin Handbook is a collection of the most helpful frameworks, mental models, and heuristics for making sense of money in the Digital Age.\nWritten for a non-technical audience and packed with thought-provoking illustrations, it's a valuable resource for all levels. Think of it as your handy companion as you journey down the rabbit hole.\nThe Bitcoin Handbook will help you recognize the patterns of disruptive innovation and avoid succumbing to the same fear-mongering narratives that caused many to overlook the importance of the internet.\n\nPraise for The Bitcoin Handbook:\n“Anil has done an incredible job visually illustrating some of the most important concepts in bitcoin in an intuitive, appealing, and popular way.” \n—SAIFEDEAN AMMOUS, author of The Bitcoin Standard and The Fiat Standard\n“Anil has a great way of condensing complex ideas into visual form that makes absorbing them much easier for the layperson.” \n—VIJAY BOYAPATI, author of The Bullish Case for Bitcoin\n“It’s a wonderful book. Marvellous, really. Anil’s llustrations are stunningly beautiful and a testament to his deep understanding of the subject matter.” \n—GIGI DER, author of 21 Lessons\n“Bitcoin offers a lifeline to people around the world facing relentless inflation, political repression, and rampant corruption. This book will hopefully play a role in that.” \n—ALEX GLADSTEIN, Chief Strategy Officer at the Human Rights Foundation and author of Check Your Financial PrivilegeAnil Patel\n is an independent author, educator, and angel investor based in Canada. He is known for creating highly effective teaching resources for visual learners. Anil holds an M.B.A & B.Sc in Management."
+}

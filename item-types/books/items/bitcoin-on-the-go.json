@@ -1,0 +1,59 @@
+{
+  "id": "bitcoin-on-the-go",
+  "name": "Bitcoin on the Go",
+  "short-description": "The Basics of Bitcoins and Blockchains",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2022"
+    },
+    "publisher": {
+      "value": "Mango Media"
+    },
+    "pages": {
+      "value": "160"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Antony Lewis"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://bitsonblocks.net/"
+    },
+    "twitter": {
+      "value": "@antony_btc",
+      "url": "https://x.com/antony_btc"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "A Condensed Guide to Understanding Bitcoin, Blockchains, and Cryptocurrency\n\n“One of the few credible books I suggest when people ask ‘where can I learn about bitcoin?’―Zennon Kapron, Managing Director, Kapronasia (Review of The Basics of Bitcoins and Blockchains)\n\nYou’re an active, on-the-go person and need a condensed version of the Antony Lewis best-selling The Basics of Bitcoins and Blockchains? Now Bitcoin on the Go offers the same clear guide to this new currency and the revolutionary technology that powers it―just in a condensed format.\n\nBitcoin, Ethereum, and other cryptocurrencies. Gain an understanding of a broad spectrum of Bitcoin topics including the history of Bitcoin, the Bitcoin blockchain, and Bitcoin buying, selling, and mining. Learn how payments are made, and how to put a value on cryptocurrencies and digital tokens.\n\nBlockchain technology. What exactly is a blockchain, how does it work, and why is it important? Bitcoin on the Go answers these questions and more. Learn about notable blockchain platforms, smart contracts, and other important facets of blockchains and their function in the changing cyber-economy.\n\nThings to know before buying cryptocurrencies. Find trustworthy and balanced insights into Bitcoin investing and investing in other cryptocurrencies. Discover the risks and mitigations, learn how to identify scams, and understand cryptocurrency exchanges, digital wallets, and regulations.\n\nLearn about:\n\n- Blockchain technology and how it works\n- Workings of the cryptocurrency market\n- Evolution and potential impacts of Bitcoin and blockchains on global businesses"
+}

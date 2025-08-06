@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "SecuX"
+  },
+  "headquarters": {
+    "value": "Taiwan"
+  },
+  "website": {
+    "value": "secuxtech.com",
+    "url": "https://secuxtech.com/"
+  },
+  "blog": {
+    "value": "secuxtech.com/news-blog/#blog",
+    "url": "https://secuxtech.com/news-blog/#blog"
+  },
+  "twitter": {
+    "value": "@SecuXwallet",
+    "url": "https://x.com/SecuXwallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@secux",
+    "url": "https://www.youtube.com/@secux"
+  },
+  "github": {
+    "value": "SecuX",
+    "url": "https://github.com/SecuX"
+  }
+}

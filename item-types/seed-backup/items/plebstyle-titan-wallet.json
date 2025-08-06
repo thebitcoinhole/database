@@ -1,0 +1,154 @@
+{
+  "id": "plebstyle-titan-wallet",
+  "name": "Titan Wallet",
+  "purchasable": true,
+  "company": "plebstyle",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "420g / 14.82oz"
+    },
+    "dimensions": {
+      "value": "75 x 27 x 27mm",
+      "texts": [
+        "Caps: Ø33mm"
+      ]
+    },
+    "materials": {
+      "value": "Stainless Steel and Titanium",
+      "texts": [
+        "Titanium alloyed Stainless Steel 316Ti and Titanium Grade 5 – Perfect for SIMULTANEOUS strength and heat resistance"
+      ]
+    },
+    "include-all-tools": {
+      "value": "Starter Set required",
+      "links": [
+        {
+          "title": "Print@Home",
+          "url": "https://www.thingiverse.com/plebstyle/designs"
+        }
+      ],
+      "flag": "neutral",
+      "supported": true
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crush-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "corrosion-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shock-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "stress-tests": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Material Comparison",
+          "url": "https://pleb.style/en/pages/titan-vs-terra"
+        },
+        {
+          "title": "Youtube: Steel Wallet Material",
+          "url": "https://youtu.be/i-tGkvMCQ0M?si=VXq5GlP9egC_y0YG"
+        }
+      ]
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "Sold separately",
+      "flag": "neutral",
+      "supported": true
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "1 share",
+      "flag": "neutral",
+      "supported": true
+    },
+    "hexadecimal-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "ascii-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  }
+}

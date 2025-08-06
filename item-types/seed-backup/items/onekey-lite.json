@@ -1,0 +1,139 @@
+{
+  "id": "onekey-lite",
+  "name": "OneKey Lite",
+  "purchasable": true,
+  "company": "one-key",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via MixPay or Coinbase Commerce)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via MixPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES (via MixPay or Coinbase Commerce)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "?"
+    },
+    "dimensions": {
+      "value": "85.60 x 53.98 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "crush-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "corrosion-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shock-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "stress-tests": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Security Protection Mechanism: Incorporates a security mechanism that automatically erases data after 10 consecutive incorrect attempts, ensuring the safety of user assets."
+      ]
+    },
+    "encrypted-backup": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "High Security: Embedded with a CC EAL6+ secure chip, providing the same level of security as hardware wallets for storing recovery phrases.",
+        "Military-Grade Encryption: Employs military-grade encryption throughout, ensuring the security of data transmission."
+      ]
+    },
+    "tamper-evident-seal": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "hexadecimal-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "ascii-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Trezor"
+  },
+  "headquarters": {
+    "value": "Czech Republic"
+  },
+  "website": {
+    "value": "trezor.io",
+    "url": "https://trezor.io/"
+  },
+  "blog": {
+    "value": "blog.trezor.io",
+    "url": "https://blog.trezor.io/"
+  },
+  "twitter": {
+    "value": "@TREZOR",
+    "url": "https://x.com/TREZOR"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@TrezorWallet",
+    "url": "https://www.youtube.com/@TrezorWallet"
+  },
+  "github": {
+    "value": "trezor",
+    "url": "https://github.com/trezor"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Ledger"
+  },
+  "headquarters": {
+    "value": "France"
+  },
+  "website": {
+    "value": "ledger.com",
+    "url": "https://www.ledger.com/"
+  },
+  "blog": {
+    "value": "ledger.com/company-updates",
+    "url": "https://www.ledger.com/company-updates"
+  },
+  "twitter": {
+    "value": "@Ledger",
+    "url": "https://x.com/Ledger"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@Ledger",
+    "url": "https://www.youtube.com/@Ledger"
+  },
+  "github": {
+    "value": "LedgerHQ",
+    "url": "https://github.com/LedgerHQ"
+  }
+}

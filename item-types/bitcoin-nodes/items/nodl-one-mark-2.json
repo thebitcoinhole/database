@@ -1,0 +1,317 @@
+{
+  "id": "nodl-one-mark-2",
+  "name": "One Mark 2",
+  "full-name": "nodl One Mark 2",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    }
+  },
+  "company": "nodl",
+  "communities": {
+    "telegram": {
+      "value": "nodl",
+      "url": "https://t.me/nodl_it"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
+    "warranty": {
+      "value": "5 years",
+      "flag": "positive",
+      "supported": true
+    },
+    "weight": {
+      "value": "1.1kg / 38.8oz"
+    },
+    "dimensions": {
+      "value": "13.9 x 9.2 x 7.5 cm"
+    },
+    "cpu": {
+      "value": "Hexa-Core Rockchip RK3399"
+    },
+    "ram": {
+      "value": "4 GB"
+    },
+    "storage": {
+      "value": "1/2 TB"
+    },
+    "ethernet": {
+      "value": "Gigabit Ethernet",
+      "supported": true,
+      "flag": "positive"
+    },
+    "wifi": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hdmi": {
+      "value": "YES",
+      "supported": true
+    },
+    "usb": {
+      "value": "4x USB",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "?",
+      "supported": false
+    },
+    "btc-regtest": {
+      "value": "?",
+      "supported": false
+    },
+    "btc-signet": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "nodl UI"
+    },
+    "bitcoin-only": {
+      "value": "YES"
+    },
+    "release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/blob/nodl-one/www/changelog.txt?ref_type=heads"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "supported": false,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/blob/master/LICENSE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "-",
+      "supported": false
+    },
+    "macos": {
+      "value": "-",
+      "supported": false
+    },
+    "linux": {
+      "value": "-",
+      "supported": false
+    },
+    "pc-disk-image": {
+      "value": "-",
+      "supported": false
+    },
+    "virtual-machine": {
+      "value": "-",
+      "supported": false
+    },
+    "raspberry-pi-4": {
+      "value": "-",
+      "supported": false
+    },
+    "raspberry-pi-5": {
+      "value": "-",
+      "supported": false
+    },
+    "rock-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rock-pro-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rockpi-4": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "libre-relay": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "mempool-visualizer": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coinjoin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btcpay-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "samourai-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "?",
+      "supported": false
+    },
+    "official-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "thirdparty-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-restore": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "health-checks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ssl": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tailscale": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

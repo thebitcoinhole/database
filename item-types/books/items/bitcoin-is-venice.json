@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-is-venice",
+  "name": "Bitcoin Is Venice",
+  "short-description": "Essays on the Past and Future of Capitalism",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2022"
+    },
+    "publisher": {
+      "value": "BTC Media"
+    },
+    "pages": {
+      "value": "386"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Allen Farrington, Sacha Meyers"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Allen Farrington and Sacha Meyers chart a crash course through the errors of modern economic theory and the world's broken fiat currency system with a hopeful destination: Bitcoin Is Venice.\n\nWhat if a global, digital, sound, open-source, programmable currency was monetizing from absolute zero? What might economies look like under a Bitcoin standard that pushes beyond Hernando de Soto’s abstraction of “capital” as 'economic potential energy?' What might this new form of capital do to our current governing bodies? Can Bitcoin bring about a new global Renaissance? With Farrington and Meyers, the discussion is as revolutionary as the answers.\n\n\"Entertaining and erudite, this is a manifesto for a more ethical monetary and financial system, for capitalism in its purest form and for 'number go up' technology. This book bridges the gap between the concept of an open-source sound money and the practical reality of an ethical and workable financial system.\"\n--Harris Irfan, author of Heaven’s Bankers\n\n“A great deep dive into how Bitcoin provides a transmission mechanism to a world of truth, freedom, and abundance.\"\n--Jeff Booth, author of The Price of Tomorrow\n\n\"Perhaps you found it surprising that a human rights advocate be asked to write the foreword to a book about finance and economics. But read the book, and you’ll understand why I’ve been tasked with preparing you for this journey. This isn’t simply about how money and finance work -- though you’ll learn a lot about that along the way -- it’s a book about how we can, and how we must, harness the power of Bitcoin to secure liberty in the electronic age.\"\n--Alex Gladstein, Chief Strategy Officer, Human Rights Foundation\n\nAll profits from Bitcoin is Venice are donated to the Human Rights Foundation.\nAllen Farrington is a regular contributor to Bitcoin Magazine. Read more of his insights on the world of finance and society at www.bitcoinmagazine.com."
+}

@@ -1,0 +1,25 @@
+{
+  "brand": {
+    "value": "Vulcan 21"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "vulcan21.com",
+    "url": "https://vulcan21.com/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@vulcan21com",
+    "url": "https://x.com/vulcan21com"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "the-genesis-book",
+  "name": "The Genesis Book",
+  "short-description": "The Story of the People and Projects That Inspired Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    },
+    "publisher": {
+      "value": "Bitcoin Magazine Books"
+    },
+    "pages": {
+      "value": "356"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Aaron van Wirdum"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://thegenesisbook.com/"
+    },
+    "twitter": {
+      "value": "@AaronvanW",
+      "url": "https://x.com/AaronvanW"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Bitcoin did not appear out of nowhere. For decades prior to Satoshi Nakamoto’s invention, a diverse group of computer scientists, privacy activists, and heterodox economists tried to create a digital form of money that could operate independently of government control.\nThe Genesis Book tells the story of the people and projects that inspired the invention of the world’s first successful peer-to-peer electronic cash system.\nThe Genesis Book takes us on a century-long journey through the little-known stories of visionaries whose insights and innovations laid the foundation for the revolutionary creation of Bitcoin. From the economists who challenged conventional wisdom to cypherpunks who blazed new trails in privacy, Aaron van Wirdum meticulously weaves together a tapestry of technological triumphs, setbacks, and extraordinary breakthroughs. You'll be captivated by the anecdotes of individuals who dared to dream beyond the status quo, pushing the envelope to reshape the landscape of money itself.”— Jameson Lopp\n“Why is Bitcoin so different from its predecessors? This book sheds light on the *problems* which vexed smart, hardworking people in the pre-Bitcoin era. That is the right way to tell a technology story. All of the important problems are included, and they're all in the proper order. The best Bitcoin book yet written.”— Paul Sztorc\n“Until now you could find many books about Bitcoin, but none that covered its multifaceted cultural background in a complete, systematic, and elegant way. Aaron van Wirdum, already famous for his ability to accurately convey subtle technical matters to a generalist audience, just wrote it. A must-read if you want to understand where Bitcoin came from.”— Giacomo Zucco\n“I long suspected that van Wirdum was Bitcoin’s best historian, and this page-turner proves it. It’s a tour de force.\nThe Genesis Book is a highly readable and essential history, revealing the many causal connections between Viennese Classical Liberalism, the Anglo-Saxon Cypherpunk movement, and the advent of Bitcoin.\nWhereas other books on the industry have tended to focus on headline-making entrepreneurs, van Wirdum has the technical chops to dig under the surface and correctly identify the brilliant figures who built the foundations on top of which the Bitcoin edifice was eventually engineered.\nOver the course of 16 dense chapters, The Genesis Book combines the kind of in-depth research and philosophical connections that one could only expect from an industry veteran (van Wirdum was one of the first writers to ever gain employment in the Bitcoin industry), with the engaging prose you’d look for in a respected periodical.\nOne cannot understand Bitcoin without studying its extraordinary origins, and I’m thrilled this book exists to bring that knowledge to a wide audience.”— Tuur Demeester\nAaron van Wirdum studied Journalism at the University of Applied Sciences Utrecht and Politics and Society in Historical Perspective at Utrecht University, where he adopted a focus on the historic influence of new technologies on societal structures. He discovered Bitcoin in 2013, and has been writing about the world’s first successful electronic cash project ever since. For most of these years, this was for Bitcoin Magazine: first as journalist, then as technical editor, and finally as editor-in-chief of the print edition. The Genesis Book is his first book."
+}

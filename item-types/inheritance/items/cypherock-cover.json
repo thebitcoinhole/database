@@ -1,0 +1,483 @@
+{
+  "id": "cypherock-cover",
+  "name": "Cypherock Cover",
+  "purchasable": true,
+  "company": "cypherock",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "private-keys": {
+    "non-custodial": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "provider-independence": {
+      "value": "Partially",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "Cypherock server doesn't store any private key or part of it. But, the encrypted message to be sent to the beneficiary is stored in Cypherock server."
+      ]
+    },
+    "single-sig": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "multi-sig": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "required-hardware-wallet": {
+      "value": "Cypherock X1",
+      "supported": true
+    },
+    "key-replacement-support": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "beneficiary-key-lost-protection": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "The owner can define up to two nominees. Nominee #2 receives the encrypted message 3 months after nominee #1 receives it, which allows nominee #1 to take precedence in estate recovery but still ensures recovery in case nominee #1 is also deceased."
+      ]
+    },
+    "health-checks": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "health-checks-reminders": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "passing-down-alternatives": {
+    "direct-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "indirect-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "joint-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "multiple-beneficiaries": {
+      "value": "1 + 1 Backup Beneficiary",
+      "flag": "neutral",
+      "supported": true
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "No KYC is required. Neither the user's nor the nominee's KYC is required to set up estate recovery. All that is required is the user's email and the nominee's email to send the encrypted message on."
+      ]
+    },
+    "coin-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "custom-node": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-for-beneficiary": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "notifications-to-beneficiary": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "onchain-timelock": {
+      "value": "NO",
+      "supported": false
+    },
+    "timelock-refresh-method": {
+      "value": "No Need",
+      "flag": "positive"
+    },
+    "zero-cost-to-update-timelock": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "waiting-period-to-claim": {
+      "value": "Defined by the owner",
+      "texts": [
+        "The Cypherock server will then email the user in accordance with the reminder time set by the user to check if she is still active. If the user replies, the reminder resets. In case of inactivity, there is a cool-down period in which the user is emailed every day for the next 30 days."
+      ]
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-googleplay-support": {
+      "value": "-",
+      "supported": false
+    },
+    "android-apk-support": {
+      "value": "-",
+      "supported": false
+    },
+    "android-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "android-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "android-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "android-license": {
+      "value": "-",
+      "supported": false
+    },
+    "android-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Cypherock/cypherock-cysync/releases"
+        }
+      ]
+    },
+    "macos-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Cypherock/cypherock-cysync"
+        }
+      ]
+    },
+    "macos-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-license": {
+      "value": "Affero GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Cypherock/cypherock-cysync/blob/develop/LICENSE"
+        }
+      ]
+    },
+    "macos-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Cypherock/cypherock-cysync/releases"
+        }
+      ]
+    },
+    "linux-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Cypherock/cypherock-cysync"
+        }
+      ]
+    },
+    "linux-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-license": {
+      "value": "Affero GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Cypherock/cypherock-cysync/blob/develop/LICENSE"
+        }
+      ]
+    },
+    "linux-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Cypherock/cypherock-cysync/releases"
+        }
+      ]
+    },
+    "windows-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Cypherock/cypherock-cysync"
+        }
+      ]
+    },
+    "windows-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-license": {
+      "value": "Affero GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Cypherock/cypherock-cysync/blob/develop/LICENSE"
+        }
+      ]
+    },
+    "windows-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "hardware-wallets-support": {
+    "bitbox02": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coldcard-mk4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coldcard-q": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "cypherock-x1": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "jade": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "keystone-3-pro": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-s-plus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-X": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passport-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "portal": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seedsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-diy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-one": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-safe-3": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-safe-5": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-t": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

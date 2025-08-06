@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "RaspiBlitz"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "raspiblitz.org",
+    "url": "https://raspiblitz.org/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@RaspiBlitz",
+    "url": "https://x.com/RaspiBlitz"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "raspiblitz",
+    "url": "https://github.com/raspiblitz"
+  }
+}

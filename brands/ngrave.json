@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "NGrave"
+  },
+  "headquarters": {
+    "value": "Belgium"
+  },
+  "website": {
+    "value": "ngrave.io",
+    "url": "https://www.ngrave.io/"
+  },
+  "blog": {
+    "value": "ngrave.io/en/blog/overview",
+    "url": "https://www.ngrave.io/en/blog/overview/"
+  },
+  "twitter": {
+    "value": "@ngrave_official",
+    "url": "https://x.com/ngrave_official"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@NGRAVE",
+    "url": "https://www.youtube.com/@NGRAVE"
+  },
+  "github": {
+    "value": "ngraveio",
+    "url": "https://github.com/ngraveio"
+  }
+}

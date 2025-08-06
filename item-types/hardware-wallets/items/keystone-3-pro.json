@@ -1,0 +1,954 @@
+{
+  "id": "keystone-3-pro",
+  "name": "Keystone 3 Pro",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "assembled-in": {
+      "value": "China"
+    },
+    "diy": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "company": "keystone",
+  "communities": {
+    "telegram": {
+      "value": "@keystonewallet",
+      "url": "https://t.me/keystonewallet"
+    },
+    "reddit": {
+      "value": "KeystoneWallet",
+      "url": "https://www.reddit.com/r/KeystoneWallet/"
+    }
+  },
+  "official-store": {
+    "po-box-support": {
+      "value": "?",
+      "supported": false
+    },
+    "btc-on-chain": {
+      "value": "YES (via Open Node or Coinbase Commerce)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via Open Node)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES (via Coinbase Commerce)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "warranty": {
+      "value": "2 years",
+      "flag": "positive",
+      "supported": true
+    },
+    "weight": {
+      "value": "103g / 3.6oz"
+    },
+    "dimensions": {
+      "value": "103.9 x 62.5 x 12.9 mm"
+    },
+    "materials": {
+      "value": "Fiberglass"
+    },
+    "available-in-colors": {
+      "value": "NO",
+      "supported": false
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "LCD"
+    },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "color-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "touch-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-size": {
+      "value": "4\"",
+      "flag": "positive"
+    },
+    "screen-resolution": {
+      "value": "800 x 480 px"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "Touch Screen"
+    },
+    "qwerty-keyboard": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "When the battery depletes after years of use, you can simply plug it into a power bank or wall socket to keep it going"
+      ]
+    },
+    "removable-battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "1000mAh",
+      "flag": "positive"
+    },
+    "usb-charging": {
+      "value": "USB-C",
+      "flag": "positive",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "security": {
+    "air-gapped": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Air-Gapped Computers and Phones vs Hardware Wallets: What’s the Difference?",
+          "url": "https://blog.keyst.one/air-gapped-computers-and-phones-vs-hardware-wallets-whats-the-difference-458888cdd97"
+        },
+        {
+          "title": "Ever Wondered What Your Hardware Wallet Inputs and Outputs?",
+          "url": "https://blog.keyst.one/ever-wondered-what-your-hardware-wallet-inputs-and-outputs-9b33b4cedafd"
+        }
+      ]
+    },
+    "secure-element": {
+      "value": "YES (3) (PCI)",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "3 Secure Element Security Chips",
+        "Hailing from leading global security chip manufacturers, Microchip & Maxim, these chips meet PCI security standards, guaranteeing secure and segregated digital asset storage."
+      ],
+      "links": [
+        {
+          "title": "Secure Elements: The Last Line of Defense",
+          "url": "https://blog.keyst.one/secure-elements-the-last-line-of-defense-4669012d4edc"
+        },
+        {
+          "title": "Secure Elements: Harnessing A Force of Nature",
+          "url": "https://blog.keyst.one/secure-elements-harnessing-a-force-of-nature-14a959da7b54"
+        },
+        {
+          "title": "Secure Elements: The Bedrock of Hardware Wallet Security",
+          "url": "https://blog.keyst.one/secure-elements-the-bedrock-of-hardware-wallet-security-1dd8cbdef461"
+        }
+      ]
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Supply chain attacks are one of the most serious security threats for hardware wallets because they target vulnerabilities in the logistics process and can happen without anyone's knowledge. Keystone's Web Authentication process will give assurance that your device has not fallen victim to any sort of supply chain attack e.g. Device tampering",
+        "Self-Destruct Mechanism: Automatically destroys your secret keys if someone tries to physical tamper with the device",
+        "PCI Anti-tamper Solution",
+        "PCI refers to Payment card industry security. All core IC and SE chips are enveloped by a 'security house' filled with complex circuitry. When it detects any attempt on opening the safe house, all sensitive datas on the chips will be erased immediately"
+      ],
+      "links": [
+        {
+          "title": "Web Authentication: A Counter to Supply Chain Attacks",
+          "url": "https://blog.keyst.one/web-authentication-a-counter-to-supply-chain-attacks-62d0272f656b"
+        },
+        {
+          "title": "Self-Destruct Mechanism's Unique Defense Against Side-Channel Attacks",
+          "url": "https://blog.keyst.one/self-destruct-mechanisms-unique-defense-against-side-channel-attacks-4cfea3d4eff1"
+        },
+        {
+          "title": "Device Verification",
+          "url": "https://guide.keyst.one/docs/device-verification"
+        }
+      ]
+    },
+    "deterministic-nonces": {
+      "value": "YES",
+      "supported": true
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "List of Supported Tokens",
+          "url": "https://keyst.one/keystone-supported-crypto-assets?searchType=coins&locale=en"
+        }
+      ]
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "secure-boot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgradable-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Offline Firmware Upgrades. In order to minimize all attack vectors, firmware upgrades are done via a MicroSD Card. You can optionally decide to upgrade via USB"
+      ],
+      "links": [
+        {
+          "title": "Firmware Upgrade",
+          "url": "https://guide.keyst.one/docs/firmware-upgrade"
+        },
+        {
+          "title": "BTC-Only: Firmware Update via MicroSD Card",
+          "url": "https://guide.keyst.one/docs/btc-firmware-update"
+        },
+        {
+          "title": "BTC-Only: Firmware Update via USB",
+          "url": "https://guide.keyst.one/docs/btc-firmware-update-usb"
+        }
+      ]
+    },
+    "upgrade-via-sdcard": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade-via-usb-external-storage": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-cable": {
+      "value": "YES",
+      "supported": true
+    },
+    "upgrade-via-bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/KeystoneHQ/keystone3-firmware/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/KeystoneHQ/keystone3-firmware"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/KeystoneHQ/keystone3-firmware?tab=License-1-ov-file"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Comprehensive Guide to Building and Verifying Keystone3 Firmware",
+          "url": "https://github.com/KeystoneHQ/keystone3-firmware/blob/release/v1.2.0/docs/verify.md"
+        }
+      ]
+    }
+  },
+  "device-lock": {
+    "pin-lock": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Must contain at least 10 characters and include upper and lower case letters and digits"
+      ]
+    },
+    "dummy-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Each Keystone 3 has the capacity to accommodate up to three distinct recovery phrases, each secured by different passwords, thereby enabling users to oversee multiple crypto accounts from a single hardware wallet. Transitioning between wallets is a breeze, requiring only the respective password inputs."
+      ],
+      "links": [
+        {
+          "title": "Unleashing the Power of Multiple Secret Recovery Phrases with Keystone 3: A Comprehensive Guide",
+          "url": "https://blog.keyst.one/unleashing-the-power-of-multiple-secret-recovery-phrases-with-keystone-3-a-comprehensive-guide-3c3afb997cc4"
+        }
+      ]
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "After 12 incorrect attempts using the pattern unlock option, users will be required to unlock their devices with the text password.",
+        "After 5 incorrect attempts to unlock your device with the text password option, the device will automatically wipe itself of all data."
+      ],
+      "links": [
+        {
+          "title": "User Guide: Password",
+          "url": "https://support.keyst.one/basic-features/password"
+        }
+      ]
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "time-delay-to-unlock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "On Device",
+      "supported": true,
+      "links": [
+        {
+          "title": "Fingerprint Settings",
+          "url": "https://guide.keyst.one/docs/fingerprint-settings"
+        }
+      ]
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Generate your recovery phrase by manually rolling dices. The manual entropy eliminates all trust dependencies on the Secure Element or PRNG (Pseudorandom Number Generator)."
+      ],
+      "links": [
+        {
+          "title": "How to verify the recovery phrase created by dice rolling",
+          "url": "https://blog.keyst.one/how-to-verify-the-recovery-phrase-created-by-dice-rolling-af01c16b765e"
+        },
+        {
+          "title": "Use Dice to Generate Recovery Phrase",
+          "url": "https://support.keyst.one/advanced-features/recovery-phrase/use-dice-to-generate-recovery-phrase"
+        }
+      ]
+    },
+    "multiple-private-keys": {
+      "value": "YES (3)",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Manage up to 3 unique seed phrases from a single device. Effortlessly switch between wallets by inputting corresponding passwords."
+      ],
+      "links": [
+        {
+          "title": "Unleashing the Power of Multiple Secret Recovery Phrases with Keystone 3: A Comprehensive Guide",
+          "url": "https://blog.keyst.one/unleashing-the-power-of-multiple-secret-recovery-phrases-with-keystone-3-a-comprehensive-guide-3c3afb997cc4"
+        },
+        {
+          "title": "Create or Import with 3 Seed Phrases",
+          "url": "https://guide.keyst.one/docs/3-seed-phrase-wallet-options"
+        }
+      ]
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Should You Enable Passphrase Protection?",
+          "url": "https://blog.keyst.one/should-you-enable-passphrase-protection-5aba38b92613"
+        },
+        {
+          "title": "Passphrase Wallet",
+          "url": "https://guide.keyst.one/docs/passphrase-wallet"
+        }
+      ]
+    },
+    "passphrase-entry": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Keystone supports SLIP-39. It enables you to create a Shamir Backup for your recovery phrase. This also helps with counteracting against the two greatest risks involved with protecting your recovery seed: Theft & Destruction."
+      ],
+      "links": [
+        {
+          "title": "Why Keystone implemented Shamir Backups",
+          "url": "https://blog.keyst.one/why-keystone-implemented-shamir-backups-71e319f972a6"
+        },
+        {
+          "title": "Shamir Backup",
+          "url": "https://guide.keyst.one/docs/shamir-backup"
+        }
+      ]
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-nfc-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "key-teleport": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "addresses": {
+    "view-address-text": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Exploring the Power of Multi-Signature Wallets with Keystone",
+          "url": "https://blog.keyst.one/exploring-the-power-of-multi-signature-wallets-with-keystone"
+        },
+        {
+          "title": "How to Import a Multi-Signature Wallet",
+          "url": "https://guide.keyst.one/docs/btc-multisig"
+        },
+        {
+          "title": "How to Create a 2/3 Native Segwit Multisig Wallet on Blue Wallet",
+          "url": "https://guide.keyst.one/docs/btc-multisig-bluewallet"
+        },
+        {
+          "title": "How to Create a 2/2 Native Segwit Multisig Wallet on Sparrow",
+          "url": "https://guide.keyst.one/docs/btc-multisig-sparrow"
+        },
+        {
+          "title": "How to Creat a 2/2 Multisig Wallet with Nunchuk",
+          "url": "https://guide.keyst.one/docs/btc-multisig-nunchuk"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-verification": {
+      "value": "?",
+      "supported": false
+    },
+    "change-address-display": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Transaction Signing via QR Code: By using QR code transmissions, are eliminated potential malware infiltration risks and delivered a level of transparency that just isn't possible with Bluetooth or USB."
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "spending-conditions": {
+    "magnitude-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "velocity-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "whitelisted-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "2fa-authentication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "maximum-fee-protection": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "virtual-disk-mode": {
+      "value": "NO",
+      "supported": false
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.keystone.mobile"
+        }
+      ]
+    },
+    "ios-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/keystone-hardware-wallet/id1567857965"
+        }
+      ]
+    }
+  },
+  "third-party-apps": {
+    "bitcoin-safe": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "theya": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "wasabi-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "zeus": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "User Guide: Nunchuk",
+          "url": "https://support.keyst.one/3rd-party-wallets/bitcoin-wallets/nunchuk"
+        },
+        {
+          "title": "How to Creat a 2/2 Multisig Wallet with Nunchuk",
+          "url": "https://guide.keyst.one/docs/btc-multisig-nunchuk"
+        }
+      ]
+    },
+    "electrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "User Guide: Electrum",
+          "url": "https://support.keyst.one/3rd-party-wallets/bitcoin-wallets/electrum"
+        }
+      ]
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Sparrow Wallet",
+          "url": "https://guide.keyst.one/docs/sparrow"
+        },
+        {
+          "title": "How to Create a 2/2 Native Segwit Multisig Wallet on Sparrow",
+          "url": "https://guide.keyst.one/docs/btc-multisig-sparrow"
+        }
+      ]
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "User Guide: Specter",
+          "url": "https://support.keyst.one/3rd-party-wallets/bitcoin-wallets/specter"
+        }
+      ]
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Using BlueWallet with Keystone",
+          "url": "https://guide.keyst.one/docs/bluewallet"
+        },
+        {
+          "title": "How to Create a 2/3 Native Segwit Multisig Wallet on Blue Wallet",
+          "url": "https://guide.keyst.one/docs/btc-multisig-bluewallet"
+        }
+      ]
+    },
+    "bitcoin-keeper": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liana": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "value": "nodl"
+  },
+  "headquarters": {
+    "value": "France"
+  },
+  "website": {
+    "value": "nodl.eu",
+    "url": "https://www.nodl.eu/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@nodl_it",
+    "url": "https://x.com/nodl_it"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "nodl708",
+    "url": "https://www.youtube.com/@nodl708"
+  },
+  "github": {
+    "value": "nodl",
+    "url": "https://gitlab.lightning-solutions.eu/nodl"
+  }
+}

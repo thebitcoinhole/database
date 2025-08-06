@@ -1,0 +1,35 @@
+{
+  "brand": {
+    "value": "Electrum"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "electrum.org",
+    "url": "https://electrum.org/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@ElectrumWallet",
+    "url": "https://x.com/ElectrumWallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "spesmilo",
+    "url": "https://github.com/spesmilo"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

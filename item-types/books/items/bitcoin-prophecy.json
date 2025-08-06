@@ -1,0 +1,58 @@
+{
+  "id": "bitcoin-prophecy",
+  "name": "Bitcoin Prophecy",
+  "short-description": "What Argentina can teach you about your money",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "200"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Ariel A Aguilar"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://arielaguilar.com/"
+    },
+    "twitter": {
+      "value": "@arielaguilar",
+      "url": "https://x.com/arielaguilar"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

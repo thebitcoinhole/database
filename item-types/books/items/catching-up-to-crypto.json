@@ -1,0 +1,58 @@
+{
+  "id": "catching-up-to-crypto",
+  "name": "Catching Up to Crypto",
+  "short-description": "Your Guide to Bitcoin and the New Digital Economy",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Wiley"
+    },
+    "pages": {
+      "value": "173"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Ben Armstrong"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@BenArmstrongsX",
+      "url": "https://x.com/BenArmstrongsX"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "A fun and authoritative guide to bitcoin and the future of money\n\nIn Catching Up to Crypto: Your Guide to Bitcoin and the New Digital Economy, celebrated crypto and Bitcoin expert Ben Armstrong delivers an exciting and fresh new exploration of Bitcoin and digital currencies. He explains what Bitcoin is, how it works, and how and why we’re all transitioning to a digital economy as we speak. He discusses the deficiencies of traditional fiat currency, how it’s commonly manipulated, and how we can all benefit from the adoption of new, digital assets.\n\nIn the book, you’ll discover how Bitcoin operates in the real-world and how the underlying technology—known as the blockchain—operates.\nYou’ll also learn about:\n\n- The importance of decentralization, trust-less commerce and cryptographic consensus.\n- The humble origins of Bitcoin, as well as how it nearly died out, and how it went on to take over the world\n- How monetary and financial policy is being revolutionized by the introduction of Bitcoin and other crypto-assets.\nAn essential and engaging review of Bitcoin, digital assets, and the new digital economy, Catching Up to Crypto is the hands-on and comprehensive introduction to crypto that investors, enthusiasts, the crypto-curious, and finance professionals have been waiting for."
+}

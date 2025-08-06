@@ -1,0 +1,60 @@
+{
+  "id": "qa-about-bitcoin",
+  "name": "Q/A about Bitcoin",
+  "short-description": "From the blockchain concept to the definition of the LNP/BP suite",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "226"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "David Coen"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://davidcoen.it/"
+    },
+    "twitter": {
+      "value": "@thedavidcoen",
+      "url": "https://x.com/thedavidcoen"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@DavidCoenIT",
+      "url": "https://www.youtube.com/@DavidCoenIT"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "\"Formulated in an agile Question & Answer format, this book represents a concise, systematic, complete and very digestible access point, for those approaching the topic for the first time.For those already very familiar with the Bitcoin-rabbit hole, it still represents a useful manual to avoid very common misunderstandings, or explore more refined concepts, perhaps starting to think in terms of \"sats\" and \"LNP/BP\" technological stack.\" - Giacomo Zucco, founder BHB Network, co-founder Bcademy. \"There are problems with the actual use of digital cash in the near term.(...) One concern I have is that the move to electronic payments will decrease personal privacy by making it easier to log and record transactions\" Hal Finney said in 1993. The so-called cashless society advances and brings with it some critical issues that undermine the freedom of the individual and his role in the economy. Bitcoin fixes this. Finally we have a tool that can provide a valid alternative to centralized monetary systems and play the role of digital cash (aka “electronic cash”). Bitcoin represents not only the new frontier in exchanging value among peers without resorting to a reliable third party, but a real base layer on which to build the monetary instruments of the future. The idea of the LNP/BP suite is born, similar to that of TCP/IP on which we built today's Internet and which allows you to buy this book online. Let's retrace together the steps that led to the creation of electronic cash (also called digital gold) and answer the fundamental questions that will make us understand what the problems of the cashless society are, how Bitcoin works, why it was created and what the future holds. Appendix 1 collects seven best practices to put into practice when dealing with Bitcoin. Appendix 2 is an article by Federico Spitaleri (satoshis . games) \"Business modeling in the Bitcoin Lightning Network ecosystem\". Appendix 3 clarifies the misunderstanding regarding \"one CPU, one vote\"."
+}

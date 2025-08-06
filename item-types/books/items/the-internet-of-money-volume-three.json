@@ -1,0 +1,60 @@
+{
+  "id": "the-internet-of-money-volume-three",
+  "name": "The Internet of Money - Volume Three",
+  "short-description": "A collection of talks by Andreas M. Antonopoulos",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "Merkle Bloom"
+    },
+    "pages": {
+      "value": "210"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Andreas M. Antonopoulos"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://aantonop.com/"
+    },
+    "twitter": {
+      "value": "@aantonop",
+      "url": "https://x.com/aantonop"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@aantonop",
+      "url": "https://www.youtube.com/@aantonop"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "While many books explain the ‘how’ of Bitcoin, The Internet of Money series delves into the ‘why’ of Bitcoin. Following the world-wide success of Volume One and Volume Two, this third installment contains 12 of his most inspiring and thought-provoking talks over the past two years, including:\n\n- Universal Access to Basic Finance, \n- Measuring Success: Price or Principle\n- Escaping the Global Banking Cartel\n- Libre Not Libra\n- Unstoppable Code: The Difference Between Can’t and Won’t and many more. \n\nAround the world, governments and corporations are increasingly pursuing a reconstruction of money as a system-of-control and surveillance machine. Despite the emergence of an interconnected global society and economy through the decades-long expansion of the internet, the trajectory of these bureaucratic policies foreshadows dire consequences for financial inclusion and independence. \n\nAndreas contextualizes the significance of Bitcoin and open blockchains amid these socio-political and economic shifts: What if money could be created without an authority? Are corporate coins the first step towards techno neo-feudalism? Is the real “darknet” run by state intelligence agencies? What if everyone could have a Swiss bank in their pocket? Can we build digital communities resistant to gentrification?\n\nIn 2013, Andreas M. Antonopoulos started publicly speaking about Bitcoin and quickly became one of the world's most sought-after speakers in the industry. He has delivered dozens of unique TED-style talks in venues ranging from the Henry Ford Museum to booked-out meetups in the Czech Republic and Argentina.\n\nIn 2014, Antonopoulos authored the groundbreaking book, Mastering Bitcoin (O’Reilly Media), widely considered to be the best technical guide ever written about the technology. On 7 September 2016, Andreas launched his second book, The Internet of Money Volume One, on The Joe Rogan Experience podcast (the interview has since been viewed more than 300,000 times).The Internet of Money offered something that was desperately needed: an explanation of the philosophy, economics, politics, and poetics behind this technology.\n\nMake this book part of your collection and see why the internet of money will continue to transform the world and the internet itself."
+}

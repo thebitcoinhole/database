@@ -1,0 +1,135 @@
+{
+  "id": "seedkeeper",
+  "name": "Seedkeeper",
+  "purchasable": true,
+  "company": "satochip",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES (via Coinbase Commerce)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "?"
+    },
+    "dimensions": {
+      "value": "85.60 x 53.98 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "crush-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "corrosion-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shock-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "stress-tests": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Access to its memory is enforced by a personal PIN code (from 4 to 16 characters)."
+      ]
+    },
+    "encrypted-backup": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "tamper-evident-seal": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "YES (100)",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shamir-backup": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "hexadecimal-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "ascii-strings": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  }
+}

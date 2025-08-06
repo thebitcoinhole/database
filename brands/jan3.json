@@ -1,0 +1,35 @@
+{
+  "brand": {
+    "value": "Jan3"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "aquawallet.io",
+    "url": "https://aquawallet.io/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@AquaBitcoin",
+    "url": "https://x.com/AquaBitcoin"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "AquaWallet",
+    "url": "https://github.com/AquaWallet"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

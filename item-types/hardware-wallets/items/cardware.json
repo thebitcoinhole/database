@@ -1,0 +1,735 @@
+{
+  "id": "cardware",
+  "name": "Cardware",
+  "purchasable": true,
+  "pre-order": true,
+  "basic-information": {
+    "year": {
+      "value": "2025"
+    },
+    "assembled-in": {
+      "value": "South Africa"
+    },
+    "diy": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "company": "cardware-wallet",
+  "communities": {
+    "telegram": {
+      "value": "cardwarewallet",
+      "url": "https://t.me/cardwarewallet"
+    },
+    "reddit": {
+      "value": "CardwareWallet",
+      "url": "https://www.reddit.com/r/CardwareWallet/"
+    }
+  },
+  "official-store": {
+    "po-box-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "YES (via WalletConnect)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "warranty": {
+      "value": "1 year",
+      "flag": "positive"
+    },
+    "weight": {
+      "value": "60g / 2.11oz"
+    },
+    "dimensions": {
+      "value": "86 x 54 x 11 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "available-in-colors": {
+      "value": "NO"
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "LCD"
+    },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "color-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "2.14\"",
+      "flag": "positive"
+    },
+    "screen-resolution": {
+      "value": "128 x 160 px"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "Buttons",
+      "links": [
+        {
+          "title": "Navigate your Cardware Device",
+          "url": "https://www.youtube.com/watch?v=ZQI1zbwh7cM"
+        }
+      ]
+    },
+    "qwerty-keyboard": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "removable-battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "usb-charging": {
+      "value": "USB-C",
+      "flag": "positive",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "security": {
+    "air-gapped": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "secure-element": {
+      "value": "YES (EAL6+)",
+      "supported": true,
+      "flag": "positive"
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Hardware-level read/write protection combine to guard against physical tampering, unauthorized access, and firmware-based exploits."
+      ]
+    },
+    "deterministic-nonces": {
+      "value": "YES",
+      "supported": true
+    },
+    "anti-klepto": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "secure-boot": {
+      "value": "-",
+      "supported": false
+    },
+    "upgradable-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-external-storage": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-cable": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "release-notes": {
+      "value": "-"
+    },
+    "source-available": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "open-source": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "license": {
+      "value": "?"
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "device-lock": {
+    "pin-lock": {
+      "value": "On Device",
+      "flag": "positive",
+      "texts": [
+        "Your PIN can be 4 to 8 digits long"
+      ]
+    },
+    "dummy-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "You have 5 attempts to enter your PIN correctly when prompted. Entering it incorrectly 5 times will erase the device."
+      ],
+      "links": [
+        {
+          "title": "Erasing Device",
+          "url": "https://www.youtube.com/watch?v=JYwMWRw99fI"
+        }
+      ]
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "time-delay-to-unlock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "During setup, users generate their private keys with robust entropy via dice rolls (with a D20 die included in every box) or through video streaming, ensuring truly random key creation."
+      ],
+      "links": [
+        {
+          "title": "Generating Entropy with a D20 Dice",
+          "url": "https://www.youtube.com/watch?v=IVTedW3qlHg"
+        }
+      ]
+    },
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passphrase-entry": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip85": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-nfc-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-12-24-words": {
+      "value": "On Setup only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "import-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Restoring/Importing Seed Phrase",
+          "url": "https://www.youtube.com/watch?v=qMxdRqGduHQ"
+        }
+      ]
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "key-teleport": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nested-segwit": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "addresses": {
+    "view-address-text": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-verification": {
+      "value": "?",
+      "supported": false
+    },
+    "change-address-display": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "NO",
+      "supported": false,
+      "texts": [
+        "The USB-C port is configured exclusively for power delivery, with only the power and ground connections active. All data lines are physically disconnected, a design aspect that is visibly apparent on the transparent circuit board."
+      ]
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "spending-conditions": {
+    "magnitude-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "velocity-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "whitelisted-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "2fa-authentication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "maximum-fee-protection": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "virtual-disk-mode": {
+      "value": "NO",
+      "supported": false
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "web-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "ios-app": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "third-party-apps": {
+    "bitcoin-safe": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "theya": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "wasabi-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "zeus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nunchuk": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-keeper": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "liana": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

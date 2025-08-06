@@ -1,0 +1,59 @@
+{
+  "id": "undressing-bitcoin",
+  "name": "Undressing Bitcoin",
+  "short-description": "A Revealing Guide To The World's Most Revolutionary Asset",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "81"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Layah Heilpern"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@LayahHeilpern",
+      "url": "https://x.com/LayahHeilpern"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@LayahHeilpern",
+      "url": "https://www.youtube.com/@LayahHeilpern"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "For those that love knowledge, but don't like to read!\nUndressing Bitcoin is a first of its kind, as Layah guides you through the technicalities of bitcoin, while also providing a philosophical commentary.\nIt is a chronological journey that starts by breaking down the problems with the traditional financial system, ultimately presenting the urgent case for bitcoin.\nLayah aims to add flavour and colour to a complicated topic by showcasing the personal and humanitarian side to bitcoin.\nEverything you need and want to know about this magic internet money is revealed in the book through Layah’s experience navigating the bitcoin world.\nThis book includes:\nCHAPTER 1 - The Death Of Fiat Currency\n- Welcome To Undressing Bitcoin\n- The History Of Money\n- The Gold Standard Act\n- What Is The Dollar Backed By Now?\n- Inflation And Quantitative Easing\n- Pandemic\n- Welcome To Hyperinflation In Venezuela\n- Enter BITCOIN\nCHAPTER 2 - The Elegance And Sophistication Of The Bitcoin Network\n- What Is BITCOIN?\n- Miners\n- Proof-Of-Work\n- The Heartbeat Of BITCOIN\n- Can BITCOIN Reach Half A Million?! The Halving\n- FAKE BITCOIN: The Double-Spend Problem\nCHAPTER 3 - How Not To Lose $50,000,000 In BITCOIN\n- Where To Store Your Millions In BITCOIN\n- Keys And Seed Phrases\n- Custodial Wallets\n- Fraud And Hackers\n- Non-Custodial Wallets And The Gateway To Financial Freedom\n- Best Security Practices\n- Lost Or Stolen?!\nCHAPTER 4 - Why BITCOIN Matters\n- The Financial Map\n- Decentralisation\n- The 7 Characteristics Of Viable Money\n- The Government Doesn’t Want You To Know\n- Scarcity\n- Bitcoin Vs Gold\n- Durability\n- Portability\n- Escaping Tyranny And Genocide: Nazi Germany\n- Divisibility\n- Uniformity\n- Fungibility\n- Acceptability\n- Mass Adoption\nCHAPTER 5 - Undressing BITCOIN Myths\n- Bitcoin For Criminals\n- Tax Evasion And Tax Avoidance\n- Is BITCOIN A Scam?\n- The Truth About BITCOIN’s Carbon Footprint\n- Powering The Bitcoin Network With Volcanoes In El Salvador\nCHAPTER 6 - Seeking The “OG” BITCOIN\n- Bitcoin Hard Forks\n- Wrapped BITCOIN\n- Decentralised Finance\nCHAPTER 7 - Undressing Bitcoin’s Challenges\n- The Scalability Problem\n- How Does The Lightning Network Operate?\nCHAPTER 8 - The Future Of BITCOIN\n- Rising BITCOIN Hostility\n- Can BITCOIN Be Banned?\n- Why Governments Want To Ban BITCOIN\n- Central Bank Digital Currencies (CBDCs)"
+}

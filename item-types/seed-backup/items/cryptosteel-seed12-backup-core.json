@@ -1,0 +1,135 @@
+{
+  "id": "cryptosteel-seed12-backup-core",
+  "name": "Seed12 Backup Core",
+  "purchasable": true,
+  "company": "cryptosteel",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES (via BTCPay)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "90g / 31.17oz"
+    },
+    "dimensions": {
+      "value": "65 x 39 x 15 mm"
+    },
+    "materials": {
+      "value": "Stainless Steel",
+      "texts": [
+        "Space-grade steel"
+      ]
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crush-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "corrosion-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shock-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "stress-tests": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "hexadecimal-strings": {
+      "value": "Number Tiles sold separately",
+      "flag": "neutral",
+      "supported": true
+    },
+    "ascii-strings": {
+      "value": "YES (up to 64 chars)",
+      "flag": "positive",
+      "supported": true
+    }
+  }
+}

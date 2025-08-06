@@ -1,0 +1,57 @@
+{
+  "id": "complete-guide-to-bitcoin",
+  "name": "Complete Guide To Bitcoin",
+  "short-description": "Understand everything from getting started with bitcoin, sending and receiving bitcoin to mining bitcoin.",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2017"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "197"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Mark Gates"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "“Every informed person needs to know about Bitcoin because it might be one of the world’s most important developments.”  Leon Luow, Nobel Peace prize nominee\n\nBitcoin has already changed the world of finance and continues to grow in popularity, impacting other industries and areas of life.\n\nBitcoin is not only a new currency but an entirely new technology that is causing a revolution as big as the internet once did.\n\nWhile people have dismissed bitcoin as a fad that will pass, the internet was also dismissed in its early days, with Bill Gates stating Microsoft had no interest in the internet.\n\nBitcoin, blockchain, and cryptocurrency may seem like technical jargon that only computer or finance experts can understand.\n\nHowever, bitcoin is far more accessible to everybody in the world than you may think.\n\nEven if you have never purchased a bitcoin before, after reading this book, you will understand how to easily set up a bitcoin wallet, then buy and trade bitcoins.\n\nYou do not need to have any computer or finance background to understand this book; it is designed to be as accessible as possible to beginners with no exposure to bitcoin.\n\nIf you are already experienced with buying bitcoin, this book contains information about mining bitcoin, including cloud mining and more advanced bitcoin topics.\n\nBitcoin: Complete guide to bitcoin, understand everything from getting started with bitcoin, sending and receiving bitcoin to mining bitcoin.\n\nIn this book, you will learn:\n\n- What is bitcoin?\n- History of bitcoin\n- Who is Satoshi Nakamoto and the creation of bitcoin\n- What is the blockchain?\n- How blockchain technology works\n- Difference between blockchain and bitcoin\n- Benefits of using bitcoin\n- Disadvantages/dangers of using bitcoin\n- Setting up a bitcoin wallet\n- Buying, selling, and trading bitcoin\n- Sending and receiving bitcoin\n- How is bitcoin mined?\n- Mining bitcoin\n- Cloud mining bitcoin\n- Ethereum, and other cryptocurrencies\n- The difference between Bitcoin and Bitcoin Cash\n- Trading bitcoin for other cryptocurrencies\n- Impact of bitcoin\n- The future of bitcoin\n- And more"
+}

@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "RoninDojo"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "ronindojo.io",
+    "url": "https://ronindojo.io/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://blog.ronindojo.io/"
+  },
+  "twitter": {
+    "value": "@RoninDojoNode",
+    "url": "https://x.com/RoninDojoNode"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "-"
+  }
+}

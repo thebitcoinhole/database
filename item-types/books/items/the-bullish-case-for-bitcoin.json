@@ -1,0 +1,57 @@
+{
+  "id": "the-bullish-case-for-bitcoin",
+  "name": "The Bullish Case for Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "156"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Vijay Boyapati"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@real_vijay",
+      "url": "https://x.com/real_vijay"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "The Bullish Case for Bitcoin, first published as a long-form article, represents an intellectual tour de force delivered with elegance and prescience by a polymath well-versed in mathematics, computer science, economics, philosophy, politics, and engineering. After March of 2020, it was evident to me that the world needed a new money based on technology. However, in February 2018, when Boyapati first published his paper, this insight required much greater perspicacity, courage, and conviction. \nIn a clear and concise manner, Boyapati presents the theory of money, the anatomy of Bitcoin, the reasons it is superior to the gold and fiat standards that came before it, and the promise that it offers to human civilization. He describes path dependence and the trajectory of a newly monetizing asset in terms the layman can understand, and he addresses the concerns that most commonly arise as newcomers struggle to comprehend the essence and significance of this first digital monetary network. I was immediately captivated by \"The Bullish Case for Bitcoin\" when I first read it and made it part of the recommended reading for all the officers and directors of my firm as we educated ourselves on Bitcoin and considered the logical path forward. In this book Boyapati updates and significantly expands on the ideas presented in his original article."
+}

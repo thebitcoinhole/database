@@ -1,0 +1,60 @@
+{
+  "id": "bitcoin-everything-you-need-to-know",
+  "name": "Bitcoin: Everything You Need to Know",
+  "short-description": "",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Dicoland"
+    },
+    "pages": {
+      "value": "154"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "David St-Onge"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://everythingbitcoinbook.com/"
+    },
+    "twitter": {
+      "value": "@DavidStOnge",
+      "url": "https://x.com/DavidStOnge"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@DavidStOnge",
+      "url": "https://www.youtube.com/DavidStOnge"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "“Bitcoin: Everything You Need to Know” is aimed at a wide audience and goes in-depth on several subjects while remaining easy to grasp by the layman. This book will allow you to acquire useful knowledge on the topic of Bitcoin without needing to focus on its hyper-technicalities. It will equip you with all the information you need in order to understand how Bitcoin works, but more importantly, it will show you what exactly “good money” is, as well as the tremendous advantages it provides. How to use Bitcoin, how to send it, how to receive it, how to buy it―thanks to this book, you will soon learn “everything you need to know” about Bitcoin! In the appendix, you will find several testimonials from bitcoiners, the pioneers who paved the way for the rest of us."
+}

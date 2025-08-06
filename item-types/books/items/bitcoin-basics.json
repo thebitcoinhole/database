@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-basics",
+  "name": "Bitcoin Basics",
+  "short-description": "Buying, Selling, Creating and Investing Bitcoins - The Digital Currency of the Future",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2013"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "30"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Benjamin Tideas"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Discover Everything You Need to Know to Get Started in the Bitcoin Revolution!\nYou’re about to learn everything you need to know about how to get started in the world of Bitcoin. Currency is always an interesting subject in the world of business and investment, but what if that currency had no centralized location which made it immune to government and bank interference? What if that currency was a digital currency that allowed you to carry millions of dollars around in your pocket without a problem? What if the benefits of that cryptocurrency were available to YOU?\nWhether you're looking to inform yourself on buying, selling, or investing in Bitcoin, you've come to the right place. If you are looking to get in on the mining action of Bitcoins, you're almost there. If you want to find out how the digital currency of the future can be leveraged in your life, you're on the right track. Don't get left behind during the most crucial stages of the most successful cryptocurrency in the world! Educate yourself; make yourself informed; put yourself in a position to take advantage. How, might you ask? This book is your answer!\n- Here Is A Preview Of What You'll Learn...\n- How exactly does this cryptocurrency work?\n- The History of Bitcoin, and some insights into its future!\n- Buying, Selling, and Investing in Bitcoins\n- How Bitcoin Mining works (with resources!)\n- Avoiding Scams and Fraud by Staying Safe\n- The Benefits of the digital currency of the future, as well as its limits\n- ...and much, much more!"
+}

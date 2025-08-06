@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-bloggsbot",
+  "name": "Bitcoin",
+  "short-description": "How to go from beginner to pro in Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2017"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "70"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Bowen Bloggsbot"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "You’re about to discover how to...\n\nBitcoin is a digital currency and also a digital payment system. It is widely used all over the world as a cryptocurrency and is accepted as a means of exchange, in trade, investment, and savings. Bitcoin was invented by someone by the alias Satoshi Nakamoto in 2009. His real name is not known. Some suspect it was created by a group of programmers by the same pseudo name. However, this currency has gained worldwide acceptance and is very popular due to its many benefits.\n\nHere Is A Preview Of What You'll Learn...\n\n- Cryptocurrencies\n- Cryptocurrency Technologies\n- Bitcoin Mining\n- Investing and Trading in Bitcoins\n- The Blockchain\n- Bitcoin Wallet\n- Much, much more!"
+}

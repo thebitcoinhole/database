@@ -1,0 +1,346 @@
+{
+  "id": "start9-server-one",
+  "name": "Server One",
+  "full-name": "Start9 Server One",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    }
+  },
+  "company": "start9",
+  "communities": {
+    "telegram": {
+      "value": "Start9 Community",
+      "url": "https://t.me/start9_labs"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
+    "warranty": {
+      "value": "1 year",
+      "flag": "positive",
+      "supported": true
+    },
+    "weight": {
+      "value": "370g / 13.05oz"
+    },
+    "dimensions": {
+      "value": "11.4 x 10.6 x 3.75 cm"
+    },
+    "cpu": {
+      "value": "AMD Ryzen 7 5825U"
+    },
+    "ram": {
+      "value": "16/32 GB",
+      "texts": [
+        "16GB (2x8GB) or 32GB (2x16GB) DDR4 RAM"
+      ]
+    },
+    "storage": {
+      "value": "2/4 TB"
+    },
+    "ethernet": {
+      "value": "Gigabit Ethernet",
+      "supported": true,
+      "flag": "positive"
+    },
+    "wifi": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hdmi": {
+      "value": "2x HDMI",
+      "supported": true
+    },
+    "usb": {
+      "value": "2x USB 2.0 / 2x USB 3.0 / 1x USB 3.1",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-regtest": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-signet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "StartOS",
+      "texts": [
+        "StartOS is a novel Linux distro with a graphical interface purpose built for self-hosting. It facilitates the entire process of discovering, downloading, installing, configuring, networking, monitoring, backing up, and generally managing almost any variety of self-hosted, open-source services with unprecedented ease.",
+        "For developers and system administrators, StartOS provides huge time savings over traditional Linux workflows. For the rest of us, and for the first time since the arrival of the Internet, it makes digital autonomy possible."
+      ]
+    },
+    "bitcoin-only": {
+      "value": "NO"
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://github.com/Start9Labs/start-os/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Start9Labs/start-os"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "supported": false,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Start9Labs/start-os/blob/master/LICENSE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "-",
+      "supported": false
+    },
+    "macos": {
+      "value": "-",
+      "supported": false
+    },
+    "linux": {
+      "value": "-",
+      "supported": false
+    },
+    "pc-disk-image": {
+      "value": "-",
+      "supported": false
+    },
+    "virtual-machine": {
+      "value": "-",
+      "supported": false
+    },
+    "raspberry-pi-4": {
+      "value": "-",
+      "supported": false
+    },
+    "raspberry-pi-5": {
+      "value": "-",
+      "supported": false
+    },
+    "rock-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rock-pro-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rockpi-4": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "libre-relay": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Mempool"
+      ]
+    },
+    "mempool-visualizer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Mempool"
+      ]
+    },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "JoinMarket"
+      ]
+    },
+    "btcpay-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "samourai-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "official-marketplace": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "thirdparty-marketplace": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "backup-restore": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Creating a complete encrypted backup of your entire system is a matter of clicking “Create Backup” in the GUI and selecting a target destination. The destination can either be a physical hard drive or a shared network folder, basically any device that is connected to the same Local Area Network as your StartOS. Backups are encrypted using your StartOS master password.",
+        "You can restore from backup directly from the GUI by clicking “Restore from Backup”, selecting the drive where the backup exists, and then selecting the services you want to restore."
+      ]
+    },
+    "health-checks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Package developers define what constitutes health for a given service and write scripts to test for it. StartOS performs these health checks on a continuous basis, presenting results to the user inside the GUI. Users can tell at a glance if Bitcoin is running smoothly, or if LND is satisfied with the state of Bitcoin's health. In the event that a health check fails, StartOS can issue a notification, informing the user of the failure along with a report for how the issue was resolved or whether resolution requires further action."
+      ]
+    },
+    "ssl": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "StartOS acts as its own Certificate Authority (CA), such that it can use an encrypted https connection for communicating over the LAN. This requires a bit of setup, namely downloading your StartOS's SSL CA certificate and trusting it in both your device and your device's browser. It takes a few minutes to set up, but once complete, you can be sure that no one can sniff your traffic, even if they have access to your LAN."
+      ]
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tailscale": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

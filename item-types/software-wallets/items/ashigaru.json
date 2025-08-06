@@ -1,0 +1,838 @@
+{
+  "id": "ashigaru",
+  "name": "Ashigaru",
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    }
+  },
+  "company": "ashigaru-open-source-project",
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "networks": {
+    "bitcoin-only": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-signet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-network": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "currency": {
+    "fiat": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "sats": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "exchange-rate-provider": {
+      "value": "-"
+    }
+  },
+  "app-lock": {
+    "pin-lock": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "duress-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "countdown-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dummy-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "private-keys": {
+    "hot-keys": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "multiple-wallets": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "user-added-entropy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-output-descriptor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "restore-output-descriptor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "import-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-phrase-autocomplete": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "inapp-keyboard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ]
+    }
+  },
+  "receive": {
+    "view-address-text": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-multiple-addresses": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "verify-address-text": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "send": {
+    "scan-address-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "scan-address-ocr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "send-internal-address": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "multiple-send-addresses": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "batch-transactions": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "psbt-file": {
+      "value": "?",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "spending-conditions": {
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "timelocks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Labelling Transactions and UTXOs in Samourai Wallet",
+          "url": "https://www.youtube.com/watch?v=TGvjScMLXu4"
+        }
+      ]
+    },
+    "transaction-labeling": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "labels-import-export-bip329": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Operational: online collaborative transactions (Cahoots) functionality",
+          "url": "https://ashigaru.rs/news/operational-online-chaoots/"
+        }
+      ]
+    },
+    "hide-sensitive-data": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "stealth-mode": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Wallet Update 0.99.98g — The Stealth Mode update!",
+          "url": "https://medium.com/samourai-wallet/wallet-update-0-99-98g-the-stealth-mode-update-b11942f6cd74"
+        }
+      ]
+    },
+    "built-in-secure-communication": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paynyms": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "node-integration": {
+    "own-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to Connect to Your Own Dojo",
+          "url": "https://www.youtube.com/watch?v=WVt6oMExTQY"
+        }
+      ]
+    },
+    "local-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dojo-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "other-features": {
+    "encrypted-storage": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dark-mode": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "wallet-rollover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-googleplay-support": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-apk-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes (TOR)",
+          "url": "http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Mobile/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code (TOR)",
+          "url": "http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Mobile"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License (TOR)",
+          "url": "http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Mobile/src/branch/main/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Reproducible Builds (TOR)",
+          "url": "http://ashicodepbnpvslzsl2bz7l2pwrjvajgumgac423pp3y2deprbnzz7id.onion/Ashigaru/Ashigaru-Mobile/src/branch/main/docs/ReproducibleBuilds.md"
+        }
+      ]
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "web-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "web-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "web-license": {
+      "value": "-",
+      "supported": false
+    },
+    "web-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-license": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-license": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-license": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "umbrel-os-support": {
+    "umbrel-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "start-os-support": {
+    "start-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware-wallets-support": {
+    "jade": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coldcard-mk4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coldcard-q": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitbox02-btconly": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "keystone-3-pro": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passport-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "portal": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-one": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-t": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-safe-3": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-safe-5": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-s-plus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-x": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seedsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-diy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "krux": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "paid-services": {
+    "assisted-self-custody": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "inheritance-planning": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

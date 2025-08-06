@@ -1,0 +1,393 @@
+{
+  "id": "mynode-premium",
+  "name": "Premium",
+  "full-name": "MyNode Premium",
+  "buildable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    }
+  },
+  "company": "my-node",
+  "communities": {
+    "telegram": {
+      "value": "myNode",
+      "url": "https://t.me/mynode_btc"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "-",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "-",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "-",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "DIY"
+    },
+    "warranty": {
+      "value": "-",
+      "supported": false
+    },
+    "weight": {
+      "value": "-"
+    },
+    "dimensions": {
+      "value": "-"
+    },
+    "cpu": {
+      "value": "-"
+    },
+    "ram": {
+      "value": "8 GB",
+      "texts": [
+        "Raspberry Pi 4/5. Pick 8 GB RAM for maximum performance."
+      ]
+    },
+    "storage": {
+      "value": "1+ TB",
+      "texts": [
+        "1 TB or more is recommended"
+      ]
+    },
+    "ethernet": {
+      "value": "Gigabit Ethernet",
+      "flag": "positive",
+      "supported": true
+    },
+    "wifi": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4/5. 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless"
+      ]
+    },
+    "hdmi": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4/5. 2x micro-HDMI® ports (up to 4kp60 supported)"
+      ]
+    },
+    "usb": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4/5. 2 USB 3.0 ports; 2 USB 2.0 ports."
+      ]
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4/5. Bluetooth 5.0"
+      ]
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "Manually",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to edit the Bitcoin config file"
+      ]
+    },
+    "btc-signet": {
+      "value": "Manually",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "You need to edit the Bitcoin config file"
+      ]
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "MyNode"
+    },
+    "bitcoin-only": {
+      "value": "NO"
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://github.com/mynodebtc/mynode/blob/master/CHANGELOG"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/mynodebtc/mynode"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "license": {
+      "value": "Creative Commons NonCommercial",
+      "supported": false,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/mynodebtc/mynode/blob/master/LICENSE.md"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pc-disk-image": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "virtual-machine": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "raspberry-pi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to set up a Bitcoin Node with MyNode on a Raspberry Pi 4",
+          "url": "https://medium.com/the-bitcoin-hole/how-to-set-up-a-bitcoin-node-with-mynode-on-a-raspberry-pi-4-6ab4cb1f551a"
+        }
+      ]
+    },
+    "raspberry-pi-5": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to set up a Bitcoin Node with MyNode on a Raspberry Pi 5",
+          "url": "https://medium.com/the-bitcoin-hole/how-to-set-up-a-bitcoin-node-with-mynode-on-a-raspberry-pi-5-fb1bb0c63d85"
+        }
+      ]
+    },
+    "rock-64": {
+      "value": "Deprecated support",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "rock-pro-64": {
+      "value": "Limmited support",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "rockpi-4": {
+      "value": "Limmited support",
+      "supported": true,
+      "flag": "neutral"
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "libre-relay": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
+    },
+    "mempool-visualizer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
+    },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "JoinMarket",
+          "url": "https://mynodebtc.github.io/coinjoin/joinmarket.html"
+        }
+      ]
+    },
+    "btcpay-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BTCPay Server",
+          "url": "https://mynodebtc.github.io/btcpay-server/setup.html"
+        }
+      ]
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Electrum Server",
+          "url": "https://mynodebtc.github.io/electrum/electrum.html"
+        }
+      ]
+    },
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "samourai-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Specter",
+          "url": "https://mynodebtc.github.io/multisig/specter.html"
+        }
+      ]
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "official-marketplace": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "thirdparty-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-restore": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "health-checks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ssl": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tailscale": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  }
+}

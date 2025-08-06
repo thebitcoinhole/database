@@ -1,0 +1,60 @@
+{
+  "id": "bitcoinismo",
+  "name": "Bitcoinismo",
+  "short-description": "La era de la riqueza inconfiscable",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    },
+    "publisher": {
+      "value": "Deusto"
+    },
+    "pages": {
+      "value": "402"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Adrián Bernabéu"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://bitcoinismo.com/libro/"
+    },
+    "twitter": {
+      "value": "@BernabeuAdrian",
+      "url": "https://x.com/BernabeuAdrian"
+    },
+    "nostr": {
+      "value": "Adrián Bernabéu",
+      "url": "https://primal.net/p/npub1qs7tzkzr5u8sx78nv5vxsv2y8krlquaue44demv6y8slfk5chmwsz6tl0d"
+    },
+    "youtube": {
+      "value": "@bitcoinismo",
+      "url": "https://www.youtube.com/@bitcoinismo"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

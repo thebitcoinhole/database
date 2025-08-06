@@ -1,0 +1,57 @@
+{
+  "id": "the-philosophy-of-bitcoin",
+  "name": "The Philosophy of Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "BTC Media"
+    },
+    "pages": {
+      "value": "132"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Álvaro D. María"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@Alvaro_DMaria",
+      "url": "https://x.com/Alvaro_DMaria"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Some things change life as we know it forever. This is the book that caused a sensation when originally published in Spanish in 2022 (as La Filosofia de Bitcoin) for its novel exploration of why Bitcoin is a creative disruption to civilization comparable to gunpowder, the stirrup, or the internet. Now available in translation for English readers, The Philosophy of Bitcoin explores, from a philosophical point of view, the nature of Bitcoin, its political implications, and its relationship with the State. Based on an analysis of its innovations, the author explains what and why institutions are put in crisis as a result of Bitcoin, and why it is stoking the crucible of disruption like nothing else for a very long time.\n\"Álvaro D. María’s book does an excellent job of breaking down the nuance between money’s relationship with the State. Bitcoin’s emergence will transform the State because the very concept of money has been redefined. In fact, you could say this transformation has already begun with the wave of nation-state Bitcoin adoption currently making its way across the world. D. María deftly navigates this transformation in his book, covering topics such as the emergence of new social contracts and the coming change in both economics and politics.\"—Samson Mow, JAN3 CEO\n\"This book ignites the critical thinking of all kinds of readers; it is accessible to beginners seeking a gateway to Bitcoin and stimulating for experts reimagining the matter. Álvaro D. María commands the art of explaining complex social and economic processes in simple terms. He can relevantly quote from Greek philosophers, Golden Age poets, Nobel laureates, or even Shrek to welcome each of us, “newbies” and “original gangsters” alike, into this bottom-up grassroot revolution.\"—Gabriel Kurman, founder of Rootstock; CEO, Koibanx\n\"As we search for reasons to say “yes” to Bitcoin, we often look into the economic sphere, finding motives in the Fiat model or Executive Order 6102. We also look for arguments in the lack of freedoms, censorship, or the prevailing KYC. But what about the reasons of political philosophy, and the reasons that are anchored to the most radical changes that man has experienced and that involve centuries or millennia? The Philosophy of Bitcoin by Álvaro D. María makes you understand where we are and shows you why Bitcoin and cyberspace are the beginning of the crumbling of the state absolutism in which we live. Few books deserve a 10 out of 10.\"—Lunaticoin\n\"The Philosophy of Bitcoin is a book that had to exist. It is not only because of how D. María managed to synthesize the historical discussion of power and state in 100 pages, but also because, in Spanish, there was a huge philosophical gap in the analysis of Bitcoin. The book is a contribution at all levels: for those who are just starting to learn about Bitcoin, for those who are already users, or for those who have become Bitcoiners. The book is definitely a philosophical revelation about Bitcoin, available to everyone.\"—Javier Bastardo, author of Satoshi in Venezuela\n\"The Philosophy of Bitcoin provides insightful guidance to explore the deeper implications of Bitcoin beyond its role as a currency. The book recognizes Bitcoin as a transformative breakthrough for humanity, and Álvaro D. María expertly analyzes its impact on the relationship between money and the State. He skillfully navigates this transformation, exploring topics such as the emergence of new social contracts, changes in economics and politics, and the redefinition of property rights. A must read for anyone interested in Bitcoin and Austrian economics.\"—Prince Philip of Serbia\nÁlvaro D. María holds double degrees in law and philosophy. When he wrote and published this book in Spanish in 2022 it was an instant success. This edition marks the debute of his work in English."
+}

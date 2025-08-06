@@ -1,0 +1,57 @@
+{
+  "id": "the-bitcoin-dollar",
+  "name": "The Bitcoin-Dollar",
+  "short-description": "An Economic Monomyth",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Bitcoin Magazine Books"
+    },
+    "pages": {
+      "value": "220"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Mark Goodwin"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Money is a technological tool that communicates settlement between parties. The ultimate goal of money is to transmit trust within context, typically over time and over space. The distinction of the need for value settlement between time and space has allowed for a separation between commodity and currency. The dollar has arguably been the closest we have seen to succeeding at both of these tasks until the launch of Bitcoin at the start of 2009. The transitional period we are about to experience is simply the current iteration of an eternal concept of humans and money – an economic monomyth. If this book could have been written without using the words dollar or bitcoin, it would have. Yet an economic system that grows and regulates itself purely by the actions of its participants and not its rulers is a distortion of the status quo. Bitcoin is a state change of money, settlement, and economic policy that takes us out from underneath the poles of the currency and commodity dichotomy.\n“In a world where money is abundant, you will find your freedoms are not. Consider the implications of The Bitcoin-Dollar.”—HodlMagoo, Bitcoin Nym“\nA sobering look at how Bitcoin could evolve to interact with our wider financial system, without the ‘Number Go Up’ noise or cultish certainty of predestined domination.”—Shinobi, Bitcoin Researcher and Author“\nA novel meditation on the implications of a world defined by competing Bitcoin, crypto, and fiat financial systems, Goodwin’s book is a timely addition to the canon. More than ever, Bitcoin is distinguishing itself as the world’s first apolitical money, and Goodwin is among the few writers exploring the implications of this powerful transformation.”—Pete Rizzo, Bitcoin Historian at Bitcoin Magazine\n“Mark Goodwin’s The Bitcoin-Dollar comes at a critical time in Bitcoin’s existence now that it has pierced the firmament of the mainstream. Chock full of easily recallable quotes from the likes of John Nash and Jorge Luis Borges, his book serves as a call to action by asking questions and providing potential answers for how Bitcoin might work in a world where the U.S. dollar will continue to exist. Goodwin achieves this through a smart, succinct dive into the idealism of Bitcoin and pairs it with a balanced, realistic view of the world that is sorely lacking elsewhere. Mandatory reading for the learned Bitcoiner and will remain on my desk for the foreseeable future.”—George Kaloudis, Senior Research Analyst at CoinDesk“\nThe Bitcoin-Dollar gives an incredible overview of why Bitcoin won’t replace the U.S. dollar system but will become the dollar system. A must-read for anyone interested in finance, economics, and the future of democracy.”—L0la L33tz, Author and Privacy Advocate\nMark Goodwin is an author, journalist, photographer, and the current Editor-in-Chief of Bitcoin Magazine. Goodwin has been publicly in the Bitcoin space since 2017, and began writing for Bitcoin Magazine in 2021. Originally from Massachusetts, Goodwin has spent the last decade in the Bay Area, and when not at his desk can be found walking his dog or performing in various musical outfits."
+}

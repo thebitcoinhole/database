@@ -1,0 +1,60 @@
+{
+  "id": "bitcoin-and-the-american-dream",
+  "name": "Bitcoin and the American Dream",
+  "short-description": "The New Monetary Technology Transcending Our Political Divide",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "75"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Many",
+      "texts": [
+        "Amanda Cavaleri, Annaliese Wiederspahn, Charline Fadirepo, CJ Wilson, Gary Leland, Lamar Wilson, Pete Rizzo & Jimmy Song"
+      ]
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "For many, there is no American Dream, only a nightmare. Financial stress and debt burdens weigh heavily. The system just feels rigged.\nAmidst this despair, Americans are finding hope in an unlikely place.\nWith the help of a new, alternative financial system, they are finding that they can now save for the long term. While some in Washington see a technology to be feared and dismissed, Americans see Bitcoin as an opportunity. For them, Bitcoin is proving a valuable tool for financial freedom and agency. \nAcross America, a broad and diverse coalition is forming. They believe Bitcoin unlocks the door to a revitalized American dream. This book is about that dream."
+}

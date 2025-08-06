@@ -1,0 +1,57 @@
+{
+  "id": "the-bible-and-bitcoin",
+  "name": "The Bible and Bitcoin",
+  "short-description": "A Theological Exploration of Human Time, Energy and Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "60"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Alin Armstrong"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Our current monetary system is broken. Inflation is rampant, our savings are being devalued, and it seems there is no hope for a solution. Fiat money is robbing us and our neighbors of our most valuable commodity - time. As Christians, we are called to love our neighbors, but how can we do that when the money we use is contributing to a system that is stealing from them? It may seem unconventional, but Bitcoin offers a solution to this problem. The Bible calls for a just and equal monetary system, free of fraud and deception - and Bitcoin fits the bill.\nJoin Pastor Alin Patularu as he delves into the intersection of biblical and monetary history, embarking on a journey that ultimately leads to the unlikely destination of Bitcoin, the native currency of the internet."
+}

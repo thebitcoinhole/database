@@ -1,0 +1,57 @@
+{
+  "id": "economias-circulares-de-bitcoin",
+  "name": "Economias Circulares de Bitcoin",
+  "short-description": "Historias de esperanza construidas sobre el dinero soberano del futuro",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    },
+    "publisher": {
+      "value": "Instituto de Filosofía y Economía Bitcoin"
+    },
+    "pages": {
+      "value": "228"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Gabriel Kurman, Ivan Kaleja"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@GabrielKurman",
+      "url": "https://x.com/GabrielKurman"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

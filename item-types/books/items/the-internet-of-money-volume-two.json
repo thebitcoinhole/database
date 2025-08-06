@@ -1,0 +1,60 @@
+{
+  "id": "the-internet-of-money-volume-two",
+  "name": "The Internet of Money - Volume Two",
+  "short-description": "A collection of talks by Andreas M. Antonopoulos",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2017"
+    },
+    "publisher": {
+      "value": "Merkle Bloom"
+    },
+    "pages": {
+      "value": "188"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Andreas M. Antonopoulos"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://aantonop.com/"
+    },
+    "twitter": {
+      "value": "@aantonop",
+      "url": "https://x.com/aantonop"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@aantonop",
+      "url": "https://www.youtube.com/@aantonop"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "The Internet of Money Volume Two is the spectacular sequel to the cult classic and best seller The Internet of Money Volume One by Andreas M. Antonopoulos. Volume Two contains 11 of his most inspiring and thought-provoking talks, including:\n- Introduction to Bitcoin;\n- Blockchain vs Bullshit;\n- Fake News, Fake Money; \n- Currency Wars; \n- Bubble Boy and the Sewer Rat;\n- Rocket Science and Ethereum's Killer App;\n- and many more;\n\nVolume Two also includes an all new frequently asked questions section!\n\nIn 2013, Andreas M. Antonopoulos started publicly speaking about bitcoin and quickly became one of the world's most sought-after speakers in the industry. To date, he has delivered more than 75, TED-style talks in venues ranging from the Henry Ford Museum to packed-out Bitcoin Meetups in the Czech Republic to New Zealand and every talk is completely different.\n\nIn these performances, Antonopoulos walks onto the stage and delivers a live, unscripted talk. Without a deck in sight, he unleashes his latest insights into the lightning-fast changes surrounding bitcoin. Combining the knowledge of one of the world's leading blockchain technologists, with cultural context, comedy, and the flair of a performance artist, Antonopoulos conveys an up-to-the-second understanding of bitcoin to live audiences worldwide.\n\nMany of these talks were so visionary, their content so educational, that they were curated and refined into a book form. On 7 September 2016, \nThe Internet of Money Volume One was launched on The Joe Rogan Experience podcast (the interview has since been viewed more than 300,000 times). With its genesis in the lived, human experience, The Internet of Money offered something that was desperately needed: an explanation of the philosophy, economics, politics, poetics, and technologies of bitcoin and open blockchains set within the historical context of millennia of human civilization.\n\nDuring its first year, Volume One quickly became a hit in the global crypto-currency community-appealing to audiences from fields as diverse as the arts, sciences, and humanities. As one reader wrote: It provides a uniquely accessible take on a mind-bendingly abstract system. \n\nThe Internet of Money Volume Two builds on that momentum and offers readers an opportunity to experience more these inspiring and thought-provoking talks in print. Volume Two also includes a bonus question and answer section, where Andreas answers some of the most frequently asked questions from audience members. The Internet of Money Volume Two is a sequel that rivals, even exceeds, the first, in content, scope, and vision. Make this book part of your collection and see why Andreas M. Antonopoulos is considered the most powerful and engaging voice in the crypto-currency and blockchain space."
+}

@@ -1,0 +1,58 @@
+{
+  "id": "the-bitcoin-and-blockchain-booklet",
+  "name": "The Bitcoin and Blockchain Booklet",
+  "short-description": "The Beginner's Guide to Getting Started with Cryptocurrency",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "48"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Robert Beadles"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@RobertBeadles",
+      "url": "https://x.com/RobertBeadles"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "New Crypto Enthusiasts: Here’s a Quick Guide to Help You Get Started with Bitcoin and Blockchain Technology\n\nAre you completely new to Bitcoin, Blockchain, and other cryptocurrency-related terms and concepts? Would you like to know more?\nWould you like to have everything you need to know to bring you up to speed on Bitcoin as well as other cryptocurrencies in one resource?\nAre you concerned that Bitcoin and Blockchain are too complicated to understand?\nLearning crypto is only as complicated as you make it, but we’re going to keep it simple for you.\nCryptocurrency has been proven to create investments that are just as lucrative as stock trading, and in fact, the trading side of things works a lot like the Stock Market. Those who invested in what was a long shot, cashed in big when Bitcoin shot up from $900 to a whopping $20,000 in 2017. Newbies just like you have been jumping on the Blockchain bandwagon ever since hoping to invest and cash out in like fashion. \nIf you’re ready to dive in, here’s what you’ll learn:\n- The basics of Bitcoin and Blockchain, and how the technology works\n- The significance of decentralization versus centralization\n- What private seeds and keys are and how to use them\n- An overview of other cryptocurrencies\n- Where to buy crypto and how to store it safely\n- How to utilize the power of the Monarch Wallet and MonarchPay\nRobert Beadles debuts his cryptocurrency knowledge in book format with \nThe Bitcoin and Blockchain Booklet: The Beginner’s Guide to Getting Started with Cryptocurrency\n taking you for a ride on the full spectrum. He’s got you covered from “what is Bitcoin” to “here’s my easy-to-use apps for your Bitcoin.” \nYou’ll learn why Robert says, “Cryptocurrency and blockchain provide financial empowerment for the masses or financial enslavement of the masses. Time will tell which will hold true.”\nThe world of cryptocurrency is complicated because there’s so much information to digest on the topic. Robert helps you focus on the notable knowledge and paves the way for you to get started with this short easy-to-read guide.\nIf you’re ready to jump into cryptocurrency with both feet and start building your digital fortune, buy this booklet now and get your empire started!"
+}

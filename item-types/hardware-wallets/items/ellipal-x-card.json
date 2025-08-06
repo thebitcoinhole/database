@@ -1,0 +1,728 @@
+{
+  "id": "ellipal-x-card",
+  "name": "X Card",
+  "full-name": "Ellipal X Card",
+  "purchasable": true,
+  "pre-order": true,
+  "basic-information": {
+    "year": {
+      "value": "2025"
+    },
+    "assembled-in": {
+      "value": "Hong Kong"
+    },
+    "diy": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "company": "ellipal",
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "ELLIPAL_Official",
+      "url": "https://www.reddit.com/r/ELLIPAL_Official/"
+    }
+  },
+  "official-store": {
+    "po-box-support": {
+      "value": "?",
+      "supported": false
+    },
+    "btc-on-chain": {
+      "value": "YES (via Crypto.com Pay or Coinbase Commerce)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "YES (via Crypto.com Pay or Coinbase Commerce)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "warranty": {
+      "value": "1 year",
+      "flag": "positive",
+      "supported": true
+    },
+    "weight": {
+      "value": "6g / 0.21oz"
+    },
+    "dimensions": {
+      "value": "85.6 x 53.98 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "available-in-colors": {
+      "value": "NO",
+      "supported": false
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false,
+      "texts": [
+        "The X Card is splash-resistant , built to withstand brief exposure to rain or sweat."
+      ]
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-type": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "gorilla-glass": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
+    "color-screen": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
+    "touch-screen": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "screen-resolution": {
+      "value": "-",
+      "flag": "negative"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "-"
+    },
+    "qwerty-keyboard": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "No Needed",
+      "supported": false
+    },
+    "removable-battery": {
+      "value": "-",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "-"
+    },
+    "usb-charging": {
+      "value": "-",
+      "supported": false
+    },
+    "wireless-charging": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "security": {
+    "air-gapped": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "secure-element": {
+      "value": "YES (EAL6+)",
+      "supported": true,
+      "flag": "positive"
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Each X Card contains a unique encrypted ID that is verified by the app. Only genuine cards sold by ELLIPAL will be recognized and allowed to connect—fake cards are blocked."
+      ]
+    },
+    "deterministic-nonces": {
+      "value": "?",
+      "supported": false
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alt-coins": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "List of Supported Tokens",
+          "url": "https://www.ellipal.com/pages/coin-list"
+        }
+      ]
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "secure-boot": {
+      "value": "-",
+      "supported": false
+    },
+    "upgradable-firmware": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-external-storage": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-cable": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "release-notes": {
+      "value": "-"
+    },
+    "source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "license": {
+      "value": "-"
+    },
+    "reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "device-lock": {
+    "pin-lock": {
+      "value": "Via Companion App",
+      "flag": "neutral"
+    },
+    "dummy-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "After 10 incorrect PIN attempts, all information on the X Card will be permanently wiped."
+      ]
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "time-delay-to-unlock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "NO",
+      "supported": false
+    },
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "multiple-private-keys": {
+      "value": "YES (Extra cards required)",
+      "flag": "neutral",
+      "supported": true
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passphrase-entry": {
+      "value": "Via Companion App",
+      "flag": "negative"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bip85": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-nfc-card": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "You can duplicate a wallet to up to 10 additional X Cards during creation or recovery, allowing for flexible backup options."
+      ]
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-12-24-words": {
+      "value": "On Setup only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "import-12-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "key-teleport": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "addresses": {
+    "view-address-text": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "view-address-qr": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-signing": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "change-verification": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "change-address-display": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "NO",
+      "supported": false
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true
+    },
+    "microsd-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ur-2-animated-qrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "spending-conditions": {
+    "magnitude-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "velocity-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "whitelisted-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "2fa-authentication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "child-pays-for-parent": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "maximum-fee-protection": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "custom-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "virtual-disk-mode": {
+      "value": "NO",
+      "supported": false
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "windows-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "macos-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "linux-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.ellipal.wallet"
+        }
+      ]
+    },
+    "ios-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/ellipal/id1426179665"
+        }
+      ]
+    }
+  },
+  "third-party-apps": {
+    "bitcoin-safe": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "theya": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "wasabi-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "zeus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nunchuk": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-keeper": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "liana": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

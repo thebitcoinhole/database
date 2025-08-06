@@ -1,0 +1,758 @@
+{
+  "id": "specter-diy",
+  "name": "Specter DIY",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    },
+    "assembled-in": {
+      "value": "-"
+    },
+    "diy": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "company": "specter-solutions",
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "official-store": {
+    "po-box-support": {
+      "value": "YES",
+      "supported": true
+    },
+    "btc-on-chain": {
+      "value": "YES",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "size-materials": {
+    "warranty": {
+      "value": "-"
+    },
+    "weight": {
+      "value": "369g / 13oz"
+    },
+    "dimensions": {
+      "value": "167 x 65 x 20 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "available-in-colors": {
+      "value": "YES",
+      "supported": true
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "LCD"
+    },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "color-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "touch-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-size": {
+      "value": "4\"",
+      "flag": "positive"
+    },
+    "screen-resolution": {
+      "value": "800 x 480 px"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "Touch Screen"
+    },
+    "qwerty-keyboard": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "removable-battery": {
+      "value": "-",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "-",
+      "flag": "negative"
+    },
+    "usb-charging": {
+      "value": "Mini USB",
+      "flag": "neutral",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "security": {
+    "air-gapped": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "secure-element": {
+      "value": "NO",
+      "supported": false
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "deterministic-nonces": {
+      "value": "?",
+      "supported": false
+    },
+    "anti-klepto": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "secure-boot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Secure bootloader for Specter hardware wallet",
+          "url": "https://github.com/cryptoadvance/specter-bootloader"
+        }
+      ]
+    },
+    "upgradable-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade-via-sdcard": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade-via-usb-external-storage": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-cable": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "upgrade-via-nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/cryptoadvance/specter-diy/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/cryptoadvance/specter-diy"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/cryptoadvance/specter-diy/blob/master/LICENSE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Reproducible build",
+          "url": "https://github.com/cryptoadvance/specter-diy/blob/master/docs/reproducible-build.md"
+        },
+        {
+          "title": "WalletScrutiny.com",
+          "url": "https://walletscrutiny.com/hardware/specterdiy/"
+        }
+      ]
+    }
+  },
+  "device-lock": {
+    "pin-lock": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dummy-wallet": {
+      "value": "NO",
+      "supported": false
+    },
+    "dynamic-keypad": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "After 10 wrong PIN entries, the device resets and deletes all data."
+      ]
+    },
+    "brick-reset-pin": {
+      "value": "NO",
+      "supported": false
+    },
+    "time-delay-to-unlock": {
+      "value": "NO",
+      "supported": false
+    },
+    "anti-phishing-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "YES",
+      "supported": true
+    },
+    "user-added-entropy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Use coin-flips to introduce extra randomness to key generation."
+      ]
+    },
+    "multiple-private-keys": {
+      "value": "NO",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passphrase-entry": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bip85": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "backup-recovery-nfc-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Scan QR code to import wallet descriptor."
+      ]
+    },
+    "key-teleport": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "addresses": {
+    "view-address-text": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-verification": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-address-display": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "YES",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "NO",
+      "supported": false
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "spending-conditions": {
+    "magnitude-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "velocity-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "whitelisted-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "2fa-authentication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Descriptors support",
+          "url": "https://specter.solutions/docs/diy/descriptors/#miniscript"
+        }
+      ]
+    },
+    "taproot-miniscript": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "maximum-fee-protection": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "virtual-disk-mode": {
+      "value": "NO",
+      "supported": false
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "windows-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download",
+          "url": "https://specter.solutions/downloads/"
+        }
+      ]
+    },
+    "macos-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download",
+          "url": "https://specter.solutions/downloads/"
+        }
+      ]
+    },
+    "linux-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download",
+          "url": "https://specter.solutions/downloads/"
+        }
+      ]
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "ios-app": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "third-party-apps": {
+    "bitcoin-safe": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "theya": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "wasabi-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "zeus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "blockstream-green": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bluewallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-keeper": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "liana": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

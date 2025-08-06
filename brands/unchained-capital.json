@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Unchained Capital"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "unchained.com",
+    "url": "https://unchained.com/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://unchained.com/blog/"
+  },
+  "twitter": {
+    "value": "@unchainedcom",
+    "url": "https://x.com/unchainedcom"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@unchainedbtc",
+    "url": "https://www.youtube.com/@unchainedbtc"
+  },
+  "github": {
+    "value": "unchained-capital",
+    "url": "https://github.com/unchained-capital"
+  }
+}

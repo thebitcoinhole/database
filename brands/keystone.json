@@ -1,0 +1,32 @@
+{
+  "brand": {
+    "value": "Keystone"
+  },
+  "headquarters": {
+    "value": "Hong Kong"
+  },
+  "website": {
+    "value": "keyst.one",
+    "url": "https://keyst.one/"
+  },
+  "blog": {
+    "value": "blog.keyst.one",
+    "url": "https://keystonewallet.medium.com/"
+  },
+  "twitter": {
+    "value": "@KeystoneForBTC",
+    "url": "https://x.com/KeystoneForBTC"
+  },
+  "nostr": {
+    "value": "Keystone",
+    "url": "https://primal.net/p/npub16s4cnphx2k7ndmlt9qmurkdrrulcammg3jxnz0f9c7dhepqg38zqpp4p24"
+  },
+  "youtube": {
+    "value": "@KeystoneWallet",
+    "url": "https://www.youtube.com/@KeystoneWallet"
+  },
+  "github": {
+    "value": "KeystoneHQ",
+    "url": "https://github.com/KeystoneHQ"
+  }
+}

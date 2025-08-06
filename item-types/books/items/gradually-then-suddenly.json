@@ -1,0 +1,59 @@
+{
+  "id": "gradually-then-suddenly",
+  "name": "Gradually, Then Suddenly",
+  "short-description": "A framework for understanding bitcoin as money",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "?"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Parker Lewis"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://graduallythensuddenly.xyz/"
+    },
+    "twitter": {
+      "value": "@parkeralewis",
+      "url": "https://x.com/parkeralewis"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Gradually, Then Suddenly is a framework for understanding bitcoin as money. The mistake most people make is never endeavoring to begin the journey, thinking that bitcoin is too difficult to understand to even try in the first place. Bitcoin ultimately solves the problem of printing money, and it is not an IQ test. Gradually, Then Suddenly is designed to help anyone curious about bitcoin develop an intuitive understanding, in a way that is accessible to a non-technical audience.\nBy the end, the reader will have the foundation to think through all the confounding questions about bitcoin, with linear and logical thought processes. The only way to consistently arrive at the same conclusion about anything is through reason and logic, and the same is true of bitcoin. The reader will come away with answers to the questions as to why bitcoin exists and how it works, enough so to credibly apply their own logic and to reach their own conclusions as to whether bitcoin really does obsolete all other money."
+}

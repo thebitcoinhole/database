@@ -1,0 +1,59 @@
+{
+  "id": "abundance-through-scarcity",
+  "name": "Abundance Through Scarcity",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Konsensus Network"
+    },
+    "pages": {
+      "value": "356"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Ioni Appelberg"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://info7099265.wixsite.com/ioni"
+    },
+    "twitter": {
+      "value": "@IoniAppelberg",
+      "url": "https://x.com/IoniAppelberg"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@IoniAppelberg",
+      "url": "https://www.youtube.com/@IoniAppelberg"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "In Abundance Through Scarcity, Ioni Appelberg, a medical doctor, psychonaut, and martial artist, embarks on a thought-provoking exploration that challenges the hidden forms of slavery in our modern world. Appelberg exposes the illusory nature of voluntary servitude with captivating prose and profound insights and directly calls us to reclaim our freedom.\nThe book traces a path from the forgotten empires of the past to the anticipated civilizations of the future. It navigates through the shackles of traditional slavery, shedding light on the prisons of modern-day cubicles.\nYou are holding an illustrated guide into the very fabric of the universe, where absolute scarcity reigns as a fundamental property — a property that holds the key to abundance. Abundance Through Scarcity takes you on a voyage toward self-discovery.\nAre you ready to embark on this transformative experience that will forever change how you see the world?"
+}

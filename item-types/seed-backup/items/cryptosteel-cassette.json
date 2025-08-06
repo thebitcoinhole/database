@@ -1,0 +1,156 @@
+{
+  "id": "cryptosteel-cassette",
+  "name": "Cassette",
+  "full-name": "Cryptosteel Cassette",
+  "purchasable": true,
+  "company": "cryptosteel",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES (via BTCPay)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "480g / 16.9oz"
+    },
+    "dimensions": {
+      "value": "253 x 182 x 27 mm"
+    },
+    "materials": {
+      "value": "Stainless Steel"
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "Partially",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "Industrial-grade stainless steel plates can resist fire and temperature as high as 2649 °F / 1454 °C."
+      ],
+      "links": [
+        {
+          "title": "Jameson Lopp's stress tests",
+          "url": "https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/cryptosteel-cassette/"
+        }
+      ]
+    },
+    "crush-proof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false,
+      "links": [
+        {
+          "title": "Jameson Lopp's stress tests",
+          "url": "https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/cryptosteel-cassette/"
+        }
+      ]
+    },
+    "corrosion-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shock-proof": {
+      "value": "?",
+      "supported": false
+    },
+    "stress-tests": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Jameson Lopp's stress tests",
+          "url": "https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/cryptosteel-cassette/"
+        }
+      ]
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "Partially",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "2 Lock Hole. The device has 2 holes that you can use to secure with padlocks (not included)"
+      ]
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "1 share",
+      "flag": "neutral",
+      "supported": true
+    },
+    "hexadecimal-strings": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "ascii-strings": {
+      "value": "YES (up to 96 chars)",
+      "flag": "positive",
+      "supported": true
+    }
+  }
+}

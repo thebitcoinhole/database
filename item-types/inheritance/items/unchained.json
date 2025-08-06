@@ -1,0 +1,458 @@
+{
+  "id": "unchained",
+  "name": "Unchained",
+  "purchasable": true,
+  "company": "unchained-capital",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "NO",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "private-keys": {
+    "non-custodial": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "provider-independence": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "single-sig": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "multi-sig": {
+      "value": "Required (2-of-3)",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "The service only safekeeps one of the keys in your multisig wallet, which requires multiple keys to withdraw funds. The service never has custody of your bitcoins."
+      ]
+    },
+    "required-hardware-wallet": {
+      "value": "2 hardware keys",
+      "supported": true
+    },
+    "key-replacement-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I conduct a key replacement?",
+          "url": "https://help.unchained.com/how-do-i-conduct-a-key-replacement"
+        },
+        {
+          "title": "What happens if I need to update or change my keyholder?",
+          "url": "https://help.unchained.com/update-change-inheritance-keyholder"
+        }
+      ]
+    },
+    "beneficiary-key-lost-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "health-checks": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "health-checks-reminders": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "passing-down-alternatives": {
+    "direct-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "indirect-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "joint-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "multiple-beneficiaries": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "non-kyc": {
+      "value": "KYC required",
+      "flag": "negative",
+      "supported": false
+    },
+    "coin-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "custom-node": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-for-beneficiary": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "notifications-to-beneficiary": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "onchain-timelock": {
+      "value": "No timelock used",
+      "supported": false
+    },
+    "timelock-refresh-method": {
+      "value": "No timelock used"
+    },
+    "zero-cost-to-update-timelock": {
+      "value": "No timelock used",
+      "supported": false
+    },
+    "waiting-period-to-claim": {
+      "value": "Depends of Country Laws"
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-googleplay-support": {
+      "value": "-",
+      "supported": false
+    },
+    "android-apk-support": {
+      "value": "-",
+      "supported": false
+    },
+    "android-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "android-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "android-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "android-license": {
+      "value": "-",
+      "supported": false
+    },
+    "android-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/unchained-bitcoin-only/id6457364167"
+        }
+      ]
+    },
+    "ios-release-notes": {
+      "value": "?",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-license": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-license": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-license": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware-wallets-support": {
+    "bitbox02": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coldcard-mk4": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I set up a Coldcard?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-coldcard-mk4"
+        }
+      ]
+    },
+    "coldcard-q": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I set up a Coldcard?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-coldcard-mk4"
+        }
+      ]
+    },
+    "cypherock-x1": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "jade": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "keystone-3-pro": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-s-plus": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I set up a Ledger?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-ledger"
+        }
+      ]
+    },
+    "ledger-nano-X": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I set up a Ledger?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-ledger"
+        }
+      ]
+    },
+    "passport-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "portal": {
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
+    },
+    "seedsigner": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "specter-diy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-one": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I set up a Trezor Model One?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-trezor-model-one"
+        }
+      ]
+    },
+    "trezor-safe-3": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I set up a Trezor Safe 3?",
+          "url": "https://help.unchained.com/how-do-i-set-up-a-trezor-safe-3"
+        }
+      ]
+    },
+    "trezor-safe-5": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "trezor-model-t": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  }
+}

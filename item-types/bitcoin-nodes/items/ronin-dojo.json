@@ -1,0 +1,391 @@
+{
+  "id": "ronin-dojo",
+  "name": "Ronin Dojo",
+  "buildable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    }
+  },
+  "company": "ronin-dojo",
+  "communities": {
+    "telegram": {
+      "value": "RoninDojo",
+      "url": "https://t.me/RoninDojoNode"
+    },
+    "reddit": {
+      "value": "RoninDojoNode",
+      "url": "https://reddit.com/user/RoninDojoNode"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "-",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "-",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "-",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "DIY",
+      "links": [
+        {
+          "title": "Community Custom Builds",
+          "url": "https://wiki.ronindojo.io/en/extras/community-custom-builds"
+        }
+      ]
+    },
+    "warranty": {
+      "value": "-",
+      "supported": false
+    },
+    "weight": {
+      "value": "-"
+    },
+    "dimensions": {
+      "value": "-"
+    },
+    "cpu": {
+      "value": "-"
+    },
+    "ram": {
+      "value": "4/8 GB",
+      "texts": [
+        "Raspberry Pi 4. Pick 8 GB RAM for maximum performance.",
+        "ROCK64. Supports up to 4GB 1600MHz LPDDR3 memory.",
+        "RockPro64. Supports up to 4GB of dual-channel LPDDR4 memory.",
+        "RockPi 4. Supports up to 4GB LPDDR4 3200Mb/s RAM."
+      ]
+    },
+    "storage": {
+      "value": "1+ TB",
+      "texts": [
+        "1 TB or more is recommended"
+      ]
+    },
+    "ethernet": {
+      "value": "Gigabit Ethernet",
+      "flag": "positive",
+      "supported": true
+    },
+    "wifi": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless",
+        "ROCK64. No wifi support unless you buy a expansion module.",
+        "RockPro64. No wifi support unless you buy a expansion module.",
+        "RockPi 4. On board 802.11 ac wifi offers 2.4G & 5G WLAN connectivity"
+      ]
+    },
+    "hdmi": {
+      "value": "YES/NO",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. 2x micro-HDMI® ports (up to 4kp60 supported)",
+        "ROCK64. No HDMI",
+        "RockPro64. 1 HDMI port",
+        "RockPi 4. 1 HDMI port"
+      ]
+    },
+    "usb": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4. 2 USB 3.0 ports; 2 USB 2.0 ports.",
+        "ROCK64. 2x USB 2.0 Host. 1x USB 3.0 Host",
+        "RockPro64. 2x USB 2.0 Host. 1x USB 3.0 Host. 1x USB-C Host (With video out)",
+        "RockPi 4. 1x USB 3.0 OTG. 1x USB 3.0 HOST. 2x USB 2.0 HOST"
+      ]
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4. Bluetooth 5.0",
+        "ROCK64. No bluetooth support unless you buy a expansion module",
+        "RockPro64. No bluetooth support unless you buy a expansion module",
+        "RockPi 4. Bluetooh 5.0"
+      ]
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-regtest": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-signet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "RoninOS"
+    },
+    "bitcoin-only": {
+      "value": "YES"
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://blog.ronindojo.io/tag/releases/"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code (Tor)",
+          "url": "http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "By embracing FOSS, the RoninDojo team contributes to the wider open-source ecosystem, driving the advancement of privacy and security in the Bitcoin space. Rest assured that your Bitcoin transactions are protected by software that upholds the highest standards of transparency, security, and user empowerment. Unlike other node products, the RoninDojo team firmly believes in the FOSS ethos that built the Bitcoin ecosystem we see today."
+      ]
+    },
+    "license": {
+      "value": "Affero GPLv3",
+      "supported": false,
+      "links": [
+        {
+          "title": "License (Tor)",
+          "url": "http://2l2o5umijiwxjioxwpsvwxe6pr75tj7r5rggnl5ze256guwvtee3kpqd.onion/Ronin/RoninOS/src/branch/master/LICENSE.txt"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pc-disk-image": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "virtual-machine": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "raspberry-pi-4": {
+      "value": "YES (Not Official support)",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Raspberry Pi: Upgrading to RoninOS v2.0.0",
+          "url": "https://wiki.ronindojo.io/en/setup/V2_0_0-upgrade-raspberry"
+        }
+      ]
+    },
+    "raspberry-pi-5": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rock-64": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "rock-pro-64": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "rockpi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "libre-relay": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "mempool-visualizer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coinjoin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btcpay-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Choosing Your Bitcoin Indexer",
+          "url": "https://blog.ronindojo.io/choosing-your-bitcoin-indexer/"
+        }
+      ]
+    },
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Choosing Your Bitcoin Indexer",
+          "url": "https://blog.ronindojo.io/choosing-your-bitcoin-indexer/"
+        }
+      ]
+    },
+    "samourai-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "?",
+      "supported": false
+    },
+    "official-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "thirdparty-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-restore": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Using RoninDojo with a Secondary Backup Drive",
+          "url": "https://wiki.ronindojo.io/en/troubleshooting/data"
+        }
+      ]
+    },
+    "health-checks": {
+      "value": "?",
+      "supported": false
+    },
+    "ssl": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tailscale": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

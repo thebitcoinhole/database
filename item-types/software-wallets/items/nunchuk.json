@@ -1,0 +1,984 @@
+{
+  "id": "nunchuk",
+  "name": "Nunchuk",
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    }
+  },
+  "company": "nunchuk",
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "networks": {
+    "bitcoin-only": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btc-signet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "lightning-network": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "currency": {
+    "fiat": {
+      "value": "Many",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "sats": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "exchange-rate-provider": {
+      "value": "?"
+    }
+  },
+  "app-lock": {
+    "pin-lock": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "duress-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Introducing Decoy Wallet: Enhance your Bitcoin security with plausible deniability",
+          "url": "https://nunchuk.io/blog/decoy-wallet"
+        }
+      ]
+    },
+    "dynamic-keypad": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "countdown-reset-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fingerprint-lock": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dummy-wallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Introducing Decoy Wallet: Enhance your Bitcoin security with plausible deniability",
+          "url": "https://nunchuk.io/blog/decoy-wallet"
+        }
+      ]
+    }
+  },
+  "private-keys": {
+    "hot-keys": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "multiple-wallets": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "user-added-entropy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "backup-output-descriptor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "restore-output-descriptor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-seedphrase": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-12-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-phrase-autocomplete": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "inapp-keyboard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "receive": {
+    "view-address-text": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "view-address-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-multiple-addresses": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "verify-address-text": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "send": {
+    "scan-address-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "scan-address-ocr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "send-internal-address": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "multiple-send-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "batch-transactions": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "A new Multisig Standard and Nunchuk 1.0",
+          "url": "https://nunchuk.io/blog/a-new-multisig-standard-and-nunchuk-10-pVDPJ4bAAg5v1bALEMzYXh"
+        }
+      ]
+    },
+    "taproot-multi-sig": {
+      "value": "BETA",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "Introducing Taproot Multisig Wallet",
+          "url": "https://nunchuk.io/blog/taproot-multisig"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "message-signing": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "psbt-file": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nfc": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "spending-conditions": {
+    "miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "timelocks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "Nunchuk use their servers for delivering timelocks instead of the bitcoin native timelocks."
+      ]
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "CPFP and the fee market",
+          "url": "https://nunchuk.io/blog/cpfp"
+        }
+      ]
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "CPFP and the fee market",
+          "url": "https://nunchuk.io/blog/cpfp"
+        }
+      ]
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Advanced Coin Control with Nunchuk",
+          "url": "https://nunchuk.io/blog/coin-control"
+        }
+      ]
+    },
+    "transaction-labeling": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "labels-import-export-bip329": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coinjoin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "hide-sensitive-data": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "stealth-mode": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "built-in-secure-communication": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paynyms": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "node-integration": {
+    "own-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Nunchuk Connection Guide",
+          "url": "https://github.com/nunchuk-io/resources/tree/main/docs/connection-guide"
+        }
+      ]
+    },
+    "local-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitcoin-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "fulcrum-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dojo-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "other-features": {
+    "encrypted-storage": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "dark-mode": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "wallet-rollover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Introducing automated wallet rollover with advanced coin control",
+          "url": "https://nunchuk.io/blog/wallet-rollover"
+        }
+      ]
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-googleplay-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.nunchuk.android"
+        }
+      ]
+    },
+    "android-apk-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download Android APK",
+          "url": "https://github.com/nunchuk-io/nunchuk-android/releases"
+        }
+      ]
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/nunchuk-io/nunchuk-android/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/nunchuk-io/nunchuk-android"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/nunchuk-io/nunchuk-android/blob/master/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/io.nunchuk.android/"
+        }
+      ]
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Nunchuk Android now supports reproducible builds",
+          "url": "https://nunchuk.io/blog/reproducible-builds"
+        },
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/nunchuk-bitcoin-wallet/id1563190073"
+        }
+      ]
+    },
+    "ios-release-notes": {
+      "value": "?",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "ios-open-source": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/iphone/io.nunchuk.ios/"
+        }
+      ]
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "web-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "web-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "web-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "web-license": {
+      "value": "-",
+      "supported": false
+    },
+    "web-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/releases"
+        }
+      ]
+    },
+    "macos-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop"
+        }
+      ]
+    },
+    "macos-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/blob/main/LICENSE"
+        }
+      ]
+    },
+    "macos-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/releases"
+        }
+      ]
+    },
+    "linux-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop"
+        }
+      ]
+    },
+    "linux-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/blob/main/LICENSE"
+        }
+      ]
+    },
+    "linux-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/releases"
+        }
+      ]
+    },
+    "windows-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop"
+        }
+      ]
+    },
+    "windows-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "windows-license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/nunchuk-io/nunchuk-desktop/blob/main/LICENSE"
+        }
+      ]
+    },
+    "windows-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "umbrel-os-support": {
+    "umbrel-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "start-os-support": {
+    "start-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware-wallets-support": {
+    "jade": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "See Hardware Wallet details",
+          "url": "https://thebitcoinhole.com/hardware-wallets/jade-plus"
+        }
+      ]
+    },
+    "coldcard-mk4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coldcard-q": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitbox02-btconly": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "keystone-3-pro": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passport-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "portal": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-model-one": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-model-t": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-safe-3": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-safe-5": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ledger-nano-s-plus": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ledger-nano-x": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seedsigner": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-diy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "krux": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tapsigner": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "paid-services": {
+    "assisted-self-custody": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Iron Hand Subscription",
+          "url": "https://nunchuk.io/how-it-works"
+        }
+      ]
+    },
+    "inheritance-planning": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Honey Badger Subscription",
+          "url": "https://nunchuk.io/inheritance"
+        }
+      ]
+    }
+  }
+}

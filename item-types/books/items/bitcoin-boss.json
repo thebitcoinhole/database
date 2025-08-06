@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-boss",
+  "name": "Bitcoin Boss",
+  "short-description": "The One-Hour Guidance You Need Before Investing in Bitcoin or Other Cryptocurrency",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2017"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "84"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "J.S. McIntosh"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "If you want to quickly understand what Bitcoin is, and if you want to know how you could make or lose money investing in it, this book is for you. You need a high-quality book with accurate information, but you don't have a lot of extra time. Like me, you want both the benefits and the risks of investing in Bitcoin or other cryptocurrencies. And you want the information in plain language you can understand easily. \n\nI was in the middle of reading an 895-page book on cryptocurrency when I decided to write a digestible, practical book to help everyday people like you and me. You don’t have to read all of those long books, because I’ve done the research for you. I waded through their historical information and technical details to find the most important information to an average person. I figured out how to buy Bitcoin and store it safely. \n\nI used my friends' most common Bitcoin questions as chapter headings for this book. In each section, you will find interesting and accurate information to make an informed decision about a cryptocurrency investment. If you want to know the answers to the questions below in about an hour, this is the book you need to get.\nWhat is Bitcoin?\t\nWhy Are People Adopting Bitcoin?\t\nHow Are People Making Money in Bitcoin?\t\nHow Could I Lose Money Investing in Bitcoin?\t\nHow Much Should I Invest?\t\nHow Do I Get Bitcoin?\t\nHow Do I Store My Bitcoins?\nWhat's the Difference Between Bitcoin, Litecoin and Ethereum?\t\nWhich Longer Books on Bitcoin Are Helpful to Read If I Want to Know More? \t\nWhat Are the Slang Terms I Hear When People Talk About Cryptocurrency?"
+}

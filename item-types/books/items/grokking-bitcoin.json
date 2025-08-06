@@ -1,0 +1,57 @@
+{
+  "id": "grokking-bitcoin",
+  "name": "Grokking Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "Manning"
+    },
+    "pages": {
+      "value": "480"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Kalle Rosenbaum"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@kallerosenbaum",
+      "url": "https://x.com/kallerosenbaum"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "If you think Bitcoin is just an alternative currency for geeks, it's time to think again. Grokking Bitcoin opens up this powerful distributed ledger system, exploring the technology that enables applications both for Bitcoin-based financial transactions and using the blockchain for registering physical property ownership. With this fully illustrated, easy-to-read guide, you'll finally understand how Bitcoin works, how you can use it, and why you can trust the blockchain. Foreword by David A. Harding, Contributor to Bitcoin documentation.\nAbout the Technology\nInflation, depressed economies, debased currencies ... these are just a few of the problems centralized banking has caused throughout history. Bitcoin, a digital currency created with the ambition to shift control away from change-prone governments, has the potential to bring an end to those problems once and for all. It's time to find out how it can help you.\nAbout the Book\nGrokking Bitcoin explains why Bitcoin's supporters trust it so deeply, and why you can too. This approachable book will introduce you to Bitcoin's groundbreaking technology, which is the key to this world-changing system. This illustrated, easy-to-read guide prepares you for a new way of thinking with easy-to-follow diagrams and exercises. You'll discover how Bitcoin mining works, how to accept Bitcoin, how to participate in the Bitcoin network, and how to set up a digital wallet.\nWhat's inside\n\n- Bitcoin transactions\n- The blockchain\n- Bitcoin mining\n- Bitcoin wallets\n\nAbout the Reader\nIntended for anyone interested in learning about Bitcoin technology. While a basic understanding of technical concepts is beneficial, no programming skills are necessary.\nAbout the Author\n\nKalle Rosenbaum is a computer scientist, an avid Bitcoin supporter, and the founder of Propeller, a Bitcoin consultancy.\nTable of Contents\n\n- Introduction to Bitcoin\n- Cryptographic hash functions and digital signatures\n- Addresses\n- Wallets\n- Transactions\n- The blockchain\n- Proof of work\n- Peer-to-peer network\n- Transactions revisited\n- Segregated witness\n- Bitcoin upgrades"
+}

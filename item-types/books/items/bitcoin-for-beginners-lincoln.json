@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-for-beginners-lincoln",
+  "name": "Bitcoin for Beginners",
+  "short-description": "How To Grow Your Income And Generate Tremendous Profit Investing In Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "115"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Daniel Lincoln"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Bitcoin disrupted the digital world when it was introduced to the public in 2009. After more than a decade, it continues to prove its value on the market and has sparked the birth of numerous cryptocurrencies vying to get close to its worldwide popularity.\n\nIn this book, you'll discover:\n- What Bitcoin is and how it got started\n- The value of Bitcoin\n- Pros and Cons of using Bitcoin\n- How to get Bitcoin\n- If Bitcoin investing is for you?\n- How to invest in Bitcoin safely\n- The intricacies of banking with Bitcoin\n- How Bitcoin transactions are created\n- What factors affect Bitcoin prices\n- ...and much, much more!\n\nBy the time you're through with this book, you'll be well equipped to make wise and informed decisions regarding your Bitcoin investments."
+}

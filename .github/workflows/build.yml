@@ -1,0 +1,32 @@
+name: Build
+on:
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - '.idea/**'
+      - '.gitignore'
+      - 'README.md'
+  pull_request:
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 20
+
+    - name: Install dependencies
+      run: npm install
+      working-directory: scripts
+
+    - name: Run JSON Validation Script
+      run: node json-validation.js
+      working-directory: scripts

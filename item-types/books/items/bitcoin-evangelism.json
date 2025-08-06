@@ -1,0 +1,58 @@
+{
+  "id": "bitcoin-evangelism",
+  "name": "Bitcoin Evangelism",
+  "short-description": "",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2022"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "388"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Brian De Mint"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@BrianDeMint",
+      "url": "https://x.com/BrianDeMint"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "The total and complete case for Bitcoin. What is Bitcoin? What is a blockchain? Have you heard that Bitcoin was bad for the environment? How does a proponent of Bitcoin answer these questions in a simple and easy-to-understand way?\nBitcoin Evangelism is a tremendous resource for those that are new to Bitcoin as well as those that have already adopted this technology and are looking to more fully grasp some of these technical concepts and share them with others. This stuff doesn't need to be difficult and Bitcoin Evangelism will make Bitcoin, blockchain, and cryptocurrency accessible to everyone. \n\"Bitcoin Evangelism is one of those rare books that takes an incredibly in depth and complicated topic and makes it remarkably accessible and easy to digest. Brian has masterfully delivered a must-read guide for understanding the disruptive phenomenon that is Bitcoin.\"- Ryan Condron (CEO Titan.io)"
+}

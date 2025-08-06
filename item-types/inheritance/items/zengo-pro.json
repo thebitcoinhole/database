@@ -1,0 +1,443 @@
+{
+  "id": "zengo-pro",
+  "name": "Zengo Pro",
+  "purchasable": true,
+  "company": "zengo",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "private-keys": {
+    "non-custodial": {
+      "value": "Partially",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "Zengo Server co-signs transactions, but cannot change/initialize/spend without the approval of the owner. Given that the owner depends of Zengo to co-sign transaction, it can be considered non-custodial."
+      ]
+    },
+    "provider-independence": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false,
+      "links": [
+        {
+          "title": "How Zengo guarantees access to customers' funds",
+          "url": "https://zengo.com/how-zengo-guarantees-access-to-customers-funds/"
+        }
+      ]
+    },
+    "single-sig": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Instead of the traditional seed phrase, Zengo is powered by two independently-created “secret shares.” One share (your Personal Share) is created and stored on your mobile device. The second share (your Remote Share) is created and secured on ZenGo's servers."
+      ]
+    },
+    "multi-sig": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "required-hardware-wallet": {
+      "value": "NO"
+    },
+    "key-replacement-support": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "beneficiary-key-lost-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "health-checks": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Zengo app automatically checks that the Legacy File is active and available every time the user logs into the device."
+      ]
+    },
+    "health-checks-reminders": {
+      "value": "No Need",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "passing-down-alternatives": {
+    "direct-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "indirect-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "joint-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "multiple-beneficiaries": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "non-kyc": {
+      "value": "3D FaceLock Required",
+      "flag": "neutral",
+      "supported": false,
+      "texts": [
+        "3D FaceLock is an encrypted liveness verification scan - it's not KYC. Verification is done on Zengo's server."
+      ]
+    },
+    "coin-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "custom-node": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-for-beneficiary": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "notifications-to-beneficiary": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "onchain-timelock": {
+      "value": "NO",
+      "supported": false
+    },
+    "timelock-refresh-method": {
+      "value": "On App",
+      "flag": "positive"
+    },
+    "zero-cost-to-update-timelock": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "waiting-period-to-claim": {
+      "value": "Defined by the owner",
+      "texts": [
+        "Your Legacy Recipient will be able to access your wallet after the inactivity timer expires. The Inactivity Timer resets to zero every time you open your Zengo wallet."
+      ]
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-googleplay-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-apk-support": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "android-source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Zengo and Open Source",
+          "url": "https://zengo.com/zengo-and-open-source/"
+        }
+      ]
+    },
+    "android-license": {
+      "value": "-",
+      "supported": false
+    },
+    "android-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Zengo and Open Source",
+          "url": "https://zengo.com/zengo-and-open-source/"
+        }
+      ]
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-license": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-license": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-license": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware-wallets-support": {
+    "bitbox02": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coldcard-mk4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coldcard-q": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "cypherock-x1": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "jade": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "keystone-3-pro": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-s-plus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-X": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "passport-core": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "portal": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seedsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-diy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-one": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-safe-3": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-safe-5": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-t": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

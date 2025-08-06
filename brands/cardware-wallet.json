@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "Cardware Wallet"
+  },
+  "headquarters": {
+    "value": "South Africa"
+  },
+  "website": {
+    "value": "cardwarewallet.com",
+    "url": "https://www.cardwarewallet.com"
+  },
+  "blog": {
+    "value": "cardwarewallet.com/blog",
+    "url": "https://www.cardwarewallet.com/blog"
+  },
+  "twitter": {
+    "value": "@CardwareWallet",
+    "url": "https://x.com/CardwareWallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "-"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "brand": {
+    "value": "Bitcoin Safe"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "bitcoin-safe.org",
+    "url": "https://bitcoin-safe.org/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@BitcoinSafeOrg",
+    "url": "https://x.com/BitcoinSafeOrg"
+  },
+  "nostr": {
+    "value": "Bitcoin Safe",
+    "url": "https://primal.net/p/npub1g9uhysae68vhvwwqel8v9enr9mg43rn4tpurs6a9g4jsrw6nl7lsplhs9v"
+  },
+  "youtube": {
+    "value": "@Bitcoin-SafeOrg",
+    "url": "https://www.youtube.com/@BitcoinSafeOrg"
+  },
+  "github": {
+    "value": "andreasgriffin",
+    "url": "https://github.com/andreasgriffin"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

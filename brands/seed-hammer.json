@@ -1,0 +1,28 @@
+{
+  "brand": {
+    "value": "SeedHammer"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "seedhammer.com",
+    "url": "https://seedhammer.com/"
+  },
+  "blog": {
+    "value": "seedhammer.com/article",
+    "url": "https://seedhammer.com/article/"
+  },
+  "twitter": {
+    "value": "@SeedHammer",
+    "url": "https://x.com/SeedHammer"
+  },
+  "nostr": {
+    "value": "SeedHammer",
+    "url": "https://primal.net/p/npub166lfd9f8hhpt225gpcx4zuf4uw8pl50t8y9dg2449gt3v50kedpqpe5utk"
+  },
+  "youtube": {
+    "value": "@SeedHammer",
+    "url": "https://www.youtube.com/@SeedHammer"
+  }
+}

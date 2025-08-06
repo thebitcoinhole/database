@@ -1,0 +1,59 @@
+{
+  "id": "cryptoasset-inheritance-planning",
+  "name": "Cryptoasset Inheritance Planning",
+  "short-description": "A Simple Guide for Owners",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2018"
+    },
+    "publisher": {
+      "value": "Merkle Bloom"
+    },
+    "pages": {
+      "value": "146"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Pamela Morgan"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://empoweredlaw.com/"
+    },
+    "twitter": {
+      "value": "@pamelawjd",
+      "url": "https://x.com/pamelawjd"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "“What happens to my bitcoin, ether, or other cryptoassets when I die?” Cryptoasset Inheritance Planning: A Simple Guide for Owners by Pamela Morgan, Esq. is a clear blueprint to inheritance planning for those holding cryptocurrency, tokens, crypto-collectibles, and other cryptoassets. Since 2015, Pamela has educated thousands of cryptocurrency owners around the world about why inheritance planning for cryptoassets matters and how to do it in a secure, usable, resilient, and efficient manner.\n\nIn this book, Pamela walks you through her successful step-by-step inheritance planning processes. These processes are designed to help you build a customized crypotasset inheritance plan - and you don’t need to be a security expert or lawyer to do it. Inside you’ll also find helpful tools like checklists, templates, and worksheets to make building your plan simple and easy. \nTopics include:\n- how to write a basic access plan in two to three hours\n- how to assess your risks and make your plan better\n- debunking common myths and misconceptions about cryptoasset inheritance planning\n- what laws you need to know about and why\n- how to interview, hire, and fire a lawyer and how to keep costs down\n- why smart contracts don’t apply to inheritance today, but will someday\n- and so much more\n\nBy the time you complete the book, your plans should: (1) allow your heirs to take possession of your cryptoassets when the time comes, but not before, (2) minimize the opportunity for others to steal cryptoassets from your loved ones, (3) provide an opportunity for your loved ones to hold the assets securely, instead of liquidating, (4) prevent fighting amongst your heirs and avoid legal problems whenever possible. \n\nBuy this book, follow the process, and you’ll be able to confidently answer the question, “What happens to my bitcoin, ether, or other cryptoassets when I die?”"
+}

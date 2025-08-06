@@ -1,0 +1,27 @@
+{
+  "brand": {
+    "value": "Cryptosteel"
+  },
+  "headquarters": {
+    "value": "United Kingdom"
+  },
+  "website": {
+    "value": "cryptosteel.com",
+    "url": "https://cryptosteel.com/"
+  },
+  "blog": {
+    "value": "cryptosteel.com/blog",
+    "url": "https://cryptosteel.com/blog/"
+  },
+  "twitter": {
+    "value": "@cryptosteel",
+    "url": "https://x.com/cryptosteel"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@Cryptosteel",
+    "url": "https://www.youtube.com/@Cryptosteel"
+  }
+}

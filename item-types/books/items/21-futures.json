@@ -1,0 +1,60 @@
+{
+  "id": "21-futures",
+  "name": "21 Futures",
+  "short-description": "Tales from the Timechain",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    },
+    "publisher": {
+      "value": "Konsensus Network"
+    },
+    "pages": {
+      "value": "265"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "21 Authors"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://21futures.com/"
+    },
+    "twitter": {
+      "value": "@21Futures",
+      "url": "https://x.com/21Futures"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "@KonsensusNetwork",
+      "url": "https://www.youtube.com/@KonsensusNetwork"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "21 authors, 21 stories, and 21 alternate universes.\n\nStories:\n- Political dissidents scramble to cross the threshold to freedom.\n- A decades-long hunt for keys incites a change in world order.\n-A clear-blood dares to question the oppression of noderoids.\n- A cryo-frozen oligarch wakes into his worst nightmare.\n- A lowly space station miner buys a planet.\nIn this book of diverse stories planted firmly in the bitcoin-verse, reality fractures into 21 futures. Some are wonderful, others terrifying.\n\nYou are not prepared."
+}

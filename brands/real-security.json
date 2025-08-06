@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "value": "Real Security"
+  },
+  "headquarters": {
+    "value": "Slovenia"
+  },
+  "website": {
+    "value": "bc-vault.com",
+    "url": "https://bc-vault.com/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@BCVaultOfficial",
+    "url": "https://x.com/BCVaultOfficial"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@bcvault1012",
+    "url": "https://www.youtube.com/@bcvault1012"
+  },
+  "github": {
+    "value": "bc-vault",
+    "url": "https://github.com/bc-vault"
+  }
+}

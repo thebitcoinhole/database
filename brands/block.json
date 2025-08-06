@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Block"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "bitkey.build",
+    "url": "https://bitkey.build/"
+  },
+  "blog": {
+    "value": "bitkey.build",
+    "url": "https://bitkey.build/"
+  },
+  "twitter": {
+    "value": "@Bitkeyofficial",
+    "url": "https://x.com/Bitkeyofficial"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@Bitkey_Official",
+    "url": "https://www.youtube.com/@Bitkey_Official"
+  },
+  "github": {
+    "value": "proto-at-block",
+    "url": "https://github.com/proto-at-block"
+  }
+}

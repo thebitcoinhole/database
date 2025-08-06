@@ -1,0 +1,58 @@
+{
+  "id": "magic-internet-money",
+  "name": "Magic Internet Money",
+  "short-description": "A Book About Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    },
+    "publisher": {
+      "value": "Jesse Berger"
+    },
+    "pages": {
+      "value": "127"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Jesse Berger"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@jayberjay",
+      "url": "https://x.com/jayberjay"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "What is money? The question is simple, but the answer is not. Pulling back the curtain on ideas at the heart of the modern monetary renaissance, Magic Internet Money takes you on a timely journey through the intertwined worlds of money and Bitcoin. Discussing a variety of related topics - such as banking, cryptography, economics, and governance - in plain language, this illuminating tale examines many common assumptions about money, challenging readers to re-think its role in society. Packed with striking imagery and descriptions, this book is as entertaining as it is insightful, shattering popular misconceptions and unraveling the promise of sound money – and in particular, Bitcoin – to usher in a brighter future for all of us."
+}

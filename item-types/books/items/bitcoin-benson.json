@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-benson",
+  "name": "Bitcoin",
+  "short-description": "A Clear and Simple Guide to Getting Up and Running Fast with Cryptocurrency",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2018"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "106"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Alford Benson"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "There are few investments in the world today as exciting as bitcoin, the first currency to exist solely on the internet. Decentralized and open source, bitcoin is not under anyone’s control. All transactions are checked, verified and logged by bitcoin users, sidestepping the need for bank or government involvement.\n\nBitcoin has only been around since 2008, when the innovative blockchain technology that makes cryptocurrency possible was first proposed by the mysterious Satoshi Nakamoto. Although many aspects of bitcoin are still experimental, the cryptocurrency has been wildly successful. Starting out as a hobby currency for internet enthusiasts, bitcoins have appreciated in value so much that a single bitcoin is now worth thousands of U.S. dollars.\n\nAs exciting as bitcoin is, there are still reasons to be cautious. Many people are skeptical of bitcoins because they don’t understand the blockchain concept or because it seems counterintuitive that something without any physical existence can still hold value. Others are skeptical for more concrete reasons, such as bitcoin’s history of price volatility, the huge sums that have been stolen by hackers and the currency’s association with online criminals and the Darknet.\n\nIf you are just getting started or want to learn more about bitcoin this book will teach you what you need to know, covering all major aspects of bitcoin investing. Topics include:\n\n- The story of bitcoin and its inventor – a man no one has ever conclusively identified!\n- What bitcoin is and how it works.\n- A clear and understandable explanation of the blockchain concept.\n- An explanation of bitcoin mining and the ways in which it is similar to mining for precious metals such as gold.\n- What bitcoin wallets are and how they work, including hardware wallets, software wallets, online wallets and cold storage.\n- The history of money, and why bitcoins are more similar to traditional currency than they may first appear.\n- A comparison of bitcoins and gold, both of which tend to appeal to investors for similar reasons.\n- Bitcoin safety and transaction security – how to avoid getting hacked!\n- The story of Silk Road and the bitcoin black market, why some criminals use bitcoins and why that does not make all bitcoins users criminals.\n- The question of whether bitcoin is truly anonymous, and how to protect your identity and privacy while using bitcoins.\n- Vulnerabilities in the blockchain and potential pitfalls of using or investing in bitcoin.\n- What bitcoin exchanges are, how they work and how to use them.\n- Basics of bitcoin investing, including investment funds, transactions fees, taxes and regulations.\n- Price volatility, regulatory uncertainty and other possible bitcoin investment risks.\n- How to get started as a bitcoin investor, including how to select a wallet, how to select an exchange and how to protect your investment.\n\nBitcoin: A Clear and Simple Guide to Getting Up and Running Fast with Cryptocurrency is packed with information, and explains complex topics like cryptocurrency technology and the blockchain in a way you will be able to easily and completely understand."
+}

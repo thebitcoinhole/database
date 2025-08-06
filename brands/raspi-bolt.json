@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "RaspiBolt"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "raspibolt.org",
+    "url": "https://raspibolt.org/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@raspibolt",
+    "url": "https://x.com/raspibolt"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "raspibolt",
+    "url": "https://github.com/raspibolt"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "id": "bitcoin-everything-divided-by-21-million",
+  "name": "Bitcoin: Everything divided by 21 million",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2022"
+    },
+    "publisher": {
+      "value": "Konsensus Network"
+    },
+    "pages": {
+      "value": "159"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Knut Svanholm"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://www.knutsvanholm.com/"
+    },
+    "twitter": {
+      "value": "@knutsvanholm",
+      "url": "https://x.com/knutsvanholm"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "\"Imagine, everything there is and everything that will ever be, divided by 21 million.\" This book opens with a difficult invitation that immediately makes us question the way we think and presents us with the challenge of bitcoin.\n\nIn a brilliantly simple way, Knut Svanholm, embarks on an exploration of how we think, our relationship with time, money, and value, and how they are fundamentally intertwined in each of us. With Knut at the helm, we journey through economics, game theory, mathematics, alchemy, philosophy, and violence to ultimately reach the most critical societal paradigm shift in society, bitcoin. A new origo, a point zero.\n\nIn his book, Svanholm, not only addresses how bitcoin works and our symbiotic relationship with it, he goes beyond that. With his masterful command of metaphors and examples he addresses the most pressing concerns of our time: inflation, climate change, perpetual debt, and wasteful consumption, and helps us understand how the shortsighted solutions offered by fiat money will inevitably fail. He takes the readers by the hand, and shows us how bitcoin is far from a threat; it is the answer. The beginning of a new civilized society.\n\nEverything Divided by 21 Million - An idea, turned meme, turned something more. This book will help you understand the underlying forces behind Hyperbitcoinization to unlock the potential of this wonderfully disruptive discovery. A true pilgrimage that walks us through these fascinating times and leads us to the reclamation of our soul, time, and spiritual existence, presenting an antidote to the current fiat nihilism.\n\nWith his unique perspective and insights, Knut Svanholm finds a truly beautiful way of explaining this global shifting paradigm of unprecedented proportions in a book that is so simple and easy to read.\nit will leave you hungry and wanting to read even more."
+}

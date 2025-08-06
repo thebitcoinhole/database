@@ -1,0 +1,59 @@
+{
+  "id": "why-buy-bitcoin",
+  "name": "Why Buy Bitcoin",
+  "short-description": "Investing Today in the Money of Tomorrow",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2019"
+    },
+    "publisher": {
+      "value": "Countercycle Media"
+    },
+    "pages": {
+      "value": "208"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Andy Edstrom"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://www.andyedstrom.com/"
+    },
+    "twitter": {
+      "value": "@edstromandrew",
+      "url": "https://x.com/edstromandrew"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Some people still view Bitcoin as a startup. But despite being declared dead many times by the mainstream media, Bitcoin grows stronger every year. What’s going on? It’s not too late to learn about Bitcoin and invest. Bitcoin’s value has grown exponentially over multiple boom and bust cycles spanning a decade. Bitcoin is an Internet-native phenomenon like Alibaba, Amazon, Apple, Facebook, Google, Netflix, Microsoft, and Tencent. It therefore benefits from the “network effect” which makes it dramatically more valuable as the network grows. But its potential value is much larger than the giant Internet companies we know so well. If Bitcoin reaches that potential, its value could rise by 50 times its current price in the coming decade. This book will help you understand the role of money in our society, the current state of debt in our economy, and how Bitcoin provides a better solution."
+}

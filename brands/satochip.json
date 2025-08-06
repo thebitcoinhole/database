@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Satochip"
+  },
+  "headquarters": {
+    "value": "Belgium"
+  },
+  "website": {
+    "value": "satochip.io",
+    "url": "https://satochip.io/"
+  },
+  "blog": {
+    "value": "satochip.medium.com",
+    "url": "https://satochip.medium.com/"
+  },
+  "twitter": {
+    "value": "@Satochip",
+    "url": "https://x.com/Satochip"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@satochip",
+    "url": "https://www.youtube.com/@satochip"
+  },
+  "github": {
+    "value": "Toporin",
+    "url": "https://github.com/Toporin"
+  }
+}

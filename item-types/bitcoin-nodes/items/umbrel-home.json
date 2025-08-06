@@ -1,0 +1,361 @@
+{
+  "id": "umbrel-home",
+  "name": "Home",
+  "full-name": "Umbrel Home",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    }
+  },
+  "company": "umbrel",
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
+    "warranty": {
+      "value": "1 year",
+      "flag": "positive",
+      "supported": true
+    },
+    "weight": {
+      "value": "?"
+    },
+    "dimensions": {
+      "value": "?"
+    },
+    "cpu": {
+      "value": "Intel Celeron N100",
+      "texts": [
+        "3.4GHz Quad-Core CPU"
+      ]
+    },
+    "ram": {
+      "value": "16 GB",
+      "texts": [
+        "16GB DDR5 RAM"
+      ]
+    },
+    "storage": {
+      "value": "2 TB",
+      "texts": [
+        "2TB SSD"
+      ]
+    },
+    "ethernet": {
+      "value": "Gigabit Ethernet",
+      "supported": true,
+      "flag": "positive"
+    },
+    "wifi": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hdmi": {
+      "value": "YES (hided)",
+      "supported": true
+    },
+    "usb": {
+      "value": "3x USB 3.0",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-signet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "umbrelOS"
+    },
+    "bitcoin-only": {
+      "value": "NO"
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://github.com/getumbrel/umbrel/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/getumbrel/umbrel"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "license": {
+      "value": "PolyForm Noncommercial License 1.0.0",
+      "supported": false,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/getumbrel/umbrel/blob/master/LICENSE.md"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "-",
+      "supported": false
+    },
+    "macos": {
+      "value": "-",
+      "supported": false
+    },
+    "linux": {
+      "value": "-",
+      "supported": false
+    },
+    "pc-disk-image": {
+      "value": "-",
+      "supported": false
+    },
+    "virtual-machine": {
+      "value": "-",
+      "supported": false
+    },
+    "raspberry-pi-4": {
+      "value": "-",
+      "supported": false
+    },
+    "raspberry-pi-5": {
+      "value": "-",
+      "supported": false
+    },
+    "rock-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rock-pro-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rockpi-4": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "libre-relay": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "lightning-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
+    },
+    "mempool-visualizer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "BTC RPC Explorer & Mempool"
+      ]
+    },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "JoinMarket"
+      ]
+    },
+    "btcpay-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrumx": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "fulcrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "samourai-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "official-marketplace": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Introducing the Umbrel App Store",
+          "url": "https://blog.getumbrel.com/introducing-the-umbrel-app-store-7a2068c64a10"
+        }
+      ]
+    },
+    "thirdparty-marketplace": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Community App Stores allow you to install apps on your Umbrel that may not be available in the official Umbrel App Store. They also make it easy to test beta versions of Umbrel apps, then provide valuable feedback to developers before they release their apps on the official Umbrel App Store."
+      ],
+      "links": [
+        {
+          "title": "Learn More",
+          "url": "https://github.com/getumbrel/umbrel-community-app-store"
+        }
+      ]
+    },
+    "backup-restore": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "Umbrel does not offer a means of backing up other services. If you want to back up your Bitcoin node, or your data, messages, or passwords from other services, you will need to SSH into your Umbrel, then use the command line to manually export data from each service using an over-the-air protocol such as FTP or SMB. You will need to research each service to determine exactly what data should be exported and in what format, and you will need to perform your own encryption if you want the backups to be encrypted."
+      ]
+    },
+    "health-checks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "There is no health check system for services in Umbrel. It is up to the user to know what constitutes health for each service and to manually inspect logs and use SSH and the command line to determine if their services are healthy."
+      ]
+    },
+    "ssl": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "Umbrel uses an unencrypted http connection for communicating over the LAN. If your LAN is secure, this is not an issue. But anyone with access to your LAN, including guests who have your WiFi password or who plug in via Ethernet, would trivially be able to sniff traffic."
+      ]
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tailscale": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  }
+}

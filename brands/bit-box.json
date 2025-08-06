@@ -1,0 +1,32 @@
+{
+  "brand": {
+    "value": "BitBox"
+  },
+  "headquarters": {
+    "value": "Switzerland"
+  },
+  "website": {
+    "value": "bitbox.swiss",
+    "url": "https://bitbox.swiss/"
+  },
+  "blog": {
+    "value": "bitbox.swiss/blog",
+    "url": "https://bitbox.swiss/blog/"
+  },
+  "twitter": {
+    "value": "@BitBoxSwiss",
+    "url": "https://x.com/BitBoxSwiss"
+  },
+  "nostr": {
+    "value": "BitBox",
+    "url": "https://primal.net/p/npub1tg779rlap8t4qm8lpgn89k7mr7pkxpaulupp0nq5faywr8h28llsj3cxmt"
+  },
+  "youtube": {
+    "value": "@bitboxswiss",
+    "url": "https://www.youtube.com/@bitboxswiss"
+  },
+  "github": {
+    "value": "digitalbitbox",
+    "url": "https://github.com/digitalbitbox"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "introduction-to-bitcoin",
+  "name": "Introduction to Bitcoin",
+  "short-description": "Navigating the Future of Money",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2024"
+    },
+    "publisher": {
+      "value": "Konsensus Network"
+    },
+    "pages": {
+      "value": "252"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Florin T. Hilbay"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://florin.hilbay.net/"
+    },
+    "twitter": {
+      "value": "@fthilbay",
+      "url": "https://x.com/fthilbay"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "\"Hilbay’s book is a blueprint for a different kind of future, where the world operates on one digital currency standard, beyond the control of any one country or alliance of countries, where the most valuable and technologically advanced money is something that will be accessible to anyone: a refugee or a billionaire, equally. Where foreign lenders and dictators cannot simply ‘devalue’ a local currency to crack the whip on local workers, or where an empire cannot force their currency to be the only one that energy producers accept. If everyone is on the same footing, Hilbay explains, then the world gets a whole lot more equal.\"\n— Alex Gladstein, Human Rights FoundationThis book is about money, not making money. It is about how money arises and how it is engineered. For the most part, it is a historical survey of the characteristics of money and why these have practical consequences for all of us. The fundamental thesis of this book is that Bitcoin exhibits many of the traditional characteristics of sound money as well as the attributes of what sound money ought to be, considering the current state of our civilization and the problems humanity confronts. Simply put, it is the best form of money humans have ever had. This changes everything.Florin T. Hilbay holds a degree in economics from the University of Santo Tomas, and in law from the University of the Philippines. He taught constitutional law and philosophy of law in the University of the Philippines and is the author of Unplugging the Constitution (2009). At 40, he was appointed Solicitor General of the Philippines. As Solgen, he represented the country in the arbitration over the West Philippine Sea in Philippines vs. China. He now serves as Dean of the College of Law of Silliman University, where he teaches a course on Money and State."
+}

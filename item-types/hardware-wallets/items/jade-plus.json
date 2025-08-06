@@ -1,0 +1,921 @@
+{
+  "id": "jade-plus",
+  "name": "Jade Plus (Plastic)",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2025"
+    },
+    "assembled-in": {
+      "value": "China"
+    },
+    "diy": {
+      "value": "Optional",
+      "supported": true,
+      "texts": [
+        "There are a number of hardware devices that can run Jade firmware with minimal configuration."
+      ],
+      "links": [
+        {
+          "title": "DIY Readme",
+          "url": "https://github.com/Blockstream/Jade/tree/master/diy"
+        }
+      ]
+    }
+  },
+  "company": "blockstream",
+  "communities": {
+    "telegram": {
+      "value": "Blockstream Jade Community",
+      "url": "https://t.me/blockstream_jade"
+    },
+    "reddit": {
+      "value": "blockstream",
+      "url": "https://www.reddit.com/r/blockstream/"
+    }
+  },
+  "official-store": {
+    "po-box-support": {
+      "value": "?",
+      "supported": false
+    },
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES (via BTCPay)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "warranty": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "weight": {
+      "value": "25g / 0.88oz"
+    },
+    "dimensions": {
+      "value": "65 x 30 x 12 mm"
+    },
+    "materials": {
+      "value": "Plastic"
+    },
+    "available-in-colors": {
+      "value": "NO",
+      "supported": false
+    },
+    "waterproof": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "display": {
+    "screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "screen-type": {
+      "value": "IPS LCD"
+    },
+    "gorilla-glass": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "color-screen": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "RGB 16-bit"
+      ]
+    },
+    "touch-screen": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "screen-size": {
+      "value": "1.9\"",
+      "flag": "positive"
+    },
+    "screen-resolution": {
+      "value": "320 x 170 px"
+    }
+  },
+  "input": {
+    "controls": {
+      "value": "Buttons"
+    },
+    "qwerty-keyboard": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "power": {
+    "battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "removable-battery": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "battery-size": {
+      "value": "280 mAh",
+      "flag": "positive"
+    },
+    "usb-charging": {
+      "value": "USB-C",
+      "flag": "positive",
+      "supported": true
+    },
+    "wireless-charging": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "security": {
+    "air-gapped": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockstream Jade: Air-Gapped Transactions Using QR Scan",
+          "url": "https://blog.blockstream.com/blockstream-jade-qr-scan/"
+        }
+      ]
+    },
+    "secure-element": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "texts": [
+        "Virtual secure element. Jade's unique security model allows your device to remain fully open-source without compromising on security."
+      ],
+      "links": [
+        {
+          "title": "Does Blockstream Jade have a secure element?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/13745404122265-Does-Blockstream-Jade-have-a-secure-element"
+        },
+        {
+          "title": "What Is a Secure Element in a Hardware Wallet?",
+          "url": "https://www.youtube.com/watch?v=ad3titeu9uY"
+        }
+      ]
+    },
+    "supply-chain-physical-attacks": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Secure Boot is a technology that prevents unsigned boot firmware from running on your Jade, such as a compromised firmware image from an attacker. It ensures that only firmware you intend to run is used to boot the device."
+      ]
+    },
+    "deterministic-nonces": {
+      "value": "NO",
+      "supported": false
+    },
+    "anti-klepto": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Anti-Exfil: Stopping Key Exfiltration",
+          "url": "https://blog.blockstream.com/anti-exfil-stopping-key-exfiltration/"
+        },
+        {
+          "title": "What is Anti-Exfil and how does it work?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/9641573399961-What-is-Anti-Exfil-and-how-does-it-work"
+        }
+      ]
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I use Blockstream Jade with testnet?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/14676912519193-How-do-I-use-Blockstream-Jade-with-testnet"
+        }
+      ]
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "firmware": {
+    "bitcoin-only-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "secure-boot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Secure Boot is a technology that prevents unsigned boot firmware from running on your Jade, such as a compromised firmware image from an attacker. It ensures that only firmware you intend to run is used to boot the device."
+      ]
+    },
+    "upgradable-firmware": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade-via-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "upgrade-via-usb-external-storage": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "upgrade-via-usb-cable": {
+      "value": "YES",
+      "supported": true
+    },
+    "upgrade-via-bluetooth": {
+      "value": "YES",
+      "supported": true
+    },
+    "upgrade-via-nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Blockstream/Jade/blob/master/CHANGELOG.md"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Blockstream/Jade"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/Blockstream/Jade/blob/master/LICENSE"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "REPRODUCIBLE.md",
+          "url": "https://github.com/Blockstream/Jade/blob/master/REPRODUCIBLE.md"
+        }
+      ]
+    }
+  },
+  "device-lock": {
+    "pin-lock": {
+      "value": "On Device",
+      "flag": "positive",
+      "texts": [
+        "6 digits PIN."
+      ]
+    },
+    "dummy-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "dynamic-keypad": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "When entering each digit, the default start number is randomized for Secure PIN Entry."
+      ]
+    },
+    "countdown-brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Jade is only unlocked successfully if the correct PIN is entered. To prevent against brute-forcing, the oracle and Jade will delete their keys if the wrong PIN is entered three times. At this point, user's will need to restore Jade with their recovery phrase."
+      ]
+    },
+    "brick-reset-pin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I set up a wallet-erase PIN?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/9446043439257-How-do-I-set-up-a-wallet-erase-PIN-"
+        }
+      ]
+    },
+    "time-delay-to-unlock": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "anti-phishing-words": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "alphanumeric-pin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pattern-lock": {
+      "value": "NO",
+      "supported": false
+    },
+    "fingerprint-lock": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "private-keys": {
+    "stateless": {
+      "value": "Optional Stateless Use",
+      "supported": true,
+      "flag": "positive"
+    },
+    "user-added-entropy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "dice-created seed phrases"
+      ]
+    },
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "passphrase-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockstream Jade Passphrases",
+          "url": "https://www.youtube.com/watch?v=QKczFUUcXw4"
+        }
+      ]
+    },
+    "passphrase-entry": {
+      "value": "On Device",
+      "flag": "positive"
+    },
+    "master-key-fingerprint": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bip85": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I generate a child recovery phrase using BIP85?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/15844055048857-How-do-I-generate-a-child-recovery-phrase-using-BIP85-?s=09"
+        }
+      ]
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seed-xor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-microsd": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-recovery-nfc-card": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "create-12-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "create-24-words": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "display-12-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-12-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "import-24-words": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    },
+    "seed-qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "What is a SeedQR?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/10426338118169"
+        },
+        {
+          "title": "Setting up SeedQR with Blockstream Jade",
+          "url": "https://www.youtube.com/watch?v=Kx7fHgfUZ6w"
+        }
+      ]
+    },
+    "key-teleport": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "address-format": {
+    "legacy": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "nested-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "native-segwit": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "taproot": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "addresses": {
+    "view-address-text": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "view-address-qr": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "export-address-sdcard": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Multisignature with Blockstream Jade",
+          "url": "https://www.youtube.com/watch?v=XJ5Xckqb4CI"
+        },
+        {
+          "title": "How to Save Your Multisig File to Blockstream Jade",
+          "url": "https://www.youtube.com/watch?v=8zpRMMCcetA"
+        }
+      ]
+    },
+    "frost": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nfc-push-tx": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-verification": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Backup a multisig configuration on Jade",
+          "url": "https://help.blockstream.com/hc/en-us/articles/20389615544089-Backup-a-multisig-configuration-on-Jade"
+        }
+      ]
+    },
+    "change-address-display": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "signing-connectivity": {
+    "usb": {
+      "value": "USB-C",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "You have the option to install a firmware variant with Bluetooth disabled"
+      ]
+    },
+    "nfc": {
+      "value": "NO",
+      "supported": false
+    },
+    "microsd-card": {
+      "value": "MicroSD Card adapter required",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Camera: GC0308 640x480px",
+        "Camera for fully air-gapped transactions: Scan and display QR codes directly on Jade to send bitcoin and verify addresses - no USB or Bluetooth connection required."
+      ],
+      "links": [
+        {
+          "title": "Blockstream Jade: Air-Gapped Transactions Using QR Scan",
+          "url": "https://blog.blockstream.com/blockstream-jade-qr-scan/"
+        },
+        {
+          "title": "How Does QR Scan Work with Blockstream Jade?",
+          "url": "https://www.youtube.com/watch?v=J1goSxsgXMU"
+        }
+      ]
+    },
+    "ur-2-animated-qrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bbqr": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "spending-conditions": {
+    "magnitude-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "velocity-limits": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "whitelisted-addresses": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "2fa-authentication": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "miniscript": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Miniscript on Blockstream Jade",
+          "url": "https://www.youtube.com/watch?v=ARl3dMDVjTA"
+        }
+      ]
+    },
+    "taproot-miniscript": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "fees": {
+    "fee-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "replace-by-fee": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "child-pays-for-parent": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "maximum-fee-protection": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "privacy": {
+    "coin-control": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "custom-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "silent-payments": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "virtual-disk-mode": {
+      "value": "NO",
+      "supported": false
+    },
+    "password-manager": {
+      "value": "NO",
+      "supported": false
+    },
+    "u2f-authentication": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "How do I use Blockstream Jade as an authentication device?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/9444875480857-How-do-I-use-Blockstream-Jade-as-an-authentication-device-"
+        }
+      ]
+    },
+    "fido-authentication": {
+      "value": "NO",
+      "supported": false
+    },
+    "hardware-based-ssh-gpg": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Hardware-based SSH/GPG/age agent",
+          "url": "https://github.com/romanz/trezor-agent"
+        }
+      ]
+    }
+  },
+  "official-apps": {
+    "web-app": {
+      "value": "NO",
+      "supported": false
+    },
+    "windows-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "macos-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "linux-app": {
+      "value": "YES",
+      "supported": true
+    },
+    "chrome-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "firefox-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "edge-extension": {
+      "value": "NO",
+      "supported": false
+    },
+    "android-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.greenaddress.greenbits_android_wallet"
+        }
+      ]
+    },
+    "ios-app": {
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/green-bitcoin-wallet/id1402243590"
+        }
+      ]
+    }
+  },
+  "third-party-apps": {
+    "bitcoin-safe": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "theya": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "wasabi-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "zeus": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "nunchuk": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I use Jade with a Nunchuk Honey Badger wallet?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/14818042999449-How-do-I-use-Jade-with-a-Nunchuk-Honey-Badger-wallet"
+        },
+        {
+          "title": "Sending Air-Gapped Transactions from Nunchuk with Blockstream Jade",
+          "url": "https://www.youtube.com/watch?v=gAnmjsLh7dM"
+        }
+      ]
+    },
+    "electrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I use Blockstream Jade with Electrum?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/9373676880025-How-do-I-use-Blockstream-Jade-with-Electrum-"
+        }
+      ]
+    },
+    "sparrow": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I use Blockstream Jade with Sparrow?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-"
+        }
+      ]
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I use Blockstream Jade with Specter?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/5682411860249-How-do-I-use-Blockstream-Jade-with-Specter"
+        },
+        {
+          "title": "How to Set Up a Jade Multisig in Specter Wallet",
+          "url": "https://www.youtube.com/watch?v=tqD3SGtzns4"
+        }
+      ]
+    },
+    "blockstream-green": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bluewallet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I use Jade QR Scan with BlueWallet?",
+          "url": "https://help.blockstream.com/hc/en-us/articles/11664909888537"
+        }
+      ]
+    },
+    "bitcoin-keeper": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "liana": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "casa": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "unchained": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

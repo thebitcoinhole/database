@@ -1,0 +1,484 @@
+{
+  "id": "casa",
+  "name": "Casa",
+  "purchasable": true,
+  "company": "casa",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "private-keys": {
+    "non-custodial": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "provider-independence": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "single-sig": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "multi-sig": {
+      "value": "Required",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "2-of-3 or 3-of-5",
+        "The service only safekeeps one of the keys in your multisig wallet, which requires multiple keys to withdraw funds. The service never has custody of your bitcoins."
+      ]
+    },
+    "required-hardware-wallet": {
+      "value": "1 or more hardware keys",
+      "supported": true,
+      "texts": [
+        "For 5 key vault users, one hardware key is shared with the Beneficiary."
+      ]
+    },
+    "key-replacement-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "With a Casa vault, you can easily replace a compromised key when needed and retain full control over your digital assets."
+      ],
+      "links": [
+        {
+          "title": "Key rotation (replacing a key in the Casa app)",
+          "url": "https://support.casa.io/knowledge/key-rotation-replacing-a-key-in-the-casa-app"
+        }
+      ]
+    },
+    "beneficiary-key-lost-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "health-checks": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "health-checks-reminders": {
+      "value": "Every 6 months",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Health Checks",
+          "url": "https://support.casa.io/knowledge/inheritance-faqs-vault-owner#health-checks"
+        },
+        {
+          "title": "Recipient Health Checks",
+          "url": "https://support.casa.io/knowledge/recipient-health-checks"
+        }
+      ]
+    }
+  },
+  "passing-down-alternatives": {
+    "direct-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "indirect-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "joint-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "multiple-beneficiaries": {
+      "value": "1 per Multisig",
+      "flag": "neutral",
+      "supported": true
+    },
+    "assign-percentage-beneficiaries": {
+      "value": "Manually",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "There is no automatic support to assign percentages to the beneficiares. You need to manually assign the percentage of your funds to each multisig wallet assigned to each beneficiary"
+      ]
+    }
+  },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Private by default. The proof of identity requirement is optional."
+      ]
+    },
+    "coin-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "custom-node": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-for-beneficiary": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "notifications-to-beneficiary": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "onchain-timelock": {
+      "value": "NO",
+      "supported": false
+    },
+    "timelock-refresh-method": {
+      "value": "No Need",
+      "flag": "positive"
+    },
+    "zero-cost-to-update-timelock": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "waiting-period-to-claim": {
+      "value": "6 months",
+      "texts": [
+        "Upon your death, incapacitation, or otherwise, your Recipient will initiate a request in the app, which will begin the inheritance process. Casa initiates a sequence of notifications to the original vault owner to check if they are truly inactive. Stressful death verifications or expensive court orders are not required."
+      ]
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-googleplay-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=casa.keymaster"
+        }
+      ]
+    },
+    "android-apk-support": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-release-notes": {
+      "value": "?",
+      "supported": false
+    },
+    "android-source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "android-license": {
+      "value": "-",
+      "supported": false
+    },
+    "android-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Apple Store",
+          "url": "https://apps.apple.com/us/app/casa-keymaster/id1314586706"
+        }
+      ]
+    },
+    "ios-release-notes": {
+      "value": "?",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-license": {
+      "value": "-",
+      "supported": false
+    },
+    "macos-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-license": {
+      "value": "-",
+      "supported": false
+    },
+    "linux-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "windows-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-license": {
+      "value": "-",
+      "supported": false
+    },
+    "windows-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware-wallets-support": {
+    "bitbox02": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bitkey": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coldcard-mk4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coldcard-q": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "cypherock-x1": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "jade": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "keystone-3-pro": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ledger-nano-s-plus": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Setting up Ledger for use with Casa",
+          "url": "https://support.casa.io/knowledge/setting-up-ledger-for-use-with-casa-1"
+        }
+      ]
+    },
+    "ledger-nano-X": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "passport-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Setting up Passport for use with Casa",
+          "url": "https://support.casa.io/knowledge/setting-up-passport-for-use-with-casa-1"
+        }
+      ]
+    },
+    "portal": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "seedsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-diy": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tapsigner": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "trezor-model-one": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Setting up Trezor One for use with Casa",
+          "url": "https://support.casa.io/knowledge/setting-up-trezor-one-for-use-with-casa-1"
+        }
+      ]
+    },
+    "trezor-safe-3": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-safe-5": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-model-t": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Setting up Trezor Model T for use with Casa",
+          "url": "https://support.casa.io/knowledge/setting-up-trezor-model-t-for-use-with-casa"
+        }
+      ]
+    }
+  }
+}

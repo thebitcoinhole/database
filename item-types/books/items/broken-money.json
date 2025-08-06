@@ -1,0 +1,59 @@
+{
+  "id": "broken-money",
+  "name": "Broken Money",
+  "short-description": "Why Our Financial System is Failing Us and How We Can Make it Better",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Timestamp Press"
+    },
+    "pages": {
+      "value": "540"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Lyn Alden"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://www.lynalden.com/"
+    },
+    "twitter": {
+      "value": "@LynAldenContact",
+      "url": "https://x.com/LynAldenContact"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "A Comprehensive Overview of the Past, Present, and Future of Money\n\nBroken Money explores the history of money through the lens of technology. Politics can affect things temporarily and locally, but technology is what drives things forward globally and permanently. The book's goal is for the reader to walk away with a deep understanding of money and monetary history, both in terms of theoretical foundations and in terms of practical implications.\n\nFrom shells to gold, from papyrus bills of exchange to central banks, and from the invention of the telegraph to the creation of Bitcoin, Lyn Alden walks the reader through the emergence of new technologies that have shaped what we use as money over the ages. And beyond that, Alden explores the concept of what money is at its very foundation to give the reader a framework to analyze and compare different types of monetary technologies and monetary theories.\n\nThe book also takes a distinctively human look at how money impacts the lives of real people, and how new monetary technologies shape the power structures within society.\n\nIn the modern era, energy abundance and technological enhancements have broadly improved human well-being, but the global monetary system has been slow to keep up. There are over 160 active currencies in the world, each with a local monopoly over its own country, and with little or no acceptance elsewhere. Many of them are rapidly diluted, which continually devalues the savings and the wages of the billions of people who live and work within those jurisdictions. Being born in the 'wrong' country makes saving money far harder than it needs to be.\n\nNigeria has a population of over 200 million people and has averaged 13% annualized inflation over the past decade. Egypt cut its currency in half relative to the dollar twice over the past decade, which instantly devalued the savings and wages of its 100 million citizens. Dozens of countries have experienced at least triple-digit year-over-year inflation within the past four decades, including Brazil that outright hyperinflated in the 1990s while it was the fifth most populous country in the world.\n\nEurope and Japan had $18 trillion worth of negative-yielding bonds in 2019, right before a wave of inflation wiped their purchasing power away. In 2021, the chairman of the U.S. Federal Reserve dismissed the idea that the sharp rise in the money supply from the pandemic stimulus would lead to price inflation. By 2022, as major inflation emerged, the chairman rapidly changed his outlook and tightened monetary policy so quickly that it led to the failure of some of the largest banks in the country.\n\nHow did we get to this point? Why isn't our money better than this in the 21st century? Broken Money answers these questions by examining the current mix of technology that has led to these limitations, and then explores emerging technologies that may be able to provide us with a monetary system that is fit for the modern era."
+}

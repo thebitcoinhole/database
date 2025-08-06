@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Cypherock"
+  },
+  "headquarters": {
+    "value": "Singapore"
+  },
+  "website": {
+    "value": "cypherock.com",
+    "url": "https://www.cypherock.com/"
+  },
+  "blog": {
+    "value": "cypherock.com/blogs",
+    "url": "https://www.cypherock.com/blogs"
+  },
+  "twitter": {
+    "value": "@CypherockWallet",
+    "url": "https://x.com/CypherockWallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@CypherockWallet",
+    "url": "https://www.youtube.com/@CypherockWallet"
+  },
+  "github": {
+    "value": "Cypherock",
+    "url": "https://github.com/Cypherock"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "Citadel"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "runcitadel.space",
+    "url": "https://runcitadel.space/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@runcitadel",
+    "url": "https://x.com/runcitadel"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "nirvati",
+    "url": "https://gitlab.com/nirvati/"
+  }
+}

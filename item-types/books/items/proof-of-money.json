@@ -1,0 +1,58 @@
+{
+  "id": "proof-of-money",
+  "name": "Proof of Money",
+  "short-description": "The Big Idea Behind Bitcoin (What You Don't Know About Why You Need It)",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "100 Percent Terry Cloth"
+    },
+    "pages": {
+      "value": "348"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Terence Michael"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "@ProofOfMoney",
+      "url": "https://x.com/ProofOfMoney"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "Bitcoin can grow and secure your wealth for generations.\nBut the key is knowing how, why, and when.\n Get ready to challenge what you think you know about money.\nBitcoin is a better all-in-one investment\n- No monetary debasement\n- No intermediaries, brokers, managers\n- No rehypothecation\n- Full bearer asset you hold\n- No need to financialize things you don't care about\nBitcoin is better than stocks and bonds\n- No centralization\n- No counterparty risk\n- No VIP, IPO, or insider privilege\n- No CEO or executive decisions\nBitcoin digitizes gold\n- Makes it portable, divisible, verifiable, frictionless\nBitcoin is the \"internet of money\"\n- 24/7 access, decentralized, permissionless, lightning fast\nBitcoin demonetizes income real estate\n- No maintenance, deterioration, property taxes, tenants, liens\n- Liquid, fractional, instant, mobile\n- Absolute scarcity and sovereign rights for anyone\nBitcoin revolutionizes money technology\n- Auditable, immutable, transparent, open-source\n- Unhackable ledger of value secured by energy\nBitcoin improves the environment\n- Stabilizes electric grids\n- Emits zero carbon emissions\n- Removes methane and CO2 from others\n- Consumes less than 0.1% of global energy\n- Relies solely on wasted, discarded, stranded, renewable energy\nBitcoin is freedom for 8 billion people\n- For the unbanked, oppressed, disenfranchised\n- Sees no borders, race, religion, politics, sex, or status\n- Equality of opportunity and value for all\nBitcoin is a separation of money from the state\n- Free from confiscation, sanction, manipulation, censorship\n- Supports independence, activism, or privacy\n- Accountable only to the holder, a bank of the brainThe secret to unlocking Bitcoin is understanding its principles and properties.\nWhether you're a seasoned investor or a curious newcomer, this book will transform your relationship with money (and help you gain more of it)."
+}

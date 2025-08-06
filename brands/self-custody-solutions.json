@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "Self-custody Solutions"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "selfcustody.github.io/krux",
+    "url": "https://selfcustody.github.io/krux/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@selfcustodykrux",
+    "url": "https://x.com/selfcustodykrux"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "selfcustody",
+    "url": "https://github.com/selfcustody"
+  }
+}

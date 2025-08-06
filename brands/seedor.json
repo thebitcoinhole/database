@@ -1,0 +1,28 @@
+{
+  "brand": {
+    "value": "Seedor"
+  },
+  "headquarters": {
+    "value": "Germany"
+  },
+  "website": {
+    "value": "seedor.io",
+    "url": "https://www.seedor.io/"
+  },
+  "blog": {
+    "value": "seedor.io/blogs/info",
+    "url": "https://www.seedor.io/blogs/info"
+  },
+  "twitter": {
+    "value": "@seedor_io",
+    "url": "https://x.com/seedor_io"
+  },
+  "nostr": {
+    "value": "seedor@nostrplebs.com",
+    "url": "https://primal.net/p/npub1r8343wqpra05l3jnc4jud4xz7vlnyeslf7gfsty7ahpf92rhfmpsmqwym8"
+  },
+  "youtube": {
+    "value": "@seedor_io",
+    "url": "https://www.youtube.com/@seedor_io"
+  }
+}

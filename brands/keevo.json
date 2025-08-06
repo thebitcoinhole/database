@@ -1,0 +1,30 @@
+{
+  "brand": {
+    "value": "Keevo"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "keevowallet.com",
+    "url": "https://www.keevowallet.com/"
+  },
+  "blog": {
+    "value": "keevowallet.com/blogs/news",
+    "url": "https://www.keevowallet.com/blogs/news"
+  },
+  "twitter": {
+    "value": "@keevowallet",
+    "url": "https://x.com/keevowallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@keevo6539",
+    "url": "https://www.youtube.com/@keevo6539"
+  },
+  "github": {
+    "value": "-"
+  }
+}

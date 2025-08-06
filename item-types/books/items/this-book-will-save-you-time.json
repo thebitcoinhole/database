@@ -1,0 +1,56 @@
+{
+  "id": "this-book-will-save-you-time",
+  "name": "This Book Will Save You Time",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2020"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "104"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Misir Mahmudov"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "description": "The only limited resource is human time. Everything else can be made, bought or created. Our life is made up of around 600,000 hours and every second is of infinite value. We live in an attention economy where corporations are fighting for our time with the goal of monetizing our every second. The money we use loses value and devalues our time through inflation. When we work, we are exchanging our limited time for money whose quantity increases every year. It hasn’t always been this way. People used gold as money for a reason; it was also a limited resource. Now, what does the future hold?\n\nValuing your time is the first step to improving your life. Knowing that your time is the only limited resource makes you more selective about the things you do, the people you spend your time with and the assets you choose to store your wealth in. Once you learn to appreciate your time, you will get busy doing the things you love and start making better financial choices."
+}

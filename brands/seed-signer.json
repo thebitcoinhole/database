@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "SeedSigner"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "seedsigner.com",
+    "url": "https://seedsigner.com/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@SeedSigner",
+    "url": "https://x.com/SeedSigner"
+  },
+  "nostr": {
+    "value": "SeedSigner",
+    "url": "https://primal.net/p/npub17tyke9lkgxd98ruyeul6wt3pj3s9uxzgp9hxu5tsenjmweue6sqq4y3mgl"
+  },
+  "youtube": {
+    "value": "@seedsigner5695",
+    "url": "https://www.youtube.com/@seedsigner5695"
+  },
+  "github": {
+    "value": "SeedSigner",
+    "url": "https://github.com/SeedSigner"
+  }
+}

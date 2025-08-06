@@ -1,0 +1,330 @@
+{
+  "id": "bitcoin-core",
+  "name": "Bitcoin Core",
+  "installable": true,
+  "basic-information": {
+    "year": {
+      "value": "2009"
+    }
+  },
+  "company": "bitcoin-core-project",
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "-",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "-",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "-",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "Software"
+    },
+    "warranty": {
+      "value": "-",
+      "supported": false
+    },
+    "weight": {
+      "value": "-"
+    },
+    "dimensions": {
+      "value": "-"
+    },
+    "cpu": {
+      "value": "-"
+    },
+    "ram": {
+      "value": "-"
+    },
+    "storage": {
+      "value": "-"
+    },
+    "ethernet": {
+      "value": "-",
+      "supported": true
+    },
+    "wifi": {
+      "value": "-",
+      "supported": true
+    },
+    "hdmi": {
+      "value": "-",
+      "supported": true
+    },
+    "usb": {
+      "value": "-",
+      "supported": true
+    },
+    "bluetooth": {
+      "value": "-",
+      "supported": true
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-signet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "Bitcoin Core"
+    },
+    "bitcoin-only": {
+      "value": "YES"
+    },
+    "release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Releases Notes",
+          "url": "https://github.com/bitcoin/bitcoin/releases"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/bitcoin/bitcoin"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/bitcoin/bitcoin/blob/master/COPYING"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Guix attestations for releases of Bitcoin Core",
+          "url": "https://github.com/bitcoin-core/guix.sigs"
+        }
+      ]
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "macos": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "linux": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "pc-disk-image": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "virtual-machine": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "raspberry-pi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "raspberry-pi-5": {
+      "value": "?",
+      "supported": false
+    },
+    "rock-64": {
+      "value": "?",
+      "supported": false
+    },
+    "rock-pro-64": {
+      "value": "?",
+      "supported": false
+    },
+    "rockpi-4": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "libre-relay": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "block-explorer": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "mempool-visualizer": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "coinjoin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btcpay-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrs": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "samourai-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "official-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "thirdparty-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-restore": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "health-checks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ssl": {
+      "value": "-",
+      "supported": false
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Tor support on Bitcoin",
+          "url": "https://github.com/bitcoin/bitcoin/blob/master/doc/tor.md"
+        }
+      ]
+    },
+    "tailscale": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

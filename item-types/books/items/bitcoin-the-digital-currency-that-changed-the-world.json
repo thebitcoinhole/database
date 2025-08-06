@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-the-digital-currency-that-changed-the-world",
+  "name": "Bitcoin The Digital Currency that changed the world",
+  "short-description": "The Decentralized Revolution",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "112"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Mark Auditore"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Discover the phenomenon of Bitcoin in a guide that illuminates the revolutionary path of this cryptocurrency in the financial world.\n\nHistorical Exploration: Travel through the birth of Bitcoin and its development, from Satoshi Nakamoto's vision to its global affirmation.\n\nDemystifying Blockchain Technology: Delve into the workings of the blockchain with simple and detailed explanations, suitable for all readers.\n\nInnovation and Disruption: Understand how Bitcoin is challenging traditional financial conventions and creating new market opportunities.\n\nGlobal Impact: Examine Bitcoin's influence on global economies and the future of digital currency.\n\nVolatility and Growth: Analyze the fluctuations of Bitcoin in the market and discover what it means for investors.\n\nRegulation and Challenges: Navigate through the complex legal and regulatory challenges Bitcoin is facing globally.\n\nFuture Perspectives: Imagine the future of Bitcoin and cryptocurrencies through stimulating scenarios and strategic reflections.\n\nAn indispensable read for anyone who wants to understand the evolution of digital money and its growing importance in our modern world."
+}

@@ -1,0 +1,31 @@
+{
+  "brand": {
+    "value": "Prokey Optimum"
+  },
+  "headquarters": {
+    "value": "Malaysia"
+  },
+  "website": {
+    "value": "prokey.io",
+    "url": "https://prokey.io/"
+  },
+  "blog": {
+    "value": "prokey.io/blog",
+    "url": "https://prokey.io/blog"
+  },
+  "twitter": {
+    "value": "@prokey_io",
+    "url": "https://x.com/prokey_io"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@prokey9796",
+    "url": "https://www.youtube.com/@prokey_io"
+  },
+  "github": {
+    "value": "prokey-io",
+    "url": "https://github.com/prokey-io"
+  }
+}

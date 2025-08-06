@@ -1,0 +1,57 @@
+{
+  "id": "bitcoin-and-the-blockchain-two-entry-level-guides",
+  "name": "Bitcoin and the Blockchain - Two Entry Level Guides",
+  "short-description": "Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2017"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "110"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Eric Morse"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Understanding Bitcoin is your guide to the world’s first and most popular cryptocurrency. You’ll not only learn what Bitcoin is and what makes it such a game-changer, you’ll learn the basics of buying, spending, and transacting without falling into the traps that snare so many new Bitcoin users.  You will learn: \n- Where to find an exchange, and what to NEVER do when you use one.\n- How use bitcoin to buy items on Amazon without using gift cards.\n- The truth about Bitcoin mining that most other books won’t tell you.\n- What NOT to do if you want to keep your transactions as private as possible.\n- Whether YOU should invest in Bitcoin or avoid it at all costs.\n- …and Much more!"
+}

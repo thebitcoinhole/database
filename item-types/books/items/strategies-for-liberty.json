@@ -1,0 +1,57 @@
+{
+  "id": "strategies-for-liberty",
+  "name": "Strategies for Liberty",
+  "short-description": "Free Cities & Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "Free Cities Foundation"
+    },
+    "pages": {
+      "value": "103"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Alexander Voss"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "\"As the world's leading expat consultant who's navigated the complexities of global governance and financial systems for over 2 decades, I've seen firsthand the limitations imposed on personal and economic freedom by our current system.'Strategies for Liberty: Free Cities and Bitcoin' is a revelation, a game-changing playbook for anyone who's ever considered there must be a better way to live freely in today's world.In these pages my friend, Alex Voss, expertly dissects two powerful mechanisms that can serve as alternatives to traditional systems of governance and finance—Bitcoin and Free Cities.I've been around the globe and have seen the flaws in centralized monetary policy; Bitcoin is posed to disrupt that space, giving power back to the individual. In a similar vein, the book explores the potential of Free Cities—localized communities operating with private contractual governance—as living labs for innovation and liberty.'This book doesn't just theorize; it provides a pragmatic pathway for anyone looking to escape the limitations of conventional systems.\"Mikkel Thorup, World Leading Expat Consultant\"As the author and creator of Free Private Cities (FPCs), I've long championed the idea that FPCs could serve as the future of governance creating the market for living together. 'Strategies for Liberty\": Free Cities and Bitcoin' by my friend and colleague Alex Voss, takes this concept and pairs it expertly with the power of Bitcoin. In particular, Bitcoin serves to limit the boom-and-bust cycle and disincentivize attacks against the residents and companies in the FPC. Finally, Bitcoin offers a permissionless monetary network allowing FPCs to trade globally. This book is a must-read for anyone who sees the synergy between financial sovereignty and localized, autonomous and contractual governance as the next frontier for individual liberty.\"Titus Gebel, Author of Free Private Cities\"Strategies for Liberty is an engaging exploration of two important tools for advancing liberty: Bitcoin and Free Cities. Voss paints a compelling picture of a world where a network of freely cooperating Free Cities is able to flourish and achieve economic stability by having Bitcoin serve as a monetary base layer. The book offers introductions to Free Cities and Bitcoin, addresses common questions, and explores the fascinating interplay between the two topics. As the managing director of the Free Cities Foundation and a consultant for Bitcoin firms, I have long seen the Bitcoin and Free Cities movements as complementary. By examining these two topics in tandem, \"Strategies for Liberty\" makes an important contribution to those interested in building prosperous.\"Peter Young, Managing Director, Free Cities Foundation\"Berkshire Hathaway vice chairman Charlie Munger famously said “Show me the incentive, and I will show you the outcome.”.Although some of the ideas exposed here may be slightly beyond Munger’s grasp, Strategies for Liberty is a great handbook on both Bitcoin and Free Private Cities precisely because it paints a clear and concise picture of the complex incentive structures underlying both, and in contrast with the misaligned incentives that plague contemporary models.Within this book lies both the ideal blueprint for Nayib Bukele’s promised Bitcoin City in El Salvador, as well as a much greater vision for a world that will become freer and more prosperous one city at a time.Every single day more people perform the revolutionary, yet deeply personal acts of moving to freer jurisdictions or being “orange-pilled” and adopting the Bitcoin Standard, these two are unquestionably some of the most relevant and exciting strategies that are available to us today as seekers of liberty, and in the overlap between the two lie some incredible and as-yet-unexplored opportunities.\"Andreas Kohl, Entrepreneur and Bitcoin Evangelist"
+}

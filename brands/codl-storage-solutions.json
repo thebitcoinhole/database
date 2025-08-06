@@ -1,0 +1,25 @@
+{
+  "brand": {
+    "value": "Codl Storage Solutions"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "codl.co",
+    "url": "https://codl.co/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@CodlStorage",
+    "url": "https://x.com/CodlStorage"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  }
+}

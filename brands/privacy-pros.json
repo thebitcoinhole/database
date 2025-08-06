@@ -1,0 +1,26 @@
+{
+  "brand": {
+    "value": "Privacy Pros"
+  },
+  "headquarters": {
+    "value": "?"
+  },
+  "website": {
+    "value": "privacypros.io",
+    "url": "https://privacypros.io/"
+  },
+  "blog": {
+    "value": "privacypros.io/blog",
+    "url": "https://privacypros.io/blog/"
+  },
+  "twitter": {
+    "value": "@Billfodl_Wallet",
+    "url": "https://x.com/Billfodl_Wallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  }
+}

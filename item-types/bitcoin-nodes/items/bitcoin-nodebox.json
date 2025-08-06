@@ -1,0 +1,310 @@
+{
+  "id": "bitcoin-nodebox",
+  "name": "Bitcoin Nodebox",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    }
+  },
+  "company": "ministry-of-nodes",
+  "communities": {
+    "telegram": {
+      "value": "ministryofnodes",
+      "url": "https://t.me/ministryofnodes"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "NO",
+      "supported": false
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "Box"
+    },
+    "warranty": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "weight": {
+      "value": "1.5kg / 52.9oz"
+    },
+    "dimensions": {
+      "value": "18 x 18 x 4 cm"
+    },
+    "cpu": {
+      "value": "Intel Core i5"
+    },
+    "ram": {
+      "value": "8 GB"
+    },
+    "storage": {
+      "value": "2 TB"
+    },
+    "ethernet": {
+      "value": "Gigabit Ethernet",
+      "supported": true,
+      "flag": "positive"
+    },
+    "wifi": {
+      "value": "YES/NO",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Depends on the model in stock"
+      ]
+    },
+    "hdmi": {
+      "value": "YES/NO",
+      "supported": true,
+      "texts": [
+        "Depends on the model in stock"
+      ]
+    },
+    "usb": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bluetooth": {
+      "value": "YES/NO",
+      "supported": true,
+      "texts": [
+        "Depends on the model in stock"
+      ]
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-regtest": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-signet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "-",
+      "texts": [
+        "It comes with the following software installed:",
+        "- Operating system: Ubuntu Server 22.04 LTS",
+        "- Bitcoin: Bitcoin Core",
+        "- Private Electrum Server: electrs",
+        "- Blockchain explorer: mempool.space"
+      ]
+    },
+    "bitcoin-only": {
+      "value": "YES"
+    },
+    "release-notes": {
+      "value": "-"
+    },
+    "source-available": {
+      "value": "-"
+    },
+    "open-source": {
+      "value": "-"
+    },
+    "license": {
+      "value": "-"
+    },
+    "reproducible-builds": {
+      "value": "-"
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "-",
+      "supported": false
+    },
+    "macos": {
+      "value": "-",
+      "supported": false
+    },
+    "linux": {
+      "value": "-",
+      "supported": false
+    },
+    "pc-disk-image": {
+      "value": "-",
+      "supported": false
+    },
+    "virtual-machine": {
+      "value": "-",
+      "supported": false
+    },
+    "raspberry-pi-4": {
+      "value": "-",
+      "supported": false
+    },
+    "raspberry-pi-5": {
+      "value": "-",
+      "supported": false
+    },
+    "rock-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rock-pro-64": {
+      "value": "-",
+      "supported": false
+    },
+    "rockpi-4": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "libre-relay": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "mempool-visualizer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coinjoin": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "btcpay-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "samourai-server": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "specter-desktop": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "official-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "thirdparty-marketplace": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "backup-restore": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "health-checks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ssl": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tor": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "tailscale": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  }
+}

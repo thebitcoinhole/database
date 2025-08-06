@@ -1,0 +1,58 @@
+{
+  "id": "how-to-bitcoin",
+  "name": "How to Bitcoin",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "255"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "CoinGecko"
+    },
+    "website": {
+      "value": "Website",
+      "url": "https://store.coingecko.com/collections/books"
+    },
+    "twitter": {
+      "value": "@coingecko",
+      "url": "https://x.com/coingecko"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "\"Bitcoin might seem very complicated to the uninitiated and it is, but this book really simplifies it.\" \n- Mati Greenspan, Founder & CEO of Quantum Economics \n\n\"It's not too late to be early to bitcoin. How to Bitcoin is a great introduction that anyone can learn from, whether you’re a beginner or a financial professional. Find out why crypto is the fastest growing asset class in the world.\" \n- Nicolas Cary, Co-Founder of Blockchain.com and Co-Founder & Chairman of SkysTheLimit.org\n\n\"Education ensures that everyone can benefit from the Bitcoin revolution.\"\n- Dan Held, Business Development Manager of Kraken\n\nFrom cowrie shells to gold to fiat money, humans have always been on the search for meaningful and efficient ways to store our wealth. \n\nThe arrival of the Internet has brought us better accessibility to communicate across the globe - but more importantly, it allows for the exchange of information and ideas across borders. As the Internet becomes a more remarkable facet of modern society where humans interact, socialize, and live our lives, it is clear that an “Internet of Money” is needed.\n\nEnter Bitcoin.\n\nToday, Bitcoin has become a household name for an alternative financial system that anyone can opt into as a hedge against the global economy’s uncertainties. Many appreciate Bitcoin for its decentralized, permissionless, censorship-resistant, secure, and borderless nature. Anyone with an Internet connection and mobile phone can send and receive bitcoin from anywhere in the world. \nHow to Bitcoin is written for beginners with easy-to-understand analogies and step-by-step guides to help the everyday person understand Bitcoin and how to be part of this movement.\n\nIn this book, you will discover:\n- What is Bitcoin and how does it compare to money\n- What is blockchain technology\n- The history and evolution of Bitcoin\n- How to securely buy and store bitcoin safely\n- Guides on using desktop, mobile, and hardware wallets"
+}

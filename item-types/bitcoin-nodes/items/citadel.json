@@ -1,0 +1,364 @@
+{
+  "id": "citadel",
+  "name": "Citadel",
+  "buildable": true,
+  "basic-information": {
+    "year": {
+      "value": "2021"
+    }
+  },
+  "company": "citadel",
+  "communities": {
+    "telegram": {
+      "value": "-"
+    },
+    "reddit": {
+      "value": "-"
+    }
+  },
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "-",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "-",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "-",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "hardware": {
+    "form-factor": {
+      "value": "DIY"
+    },
+    "warranty": {
+      "value": "-",
+      "supported": false
+    },
+    "weight": {
+      "value": "-"
+    },
+    "dimensions": {
+      "value": "-"
+    },
+    "cpu": {
+      "value": "-"
+    },
+    "ram": {
+      "value": "8 GB",
+      "texts": [
+        "Raspberry Pi 4/5. 8 GB RAM is recommended."
+      ]
+    },
+    "storage": {
+      "value": "1+ TB",
+      "texts": [
+        "1 TB or more is recommended"
+      ]
+    },
+    "ethernet": {
+      "value": "Gigabit Ethernet",
+      "flag": "positive",
+      "supported": true
+    },
+    "wifi": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4/5. 2.4 GHz and 5.0 GHz IEEE 802.11ac wireless"
+      ]
+    },
+    "hdmi": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4/5. 2x micro-HDMI® ports (up to 4kp60 supported)"
+      ]
+    },
+    "usb": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Raspberry Pi 4/5. 2 USB 3.0 ports; 2 USB 2.0 ports."
+      ]
+    },
+    "bluetooth": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "Raspberry Pi 4/5. Bluetooth 5.0"
+      ]
+    }
+  },
+  "networks": {
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btc-testnet": {
+      "value": "Manually",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Command line flag during install"
+      ]
+    },
+    "btc-regtest": {
+      "value": "Manually",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Command line flag during install"
+      ]
+    },
+    "btc-signet": {
+      "value": "Manually",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Command line flag during install"
+      ]
+    }
+  },
+  "firmware": {
+    "firmware-name": {
+      "value": "Citadel"
+    },
+    "bitcoin-only": {
+      "value": "NO"
+    },
+    "release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://gitlab.com/nirvati/citadel/lts/core/-/blob/stable/info.json?ref_type=heads"
+        }
+      ]
+    },
+    "source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://gitlab.com/nirvati/citadel/lts/core"
+        }
+      ]
+    },
+    "open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "license": {
+      "value": "GPLv3",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://gitlab.com/nirvati/citadel/lts/core/-/blob/stable/LICENSE?ref_type=heads"
+        }
+      ]
+    },
+    "reproducible-builds": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "platforms": {
+    "windows": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "macos": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "linux": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "pc-disk-image": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "virtual-machine": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "raspberry-pi-4": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to set up a Bitcoin Node with Citadel on a Raspberry Pi 4",
+          "url": "https://medium.com/the-bitcoin-hole/how-to-set-up-a-bitcoin-node-with-citadel-on-a-raspberry-pi-4-645bf5a1b45c"
+        }
+      ]
+    },
+    "raspberry-pi-5": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to set up a Bitcoin Node with Citadel on a Raspberry Pi 5",
+          "url": "https://medium.com/the-bitcoin-hole/how-to-set-up-a-bitcoin-node-with-citadel-on-a-raspberry-pi-5-0fd203584143"
+        }
+      ]
+    },
+    "rock-64": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rock-pro-64": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "rockpi-4": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "bitcoin-apps": {
+    "bitcoin-core": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bitcoin-knots": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "libre-relay": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "lightning-node": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "block-explorer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "mempool-visualizer": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "coinjoin": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "btcpay-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrs": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrumx": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "fulcrum": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "samourai-server": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "specter-desktop": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "electrum-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "sparrow-wallet": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "other-features": {
+    "prune-node": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "official-marketplace": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "thirdparty-marketplace": {
+      "value": "?",
+      "supported": false
+    },
+    "backup-restore": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "health-checks": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "ssl": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tor": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "tailscale": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    }
+  }
+}

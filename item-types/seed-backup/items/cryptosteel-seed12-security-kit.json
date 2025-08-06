@@ -1,0 +1,138 @@
+{
+  "id": "cryptosteel-seed12-security-kit",
+  "name": "Seed12 Security Kit",
+  "purchasable": true,
+  "company": "cryptosteel",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "btc-lightning": {
+      "value": "YES (via BTCPay)",
+      "flag": "positive",
+      "supported": true
+    },
+    "alt-coins": {
+      "value": "YES (via BTCPay)",
+      "supported": true
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true
+    }
+  },
+  "size-materials": {
+    "weight": {
+      "value": "171g / 6.03oz"
+    },
+    "dimensions": {
+      "value": "95 x 66 x 18 mm"
+    },
+    "materials": {
+      "value": "Stainless Steel",
+      "texts": [
+        "Space-grade steel"
+      ]
+    },
+    "include-all-tools": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "water-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "fire-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crush-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "corrosion-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "shock-proof": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "stress-tests": {
+      "value": "?",
+      "supported": false
+    }
+  },
+  "security": {
+    "pin-protection": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "encrypted-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "tamper-evident-seal": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "The PSW-97® tamper-proof seal prevents unauthorized access to your capsule. It's designed to be impossible to open without breaking, ensuring any tampering is immediately visible. The PSW-97® Security Seal by American Casting & Manufacturing Corp. locks easily without tools and has a breaking strength of nearly 45 kg (100 lbs). Its clear tamper evidence and durability are trusted by private, military, and government entities. Each seal includes a unique serial number for easier management of multiple metal backups."
+      ]
+    }
+  },
+  "capacity": {
+    "multiple-private-keys": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "backup-compatibility": {
+    "output-descriptor": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "bip39-12-words": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "bip39-24-words": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "seed-qr": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "shamir-backup": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "hexadecimal-strings": {
+      "value": "Number Tiles sold separately",
+      "flag": "neutral",
+      "supported": true
+    },
+    "ascii-strings": {
+      "value": "YES (up to 64 chars)",
+      "flag": "positive",
+      "supported": true
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "brand": {
+    "value": "Jinca"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "jinca.se",
+    "url": "https://jinca.se/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://jinca.medium.com/"
+  },
+  "twitter": {
+    "value": "@Jinca_se",
+    "url": "https://x.com/Jinca_se"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "-"
+  }
+}

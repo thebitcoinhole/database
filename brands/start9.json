@@ -1,0 +1,32 @@
+{
+  "brand": {
+    "value": "Start9"
+  },
+  "headquarters": {
+    "value": "USA"
+  },
+  "website": {
+    "value": "start9.com",
+    "url": "https://start9.com/"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://blog.start9.com/"
+  },
+  "twitter": {
+    "value": "@start9labs",
+    "url": "https://x.com/start9labs"
+  },
+  "nostr": {
+    "value": "Start9",
+    "url": "https://primal.net/p/npub126ntw5mnermmj0znhjhgdk8lh2af72sm8qfzq48umdlnhaj9kuns3le9ll"
+  },
+  "youtube": {
+    "value": "@Start9",
+    "url": "https://www.youtube.com/@Start9"
+  },
+  "github": {
+    "value": "Start9Labs",
+    "url": "https://github.com/Start9Labs"
+  }
+}

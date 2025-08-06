@@ -1,0 +1,57 @@
+{
+  "id": "crypto-spotlight-series",
+  "name": "Crypto Spotlight Series",
+  "short-description": "Bitcoin (BTC) (Crypto for Beginners",
+  "purchasable": true,
+  "basic-information": {
+    "year": {
+      "value": "2023"
+    },
+    "publisher": {
+      "value": "-"
+    },
+    "pages": {
+      "value": "83"
+    }
+  },
+  "authorship": {
+    "authors": {
+      "value": "Nott U.R. Keys"
+    },
+    "website": {
+      "value": "-"
+    },
+    "twitter": {
+      "value": "-"
+    },
+    "nostr": {
+      "value": "-"
+    },
+    "youtube": {
+      "value": "-"
+    }
+  },
+  "format": {
+    "ebook": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "paperback": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "hardcover": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "audiobook": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    }
+  },
+  "description": "Delve into the captivating world of cryptocurrency with \"Crypto Spotlight: Bitcoin.\" This comprehensive and insightful book takes readers on a journey through the fascinating history, technology, and societal impact of Bitcoin, the pioneering digital asset that revolutionized the financial landscape.\nUnravel the mysteries surrounding Bitcoin's creation and the enigmatic identity of its creator, Satoshi Nakamoto. Explore the principles of decentralization and blockchain technology that underpin this transformative digital currency. From its humble beginnings to its meteoric rise as a global store of value, this book chronicles the evolution of Bitcoin and its role as the foundation of the vibrant cryptocurrency ecosystem.\nLearn about the mining process that secures the Bitcoin network and discover how Bitcoin's revolutionary consensus mechanism, Proof-of-Work, ensures security and resilience against malicious attacks. Dive into the innovative concept of smart contracts and layer-2 solutions, such as the Lightning Network, which extend Bitcoin's functionalities and address scalability challenges.\nWith in-depth analyses of Bitcoin's impact on financial inclusion, privacy, and global economic stability, \"Crypto Spotlight: Bitcoin\" offers a holistic exploration of the societal implications of this groundbreaking digital asset. Explore how Bitcoin empowers individuals with financial sovereignty, transcending borders and traditional financial systems, to provide access to the unbanked and underserved populations worldwide.\nThis book does not shy away from addressing the challenges and threats that Bitcoin faces, from scalability concerns to regulatory uncertainties. With expert insights and predictions from industry leaders, readers gain a nuanced understanding of the future trajectory of Bitcoin and the broader cryptocurrency ecosystem.\nThe \"Crypto Spotlight: Bitcoin\" book features:\n- Comprehensive explanations of blockchain technology, mining, and consensus mechanisms\n- Real-world examples of Bitcoin's impact on global finance and economic stability\n- In-depth analyses of the challenges and threats that shape Bitcoin's future\n- Insights into the societal implications of decentralization, financial inclusion, and privacy\n- Valuable resources, data, and visual aids to enhance comprehension\n- A glossary of terms and regulatory considerations to navigate the cryptocurrency landscape responsibly\nWhether you are a curious newcomer or an experienced cryptocurrency enthusiast, \"Crypto Spotlight: Bitcoin\" provides a compelling and engaging exploration of the world's pioneering digital currency. Embark on a transformative journey into the heart of Bitcoin's impact on finance, technology, and society, and gain the knowledge to navigate the rapidly evolving landscape of cryptocurrencies with confidence."
+}
