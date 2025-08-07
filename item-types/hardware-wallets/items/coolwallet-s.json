@@ -1,7 +1,9 @@
 {
   "id": "coolwallet-s",
   "name": "CoolWallet S",
-  "purchasable": true,
+  "purchasable": false,
+  "discountinued": true,
+  "price-history-enabled": false,
   "basic-information": {
     "year": {
       "value": "2018"

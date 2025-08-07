@@ -53,9 +53,9 @@
       "value": "?"
     },
     "cpu": {
-      "value": "Intel Celeron N100",
+      "value": "Intel N150",
       "texts": [
-        "3.4GHz Quad-Core CPU"
+        "Quad-Core 3.6 GHz CPU"
       ]
     },
     "ram": {
@@ -65,9 +65,9 @@
       ]
     },
     "storage": {
-      "value": "2 TB",
+      "value": "2/4 TB",
       "texts": [
-        "2TB SSD"
+        "2/4 TB SSD"
       ]
     },
     "ethernet": {

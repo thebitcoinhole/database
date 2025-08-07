@@ -5,7 +5,7 @@
   "purchasable": true,
   "basic-information": {
     "year": {
-      "value": "2022"
+      "value": "2025"
     }
   },
   "company": "my-node",
@@ -54,13 +54,16 @@
       "value": "?"
     },
     "cpu": {
-      "value": "4 Core Intel"
+      "value": "Intel N100"
     },
     "ram": {
-      "value": "8 GB"
+      "value": "16 GB"
     },
     "storage": {
-      "value": "2 TB"
+      "value": "2 TB",
+      "texts": [
+        "2TB NVMe SSD"
+      ]
     },
     "ethernet": {
       "value": "Gigabit Ethernet",

@@ -2,7 +2,6 @@
   "id": "coolwallet-go",
   "name": "CoolWallet Go",
   "purchasable": true,
-  "pre-order": true,
   "basic-information": {
     "year": {
       "value": "2025"
