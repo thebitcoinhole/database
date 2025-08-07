@@ -361,9 +361,9 @@
       "flag": "negative"
     },
     "shamir-backup": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "seed-xor": {
       "value": "NO",
