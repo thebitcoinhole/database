@@ -411,9 +411,9 @@
       ]
     },
     "labels-import-export-bip329": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "Only EXport",
+      "supported": true,
+      "flag": "neutral"
     },
     "coinjoin": {
       "value": "NO",
