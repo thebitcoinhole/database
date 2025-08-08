@@ -2,7 +2,7 @@
   "id": "seedhammer-2",
   "name": "SeedHammer II",
   "purchasable": true,
-  "company": "seed-hammer",
+  "company": "seedhammer",
   "payment-methods": {
     "btc-on-chain": {
       "value": "YES (via BTCPay)",

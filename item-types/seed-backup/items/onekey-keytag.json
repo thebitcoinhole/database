@@ -3,7 +3,7 @@
   "name": "KeyTag",
   "full-name": "OneKey KeyTag",
   "purchasable": true,
-  "company": "one-key",
+  "company": "onekey",
   "payment-methods": {
     "btc-on-chain": {
       "value": "YES (via MixPay or Coinbase Commerce)",

@@ -2,7 +2,7 @@
   "id": "bitbar",
   "name": "BitBar",
   "purchasable": true,
-  "company": "bit-bar",
+  "company": "bitbar",
   "payment-methods": {
     "btc-on-chain": {
       "value": "YES",

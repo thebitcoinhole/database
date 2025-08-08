@@ -3,7 +3,7 @@
   "name": "Cypher",
   "full-name": "Safepal Cypher",
   "purchasable": true,
-  "company": "safe-pal",
+  "company": "safepal",
   "payment-methods": {
     "btc-on-chain": {
       "value": "YES (via SafePal Pay)",

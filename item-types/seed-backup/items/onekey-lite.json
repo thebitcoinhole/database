@@ -2,7 +2,7 @@
   "id": "onekey-lite",
   "name": "OneKey Lite",
   "purchasable": true,
-  "company": "one-key",
+  "company": "onekey",
   "payment-methods": {
     "btc-on-chain": {
       "value": "YES (via MixPay or Coinbase Commerce)",

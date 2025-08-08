@@ -2,7 +2,7 @@
   "id": "bitcoin-keeper",
   "name": "Bitcoin Keeper",
   "purchasable": true,
-  "company": "bit-hyve",
+  "company": "bithyve",
   "payment-methods": {
     "btc-on-chain": {
       "value": "YES",

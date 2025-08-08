@@ -1,5 +1,5 @@
 {
-  "id": "ronin-dojo",
+  "id": "ronindojo",
   "name": "Ronin Dojo",
   "buildable": true,
   "basic-information": {
@@ -7,7 +7,7 @@
       "value": "2019"
     }
   },
-  "company": "ronin-dojo",
+  "company": "ronindojo",
   "communities": {
     "telegram": {
       "value": "RoninDojo",

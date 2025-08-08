@@ -2,7 +2,7 @@
   "id": "secux-xseed",
   "name": "X-SEED",
   "purchasable": true,
-  "company": "secu-x",
+  "company": "secux",
   "payment-methods": {
     "btc-on-chain": {
       "value": "YES (via BTCPay)",

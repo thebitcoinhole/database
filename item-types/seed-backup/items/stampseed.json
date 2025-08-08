@@ -2,7 +2,7 @@
   "id": "stampseed",
   "name": "Stamp Seed",
   "purchasable": true,
-  "company": "impress-art",
+  "company": "impressart",
   "payment-methods": {
     "btc-on-chain": {
       "value": "NO",
