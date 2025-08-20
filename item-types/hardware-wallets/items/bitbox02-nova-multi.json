@@ -617,10 +617,6 @@
         {
           "title": "Signing a message with Sparrow Wallet",
           "url": "https://support.bitbox.swiss/sparrow-wallet/sign-message-bitbox02-sparrow"
-        },
-        {
-          "title": "How can I sign messages via Electrum with my BitBox02?",
-          "url": "https://support.bitbox.swiss/electrum/how-to-sign-messages-electrum-bitbox02"
         }
       ]
     },
