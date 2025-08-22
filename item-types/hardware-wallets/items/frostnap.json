@@ -2,6 +2,7 @@
   "id": "frostnap",
   "name": "Frostnap",
   "pre-order": true,
+  "purchasable": true,
   "basic-information": {
     "year": {
       "value": "2025"
