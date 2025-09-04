@@ -347,22 +347,19 @@
   },
   "spending-conditions": {
     "miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "taproot-miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "timelocks": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "texts": [
-        "Nunchuk use their servers for delivering timelocks instead of the bitcoin native timelocks."
-      ]
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "fees": {
