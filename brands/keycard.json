@@ -1,30 +1,30 @@
 {
-    "brand": {
-      "value": "Keycard"
-    },
-    "headquarters": {
-      "value": "Germany"
-    },
-    "website": {
-      "value": "keycard.tech",
-      "url": "https://keycard.tech/"
-    },
-    "blog": {
-      "value": "keycard.tech/blog",
-      "url": "https://keycard.tech/blog"
-    },
-    "twitter": {
-      "value": "@Keycard_",
-      "url": "https://x.com/Keycard_"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "-"
-    },
-    "github": {
-      "value": "keycard-tech",
-      "url": "https://github.com/keycard-tech"
-    }
+  "brand": {
+    "value": "Keycard"
+  },
+  "headquarters": {
+    "value": "Germany"
+  },
+  "website": {
+    "value": "keycard.tech",
+    "url": "https://keycard.tech/"
+  },
+  "blog": {
+    "value": "keycard.tech/blog",
+    "url": "https://keycard.tech/blog"
+  },
+  "twitter": {
+    "value": "@Keycard_",
+    "url": "https://x.com/Keycard_"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "keycard-tech",
+    "url": "https://github.com/keycard-tech"
   }
+}
