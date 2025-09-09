@@ -477,6 +477,9 @@
       "value": "-",
       "supported": false
     },
+    "android-tech-stack": {
+      "value": "-"
+    },
     "android-release-notes": {
       "value": "-",
       "supported": false
@@ -503,6 +506,9 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "ios-tech-stack": {
+      "value": "-"
     },
     "ios-release-notes": {
       "value": "-",
@@ -557,6 +563,13 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "macos-tech-stack": {
+      "value": "Java",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
     },
     "macos-release-notes": {
       "value": "YES",
@@ -613,6 +626,13 @@
       "supported": true,
       "flag": "positive"
     },
+    "linux-tech-stack": {
+      "value": "Java",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
+    },
     "linux-release-notes": {
       "value": "YES",
       "supported": true,
@@ -667,6 +687,13 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "windows-tech-stack": {
+      "value": "Java",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
     },
     "windows-release-notes": {
       "value": "YES",

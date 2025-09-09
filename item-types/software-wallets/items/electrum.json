@@ -494,6 +494,13 @@
         }
       ]
     },
+    "android-tech-stack": {
+      "value": "Python",
+      "flag": "positive",
+      "texts": [
+        "No NPM dependencies"
+      ]
+    },
     "android-release-notes": {
       "value": "YES",
       "supported": true,
@@ -553,6 +560,9 @@
       "supported": false,
       "flag": "negative"
     },
+    "ios-tech-stack": {
+      "value": "-"
+    },
     "ios-release-notes": {
       "value": "-",
       "supported": false
@@ -606,6 +616,13 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "macos-tech-stack": {
+      "value": "Python",
+      "flag": "positive",
+      "texts": [
+        "No NPM dependencies"
+      ]
     },
     "macos-release-notes": {
       "value": "YES",
@@ -666,6 +683,13 @@
       "supported": true,
       "flag": "positive"
     },
+    "linux-tech-stack": {
+      "value": "Python",
+      "flag": "positive",
+      "texts": [
+        "No NPM dependencies"
+      ]
+    },
     "linux-release-notes": {
       "value": "YES",
       "supported": true,
@@ -724,6 +748,13 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "windows-tech-stack": {
+      "value": "Python",
+      "flag": "positive",
+      "texts": [
+        "No NPM dependencies"
+      ]
     },
     "windows-release-notes": {
       "value": "YES",

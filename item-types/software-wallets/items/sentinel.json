@@ -483,6 +483,9 @@
       "supported": false,
       "flag": "negative"
     },
+    "android-tech-stack": {
+      "value": "-"
+    },
     "android-release-notes": {
       "value": "?",
       "supported": false
@@ -530,6 +533,9 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "ios-tech-stack": {
+      "value": "-"
     },
     "ios-release-notes": {
       "value": "-",
@@ -585,6 +591,9 @@
       "supported": false,
       "flag": "negative"
     },
+    "macos-tech-stack": {
+      "value": "-"
+    },
     "macos-release-notes": {
       "value": "-",
       "supported": false
@@ -612,6 +621,9 @@
       "supported": false,
       "flag": "negative"
     },
+    "linux-tech-stack": {
+      "value": "-"
+    },
     "linux-release-notes": {
       "value": "-",
       "supported": false
@@ -638,6 +650,9 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "windows-tech-stack": {
+      "value": "-"
     },
     "windows-release-notes": {
       "value": "-",

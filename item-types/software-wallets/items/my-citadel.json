@@ -471,6 +471,9 @@
       "value": "-",
       "supported": false
     },
+    "android-tech-stack": {
+      "value": "-"
+    },
     "android-release-notes": {
       "value": "-",
       "supported": false
@@ -493,51 +496,32 @@
   },
   "ios-support": {
     "ios-supported": {
-      "value": "BETA",
-      "supported": true,
-      "flag": "neutral"
-    },
-    "ios-release-notes": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/mycitadel/mycitadel-apple/releases"
-        }
-      ]
-    },
-    "ios-source-available": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/mycitadel/mycitadel-apple"
-        }
-      ]
-    },
-    "ios-open-source": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "ios-license": {
-      "value": "Affero GPLv3",
-      "supported": true,
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/mycitadel/mycitadel-desktop/blob/master/LICENSE"
-        }
-      ]
-    },
-    "ios-reproducible-builds": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "ios-tech-stack": {
+      "value": "?"
+    },
+    "ios-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-license": {
+      "value": "-",
+      "supported": false
+    },
+    "ios-reproducible-builds": {
+      "value": "-",
+      "supported": false
     }
   },
   "web-support": {
@@ -572,6 +556,13 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "macos-tech-stack": {
+      "value": "Rust",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
     },
     "macos-release-notes": {
       "value": "YES",
@@ -622,6 +613,13 @@
       "supported": true,
       "flag": "positive"
     },
+    "linux-tech-stack": {
+      "value": "Rust",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
+    },
     "linux-release-notes": {
       "value": "YES",
       "supported": true,
@@ -670,6 +668,13 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "windows-tech-stack": {
+      "value": "Rust",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
     },
     "windows-release-notes": {
       "value": "YES",
