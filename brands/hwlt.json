@@ -3,7 +3,8 @@
     "value": "HWLT"
   },
   "headquarters": {
-    "value": "United Arab Emirates"
+    "value": "United Arab Emirates",
+    "countryCode": "AE"
   },
   "website": {
     "value": "era-wallet.com",

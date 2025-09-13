@@ -3,7 +3,8 @@
     "value": "Ellipal"
   },
   "headquarters": {
-    "value": "Hong Kong"
+    "value": "Hong Kong",
+    "countryCode": "HK"
   },
   "website": {
     "value": "ellipal.com",

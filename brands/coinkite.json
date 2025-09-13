@@ -3,7 +3,8 @@
     "value": "Coinkite"
   },
   "headquarters": {
-    "value": "Canada"
+    "value": "Canada",
+    "countryCode": "CA"
   },
   "website": {
     "value": "coinkite.com",

@@ -3,7 +3,8 @@
     "value": "Theya"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "theya.us",

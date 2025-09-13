@@ -3,7 +3,8 @@
     "value": "BitBar"
   },
   "headquarters": {
-    "value": "Switzerland"
+    "value": "Switzerland",
+    "countryCode": "CH"
   },
   "website": {
     "value": "bitbarswiss.com",

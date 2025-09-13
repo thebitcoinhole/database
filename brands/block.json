@@ -3,7 +3,8 @@
     "value": "Block"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "bitkey.build",

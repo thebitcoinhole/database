@@ -3,7 +3,8 @@
     "value": "Muun"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "muun.com",

@@ -3,7 +3,8 @@
     "value": "MyNode"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "mynodebtc.com",

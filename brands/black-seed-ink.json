@@ -3,7 +3,8 @@
     "value": "Black Seed Ink"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "blackseedink.com",

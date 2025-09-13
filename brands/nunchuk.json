@@ -3,7 +3,8 @@
     "value": "Nunchuk"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "nunchuk.io",

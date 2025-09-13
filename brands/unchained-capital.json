@@ -3,7 +3,8 @@
     "value": "Unchained Capital"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "unchained.com",

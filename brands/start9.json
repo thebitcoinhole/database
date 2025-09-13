@@ -3,7 +3,8 @@
     "value": "Start9"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "start9.com",

@@ -3,7 +3,8 @@
     "value": "Jinca"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "jinca.se",

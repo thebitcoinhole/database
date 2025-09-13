@@ -3,7 +3,8 @@
     "value": "Trezor"
   },
   "headquarters": {
-    "value": "Czech Republic"
+    "value": "Czech Republic",
+    "countryCode": "CZ"
   },
   "website": {
     "value": "trezor.io",

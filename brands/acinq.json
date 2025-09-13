@@ -3,7 +3,8 @@
     "value": "ACINQ"
   },
   "headquarters": {
-    "value": "France"
+    "value": "France",
+    "countryCode": "FR"
   },
   "website": {
     "value": "phoenix.acinq.co",

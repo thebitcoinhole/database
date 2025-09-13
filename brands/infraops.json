@@ -3,7 +3,8 @@
     "value": "InfraOps"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "covebitcoinwallet.com",

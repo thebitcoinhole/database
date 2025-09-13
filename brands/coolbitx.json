@@ -3,7 +3,8 @@
     "value": "CoolBitX"
   },
   "headquarters": {
-    "value": "Taiwan"
+    "value": "Taiwan",
+    "countryCode": "TW"
   },
   "website": {
     "value": "coolwallet.io",

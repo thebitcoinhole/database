@@ -3,7 +3,8 @@
     "value": "Bluewallet Services"
   },
   "headquarters": {
-    "value": "Spain"
+    "value": "Spain",
+    "countryCode": "ES"
   },
   "website": {
     "value": "bluewallet.io",

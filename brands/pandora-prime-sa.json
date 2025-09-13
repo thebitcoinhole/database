@@ -3,7 +3,8 @@
     "value": "Pandora Prime SA"
   },
   "headquarters": {
-    "value": "Switzerland"
+    "value": "Switzerland",
+    "countryCode": "CH"
   },
   "website": {
     "value": "mycitadel.io",
