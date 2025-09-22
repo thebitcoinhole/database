@@ -2,7 +2,7 @@
   "id": "bitbox-steelwallet",
   "name": "Steelwallet",
   "purchasable": true,
-  "company": "bit-box",
+  "company": "bitbox",
   "payment-methods": {
     "btc-on-chain": {
       "value": "YES (via BTCPay or Crypto.com Pay)",
