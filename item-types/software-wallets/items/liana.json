@@ -30,7 +30,10 @@
     "btc-testnet": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "Testnet4 support"
+      ]
     },
     "btc-regtest": {
       "value": "YES",
@@ -50,9 +53,9 @@
   },
   "currency": {
     "fiat": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "btc": {
       "value": "YES",
@@ -65,7 +68,7 @@
       "flag": "negative"
     },
     "exchange-rate-provider": {
-      "value": "-"
+      "value": "Many"
     }
   },
   "app-lock": {

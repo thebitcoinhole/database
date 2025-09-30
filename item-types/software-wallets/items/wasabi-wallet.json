@@ -32,6 +32,9 @@
       "value": "YES",
       "supported": true,
       "flag": "positive",
+      "texts": [
+        "Testnet4 support"
+      ],
       "links": [
         {
           "title": "Testnet",

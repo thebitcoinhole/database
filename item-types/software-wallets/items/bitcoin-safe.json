@@ -52,7 +52,7 @@
   },
   "currency": {
     "fiat": {
-      "value": "USD",
+      "value": "Many",
       "supported": true,
       "flag": "positive"
     },
