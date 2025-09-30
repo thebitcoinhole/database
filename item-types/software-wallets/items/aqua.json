@@ -376,7 +376,13 @@
     "labels-import-export-bip329": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "features/bip329",
+          "url": "https://github.com/AquaWallet/aqua-wallet/tree/main/lib/features/bip329"
+        }
+      ]
     },
     "coinjoin": {
       "value": "NO",

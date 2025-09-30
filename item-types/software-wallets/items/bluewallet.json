@@ -406,7 +406,13 @@
     "labels-import-export-bip329": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "BIP329 - wallet labels export format",
+          "url": "https://github.com/BlueWallet/BlueWallet/issues/5272"
+        }
+      ]
     },
     "coinjoin": {
       "value": "YES",

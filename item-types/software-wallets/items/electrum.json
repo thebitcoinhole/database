@@ -379,7 +379,13 @@
     "labels-import-export-bip329": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "GitHub PR #8614, open",
+          "url": "https://github.com/spesmilo/electrum/pull/8614"
+        }
+      ]
     },
     "coinjoin": {
       "value": "NO",

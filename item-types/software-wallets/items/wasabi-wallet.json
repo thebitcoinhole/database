@@ -389,7 +389,13 @@
     "labels-import-export-bip329": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "GitHub discussion #9980",
+          "url": "https://github.com/orgs/WalletWasabi/discussions/9980"
+        }
+      ]
     },
     "coinjoin": {
       "value": "YES",

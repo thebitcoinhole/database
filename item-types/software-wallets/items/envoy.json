@@ -411,7 +411,7 @@
       ]
     },
     "labels-import-export-bip329": {
-      "value": "Only EXport",
+      "value": "Only Export",
       "supported": true,
       "flag": "neutral"
     },

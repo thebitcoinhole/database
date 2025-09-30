@@ -55,8 +55,9 @@
       ]
     },
     "crush-proof": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "corrosion-proof": {
       "value": "YES",
@@ -69,8 +70,14 @@
       "supported": true
     },
     "stress-tests": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "links": [
+        {
+          "title": "Jameson Lopp's stress tests",
+          "url": "https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/ngrave-graphene/"
+        }
+      ]
     }
   },
   "security": {
