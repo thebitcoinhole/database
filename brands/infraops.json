@@ -1,36 +1,37 @@
 {
-    "brand": {
-      "value": "InfraOps"
-    },
-    "headquarters": {
-      "value": "USA"
-    },
-    "website": {
-      "value": "covebitcoinwallet.com",
-      "url": "https://covebitcoinwallet.com/"
-    },
-    "blog": {
-      "value": "-"
-    },
-    "twitter": {
-      "value": "@covewallet",
-      "url": "https://x.com/covewallet"
-    },
-    "nostr": {
-      "value": "-"
-    },
-    "youtube": {
-      "value": "covewallet",
-      "url": "https://www.youtube.com/@covewallet"
-    },
-    "github": {
-      "value": "bitcoinppl",
-      "url": "https://github.com/bitcoinppl"
-    },
-    "slack": {
-      "value": "-"
-    },
-    "discord": {
-      "value": "-"
-    }
+  "brand": {
+    "value": "InfraOps"
+  },
+  "headquarters": {
+    "value": "USA",
+    "countryCode": "US"
+  },
+  "website": {
+    "value": "covebitcoinwallet.com",
+    "url": "https://covebitcoinwallet.com/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@covewallet",
+    "url": "https://x.com/covewallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "covewallet",
+    "url": "https://www.youtube.com/@covewallet"
+  },
+  "github": {
+    "value": "bitcoinppl",
+    "url": "https://github.com/bitcoinppl"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
   }
+}

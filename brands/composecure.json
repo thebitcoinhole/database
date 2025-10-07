@@ -3,7 +3,8 @@
     "value": "CompoSecure"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "getarculus.com",

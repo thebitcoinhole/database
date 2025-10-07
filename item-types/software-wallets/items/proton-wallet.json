@@ -475,6 +475,10 @@
       "supported": false,
       "flag": "negative"
     },
+    "android-tech-stack": {
+      "value": "Flutter",
+      "flag": "neutral"
+    },
     "android-release-notes": {
       "value": "NO",
       "supported": false,
@@ -529,6 +533,10 @@
           "url": "https://apps.apple.com/us/app/proton-wallet-secure-btc/id6479609548"
         }
       ]
+    },
+    "ios-tech-stack": {
+      "value": "Flutter",
+      "flag": "neutral"
     },
     "ios-release-notes": {
       "value": "NO",
@@ -622,6 +630,9 @@
       "supported": false,
       "flag": "negative"
     },
+    "macos-tech-stack": {
+      "value": "-"
+    },
     "macos-release-notes": {
       "value": "-",
       "supported": false
@@ -649,6 +660,9 @@
       "supported": false,
       "flag": "negative"
     },
+    "linux-tech-stack": {
+      "value": "-"
+    },
     "linux-release-notes": {
       "value": "-",
       "supported": false
@@ -675,6 +689,9 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "windows-tech-stack": {
+      "value": "-"
     },
     "windows-release-notes": {
       "value": "-",

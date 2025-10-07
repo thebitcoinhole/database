@@ -406,7 +406,13 @@
     "labels-import-export-bip329": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "BIP329 - wallet labels export format",
+          "url": "https://github.com/BlueWallet/BlueWallet/issues/5272"
+        }
+      ]
     },
     "coinjoin": {
       "value": "YES",
@@ -533,6 +539,10 @@
         }
       ]
     },
+    "android-tech-stack": {
+      "value": "React Native",
+      "flag": "negative"
+    },
     "android-release-notes": {
       "value": "YES",
       "supported": true,
@@ -593,6 +603,10 @@
           "url": "https://apps.apple.com/app/bluewallet-bitcoin-wallet/id1376878040"
         }
       ]
+    },
+    "ios-tech-stack": {
+      "value": "React Native",
+      "flag": "negative"
     },
     "ios-release-notes": {
       "value": "YES",
@@ -686,6 +700,10 @@
         }
       ]
     },
+    "macos-tech-stack": {
+      "value": "React Native",
+      "flag": "negative"
+    },
     "macos-release-notes": {
       "value": "YES",
       "supported": true,
@@ -741,6 +759,9 @@
       "supported": false,
       "flag": "negative"
     },
+    "linux-tech-stack": {
+      "value": "-"
+    },
     "linux-release-notes": {
       "value": "-",
       "supported": false
@@ -767,6 +788,9 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "windows-tech-stack": {
+      "value": "-"
     },
     "windows-release-notes": {
       "value": "-",

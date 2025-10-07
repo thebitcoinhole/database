@@ -557,6 +557,13 @@
         }
       ]
     },
+    "android-tech-stack": {
+      "value": "Kotlin",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
+    },
     "android-release-notes": {
       "value": "YES",
       "supported": true,
@@ -624,6 +631,13 @@
           "title": "Blockstream Green UX Beta Now Available on iOS",
           "url": "https://blog.blockstream.com/blockstream-green-makes-it-easier-to-secure-your-stack-beta-now-open-2/"
         }
+      ]
+    },
+    "ios-tech-stack": {
+      "value": "Swift",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
       ]
     },
     "ios-release-notes": {
@@ -714,6 +728,10 @@
         }
       ]
     },
+    "macos-tech-stack": {
+      "value": "C++ / QML",
+      "flag": "positive"
+    },
     "macos-release-notes": {
       "value": "YES",
       "supported": true,
@@ -769,6 +787,10 @@
         }
       ]
     },
+    "linux-tech-stack": {
+      "value": "C++ / QML",
+      "flag": "positive"
+    },
     "linux-release-notes": {
       "value": "YES",
       "supported": true,
@@ -823,6 +845,10 @@
           "url": "https://blog.blockstream.com/en-blockstream-green-now-on-desktop/"
         }
       ]
+    },
+    "windows-tech-stack": {
+      "value": "C++ / QML",
+      "flag": "positive"
     },
     "windows-release-notes": {
       "value": "YES",

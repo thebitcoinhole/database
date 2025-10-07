@@ -30,7 +30,10 @@
     "btc-testnet": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "Testnet4 support"
+      ]
     },
     "btc-regtest": {
       "value": "YES",
@@ -50,9 +53,9 @@
   },
   "currency": {
     "fiat": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "btc": {
       "value": "YES",
@@ -65,7 +68,7 @@
       "flag": "negative"
     },
     "exchange-rate-provider": {
-      "value": "-"
+      "value": "Many"
     }
   },
   "app-lock": {
@@ -371,9 +374,9 @@
       "flag": "positive"
     },
     "labels-import-export-bip329": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "Only Export",
+      "supported": true,
+      "flag": "neutral"
     },
     "coinjoin": {
       "value": "NO",
@@ -474,6 +477,9 @@
       "value": "-",
       "supported": false
     },
+    "android-tech-stack": {
+      "value": "-"
+    },
     "android-release-notes": {
       "value": "-",
       "supported": false
@@ -500,6 +506,9 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "ios-tech-stack": {
+      "value": "-"
     },
     "ios-release-notes": {
       "value": "-",
@@ -588,6 +597,13 @@
       "supported": true,
       "flag": "positive"
     },
+    "macos-tech-stack": {
+      "value": "Rust",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
+    },
     "macos-release-notes": {
       "value": "YES",
       "supported": true,
@@ -643,6 +659,13 @@
       "supported": true,
       "flag": "positive"
     },
+    "linux-tech-stack": {
+      "value": "Rust",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
+    },
     "linux-release-notes": {
       "value": "YES",
       "supported": true,
@@ -697,6 +720,13 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "windows-tech-stack": {
+      "value": "Rust",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
     },
     "windows-release-notes": {
       "value": "YES",

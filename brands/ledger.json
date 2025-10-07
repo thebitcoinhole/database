@@ -3,7 +3,8 @@
     "value": "Ledger"
   },
   "headquarters": {
-    "value": "France"
+    "value": "France",
+    "countryCode": "FR"
   },
   "website": {
     "value": "ledger.com",

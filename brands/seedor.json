@@ -3,7 +3,8 @@
     "value": "Seedor"
   },
   "headquarters": {
-    "value": "Germany"
+    "value": "Germany",
+    "countryCode": "DE"
   },
   "website": {
     "value": "seedor.io",

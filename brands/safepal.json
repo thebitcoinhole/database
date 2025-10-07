@@ -3,7 +3,8 @@
     "value": "SafePal"
   },
   "headquarters": {
-    "value": "Singapore"
+    "value": "Singapore",
+    "countryCode": "SG"
   },
   "website": {
     "value": "safepal.io",

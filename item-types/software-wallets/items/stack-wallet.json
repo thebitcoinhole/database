@@ -500,6 +500,10 @@
         }
       ]
     },
+    "android-tech-stack": {
+      "value": "Flutter",
+      "flag": "neutral"
+    },
     "android-release-notes": {
       "value": "YES",
       "supported": true,
@@ -560,6 +564,10 @@
           "url": "https://apps.apple.com/us/app/stack-wallet-by-cypher-stack/id1634811534"
         }
       ]
+    },
+    "ios-tech-stack": {
+      "value": "Flutter",
+      "flag": "neutral"
     },
     "ios-release-notes": {
       "value": "YES",
@@ -643,6 +651,10 @@
       "supported": true,
       "flag": "positive"
     },
+    "macos-tech-stack": {
+      "value": "Flutter",
+      "flag": "neutral"
+    },
     "macos-release-notes": {
       "value": "YES",
       "supported": true,
@@ -692,6 +704,10 @@
       "supported": true,
       "flag": "positive"
     },
+    "linux-tech-stack": {
+      "value": "Flutter",
+      "flag": "neutral"
+    },
     "linux-release-notes": {
       "value": "YES",
       "supported": true,
@@ -740,6 +756,10 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "windows-tech-stack": {
+      "value": "Flutter",
+      "flag": "neutral"
     },
     "windows-release-notes": {
       "value": "YES",

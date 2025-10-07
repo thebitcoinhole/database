@@ -3,7 +3,8 @@
     "value": "NGrave"
   },
   "headquarters": {
-    "value": "Belgium"
+    "value": "Belgium",
+    "countryCode": "BE"
   },
   "website": {
     "value": "ngrave.io",

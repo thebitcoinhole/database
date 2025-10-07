@@ -496,6 +496,10 @@
         }
       ]
     },
+    "android-tech-stack": {
+      "value": "React Native",
+      "flag": "negative"
+    },
     "android-release-notes": {
       "value": "YES",
       "supported": true,
@@ -556,6 +560,10 @@
           "url": "https://apps.apple.com/us/app/bitcoin-keeper/id1545535925"
         }
       ]
+    },
+    "ios-tech-stack": {
+      "value": "React Native",
+      "flag": "negative"
     },
     "ios-release-notes": {
       "value": "YES",
@@ -633,6 +641,10 @@
       "supported": true,
       "flag": "neutral"
     },
+    "macos-tech-stack": {
+      "value": "JavaScript",
+      "flag": "negative"
+    },
     "macos-release-notes": {
       "value": "YES",
       "supported": true,
@@ -682,6 +694,10 @@
       "supported": true,
       "flag": "neutral"
     },
+    "linux-tech-stack": {
+      "value": "JavaScript",
+      "flag": "negative"
+    },
     "linux-release-notes": {
       "value": "YES",
       "supported": true,
@@ -730,6 +746,10 @@
       "value": "BETA",
       "supported": true,
       "flag": "neutral"
+    },
+    "windows-tech-stack": {
+      "value": "JavaScript",
+      "flag": "negative"
     },
     "windows-release-notes": {
       "value": "YES",

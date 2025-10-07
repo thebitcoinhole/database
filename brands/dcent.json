@@ -3,7 +3,8 @@
     "value": "D'CENT"
   },
   "headquarters": {
-    "value": "Korea"
+    "value": "Korea",
+    "countryCode": "KR"
   },
   "website": {
     "value": "dcentwallet.com",

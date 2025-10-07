@@ -3,7 +3,8 @@
     "value": "nodl"
   },
   "headquarters": {
-    "value": "France"
+    "value": "France",
+    "countryCode": "FR"
   },
   "website": {
     "value": "nodl.eu",

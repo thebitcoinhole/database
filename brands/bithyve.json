@@ -3,7 +3,8 @@
     "value": "BitHyve"
   },
   "headquarters": {
-    "value": "United Kingdom"
+    "value": "United Kingdom",
+    "countryCode": "GB"
   },
   "website": {
     "value": "bitcoinkeeper.app",

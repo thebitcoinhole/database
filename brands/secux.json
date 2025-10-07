@@ -3,7 +3,8 @@
     "value": "SecuX"
   },
   "headquarters": {
-    "value": "Taiwan"
+    "value": "Taiwan",
+    "countryCode": "TW"
   },
   "website": {
     "value": "secuxtech.com",

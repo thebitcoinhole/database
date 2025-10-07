@@ -3,7 +3,8 @@
     "value": "Ministry of Nodes"
   },
   "headquarters": {
-    "value": "Australia"
+    "value": "Australia",
+    "countryCode": "AU"
   },
   "website": {
     "value": "ministryofnodes.com.au",

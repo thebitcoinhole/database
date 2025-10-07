@@ -3,7 +3,8 @@
     "value": "Zengo"
   },
   "headquarters": {
-    "value": "Israel"
+    "value": "Israel",
+    "countryCode": "IL"
   },
   "website": {
     "value": "zengo.com",

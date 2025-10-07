@@ -3,7 +3,8 @@
     "value": "Specter Solutions"
   },
   "headquarters": {
-    "value": "Liechtenstein"
+    "value": "Liechtenstein",
+    "countryCode": "LI"
   },
   "website": {
     "value": "specter.solutions",

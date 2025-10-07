@@ -3,7 +3,8 @@
     "value": "Tangem"
   },
   "headquarters": {
-    "value": "Switzerland"
+    "value": "Switzerland",
+    "countryCode": "CH"
   },
   "website": {
     "value": "tangem.com",

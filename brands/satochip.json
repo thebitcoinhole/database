@@ -3,7 +3,8 @@
     "value": "Satochip"
   },
   "headquarters": {
-    "value": "Belgium"
+    "value": "Belgium",
+    "countryCode": "BE"
   },
   "website": {
     "value": "satochip.io",

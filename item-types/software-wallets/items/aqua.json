@@ -376,7 +376,13 @@
     "labels-import-export-bip329": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "features/bip329",
+          "url": "https://github.com/AquaWallet/aqua-wallet/tree/main/lib/features/bip329"
+        }
+      ]
     },
     "coinjoin": {
       "value": "NO",
@@ -491,6 +497,10 @@
         }
       ]
     },
+    "android-tech-stack": {
+      "value": "Flutter",
+      "flag": "neutral"
+    },
     "android-release-notes": {
       "value": "YES",
       "supported": true,
@@ -545,6 +555,10 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "ios-tech-stack": {
+      "value": "Flutter",
+      "flag": "neutral"
     },
     "ios-release-notes": {
       "value": "YES",
@@ -628,6 +642,9 @@
       "supported": false,
       "flag": "negative"
     },
+    "macos-tech-stack": {
+      "value": "-"
+    },
     "macos-release-notes": {
       "value": "-",
       "supported": false
@@ -655,6 +672,9 @@
       "supported": false,
       "flag": "negative"
     },
+    "linux-tech-stack": {
+      "value": "-"
+    },
     "linux-release-notes": {
       "value": "-",
       "supported": false
@@ -681,6 +701,9 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "windows-tech-stack": {
+      "value": "-"
     },
     "windows-release-notes": {
       "value": "-",

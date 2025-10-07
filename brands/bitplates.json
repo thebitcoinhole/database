@@ -3,7 +3,8 @@
     "value": "Bitplates"
   },
   "headquarters": {
-    "value": "England"
+    "value": "England",
+    "countryCode": "GB"
   },
   "website": {
     "value": "bitplates.com",

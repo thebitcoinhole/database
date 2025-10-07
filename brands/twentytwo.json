@@ -3,7 +3,8 @@
     "value": "TwentyTwo"
   },
   "headquarters": {
-    "value": "Italy"
+    "value": "Italy",
+    "countryCode": "IT"
   },
   "website": {
     "value": "twenty-two.xyz",

@@ -3,7 +3,8 @@
     "value": "Cryptotag"
   },
   "headquarters": {
-    "value": "Netherlands"
+    "value": "Netherlands",
+    "countryCode": "NL"
   },
   "website": {
     "value": "cryptotag.io",

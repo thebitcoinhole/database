@@ -3,7 +3,8 @@
     "value": "Jan3"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "aquawallet.io",

@@ -3,7 +3,8 @@
     "value": "Prokey Optimum"
   },
   "headquarters": {
-    "value": "Malaysia"
+    "value": "Malaysia",
+    "countryCode": "MY"
   },
   "website": {
     "value": "prokey.io",

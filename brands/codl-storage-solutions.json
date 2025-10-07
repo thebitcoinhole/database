@@ -3,7 +3,8 @@
     "value": "Codl Storage Solutions"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "codl.co",

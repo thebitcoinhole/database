@@ -3,7 +3,8 @@
     "value": "Wizardsardine"
   },
   "headquarters": {
-    "value": "Portugal"
+    "value": "Portugal",
+    "countryCode": "PT"
   },
   "website": {
     "value": "wizardsardine.com",

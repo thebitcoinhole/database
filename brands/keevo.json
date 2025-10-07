@@ -3,7 +3,8 @@
     "value": "Keevo"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "keevowallet.com",

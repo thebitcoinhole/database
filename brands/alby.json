@@ -1,0 +1,39 @@
+{
+  "brand": {
+    "value": "Alby"
+  },
+  "headquarters": {
+    "value": "-"
+  },
+  "website": {
+    "value": "getalby.com",
+    "url": "https://getalby.com"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://blog.getalby.com"
+  },
+  "twitter": {
+    "value": "@getAlby",
+    "url": "https://x.com/getAlby"
+  },
+  "nostr": {
+    "value": "Alby",
+    "url": "https://primal.net/p/nprofile1qqsyv47lazt9h6ycp2fsw270khje5egjgsrdkrupjg27u796g7f5k0s8jq7y6"
+  },
+  "youtube": {
+    "value": "getalbycom",
+    "url": "https://www.youtube.com/@getalbycom"
+  },
+  "github": {
+    "value": "getAlby",
+    "url": "https://github.com/getAlby"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "getalby",
+    "url": "https://discord.getalby.com/"
+  }
+}

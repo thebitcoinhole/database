@@ -3,7 +3,8 @@
     "value": "Blockstream"
   },
   "headquarters": {
-    "value": "Canada"
+    "value": "Canada",
+    "countryCode": "CA"
   },
   "website": {
     "value": "blockstream.com",

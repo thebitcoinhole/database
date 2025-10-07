@@ -332,7 +332,7 @@
       ]
     },
     "multiple-private-keys": {
-      "value": "YES",
+      "value": "YES (10)",
       "flag": "positive",
       "supported": true,
       "texts": [

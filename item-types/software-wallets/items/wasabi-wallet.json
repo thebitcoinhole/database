@@ -32,6 +32,9 @@
       "value": "YES",
       "supported": true,
       "flag": "positive",
+      "texts": [
+        "Testnet4 support"
+      ],
       "links": [
         {
           "title": "Testnet",
@@ -386,7 +389,13 @@
     "labels-import-export-bip329": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "GitHub discussion #9980",
+          "url": "https://github.com/orgs/WalletWasabi/discussions/9980"
+        }
+      ]
     },
     "coinjoin": {
       "value": "YES",
@@ -503,6 +512,9 @@
       "value": "-",
       "supported": false
     },
+    "android-tech-stack": {
+      "value": "-"
+    },
     "android-release-notes": {
       "value": "-",
       "supported": false
@@ -529,6 +541,9 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "ios-tech-stack": {
+      "value": "-"
     },
     "ios-release-notes": {
       "value": "-",
@@ -583,6 +598,13 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "macos-tech-stack": {
+      "value": "C#",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
     },
     "macos-release-notes": {
       "value": "YES",
@@ -639,6 +661,13 @@
       "supported": true,
       "flag": "positive"
     },
+    "linux-tech-stack": {
+      "value": "C#",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
+    },
     "linux-release-notes": {
       "value": "YES",
       "supported": true,
@@ -693,6 +722,13 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "windows-tech-stack": {
+      "value": "C#",
+      "flag": "positive",
+      "texts": [
+        "No Javascript or NPM dependencies or web-based ecosystems"
+      ]
     },
     "windows-release-notes": {
       "value": "YES",

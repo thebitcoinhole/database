@@ -379,7 +379,13 @@
     "labels-import-export-bip329": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "GitHub PR #8614, open",
+          "url": "https://github.com/spesmilo/electrum/pull/8614"
+        }
+      ]
     },
     "coinjoin": {
       "value": "NO",
@@ -494,6 +500,13 @@
         }
       ]
     },
+    "android-tech-stack": {
+      "value": "Python",
+      "flag": "positive",
+      "texts": [
+        "No NPM dependencies"
+      ]
+    },
     "android-release-notes": {
       "value": "YES",
       "supported": true,
@@ -553,6 +566,9 @@
       "supported": false,
       "flag": "negative"
     },
+    "ios-tech-stack": {
+      "value": "-"
+    },
     "ios-release-notes": {
       "value": "-",
       "supported": false
@@ -606,6 +622,13 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "macos-tech-stack": {
+      "value": "Python",
+      "flag": "positive",
+      "texts": [
+        "No NPM dependencies"
+      ]
     },
     "macos-release-notes": {
       "value": "YES",
@@ -666,6 +689,13 @@
       "supported": true,
       "flag": "positive"
     },
+    "linux-tech-stack": {
+      "value": "Python",
+      "flag": "positive",
+      "texts": [
+        "No NPM dependencies"
+      ]
+    },
     "linux-release-notes": {
       "value": "YES",
       "supported": true,
@@ -724,6 +754,13 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "windows-tech-stack": {
+      "value": "Python",
+      "flag": "positive",
+      "texts": [
+        "No NPM dependencies"
+      ]
     },
     "windows-release-notes": {
       "value": "YES",

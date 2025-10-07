@@ -3,7 +3,8 @@
     "value": "Real Security"
   },
   "headquarters": {
-    "value": "Slovenia"
+    "value": "Slovenia",
+    "countryCode": "SI"
   },
   "website": {
     "value": "bc-vault.com",

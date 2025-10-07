@@ -3,7 +3,8 @@
     "value": "Cardware Wallet"
   },
   "headquarters": {
-    "value": "South Africa"
+    "value": "South Africa",
+    "countryCode": "ZA"
   },
   "website": {
     "value": "cardwarewallet.com",

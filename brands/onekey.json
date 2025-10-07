@@ -3,7 +3,8 @@
     "value": "OneKey"
   },
   "headquarters": {
-    "value": "Hong Kong"
+    "value": "Hong Kong",
+    "countryCode": "HK"
   },
   "website": {
     "value": "onekey.so",

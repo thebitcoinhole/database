@@ -3,7 +3,8 @@
     "value": "Grid+"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "gridplus.io",

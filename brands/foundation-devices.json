@@ -1,6 +1,7 @@
 {
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "brand": {
     "value": "Foundation Devices"

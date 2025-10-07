@@ -3,7 +3,8 @@
     "value": "SeedSigner"
   },
   "headquarters": {
-    "value": "USA"
+    "value": "USA",
+    "countryCode": "US"
   },
   "website": {
     "value": "seedsigner.com",

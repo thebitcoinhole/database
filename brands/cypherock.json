@@ -3,7 +3,8 @@
     "value": "Cypherock"
   },
   "headquarters": {
-    "value": "Singapore"
+    "value": "Singapore",
+    "countryCode": "SG"
   },
   "website": {
     "value": "cypherock.com",
