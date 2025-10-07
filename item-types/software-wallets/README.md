@@ -166,12 +166,14 @@ All the features supported:
 | Android Support | android-support | Supported | android-supported |
 | Android Support | android-support | Google Play | android-googleplay-support |
 | Android Support | android-support | Direct APK Download | android-apk-support |
+| Android Support | android-support | Tech Stack | android-tech-stack |
 | Android Support | android-support | Release Notes | android-release-notes |
 | Android Support | android-support | Source-available | android-source-available |
 | Android Support | android-support | Free & Open Source (FOSS) | android-open-source |
 | Android Support | android-support | License | android-license |
 | Android Support | android-support | Reproducible Builds | android-reproducible-builds |
 | iOS Support | ios-support | Supported | ios-supported |
+| iOS Support | ios-support | Tech Stack | ios-tech-stack |
 | iOS Support | ios-support | Release Notes | ios-release-notes |
 | iOS Support | ios-support | Source-available | ios-source-available |
 | iOS Support | ios-support | Free & Open Source (FOSS) | ios-open-source |
@@ -184,18 +186,21 @@ All the features supported:
 | Web Support | web-support | License | web-license |
 | Web Support | web-support | Reproducible Builds | web-reproducible-builds |
 | MacOS Support | macos-support | Supported | macos-supported |
+| MacOS Support | macos-support | Tech Stack | macos-tech-stack |
 | MacOS Support | macos-support | Release Notes | macos-release-notes |
 | MacOS Support | macos-support | Source-available | macos-source-available |
 | MacOS Support | macos-support | Free & Open Source (FOSS) | macos-open-source |
 | MacOS Support | macos-support | License | macos-license |
 | MacOS Support | macos-support | Reproducible Builds | macos-reproducible-builds |
 | Linux Support | linux-support | Supported | linux-supported |
+| Linux Support | linux-support | Tech Stack | linux-tech-stack |
 | Linux Support | linux-support | Release Notes | linux-release-notes |
 | Linux Support | linux-support | Source-available | linux-source-available |
 | Linux Support | linux-support | Free & Open Source (FOSS) | linux-open-source |
 | Linux Support | linux-support | License | linux-license |
 | Linux Support | linux-support | Reproducible Builds | linux-reproducible-builds |
 | Windows Support | windows-support | Supported | windows-supported |
+| Windows Support | windows-support | Tech Stack | windows-tech-stack |
 | Windows Support | windows-support | Release Notes | windows-release-notes |
 | Windows Support | windows-support | Source-available | windows-source-available |
 | Windows Support | windows-support | Free & Open Source (FOSS) | windows-open-source |
