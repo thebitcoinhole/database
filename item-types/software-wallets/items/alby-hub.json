@@ -338,9 +338,9 @@
   },
   "fees": {
     "fee-control": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "replace-by-fee": {
       "value": "NO",
