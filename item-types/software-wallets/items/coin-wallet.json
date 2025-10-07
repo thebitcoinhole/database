@@ -6,11 +6,10 @@
       "value": "2015"
     }
   },
-  "company": "CoinSpace",
+  "company": "coinspace",
   "communities": {
     "telegram": {
-      "value": "-",
-      "url": "-"
+      "value": "-"
     },
     "reddit": {
       "value": "Coin_Wallet",
@@ -133,9 +132,9 @@
       "flag": "negative"
     },
     "master-key-fingerprint": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "backup-output-descriptor": {
       "value": "NO",
@@ -802,6 +801,60 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    }
+  },
+  "umbrel-os-support": {
+    "umbrel-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "umbrel-os-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "umbrel-os-reproducible-builds": {
+      "value": "-",
+      "supported": false
+    }
+  },
+  "start-os-support": {
+    "start-os-supported": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "start-os-release-notes": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-source-available": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-open-source": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-license": {
+      "value": "-",
+      "supported": false
+    },
+    "start-os-reproducible-builds": {
+      "value": "-",
+      "supported": false
     }
   },
   "hardware-wallets-support": {
