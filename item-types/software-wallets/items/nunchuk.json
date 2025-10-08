@@ -343,6 +343,11 @@
       "value": "YES",
       "supported": true,
       "flag": "positive"
+    },
+    "specter-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "spending-conditions": {

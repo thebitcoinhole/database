@@ -722,11 +722,17 @@
       "flag": "negative"
     },
     "bbqr": {
-      "value": "NO",
-      "supported": false,
+      "value": "Only Display",
+      "supported": true,
+      "flag": "neutral",
       "texts": [
         "BBQr display is supported, but not the scanning"
       ]
+    },
+    "specter-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "spending-conditions": {
