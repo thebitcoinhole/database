@@ -320,6 +320,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "specter-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "spending-conditions": {
@@ -485,6 +490,10 @@
         }
       ]
     },
+    "android-tech-stack": {
+      "value": "Cordova",
+      "flag": "negative"
+    },
     "android-release-notes": {
       "value": "YES",
       "supported": true,
@@ -539,6 +548,10 @@
           "url": "https://apps.apple.com/us/app/coin-wallet-bitcoin-crypto/id980719434"
         }
       ]
+    },
+    "ios-tech-stack": {
+      "value": "Cordova",
+      "flag": "negative"
     },
     "ios-release-notes": {
       "value": "YES",
@@ -650,6 +663,10 @@
         }
       ]
     },
+    "macos-tech-stack": {
+      "value": "JavaScript",
+      "flag": "negative"
+    },
     "macos-release-notes": {
       "value": "YES",
       "supported": true,
@@ -705,6 +722,10 @@
         }
       ]
     },
+    "linux-tech-stack": {
+      "value": "JavaScript",
+      "flag": "negative"
+    },
     "linux-release-notes": {
       "value": "YES",
       "supported": true,
@@ -759,6 +780,10 @@
           "url": "https://apps.microsoft.com/store/detail/9NBLGGH5PXJQ"
         }
       ]
+    },
+    "windows-tech-stack": {
+      "value": "JavaScript",
+      "flag": "negative"
     },
     "windows-release-notes": {
       "value": "YES",
