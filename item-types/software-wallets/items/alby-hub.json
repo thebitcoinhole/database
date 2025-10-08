@@ -65,7 +65,7 @@
       "flag": "positive"
     },
     "exchange-rate-provider": {
-      "value": "?"
+      "value": "Many"
     }
   },
   "app-lock": {
@@ -194,12 +194,14 @@
   },
   "address-format": {
     "legacy": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "nested-segwit": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "native-segwit": {
       "value": "YES",
@@ -207,8 +209,9 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "receive": {
@@ -456,70 +459,136 @@
   },
   "android-support": {
     "android-supported": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "The Alby Go app allows to send/receive but you still need to connect it to a Alby Hub server"
+      ]
+    },
+    "android-googleplay-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download from Google Play",
+          "url": "https://play.google.com/store/apps/details?id=com.getalby.mobile"
+        }
+      ]
+    },
+    "android-apk-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Download Android APK",
+          "url": "https://github.com/getAlby/go/releases"
+        }
+      ]
+    },
+    "android-tech-stack": {
+      "value": "React Native",
+      "flag": "negative"
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/getAlby/go/releases"
+        }
+      ]
+    },
+    "android-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/getAlby/go"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "android-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/getAlby/go/blob/master/LICENSE"
+        }
+      ]
+    },
+    "android-reproducible-builds": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "android-googleplay-support": {
-      "value": "-",
-      "supported": false
-    },
-    "android-apk-support": {
-      "value": "-",
-      "supported": false
-    },
-    "android-tech-stack": {
-      "value": "-"
-    },
-    "android-release-notes": {
-      "value": "-",
-      "supported": false
-    },
-    "android-source-available": {
-      "value": "-",
-      "supported": false
-    },
-    "android-open-source": {
-      "value": "-",
-      "supported": false
-    },
-    "android-license": {
-      "value": "-",
-      "supported": false
-    },
-    "android-reproducible-builds": {
-      "value": "-",
-      "supported": false
     }
   },
   "ios-support": {
     "ios-supported": {
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "The Alby Go app allows to send/receive but you still need to connect it to a Alby Hub server"
+      ]
+    },
+    "ios-tech-stack": {
+      "value": "React Native",
+      "flag": "negative"
+    },
+    "ios-release-notes": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/getAlby/go/releases"
+        }
+      ]
+    },
+    "ios-source-available": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/getAlby/go"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "ios-license": {
+      "value": "MIT",
+      "supported": true,
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/getAlby/go/blob/master/LICENSE"
+        }
+      ]
+    },
+    "ios-reproducible-builds": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "ios-tech-stack": {
-      "value": "-"
-    },
-    "ios-release-notes": {
-      "value": "-",
-      "supported": false
-    },
-    "ios-source-available": {
-      "value": "-",
-      "supported": false
-    },
-    "ios-open-source": {
-      "value": "-",
-      "supported": false
-    },
-    "ios-license": {
-      "value": "-",
-      "supported": false
-    },
-    "ios-reproducible-builds": {
-      "value": "-",
-      "supported": false
     }
   },
   "web-support": {
