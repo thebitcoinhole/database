@@ -1,0 +1,38 @@
+{
+  "brand": {
+    "value": "Satoshi Portal"
+  },
+  "headquarters": {
+    "value": "Canada",
+    "countryCode": "CA"
+  },
+  "website": {
+    "value": "bullbitcoin.com",
+    "url": "https://www.bullbitcoin.com"
+  },
+  "blog": {
+    "value": "Blog",
+    "url": "https://www.bullbitcoin.com/blog"
+  },
+  "twitter": {
+    "value": "@BullBitcoin_",
+    "url": "https://x.com/BullBitcoin_"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "@bullbitcoin_",
+    "url": "https://www.youtube.com/@bullbitcoin_"
+  },
+  "github": {
+    "value": "SatoshiPortal",
+    "url": "https://github.com/SatoshiPortal"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

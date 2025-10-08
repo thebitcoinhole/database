@@ -352,6 +352,11 @@
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "specter-qr": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "spending-conditions": {
