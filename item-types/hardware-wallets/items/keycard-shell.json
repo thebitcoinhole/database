@@ -169,13 +169,11 @@
     },
     "deterministic-nonces": {
       "value": "NO",
-      "flag": "negative",
       "supported": false
     },
     "anti-klepto": {
       "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "supported": true
     }
   },
   "networks": {

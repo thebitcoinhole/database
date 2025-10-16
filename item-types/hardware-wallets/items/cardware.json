@@ -129,7 +129,7 @@
       "supported": false
     },
     "removable-battery": {
-      "value": "NO",
+      "value": "-",
       "flag": "negative",
       "supported": false
     },

@@ -3,7 +3,8 @@
     "value": "Frostsnap Tech"
   },
   "headquarters": {
-    "value": "-"
+    "value": "Australia",
+    "countryCode": "AU"
   },
   "website": {
     "value": "frostsnap.com",
@@ -17,10 +18,12 @@
     "url": "https://x.com/FrostsnapTech"
   },
   "nostr": {
-    "value": "-"
+    "value": "Frostsnap",
+    "url": "https://primal.net/p/npub1fr0styg50xrcq9hs27wkm43kd56h6nr4lln746m304vfxadqganslul2sa"
   },
   "youtube": {
-    "value": "-"
+    "value": "@FrostsnapTech",
+    "url": "https://youtube.com/@FrostsnapTech"
   },
   "github": {
     "value": "frostsnap",

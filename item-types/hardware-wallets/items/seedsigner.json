@@ -160,8 +160,7 @@
     },
     "deterministic-nonces": {
       "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "supported": true
     },
     "anti-klepto": {
       "value": "NO",
