@@ -346,34 +346,34 @@
   },
   "fees": {
     "fee-control": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "replace-by-fee": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "child-pays-for-parent": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     }
   },
   "privacy": {
     "coin-control": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "transaction-labeling": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "labels-import-export-bip329": {
-      "value": "SAMPLE",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
@@ -447,9 +447,9 @@
   },
   "other-features": {
     "encrypted-storage": {
-      "value": "SAMPLE",
+      "value": "YES",
       "supported": true,
-      "flag": "negative"
+      "flag": "positive"
     },
     "dark-mode": {
       "value": "NO",
@@ -763,12 +763,12 @@
   },
   "hardware-wallets-support": {
     "jade": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "coldcard-mk4": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
@@ -778,72 +778,72 @@
       "flag": "positive"
     },
     "bitbox02-btconly": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "keystone-3-pro": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "passport-core": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "portal": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "trezor-model-one": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "trezor-model-t": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "trezor-safe-3": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "trezor-safe-5": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "ledger-nano-s-plus": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "ledger-nano-x": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "seedsigner": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "specter-diy": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "krux": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     },
     "tapsigner": {
-      "value": "SAMPLE",
+      "value": "MO",
       "supported": false,
       "flag": "negative"
     }
