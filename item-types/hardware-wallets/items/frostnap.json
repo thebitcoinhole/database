@@ -307,13 +307,11 @@
     },
     "pattern-lock": {
       "value": "Via Companion App",
-      "supported": true,
-      "flag": "neutral"
+      "supported": true
     },
     "fingerprint-lock": {
       "value": "Via Companion App",
-      "supported": true,
-      "flag": "neutral"
+      "supported": true
     }
   },
   "private-keys": {
