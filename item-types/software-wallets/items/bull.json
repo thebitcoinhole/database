@@ -182,9 +182,9 @@
       "flag": "positive"
     },
     "inapp-keyboard": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "seed-qr": {
       "value": "NO",
