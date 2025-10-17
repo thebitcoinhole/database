@@ -302,7 +302,7 @@
       "flag": "negative"
     },
     "alphanumeric-pin": {
-      "value": "YES (Via computer)",
+      "value": "Via Companion App",
       "supported": true,
       "flag": "neutral"
     },

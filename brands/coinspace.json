@@ -1,0 +1,36 @@
+{
+  "brand": {
+    "value": "CoinSpace"
+  },
+  "headquarters": {
+    "value": "-",
+    "countryCode": "-"
+  },
+  "website": {
+    "value": "coin.space",
+    "url": "https://coin.space"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@CoinAppWallet",
+    "url": "https://x.com/CoinAppWallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "CoinSpace",
+    "url": "https://github.com/CoinSpace"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

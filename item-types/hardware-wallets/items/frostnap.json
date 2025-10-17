@@ -8,7 +8,7 @@
       "value": "2025"
     },
     "assembled-in": {
-      "value": "?"
+      "value": "Malaysia"
     },
     "diy": {
       "value": "NO",
@@ -21,46 +21,54 @@
       "value": "-"
     },
     "reddit": {
-      "value": "-"
+      "value": "frostsnap",
+      "url": "https://www.reddit.com/r/frostsnap/"
     }
   },
   "official-store": {
     "po-box-support": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "btc-on-chain": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "btc-lightning": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "alt-coins": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     },
     "credit-debit-card": {
-      "value": "?",
+      "value": "NO",
+      "flag": "negative",
       "supported": false
     }
   },
   "size-materials": {
     "warranty": {
-      "value": "?"
+      "value": "Lifetime",
+      "flag": "positive",
+      "supported": true
     },
     "weight": {
-      "value": "?"
+      "value": "60g / 2.11oz"
     },
     "dimensions": {
-      "value": "?"
+      "value": "34 x 42 x 9 mm"
     },
     "materials": {
-      "value": "?"
+      "value": "Aluminum"
     },
     "available-in-colors": {
-      "value": "NO"
+      "value": "YES"
     },
     "waterproof": {
       "value": "NO",
@@ -75,7 +83,7 @@
       "supported": true
     },
     "screen-type": {
-      "value": "?"
+      "value": "OLED"
     },
     "gorilla-glass": {
       "value": "NO",
@@ -93,10 +101,11 @@
       "supported": true
     },
     "screen-size": {
-      "value": "?"
+      "value": "1.69",
+      "flag": "neutral"
     },
     "screen-resolution": {
-      "value": "?"
+      "value": "240 x 280 px"
     }
   },
   "input": {
@@ -151,13 +160,12 @@
       "supported": false
     },
     "deterministic-nonces": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     },
     "anti-klepto": {
       "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "supported": true
     }
   },
   "networks": {
@@ -167,8 +175,9 @@
       "flag": "positive"
     },
     "btc-testnet": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "alt-coins": {
       "value": "NO",
@@ -182,31 +191,35 @@
       "flag": "positive"
     },
     "secure-boot": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "upgradable-firmware": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "upgrade-via-sdcard": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "upgrade-via-usb-external-storage": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "upgrade-via-usb-cable": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "upgrade-via-bluetooth": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     },
     "upgrade-via-nfc": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     },
     "release-notes": {
@@ -246,78 +259,94 @@
       ]
     },
     "reproducible-builds": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "device-lock": {
     "pin-lock": {
-      "value": "?"
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
     },
     "dummy-wallet": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "dynamic-keypad": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "countdown-brick-reset-pin": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "brick-reset-pin": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "time-delay-to-unlock": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "anti-phishing-words": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "alphanumeric-pin": {
-      "value": "?",
-      "supported": false
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
     },
     "pattern-lock": {
-      "value": "?",
-      "supported": false
+      "value": "Via Companion App",
+      "supported": true
     },
     "fingerprint-lock": {
-      "value": "NO",
-      "supported": false
+      "value": "Via Companion App",
+      "supported": true
     }
   },
   "private-keys": {
     "stateless": {
-      "value": "?",
+      "value": "NO",
       "supported": false
     },
     "user-added-entropy": {
-      "value": "?",
-      "supported": false
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
     },
     "multiple-private-keys": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "passphrase-support": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "passphrase-entry": {
-      "value": "?"
+      "value": "-",
+      "flag": "negative"
     },
     "master-key-fingerprint": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "bip85": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "shamir-backup": {
       "value": "NO",
@@ -330,8 +359,9 @@
       "flag": "negative"
     },
     "backup-recovery-microsd": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "backup-recovery-nfc-card": {
       "value": "NO",
@@ -339,24 +369,29 @@
       "flag": "negative"
     },
     "create-12-words": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "create-24-words": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "display-12-24-words": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "import-12-words": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "import-24-words": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "seed-qr": {
       "value": "NO",
@@ -371,16 +406,19 @@
   },
   "address-format": {
     "legacy": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "nested-segwit": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "native-segwit": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "taproot": {
       "value": "YES",
@@ -390,29 +428,31 @@
   },
   "addresses": {
     "view-address-text": {
-      "value": "?",
-      "supported": false
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     },
     "view-address-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
     },
     "export-address-sdcard": {
-      "value": "?",
-      "supported": false
-    },
-    "verify-address-qr": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
+    },
+    "verify-address-qr": {
+      "value": "Via Companion App",
+      "supported": true,
+      "flag": "neutral"
     }
   },
   "signing": {
     "multi-sig": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "frost": {
       "value": "YES",
@@ -424,17 +464,19 @@
       "supported": false
     },
     "message-signing": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-verification": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "change-address-display": {
       "value": "NO",
       "supported": false,
       "flag": "negative"
-    },
-    "change-verification": {
-      "value": "?",
-      "supported": false
-    },
-    "change-address-display": {
-      "value": "?",
-      "supported": false
     }
   },
   "signing-connectivity": {
@@ -478,9 +520,9 @@
   },
   "spending-conditions": {
     "magnitude-limits": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "velocity-limits": {
       "value": "NO",
@@ -510,34 +552,41 @@
   },
   "fees": {
     "fee-control": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "replace-by-fee": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "child-pays-for-parent": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "maximum-fee-protection": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "privacy": {
     "coin-control": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "custom-node": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "tor": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "silent-payments": {
       "value": "NO",
@@ -573,16 +622,16 @@
       "supported": false
     },
     "windows-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "macos-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "linux-app": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "chrome-extension": {
       "value": "NO",
@@ -601,8 +650,8 @@
       "supported": true
     },
     "ios-app": {
-      "value": "YES",
-      "supported": true
+      "value": "NO",
+      "supported": false
     }
   },
   "third-party-apps": {
