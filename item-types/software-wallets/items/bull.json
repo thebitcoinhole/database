@@ -764,7 +764,7 @@
   "hardware-wallets-support": {
     "jade": {
       "value": "SOON",
-      "supported": true,
+      "supported": false,
       "flag": "neutral"
     },
     "coldcard-mk4": {
@@ -784,12 +784,12 @@
     },
     "keystone-3-pro": {
       "value": "SOON",
-      "supported": true,
+      "supported": false,
       "flag": "neutral"
     },
     "passport-core": {
       "value": "SOON",
-      "supported": true,
+      "supported": false,
       "flag": "neutral"
     },
     "portal": {
@@ -819,12 +819,12 @@
     },
     "ledger-nano-s-plus": {
       "value": "SOON",
-      "supported": true,
+      "supported": false,
       "flag": "neutral"
     },
     "ledger-nano-x": {
       "value": "SOON",
-      "supported": true,
+      "supported": false,
       "flag": "neutral"
     },
     "seedsigner": {
@@ -839,7 +839,7 @@
     },
     "krux": {
       "value": "SOON",
-      "supported": true,
+      "supported": false,
       "flag": "neutral"
     },
     "tapsigner": {
