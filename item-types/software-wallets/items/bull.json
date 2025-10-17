@@ -828,9 +828,9 @@
       "flag": "neutral"
     },
     "seedsigner": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "SOON",
+      "supported": false,
+      "flag": "neutral"
     },
     "specter-diy": {
       "value": "MO",
