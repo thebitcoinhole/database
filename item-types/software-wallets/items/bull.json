@@ -182,9 +182,9 @@
       "flag": "positive"
     },
     "inapp-keyboard": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "seed-qr": {
       "value": "NO",
@@ -763,9 +763,9 @@
   },
   "hardware-wallets-support": {
     "jade": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "coldcard-mk4": {
       "value": "MO",
@@ -783,14 +783,14 @@
       "flag": "negative"
     },
     "keystone-3-pro": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "passport-core": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "portal": {
       "value": "MO",
@@ -818,14 +818,14 @@
       "flag": "negative"
     },
     "ledger-nano-s-plus": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "ledger-nano-x": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "seedsigner": {
       "value": "YES",
@@ -838,9 +838,9 @@
       "flag": "negative"
     },
     "krux": {
-      "value": "YES",
+      "value": "SOON",
       "supported": true,
-      "flag": "positive"
+      "flag": "neutral"
     },
     "tapsigner": {
       "value": "MO",
