@@ -1,6 +1,6 @@
 {
-  "id": "bull-bitcoin",
-  "name": "Bull Bitcoin",
+  "id": "bull",
+  "name": "Bull",
   "basic-information": {
     "year": {
       "value": "2023"
@@ -302,24 +302,24 @@
       "flag": "negative"
     },
     "nfc": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "qr": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "ur-2-animated-qrs": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "bbqr": {
-      "value": "SAMPLE",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "specter-qr": {
       "value": "NO",
@@ -763,9 +763,9 @@
   },
   "hardware-wallets-support": {
     "jade": {
-      "value": "MO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "coldcard-mk4": {
       "value": "MO",
@@ -783,14 +783,14 @@
       "flag": "negative"
     },
     "keystone-3-pro": {
-      "value": "MO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "passport-core": {
-      "value": "MO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "portal": {
       "value": "MO",
@@ -818,19 +818,19 @@
       "flag": "negative"
     },
     "ledger-nano-s-plus": {
-      "value": "MO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "ledger-nano-x": {
-      "value": "MO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "seedsigner": {
-      "value": "MO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "specter-diy": {
       "value": "MO",
@@ -838,9 +838,9 @@
       "flag": "negative"
     },
     "krux": {
-      "value": "MO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "tapsigner": {
       "value": "MO",
