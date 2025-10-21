@@ -130,7 +130,7 @@
       "supported": false
     },
     "battery-size": {
-      "value": "?"
+      "value": "330mAh"
     },
     "usb-charging": {
       "value": "USB-C",
@@ -140,7 +140,10 @@
     "wireless-charging": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "Qi2-compatible for effortless power-up"
+      ]
     }
   },
   "security": {
