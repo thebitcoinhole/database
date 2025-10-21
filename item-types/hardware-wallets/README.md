@@ -96,7 +96,7 @@ All the features supported:
 | Size & Materials | size-materials | Dimensions | dimensions |
 | Size & Materials | size-materials | Casing Material | materials |
 | Size & Materials | size-materials | Available in colors | available-in-colors |
-| Size & Materials | size-materials | Waterproof | waterproof |
+| Size & Materials | size-materials | Weather Resistance | weather-resistance |
 | Display | display | Screen | screen |
 | Display | display | Screen Type | screen-type |
 | Display | display | Gorilla Glass | gorilla-glass |
@@ -181,6 +181,7 @@ All the features supported:
 | Signing Connectivity | signing-connectivity | Sign via QR | qr |
 | Signing Connectivity | signing-connectivity | UR2.0 Animated QRs | ur-2-animated-qrs |
 | Signing Connectivity | signing-connectivity | BBQr | bbqr |
+| Signing Connectivity | signing-connectivity | pMofN (Specter) QR | specter-qr |
 | Spending Conditions | spending-conditions | Magnitude Limits | magnitude-limits |
 | Spending Conditions | spending-conditions | Velocity Limits | velocity-limits |
 | Spending Conditions | spending-conditions | Whitelisted Addresses | whitelisted-addresses |

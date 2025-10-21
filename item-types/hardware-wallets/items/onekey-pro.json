@@ -70,7 +70,7 @@
         "Black or Silver"
       ]
     },
-    "waterproof": {
+    "weather-resistance": {
       "value": "NO",
       "flag": "negative",
       "supported": false

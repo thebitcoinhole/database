@@ -68,7 +68,7 @@
       "value": "NO",
       "supported": false
     },
-    "waterproof": {
+    "weather-resistance": {
       "value": "YES",
       "flag": "positive",
       "supported": true

@@ -72,7 +72,7 @@
     "available-in-colors": {
       "value": "NO"
     },
-    "waterproof": {
+    "weather-resistance": {
       "value": "NO",
       "flag": "negative",
       "supported": false

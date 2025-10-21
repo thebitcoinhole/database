@@ -80,7 +80,7 @@
         "There are two colors of metal - Genesis Gray and Lunar Silver"
       ]
     },
-    "waterproof": {
+    "weather-resistance": {
       "value": "NO",
       "flag": "negative",
       "supported": false

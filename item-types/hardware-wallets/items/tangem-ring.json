@@ -72,7 +72,7 @@
     "available-in-colors": {
       "value": "NO"
     },
-    "waterproof": {
+    "weather-resistance": {
       "value": "IP68",
       "flag": "positive",
       "supported": true

@@ -67,7 +67,7 @@
       "value": "NO",
       "supported": false
     },
-    "waterproof": {
+    "weather-resistance": {
       "value": "IP55",
       "flag": "neutral",
       "supported": true,

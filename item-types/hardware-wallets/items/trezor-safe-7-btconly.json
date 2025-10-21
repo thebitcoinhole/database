@@ -70,10 +70,10 @@
       "value": "YES",
       "supported": true
     },
-    "waterproof": {
+    "weather-resistance": {
       "value": "IP54",
-      "flag": "negative",
-      "supported": false
+      "flag": "neutral",
+      "supported": true
     }
   },
   "display": {

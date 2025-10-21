@@ -138,6 +138,7 @@ All the features supported:
 | Signing Connectivity | signing-connectivity | Sign via QR | qr |
 | Signing Connectivity | signing-connectivity | UR2.0 Animated QRs | ur-2-animated-qrs |
 | Signing Connectivity | signing-connectivity | BBQr | bbqr |
+| Signing Connectivity | signing-connectivity | pMofN (Specter) QR | specter-qr |
 | Spending Conditions | spending-conditions | Miniscript | miniscript |
 | Spending Conditions | spending-conditions | Taproot Miniscript | taproot-miniscript |
 | Spending Conditions | spending-conditions | Timelocks | timelocks |

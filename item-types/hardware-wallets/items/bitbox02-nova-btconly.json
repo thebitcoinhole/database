@@ -84,7 +84,7 @@
         "Midnight Black and Polar White"
       ]
     },
-    "waterproof": {
+    "weather-resistance": {
       "value": "NO",
       "flag": "negative",
       "supported": false

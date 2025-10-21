@@ -69,7 +69,7 @@
       "value": "Black or White",
       "supported": true
     },
-    "waterproof": {
+    "weather-resistance": {
       "value": "NO",
       "flag": "negative",
       "supported": false
