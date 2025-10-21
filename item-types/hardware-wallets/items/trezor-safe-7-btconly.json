@@ -1,11 +1,12 @@
 {
-  "id": "trezor-safe-5",
-  "name": "Safe 5",
-  "full-name": "Trezor Safe 5",
+  "id": "trezor-safe-7-btconly",
+  "name": "Safe 7 Bitcoin-Only",
+  "full-name": "Trezor Safe 7 Bitcoin-Only",
   "purchasable": true,
+  "pre-order": true,
   "basic-information": {
     "year": {
-      "value": "2024"
+      "value": "2025"
     },
     "assembled-in": {
       "value": "Czech Republic"
@@ -57,20 +58,20 @@
       "supported": true
     },
     "weight": {
-      "value": "23g / 0.8oz"
+      "value": "45g / 1.6oz"
     },
     "dimensions": {
-      "value": "65.9 x 40 x 8 mm"
+      "value": "75.4 x 44.5 x 8.3 mm"
     },
     "materials": {
-      "value": "Plastic"
+      "value": "Aluminum"
     },
     "available-in-colors": {
       "value": "YES",
       "supported": true
     },
     "waterproof": {
-      "value": "NO",
+      "value": "IP54",
       "flag": "negative",
       "supported": false
     }
@@ -100,11 +101,11 @@
       "supported": true
     },
     "screen-size": {
-      "value": "1.54\"",
-      "flag": "neutral"
+      "value": "2.5\"",
+      "flag": "positive"
     },
     "screen-resolution": {
-      "value": "240 x 240 px"
+      "value": "520 x 380 px"
     }
   },
   "input": {
@@ -119,19 +120,17 @@
   },
   "power": {
     "battery": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "removable-battery": {
       "value": "NO",
       "flag": "negative",
       "supported": false
     },
-    "removable-battery": {
-      "value": "-",
-      "flag": "negative",
-      "supported": false
-    },
     "battery-size": {
-      "value": "-",
-      "flag": "negative",
-      "supported": false
+      "value": "?"
     },
     "usb-charging": {
       "value": "USB-C",
@@ -139,9 +138,9 @@
       "supported": true
     },
     "wireless-charging": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "security": {
@@ -151,9 +150,12 @@
       "flag": "negative"
     },
     "secure-element": {
-      "value": "YES (EAL6+)",
+      "value": "YES (2) (EAL6+)",
       "supported": true,
       "flag": "positive",
+      "texts": [
+        "The world's first auditable Secure Element, TROPIC01, sets a new standard with radically transparent crypto protection and the most advanced hardware security ever created."
+      ],
       "links": [
         {
           "title": "Secure Elements in Trezor Safe devices",
@@ -199,14 +201,8 @@
       ]
     },
     "alt-coins": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "List of Supported Tokens",
-          "url": "https://trezor.io/coins/"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     }
   },
   "firmware": {
@@ -252,8 +248,8 @@
       "supported": true
     },
     "upgrade-via-bluetooth": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "upgrade-via-nfc": {
       "value": "NO",
@@ -612,8 +608,8 @@
       "supported": true
     },
     "bluetooth": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "nfc": {
       "value": "NO",
@@ -748,28 +744,12 @@
       ]
     },
     "u2f-authentication": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "Two-Factor Authentication",
-          "url": "https://blog.trezor.io/featurefriday-two-factor-authentication-7ef1adadaca8"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     },
     "fido-authentication": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "OpenSSH with fido and Trezor",
-          "url": "https://blog.trezor.io/openssh-with-fido-and-trezor-e565c2277"
-        },
-        {
-          "title": "What is fido?",
-          "url": "https://trezor.io/guides/bonus-tools/what-is-fido2"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     },
     "hardware-based-ssh-gpg": {
       "value": "NO",

@@ -156,8 +156,8 @@
       "flag": "positive",
       "links": [
         {
-          "title": "Secure Element in Trezor Safe 3",
-          "url": "https://trezor.io/learn/a/secure-element-in-trezor-safe-3"
+          "title": "Secure Elements in Trezor Safe devices",
+          "url": "https://trezor.io/learn/security-privacy/how-trezor-keeps-you-safe/secure-elements-in-trezor-safe-devices"
         }
       ]
     },
