@@ -528,9 +528,9 @@
       "flag": "negative"
     },
     "miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "taproot-miniscript": {
       "value": "NO",

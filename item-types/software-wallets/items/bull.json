@@ -380,7 +380,10 @@
     "coinjoin": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "texts": [
+        "Payjoin"
+      ]
     },
     "hide-sensitive-data": {
       "value": "YES",
