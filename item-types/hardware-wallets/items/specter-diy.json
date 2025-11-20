@@ -585,8 +585,9 @@
       "flag": "positive"
     },
     "maximum-fee-protection": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "privacy": {
@@ -744,6 +745,11 @@
       "value": "Watch-only",
       "supported": true,
       "flag": "neutral"
+    },
+    "bull": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "liana": {
       "value": "YES",

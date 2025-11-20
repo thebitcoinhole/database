@@ -59,8 +59,8 @@
       "value": "Plastic"
     },
     "available-in-colors": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "weather-resistance": {
       "value": "NO",
@@ -117,9 +117,12 @@
       "supported": true
     },
     "removable-battery": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "Partially",
+      "flag": "neutral",
+      "supported": true,
+      "texts": [
+        "This hardware wallet includes a removable battery, but accessing it requires opening the device and manually disconnecting a small internal cable."
+      ]
     },
     "battery-size": {
       "value": "1400 mAh",
@@ -495,8 +498,8 @@
   },
   "signing-connectivity": {
     "usb": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "bluetooth": {
       "value": "NO",
@@ -587,8 +590,9 @@
       "flag": "positive"
     },
     "maximum-fee-protection": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "privacy": {
@@ -746,6 +750,11 @@
       "value": "Watch-only",
       "supported": true,
       "flag": "neutral"
+    },
+    "bull": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "liana": {
       "value": "YES",

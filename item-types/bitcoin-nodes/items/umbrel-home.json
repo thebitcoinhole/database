@@ -324,12 +324,9 @@
       ]
     },
     "backup-restore": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
-      "texts": [
-        "Umbrel does not offer a means of backing up other services. If you want to back up your Bitcoin node, or your data, messages, or passwords from other services, you will need to SSH into your Umbrel, then use the command line to manually export data from each service using an over-the-air protocol such as FTP or SMB. You will need to research each service to determine exactly what data should be exported and in what format, and you will need to perform your own encryption if you want the backups to be encrypted."
-      ]
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "health-checks": {
       "value": "NO",

@@ -991,6 +991,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "bull": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "liana": {
       "value": "YES",
       "supported": true,

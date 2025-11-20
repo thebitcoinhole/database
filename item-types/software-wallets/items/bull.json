@@ -373,9 +373,9 @@
       "flag": "positive"
     },
     "labels-import-export-bip329": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "coinjoin": {
       "value": "YES",
@@ -771,7 +771,7 @@
       "flag": "neutral"
     },
     "coldcard-mk4": {
-      "value": "MO",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
@@ -781,7 +781,7 @@
       "flag": "positive"
     },
     "bitbox02-btconly": {
-      "value": "MO",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
@@ -796,27 +796,27 @@
       "flag": "neutral"
     },
     "portal": {
-      "value": "MO",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "trezor-model-one": {
-      "value": "MO",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "trezor-model-t": {
-      "value": "MO",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "trezor-safe-3": {
-      "value": "MO",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
     "trezor-safe-5": {
-      "value": "MO",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
@@ -831,22 +831,22 @@
       "flag": "neutral"
     },
     "seedsigner": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "specter-diy": {
-      "value": "MO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "krux": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "tapsigner": {
-      "value": "MO",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     }

@@ -696,6 +696,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "bull": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "liana": {
       "value": "NO",
       "supported": false,

@@ -393,9 +393,9 @@
       "flag": "negative"
     },
     "seed-xor": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "backup-recovery-microsd": {
       "value": "YES",
@@ -775,6 +775,11 @@
       "flag": "positive"
     },
     "bitcoin-keeper": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "bull": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

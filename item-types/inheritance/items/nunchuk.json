@@ -180,8 +180,8 @@
       "supported": true
     },
     "onchain-timelock": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "timelock-refresh-method": {
       "value": "On App",
