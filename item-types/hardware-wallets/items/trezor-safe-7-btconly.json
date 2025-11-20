@@ -216,7 +216,7 @@
       "links": [
         {
           "title": "Bitcoin-only firmware on Trezor",
-          "url": "https://shop.trezor.io/btc-only/"
+          "url": "https://trezor.io/learn/supported-assets/bitcoin/bitcoin-only-firmware-on-trezor"
         }
       ]
     },
@@ -265,7 +265,7 @@
       "links": [
         {
           "title": "Release Notes",
-          "url": "https://github.com/trezor/trezor-firmware/blob/main/core/CHANGELOG.T3T1.md"
+          "url": "https://github.com/trezor/trezor-firmware/blob/main/core/CHANGELOG.T3W1.md"
         }
       ]
     },
@@ -311,7 +311,7 @@
         },
         {
           "title": "WalletScrutiny.com",
-          "url": "https://walletscrutiny.com/hardware/trezorSafe5/"
+          "url": "https://walletscrutiny.com/hardware/trezorSafe7/"
         }
       ]
     }
