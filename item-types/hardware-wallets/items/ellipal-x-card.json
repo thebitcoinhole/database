@@ -3,7 +3,6 @@
   "name": "X Card",
   "full-name": "Ellipal X Card",
   "purchasable": true,
-  "pre-order": true,
   "basic-information": {
     "year": {
       "value": "2025"
