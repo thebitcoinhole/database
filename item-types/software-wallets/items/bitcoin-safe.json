@@ -62,9 +62,9 @@
       "flag": "positive"
     },
     "sats": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "exchange-rate-provider": {
       "value": "Coingecko"
@@ -691,10 +691,16 @@
       ]
     },
     "linux-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    }
+      "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Wallet Scrutiny",
+            "url": "https://walletscrutiny.com/desktop/bitcoin.safe/"
+          }
+        ]
+    } 
   },
   "windows-support": {
     "windows-supported": {
@@ -747,10 +753,16 @@
       ]
     },
     "windows-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
-    }
+      "value": "YES",
+        "supported": true,
+        "flag": "positive",
+        "links": [
+          {
+            "title": "Wallet Scrutiny",
+            "url": "https://walletscrutiny.com/desktop/bitcoin.safe/"
+          }
+        ]
+    } 
   },
   "umbrel-os-support": {
     "umbrel-os-supported": {
