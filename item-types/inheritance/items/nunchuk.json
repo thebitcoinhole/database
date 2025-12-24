@@ -30,12 +30,11 @@
       "supported": true
     },
     "provider-independence": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false,
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
       "texts": [
-        "The Owner can decide to keep the beneficiaries in the dark about the existence of the inheritance and don't distribute the beneficiary keys immediately. So, beneficiaries can't collude with the provider to gain unauthorized access to your funds.",
-        "Instead, if the the beneficiary keys are distributed from zero day, collusion between the provider and the beneficiary could happen."
+        "With the Autonomous recovery (on-chain timelock) you can opt for a Self-serve claim if Nunchuk is unavailable"
       ]
     },
     "single-sig": {
