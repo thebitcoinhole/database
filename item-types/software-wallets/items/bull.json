@@ -766,9 +766,9 @@
   },
   "hardware-wallets-support": {
     "jade": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "coldcard-mk4": {
       "value": "NO",
@@ -791,9 +791,9 @@
       "flag": "neutral"
     },
     "passport-core": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "portal": {
       "value": "NO",

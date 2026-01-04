@@ -855,9 +855,9 @@
       "flag": "positive"
     },
     "bull": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "liana": {
       "value": "NO",

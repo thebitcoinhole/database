@@ -691,9 +691,9 @@
       ]
     },
     "linux-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "windows-support": {
@@ -747,9 +747,9 @@
       ]
     },
     "windows-reproducible-builds": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "umbrel-os-support": {

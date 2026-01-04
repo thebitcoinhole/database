@@ -295,9 +295,9 @@
       "flag": "positive"
     },
     "message-signing": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "signing-connectivity": {

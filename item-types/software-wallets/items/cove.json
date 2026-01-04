@@ -311,9 +311,9 @@
       "flag": "positive"
     },
     "ur-2-animated-qrs": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "bbqr": {
       "value": "YES",
