@@ -244,9 +244,9 @@
       ]
     },
     "source-available": {
-      "value": "Partially",
+      "value": "NO",
       "supported": false,
-      "flag": "neutral",
+      "flag": "negative",
       "links": [
         {
           "title": "Source Code (partial)",

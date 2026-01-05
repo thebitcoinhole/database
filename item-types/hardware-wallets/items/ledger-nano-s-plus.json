@@ -154,7 +154,7 @@
       "flag": "negative"
     },
     "secure-element": {
-      "value": "YES (EAL5+)",
+      "value": "YES (EAL6+)",
       "supported": true,
       "flag": "positive"
     },
@@ -253,7 +253,13 @@
       "flag": "negative"
     },
     "license": {
-      "value": "-"
+      "value": "Limited Use",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/LedgerHQ/ledger-secure-os/blob/main/LICENSE.md"
+        }
+      ]
     },
     "reproducible-builds": {
       "value": "NO",

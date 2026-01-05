@@ -1,14 +1,14 @@
 {
-  "id": "ledger-stax",
-  "name": "Stax",
-  "full-name": "Ledger Stax",
+  "id": "ledger-nano-gen5",
+  "name": "Nano Gen5",
+  "full-name": "Ledger Nano Gen5",
   "purchasable": true,
   "basic-information": {
     "year": {
-      "value": "2024"
+      "value": "2025"
     },
     "assembled-in": {
-      "value": "Vietnam"
+      "value": "France"
     },
     "diy": {
       "value": "NO",
@@ -62,17 +62,17 @@
       "supported": true
     },
     "weight": {
-      "value": "45.2g / 1.6oz"
+      "value": "46g / 1.6oz"
     },
     "dimensions": {
-      "value": "85 x 54 x 6 mm"
+      "value": "74 x 53.3 x 8.6 mm"
     },
     "materials": {
-      "value": "Plastic & Aluminum"
+      "value": "Plastic"
     },
     "available-in-colors": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "weather-resistance": {
       "value": "NO",
@@ -105,11 +105,11 @@
       "supported": true
     },
     "screen-size": {
-      "value": "3.7\"",
+      "value": "2.8\"",
       "flag": "positive"
     },
     "screen-resolution": {
-      "value": "672 x 400 px"
+      "value": "300 x 400 px"
     }
   },
   "input": {
@@ -117,8 +117,7 @@
       "value": "Touch Screen"
     },
     "qwerty-keyboard": {
-      "value": "?",
-      "supported": false
+      "value": "?"
     }
   },
   "power": {
@@ -142,9 +141,9 @@
       "supported": true
     },
     "wireless-charging": {
-      "value": "Qi charging",
-      "flag": "positive",
-      "supported": true
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     }
   },
   "security": {
@@ -220,12 +219,12 @@
       "flag": "negative"
     },
     "upgrade-via-usb-cable": {
-      "value": "NO",
-      "supported": false
-    },
-    "upgrade-via-bluetooth": {
       "value": "YES",
       "supported": true
+    },
+    "upgrade-via-bluetooth": {
+      "value": "NO",
+      "supported": false
     },
     "upgrade-via-nfc": {
       "value": "NO",
@@ -238,14 +237,20 @@
       "links": [
         {
           "title": "Release Notes",
-          "url": "https://support.ledger.com/article/Ledger-Stax-OS-release-notes"
+          "url": "https://support.ledger.com/hc/en-us/articles/360014980580-Ledger-Nano-X-firmware-release-notes?docs=true"
         }
       ]
     },
     "source-available": {
       "value": "NO",
       "supported": false,
-      "flag": "negative"
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Source Code (partial)",
+          "url": "https://github.com/LedgerHQ/ledger-secure-os"
+        }
+      ]
     },
     "open-source": {
       "value": "NO",
@@ -559,14 +564,20 @@
       "flag": "negative"
     },
     "miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Miniscript is coming to Bitcoin, and to your Ledger Nano!",
+          "url": "https://blog.ledger.com/miniscript-is-coming/"
+        }
+      ]
     },
     "taproot-miniscript": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "fees": {

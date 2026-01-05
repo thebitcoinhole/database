@@ -1,6 +1,7 @@
 {
   "id": "ledger-flex",
-  "name": "Ledger Flex",
+  "name": "Flex",
+  "full-name": "Ledger Flex",
   "purchasable": true,
   "basic-information": {
     "year": {
@@ -256,7 +257,13 @@
       "flag": "negative"
     },
     "license": {
-      "value": "-"
+      "value": "Limited Use",
+      "links": [
+        {
+          "title": "License",
+          "url": "https://github.com/LedgerHQ/ledger-secure-os/blob/main/LICENSE.md"
+        }
+      ]
     },
     "reproducible-builds": {
       "value": "NO",
@@ -505,8 +512,8 @@
       "supported": true
     },
     "nfc": {
-      "value": "NO",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "microsd-card": {
       "value": "NO",
