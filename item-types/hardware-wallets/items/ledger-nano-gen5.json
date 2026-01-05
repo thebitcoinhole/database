@@ -380,9 +380,9 @@
       "flag": "negative"
     },
     "backup-recovery-nfc-card": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "create-12-words": {
       "value": "NO",
