@@ -749,6 +749,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "cove": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
     "electrum": {
       "value": "Watch-only",
       "supported": true,

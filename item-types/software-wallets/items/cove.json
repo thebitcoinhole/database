@@ -136,9 +136,9 @@
       "flag": "positive"
     },
     "backup-output-descriptor": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "restore-output-descriptor": {
       "value": "YES",

@@ -210,9 +210,9 @@
   },
   "firmware": {
     "bitcoin-only-firmware": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "secure-boot": {
       "value": "?",
@@ -511,9 +511,9 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "addresses": {
@@ -799,6 +799,11 @@
       "flag": "negative"
     },
     "nunchuk": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
+    "cove": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

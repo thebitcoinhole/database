@@ -43,7 +43,7 @@
       "value": "Box"
     },
     "warranty": {
-      "value": "1 year",
+      "value": "2 years",
       "flag": "positive",
       "supported": true
     },
@@ -54,12 +54,12 @@
       "value": "11.4 x 10.6 x 3.75 cm"
     },
     "cpu": {
-      "value": "AMD Ryzen 7 5825U"
+      "value": "AMD Ryzen 7 6800H"
     },
     "ram": {
       "value": "16/32 GB",
       "texts": [
-        "16GB (2x8GB) or 32GB (2x16GB) DDR4 RAM"
+        "16GB (2x8GB) or 32GB (2x16GB) DDR5 RAM"
       ]
     },
     "storage": {

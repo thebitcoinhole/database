@@ -722,6 +722,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "cove": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "electrum": {
       "value": "YES",
       "supported": true,
@@ -754,9 +759,9 @@
       "flag": "negative"
     },
     "bitcoin-keeper": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "bull": {
       "value": "NO",

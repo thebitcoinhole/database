@@ -718,6 +718,11 @@
       "supported": false,
       "flag": "negative"
     },
+    "cove": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "electrum": {
       "value": "NO",
       "supported": false,

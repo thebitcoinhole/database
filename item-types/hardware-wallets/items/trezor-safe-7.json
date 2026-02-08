@@ -857,6 +857,11 @@
       "supported": true,
       "flag": "positive"
     },
+    "cove": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
+    },
     "electrum": {
       "value": "YES",
       "supported": true,

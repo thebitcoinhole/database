@@ -397,9 +397,9 @@
       "flag": "positive"
     },
     "stealth-mode": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "built-in-secure-communication": {
       "value": "NO",

@@ -253,9 +253,9 @@
       "flag": "negative"
     },
     "send-internal-address": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "multiple-send-addresses": {
       "value": "NO",
@@ -433,9 +433,9 @@
       "flag": "positive"
     },
     "fulcrum-server": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "dojo-server": {
       "value": "NO",
@@ -455,9 +455,9 @@
       "flag": "positive"
     },
     "dark-mode": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "wallet-rollover": {
       "value": "NO",
@@ -786,9 +786,9 @@
       "flag": "negative"
     },
     "keystone-3-pro": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "passport-core": {
       "value": "YES",
