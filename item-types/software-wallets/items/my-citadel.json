@@ -129,7 +129,7 @@
     "passphrase-support": {
       "value": "YES",
       "supported": true,
-      "flag": "neutral",
+      "flag": "positive",
       "texts": [
         "Available when connecting a hardware wallet."
       ]

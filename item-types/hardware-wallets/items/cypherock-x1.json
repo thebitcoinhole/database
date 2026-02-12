@@ -413,7 +413,7 @@
     "shamir-backup": {
       "value": "YES",
       "supported": true,
-      "flag": "neutral",
+      "flag": "positive",
       "links": [
         {
           "title": "Cypherock eliminates traditional seed phrase backups",
