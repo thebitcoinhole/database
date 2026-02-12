@@ -129,9 +129,7 @@
       "supported": true
     },
     "battery-size": {
-      "value": "3x AAA batteries",
-      "flag": "positive",
-      "supported": true
+      "value": "3x AAA batteries"
     },
     "usb-charging": {
       "value": "USB-C",

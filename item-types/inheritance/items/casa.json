@@ -232,8 +232,7 @@
       "flag": "negative"
     },
     "android-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "android-reproducible-builds": {
       "value": "NO",
@@ -268,8 +267,7 @@
       "flag": "negative"
     },
     "ios-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "ios-reproducible-builds": {
       "value": "NO",
@@ -303,8 +301,7 @@
       "supported": false
     },
     "macos-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "macos-reproducible-builds": {
       "value": "-",
@@ -330,8 +327,7 @@
       "supported": false
     },
     "linux-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "linux-reproducible-builds": {
       "value": "-",
@@ -357,8 +353,7 @@
       "supported": false
     },
     "windows-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "windows-reproducible-builds": {
       "value": "-",

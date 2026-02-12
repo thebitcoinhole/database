@@ -139,7 +139,6 @@
     },
     "release-notes": {
       "value": "YES",
-      "supported": true,
       "flag": "positive",
       "links": [
         {
@@ -166,7 +165,6 @@
     },
     "license": {
       "value": "GPLv3",
-      "supported": true,
       "links": [
         {
           "title": "License",

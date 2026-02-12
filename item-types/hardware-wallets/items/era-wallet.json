@@ -132,8 +132,7 @@
       "supported": false
     },
     "battery-size": {
-      "value": "170 mAh",
-      "flag": "positive"
+      "value": "170 mAh"
     },
     "usb-charging": {
       "value": "NO",

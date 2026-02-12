@@ -130,7 +130,6 @@
     },
     "battery-size": {
       "value": "585 mAh",
-      "flag": "positive",
       "texts": [
         "Li-ion Polymer 585mAh 3.7V"
       ]

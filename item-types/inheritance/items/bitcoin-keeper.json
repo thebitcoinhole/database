@@ -226,7 +226,6 @@
     },
     "android-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -287,7 +286,6 @@
     },
     "ios-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -343,7 +341,6 @@
     },
     "macos-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -392,7 +389,6 @@
     },
     "linux-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -441,7 +437,6 @@
     },
     "windows-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",

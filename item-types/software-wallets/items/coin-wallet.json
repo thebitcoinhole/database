@@ -523,7 +523,6 @@
     },
     "android-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -582,7 +581,6 @@
     },
     "ios-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -637,7 +635,6 @@
     },
     "web-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -696,7 +693,6 @@
     },
     "macos-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -755,7 +751,6 @@
     },
     "linux-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -814,7 +809,6 @@
     },
     "windows-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -847,8 +841,7 @@
       "supported": false
     },
     "umbrel-os-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "umbrel-os-reproducible-builds": {
       "value": "-",
@@ -874,8 +867,7 @@
       "supported": false
     },
     "start-os-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "start-os-reproducible-builds": {
       "value": "-",

@@ -128,8 +128,7 @@
       "supported": false
     },
     "battery-size": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "usb-charging": {
       "value": "USB-C",

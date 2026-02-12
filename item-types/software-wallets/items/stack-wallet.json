@@ -538,7 +538,6 @@
     },
     "android-license": {
       "value": "GPLv3",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -603,7 +602,6 @@
     },
     "ios-license": {
       "value": "GPLv3",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -642,8 +640,7 @@
       "supported": false
     },
     "web-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "web-reproducible-builds": {
       "value": "-",
@@ -689,7 +686,6 @@
     },
     "macos-license": {
       "value": "GPLv3",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -742,7 +738,6 @@
     },
     "linux-license": {
       "value": "GPLv3",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -795,7 +790,6 @@
     },
     "windows-license": {
       "value": "GPLv3",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -828,8 +822,7 @@
       "supported": false
     },
     "umbrel-os-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "umbrel-os-reproducible-builds": {
       "value": "-",
@@ -855,8 +848,7 @@
       "supported": false
     },
     "start-os-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "start-os-reproducible-builds": {
       "value": "-",

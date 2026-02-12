@@ -197,8 +197,7 @@
       "supported": false
     },
     "android-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "android-reproducible-builds": {
       "value": "-",
@@ -224,8 +223,7 @@
       "supported": false
     },
     "ios-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "ios-reproducible-builds": {
       "value": "-",
@@ -280,7 +278,6 @@
     },
     "macos-license": {
       "value": "BSD 3-Clause",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -335,7 +332,6 @@
     },
     "linux-license": {
       "value": "BSD 3-Clause",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -390,7 +386,6 @@
     },
     "windows-license": {
       "value": "BSD 3-Clause",
-      "supported": true,
       "links": [
         {
           "title": "License",

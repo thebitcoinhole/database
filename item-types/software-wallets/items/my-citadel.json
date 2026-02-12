@@ -521,8 +521,7 @@
       "supported": false
     },
     "ios-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "ios-reproducible-builds": {
       "value": "-",
@@ -548,8 +547,7 @@
       "supported": false
     },
     "web-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "web-reproducible-builds": {
       "value": "-",
@@ -598,7 +596,6 @@
     },
     "macos-license": {
       "value": "Affero GPLv3",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -654,7 +651,6 @@
     },
     "linux-license": {
       "value": "Affero GPLv3",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -710,7 +706,6 @@
     },
     "windows-license": {
       "value": "Affero GPLv3",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -743,8 +738,7 @@
       "supported": false
     },
     "umbrel-os-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "umbrel-os-reproducible-builds": {
       "value": "-",
@@ -770,8 +764,7 @@
       "supported": false
     },
     "start-os-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "start-os-reproducible-builds": {
       "value": "-",

@@ -526,7 +526,6 @@
     },
     "android-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -582,7 +581,6 @@
     },
     "ios-license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -617,8 +615,7 @@
       "flag": "negative"
     },
     "web-license": {
-      "value": "-",
-      "supported": false
+      "value": "-"
     },
     "web-reproducible-builds": {
       "value": "NO",
@@ -665,7 +662,6 @@
     },
     "macos-license": {
       "value": "Apache 2.0",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -717,7 +713,6 @@
     },
     "linux-license": {
       "value": "Apache 2.0",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -769,7 +764,6 @@
     },
     "windows-license": {
       "value": "Apache 2.0",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -817,7 +811,6 @@
     },
     "umbrel-os-license": {
       "value": "Apache 2.0",
-      "supported": true,
       "links": [
         {
           "title": "License",
@@ -865,7 +858,6 @@
     },
     "start-os-license": {
       "value": "Apache 2.0",
-      "supported": true,
       "links": [
         {
           "title": "License",

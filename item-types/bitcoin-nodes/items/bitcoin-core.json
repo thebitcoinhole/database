@@ -135,7 +135,6 @@
     },
     "license": {
       "value": "MIT",
-      "supported": true,
       "links": [
         {
           "title": "License",

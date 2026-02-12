@@ -130,8 +130,7 @@
       "supported": false
     },
     "battery-size": {
-      "value": "1200 mAh",
-      "flag": "positive"
+      "value": "1200 mAh"
     },
     "usb-charging": {
       "value": "USB-C",

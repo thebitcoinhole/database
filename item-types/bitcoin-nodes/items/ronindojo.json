@@ -182,7 +182,6 @@
     },
     "license": {
       "value": "Affero GPLv3",
-      "supported": false,
       "links": [
         {
           "title": "License (Tor)",

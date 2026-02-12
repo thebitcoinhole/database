@@ -134,8 +134,7 @@
       "supported": false
     },
     "battery-size": {
-      "value": "600 mAh",
-      "flag": "positive"
+      "value": "600 mAh"
     },
     "usb-charging": {
       "value": "Micro-USB",

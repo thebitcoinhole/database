@@ -149,7 +149,6 @@
     },
     "battery-size": {
       "value": "520 mAh",
-      "flag": "positive",
       "texts": [
         "Using Maix Amigo as reference"
       ]
