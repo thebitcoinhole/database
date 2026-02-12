@@ -51,7 +51,8 @@
   },
   "size-materials": {
     "warranty": {
-      "value": "-"
+      "value": "-",
+      "supported": false
     },
     "weight": {
       "value": "150g / 5.29oz"

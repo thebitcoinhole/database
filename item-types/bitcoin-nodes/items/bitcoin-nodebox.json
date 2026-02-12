@@ -134,16 +134,19 @@
       "value": "-"
     },
     "source-available": {
-      "value": "-"
+      "value": "-",
+      "supported": false
     },
     "open-source": {
-      "value": "-"
+      "value": "-",
+      "supported": false
     },
     "license": {
       "value": "-"
     },
     "reproducible-builds": {
-      "value": "-"
+      "value": "-",
+      "supported": false
     }
   },
   "platforms": {

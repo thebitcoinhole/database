@@ -47,7 +47,8 @@
   },
   "size-materials": {
     "warranty": {
-      "value": "-"
+      "value": "-",
+      "supported": false
     },
     "weight": {
       "value": "369g / 13oz"

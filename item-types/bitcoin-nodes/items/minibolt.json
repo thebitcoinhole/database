@@ -61,23 +61,23 @@
     },
     "ethernet": {
       "value": "-",
-      "supported": true
+      "supported": false
     },
     "wifi": {
       "value": "-",
-      "supported": true
+      "supported": false
     },
     "hdmi": {
       "value": "-",
-      "supported": true
+      "supported": false
     },
     "usb": {
       "value": "-",
-      "supported": true
+      "supported": false
     },
     "bluetooth": {
       "value": "-",
-      "supported": true
+      "supported": false
     }
   },
   "networks": {

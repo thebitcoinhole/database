@@ -237,7 +237,8 @@
       "supported": false
     },
     "release-notes": {
-      "value": "-"
+      "value": "-",
+      "supported": false
     },
     "source-available": {
       "value": "NO",

@@ -65,7 +65,7 @@
     },
     "stress-tests": {
       "value": "-",
-      "supported": true
+      "supported": false
     }
   },
   "security": {
