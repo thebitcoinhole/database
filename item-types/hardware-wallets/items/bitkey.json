@@ -86,31 +86,25 @@
       ]
     },
     "screen-type": {
-      "value": "-",
-      "flag": "negative"
+      "value": "-"
     },
     "gorilla-glass": {
       "value": "-",
-      "flag": "negative",
       "supported": false
     },
     "color-screen": {
       "value": "-",
-      "flag": "negative",
       "supported": false
     },
     "touch-screen": {
       "value": "-",
-      "flag": "negative",
       "supported": false
     },
     "screen-size": {
-      "value": "-",
-      "flag": "negative"
+      "value": "-"
     },
     "screen-resolution": {
-      "value": "-",
-      "flag": "negative"
+      "value": "-"
     }
   },
   "input": {
@@ -367,8 +361,7 @@
       "supported": false
     },
     "passphrase-entry": {
-      "value": "-",
-      "flag": "negative"
+      "value": "-"
     },
     "master-key-fingerprint": {
       "value": "NO",

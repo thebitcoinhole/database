@@ -332,7 +332,6 @@
     },
     "passphrase-entry": {
       "value": "-",
-      "flag": "negative",
       "supported": false
     },
     "master-key-fingerprint": {

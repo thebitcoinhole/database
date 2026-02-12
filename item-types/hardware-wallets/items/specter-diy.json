@@ -119,12 +119,10 @@
     },
     "removable-battery": {
       "value": "-",
-      "flag": "negative",
       "supported": false
     },
     "battery-size": {
-      "value": "-",
-      "flag": "negative"
+      "value": "-"
     },
     "usb-charging": {
       "value": "Mini USB",
