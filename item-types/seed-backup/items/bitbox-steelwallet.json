@@ -89,7 +89,7 @@
       "supported": false
     },
     "tamper-evident-seal": {
-      "value": " NO",
+      "value": "NO",
       "flag": "negative",
       "supported": false
     }

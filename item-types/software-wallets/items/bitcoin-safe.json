@@ -132,7 +132,7 @@
       "flag": "negative"
     },
     "passphrase-support": {
-      "value": "No",
+      "value": "NO",
       "supported": false,
       "flag": "negative"
     },
