@@ -42,6 +42,10 @@
       "value": "-",
       "supported": false
     },
+    "extended-warranty": {
+      "value": "-",
+      "supported": false
+    },
     "weight": {
       "value": "-"
     },

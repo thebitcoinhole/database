@@ -42,6 +42,10 @@
       "value": "-",
       "supported": false
     },
+    "extended-warranty": {
+      "value": "-",
+      "supported": false
+    },
     "weight": {
       "value": "-"
     },
@@ -185,14 +189,14 @@
   },
   "platforms": {
     "windows": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "macos": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "linux": {
       "value": "YES",
@@ -205,9 +209,9 @@
       "flag": "negative"
     },
     "virtual-machine": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "raspberry-pi-4": {
       "value": "YES",

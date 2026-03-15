@@ -46,6 +46,10 @@
       "flag": "positive",
       "supported": true
     },
+    "extended-warranty": {
+      "value": "+1 year",
+      "supported": true
+    },
     "weight": {
       "value": "?"
     },

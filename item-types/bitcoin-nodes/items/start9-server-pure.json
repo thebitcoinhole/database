@@ -47,6 +47,10 @@
       "flag": "positive",
       "supported": true
     },
+    "extended-warranty": {
+      "value": "NO",
+      "supported": false
+    },
     "weight": {
       "value": "1kg / 35.27oz"
     },
