@@ -167,7 +167,7 @@
     },
     "waiting-period-to-claim": {
       "value": "Defined by the owner",
-      "linkks": [
+      "links": [
         {
           "title": "Signal",
           "url": "https://support.jinca.se/hc/en-us/articles/15373120693531-Signal"

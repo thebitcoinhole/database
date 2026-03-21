@@ -2,7 +2,7 @@
   "id": "coolwallet-s",
   "name": "CoolWallet S",
   "purchasable": false,
-  "discountinued": true,
+  "discontinued": true,
   "price-history-enabled": false,
   "basic-information": {
     "year": {

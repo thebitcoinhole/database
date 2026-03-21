@@ -248,7 +248,7 @@
     "pin-lock": {
       "value": "On Device",
       "flag": "positive",
-      "text": [
+      "texts": [
         "4 to 8-digit PIN"
       ]
     },
