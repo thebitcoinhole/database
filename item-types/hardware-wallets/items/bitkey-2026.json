@@ -1,10 +1,10 @@
 {
-  "id": "bitkey",
-  "name": "Bitkey (2024)",
+  "id": "bitkey-2026",
+  "name": "Bitkey (2026)",
   "purchasable": true,
   "basic-information": {
     "year": {
-      "value": "2024"
+      "value": "2026"
     },
     "assembled-in": {
       "value": "USA"
@@ -55,10 +55,10 @@
       ]
     },
     "weight": {
-      "value": "65g / 2.29oz"
+      "value": "79g / 2.78oz"
     },
     "dimensions": {
-      "value": "62 x 56 x 13 mm"
+      "value": "66 x 60 x 13.6 mm"
     },
     "materials": {
       "value": "Corian and stainless steel"
@@ -75,45 +75,38 @@
   },
   "display": {
     "screen": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false,
-      "links": [
-        {
-          "title": "Screens are not a Panacea",
-          "url": "https://bitkey.build/screens-are-not-a-panacea/"
-        }
-      ]
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "screen-type": {
-      "value": "-"
+      "value": "OLED"
     },
     "gorilla-glass": {
-      "value": "-",
+      "value": "?",
       "supported": false
     },
     "color-screen": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "touch-screen": {
-      "value": "-",
-      "supported": false
+      "value": "YES",
+      "supported": true
     },
     "screen-size": {
-      "value": "-"
+      "value": "?"
     },
     "screen-resolution": {
-      "value": "-"
+      "value": "?"
     }
   },
   "input": {
     "controls": {
-      "value": "-"
+      "value": "Touch Screen"
     },
     "qwerty-keyboard": {
-      "value": "NO",
-      "flag": "negative",
+      "value": "?",
       "supported": false
     }
   },

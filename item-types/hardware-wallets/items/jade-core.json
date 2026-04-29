@@ -1,12 +1,10 @@
 {
-  "id": "jade",
-  "name": "Jade",
-  "purchasable": false,
-  "discontinued": true,
-  "price-history-enabled": false,
+  "id": "jade-core",
+  "name": "Jade Core",
+  "purchasable": true,
   "basic-information": {
     "year": {
-      "value": "2021"
+      "value": "2026"
     },
     "assembled-in": {
       "value": "China"
@@ -67,17 +65,17 @@
       "supported": false
     },
     "weight": {
-      "value": "22g / 0.77oz"
+      "value": "20g / 0.70oz"
     },
     "dimensions": {
-      "value": "60 x 24 x 17 mm"
+      "value": "65 x 30 x 12 mm"
     },
     "materials": {
       "value": "Plastic"
     },
     "available-in-colors": {
-      "value": "YES",
-      "supported": true
+      "value": "NO",
+      "supported": false
     },
     "weather-resistance": {
       "value": "NO",
@@ -113,11 +111,11 @@
       "supported": false
     },
     "screen-size": {
-      "value": "1.14\"",
-      "flag": "neutral"
+      "value": "1.9\"",
+      "flag": "positive"
     },
     "screen-resolution": {
-      "value": "240 x 135 px"
+      "value": "320 x 170 px"
     }
   },
   "input": {
@@ -132,9 +130,9 @@
   },
   "power": {
     "battery": {
-      "value": "YES",
-      "flag": "positive",
-      "supported": true
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
     },
     "removable-battery": {
       "value": "NO",
@@ -142,7 +140,7 @@
       "supported": false
     },
     "battery-size": {
-      "value": "240 mAh"
+      "value": "-"
     },
     "usb-charging": {
       "value": "USB-C",
@@ -157,19 +155,9 @@
   },
   "security": {
     "air-gapped": {
-      "value": "Only for transactions",
-      "supported": true,
-      "flag": "neutral",
-      "texts": [
-        "Camera for fully air-gapped transactions: Scan and display QR codes directly on Jade to send bitcoin and verify addresses - no USB or Bluetooth connection required.",
-        "Firmware upgrades are not air-gapped, USB or Bluetooth required."
-      ],
-      "links": [
-        {
-          "title": "Blockstream Jade: Air-Gapped Transactions Using QR Scan",
-          "url": "https://blog.blockstream.com/blockstream-jade-qr-scan/"
-        }
-      ]
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "secure-element": {
       "value": "NO",
@@ -490,19 +478,9 @@
       "flag": "positive"
     },
     "seed-qr": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "What is a SeedQR?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/10426338118169"
-        },
-        {
-          "title": "Setting up SeedQR with Blockstream Jade",
-          "url": "https://www.youtube.com/watch?v=Kx7fHgfUZ6w"
-        }
-      ]
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "key-teleport": {
       "value": "NO",
@@ -549,9 +527,9 @@
       "flag": "negative"
     },
     "verify-address-qr": {
-      "value": "On Device",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     }
   },
   "signing": {
@@ -623,28 +601,14 @@
       "flag": "negative"
     },
     "qr": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive",
-      "texts": [
-        "GC0308 320×240px",
-        "Camera for fully air-gapped transactions: Scan and display QR codes directly on Jade to send bitcoin and verify addresses - no USB or Bluetooth connection required."
-      ],
-      "links": [
-        {
-          "title": "Blockstream Jade: Air-Gapped Transactions Using QR Scan",
-          "url": "https://blog.blockstream.com/blockstream-jade-qr-scan/"
-        },
-        {
-          "title": "How Does QR Scan Work with Blockstream Jade?",
-          "url": "https://www.youtube.com/watch?v=J1goSxsgXMU"
-        }
-      ]
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "ur-2-animated-qrs": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "bbqr": {
       "value": "NO",
@@ -846,17 +810,7 @@
     "nunchuk": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "How do I use Jade with a Nunchuk Honey Badger wallet?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/14818042999449-How-do-I-use-Jade-with-a-Nunchuk-Honey-Badger-wallet"
-        },
-        {
-          "title": "Sending Air-Gapped Transactions from Nunchuk with Blockstream Jade",
-          "url": "https://www.youtube.com/watch?v=gAnmjsLh7dM"
-        }
-      ]
+      "flag": "positive"
     },
     "cove": {
       "value": "YES",
@@ -908,13 +862,7 @@
     "bluewallet": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "How do I use Jade QR Scan with BlueWallet?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/11664909888537"
-        }
-      ]
+      "flag": "positive"
     },
     "bitcoin-keeper": {
       "value": "YES",
