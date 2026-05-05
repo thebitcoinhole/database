@@ -2,7 +2,6 @@
   "id": "keycard-shell",
   "name": "Keycard Shell",
   "purchasable": true,
-  "pre-order": true,
   "basic-information": {
     "year": {
       "value": "2025"
