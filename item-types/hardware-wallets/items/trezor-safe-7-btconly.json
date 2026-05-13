@@ -3,7 +3,6 @@
   "name": "Safe 7 Bitcoin-Only",
   "full-name": "Trezor Safe 7 Bitcoin-Only",
   "purchasable": true,
-  "pre-order": true,
   "basic-information": {
     "year": {
       "value": "2025"
