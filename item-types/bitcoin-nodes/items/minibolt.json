@@ -14,8 +14,7 @@
       "url": "https://t.me/minibolt"
     },
     "reddit": {
-      "value": "MiniBolt",
-      "url": "https://www.reddit.com/r/minibolt"
+      "value": "-"
     }
   },
   "payment-methods": {
@@ -97,7 +96,7 @@
       "links": [
         {
           "title": "MiniBolt on Testnet",
-          "url": "https://v2.minibolt.info/bonus-guides/bitcoin/minibolt-on-testnet"
+          "url": "https://minibolt.minibolt.info/bonus-guides/bitcoin/minibolt-on-testnet"
         }
       ]
     },
@@ -213,12 +212,24 @@
     "bitcoin-core": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Bitcoin Client: Bitcoin Core",
+          "url": "https://minibolt.minibolt.info/bitcoin/bitcoin/bitcoin-client"
+        }
+      ]
     },
     "bitcoin-knots": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Bitcoin Knots",
+          "url": "https://minibolt.minibolt.info/bonus-guides/bitcoin/bitcoin-knots"
+        }
+      ]
     },
     "libre-relay": {
       "value": "NO",
@@ -228,7 +239,13 @@
     "lightning-node": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Lightning client: LND",
+          "url": "https://minibolt.minibolt.info/lightning/lightning/lightning-client"
+        }
+      ]
     },
     "block-explorer": {
       "value": "YES",
@@ -237,14 +254,20 @@
       "links": [
         {
           "title": "Blockchain explorer: BTC RPC Explorer",
-          "url": "https://v2.minibolt.info/bitcoin/bitcoin/blockchain-explorer"
+          "url": "https://minibolt.minibolt.info/bitcoin/bitcoin/blockchain-explorer"
         }
       ]
     },
     "mempool-visualizer": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Mempool",
+          "url": "https://minibolt.minibolt.info/bonus-guides/bitcoin/mempool"
+        }
+      ]
     },
     "coinjoin": {
       "value": "NO",
@@ -258,7 +281,7 @@
       "links": [
         {
           "title": "BTCPay Server",
-          "url": "https://v2.minibolt.info/bonus-guides/bitcoin/btcpay-server"
+          "url": "https://minibolt.minibolt.info/bonus-guides/bitcoin/btcpay-server"
         }
       ]
     },
@@ -269,7 +292,7 @@
       "links": [
         {
           "title": "Electrs",
-          "url": "https://v2.minibolt.info/bonus-guides/bitcoin/electrs"
+          "url": "https://minibolt.minibolt.info/bonus-guides/bitcoin/electrs"
         }
       ]
     },
@@ -285,7 +308,7 @@
       "links": [
         {
           "title": "Fulcrum server",
-          "url": "https://v2.minibolt.info/itcoin/bitcoin/electrum-server"
+          "url": "https://minibolt.minibolt.info/itcoin/bitcoin/electrum-server"
         }
       ]
     },
@@ -306,7 +329,7 @@
       "links": [
         {
           "title": "Electrum Wallet Desktop",
-          "url": "https://v2.minibolt.info/bonus-guides/bitcoin/electrum-wallet-desktop"
+          "url": "https://minibolt.minibolt.info/bonus-guides/bitcoin/electrum-wallet-desktop"
         }
       ]
     },
@@ -317,7 +340,7 @@
       "links": [
         {
           "title": "Desktop wallet: Sparrow wallet",
-          "url": "https://v2.minibolt.info/bitcoin/bitcoin/desktop-wallet"
+          "url": "https://minibolt.minibolt.info/bitcoin/bitcoin/desktop-wallet"
         }
       ]
     }
