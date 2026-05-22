@@ -68,9 +68,9 @@
       "supported": false
     },
     "weather-resistance": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "Splash-proof",
+      "flag": "neutral",
+      "supported": true
     }
   },
   "display": {

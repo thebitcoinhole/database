@@ -70,8 +70,8 @@
       "supported": true
     },
     "weather-resistance": {
-      "value": "IP54",
-      "flag": "neutral",
+      "value": "IP67",
+      "flag": "positive",
       "supported": true
     }
   },
