@@ -63,7 +63,7 @@
     "ram": {
       "value": "16/32 GB",
       "texts": [
-        "16GB (2x8GB) or 32GB (2x16GB) DDR5 RAM"
+        "16GB (2x8GB) or 32GB (2x16GB) LPDDR5 RAM"
       ]
     },
     "storage": {

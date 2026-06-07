@@ -64,11 +64,11 @@
     "ram": {
       "value": "16 GB",
       "texts": [
-        "16GB DDR5 RAM"
+        "16GB LPDDR5 RAM"
       ]
     },
     "storage": {
-      "value": "Up to 16TB"
+      "value": "2/4/8/16 TB"
     },
     "ethernet": {
       "value": "2.5Gbps Ethernet",
@@ -76,7 +76,7 @@
       "flag": "positive"
     },
     "wifi": {
-      "value": "YES",
+      "value": "WiFi 6",
       "supported": true,
       "flag": "positive"
     },
