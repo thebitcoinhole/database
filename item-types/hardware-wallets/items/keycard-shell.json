@@ -61,14 +61,14 @@
       "value": "105 x 65 x 19 mm"
     },
     "materials": {
-      "value": "Plastic"
+      "value": "ABS Plastic"
     },
     "available-in-colors": {
       "value": "NO",
       "supported": false
     },
     "weather-resistance": {
-      "value": "Splash-proof",
+      "value": "Dust resistant",
       "flag": "neutral",
       "supported": true
     }
@@ -80,7 +80,7 @@
       "supported": true
     },
     "screen-type": {
-      "value": "TFT"
+      "value": "TFT IPS"
     },
     "gorilla-glass": {
       "value": "NO",
@@ -102,7 +102,7 @@
       "flag": "positive"
     },
     "screen-resolution": {
-      "value": "320 x 240 px"
+      "value": "240 x 320 px"
     }
   },
   "input": {
@@ -130,7 +130,7 @@
       "supported": true
     },
     "battery-size": {
-      "value": "900 mAh"
+      "value": "800 mAh"
     },
     "usb-charging": {
       "value": "USB-C",
@@ -667,9 +667,9 @@
   },
   "third-party-apps": {
     "bitcoin-safe": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "theya": {
       "value": "NO",
@@ -727,9 +727,9 @@
       "flag": "negative"
     },
     "bull": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "liana": {
       "value": "NO",
