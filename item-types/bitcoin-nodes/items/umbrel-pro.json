@@ -1,6 +1,7 @@
 {
   "id": "umbrel-pro",
   "name": "Pro",
+  "full-name": "Umbrel Pro",
   "purchasable": true,
   "basic-information": {
     "year": {
