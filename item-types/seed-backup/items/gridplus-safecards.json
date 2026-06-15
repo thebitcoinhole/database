@@ -2,7 +2,7 @@
   "id": "gridplus-safecards",
   "name": "SafeCards",
   "purchasable": true,
-  "company": "grid+",
+  "company": "grid-plus",
   "payment-methods": {
     "btc-on-chain": {
       "value": "YES",
