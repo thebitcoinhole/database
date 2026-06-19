@@ -2,6 +2,9 @@
   "brand": {
     "value": "Privacy Pros"
   },
+  "description": {
+    "value": "Privacy Pros makes the Billfodl, a stainless steel seed phrase backup device in a slim cassette form. Made from marine-grade 316 stainless steel, the Billfodl uses lettered tiles to record the first four letters of each word and supports BIP39 seeds of 12, 18 or 24 words, storing up to 96 characters. The device keeps seeds and keys offline and is designed to be fireproof, waterproof and shockproof."
+  },
   "headquarters": {
     "value": "?"
   },

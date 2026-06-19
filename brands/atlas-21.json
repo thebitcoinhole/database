@@ -2,6 +2,9 @@
   "brand": {
     "value": "Atlas 21"
   },
+  "description": {
+    "value": "Atlas 21 develops ZEUS, an open-source, self-custodial Bitcoin and Lightning wallet and remote node manager available on Android and iOS. ZEUS can connect to a user's own LND or Core Lightning node, run an embedded node on the phone, and supports features such as Lightning addresses, Cashu and Nostr Wallet Connect. The project has been in development since 2019, built with TypeScript and React Native."
+  },
   "headquarters": {
     "value": "-"
   },

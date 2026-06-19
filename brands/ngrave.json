@@ -2,6 +2,9 @@
   "brand": {
     "value": "NGrave"
   },
+  "description": {
+    "value": "NGRAVE is a Belgium-based cryptocurrency security company founded in 2018. Its products include the NGRAVE ZERO, an EAL7-certified air-gapped hardware wallet; NGRAVE GRAPHENE, a stainless steel seed backup system; and NGRAVE LIQUID, a mobile app for managing crypto and NFTs. All products are manufactured in Belgium and designed for fully offline, air-gapped storage."
+  },
   "headquarters": {
     "value": "Belgium",
     "countryCode": "BE"

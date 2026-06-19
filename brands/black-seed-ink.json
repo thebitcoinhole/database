@@ -2,6 +2,9 @@
   "brand": {
     "value": "Black Seed Ink"
   },
+  "description": {
+    "value": "Black Seed Ink manufactures stainless steel backup plates for securing cryptocurrency seed phrases, passphrases, master passwords and exchange logins in offline cold storage. Its product lines include standard and premium seed-phrase wallets plus specialized plates and accessories such as titanium hardware-wallet containers. The company holds a U.S. design patent for its seed storage system and reports independent fire, corrosion and crush testing."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

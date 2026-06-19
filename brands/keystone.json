@@ -2,6 +2,9 @@
   "brand": {
     "value": "Keystone"
   },
+  "description": {
+    "value": "Keystone makes air-gapped Bitcoin and cryptocurrency hardware wallets that communicate via QR codes. Its flagship Keystone 3 Pro features a touchscreen, fingerprint authentication and three secure-element chips, and offers both a multi-coin firmware and a Bitcoin-only firmware, integrating with 45+ software wallets. The company also offers accessories such as the Keystone Tablet for steel seed backups."
+  },
   "headquarters": {
     "value": "Hong Kong",
     "countryCode": "HK"

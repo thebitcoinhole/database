@@ -2,6 +2,9 @@
   "brand": {
     "value": "Frostsnap Tech"
   },
+  "description": {
+    "value": "Frostsnap builds a trustless multisignature Bitcoin hardware wallet system in which keys are generated collaboratively across multiple devices so that no single device holds the wallet secret. Its devices use memory-safe Rust firmware and a cross-platform app for Android, Linux, Windows and macOS, with all software released as free and open-source under the MIT license. The design distributes security across separate locations to protect against theft, loss and coercion."
+  },
   "headquarters": {
     "value": "Australia",
     "countryCode": "AU"

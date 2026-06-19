@@ -2,6 +2,9 @@
   "brand": {
     "value": "Specter Solutions"
   },
+  "description": {
+    "value": "Specter Solutions is an open-source Bitcoin self-custody project. It offers Specter Desktop, software for securing Bitcoin, verifying transactions and protecting privacy, and the Specter hardware wallet, a trust-minimized signing device running open-source firmware. Both products aim to minimize reliance on third parties."
+  },
   "headquarters": {
     "value": "Liechtenstein",
     "countryCode": "LI"

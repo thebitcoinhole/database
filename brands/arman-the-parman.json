@@ -2,6 +2,9 @@
   "brand": {
     "value": "Arman The Parman"
   },
+  "description": {
+    "value": "Arman The Parman is a Bitcoin education and security mentor, and the creator of Parmanode, an easy automated Bitcoin node installation package for desktop and laptop computers on Mac and Linux. Parmanode lets non-technical users securely download, verify and run Bitcoin software such as Bitcoin Core, the Fulcrum Electrum server, LND, BTCPay, Tor, Mempool and Sparrow without command-line interaction. It bundles node software with associated educational material aimed at self-custody and running your own node."
+  },
   "headquarters": {
     "value": "-"
   },

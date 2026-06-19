@@ -2,6 +2,9 @@
   "brand": {
     "value": "HWLT"
   },
+  "description": {
+    "value": "HWLT FZE, a Dubai-based company, makes the ERA Wallet, an air-gapped hardware wallet that uses QR codes for communication and its ERA Lens technology to decode transactions on-device without an internet connection. It supports up to 10 independent seed phrases and offers both Bitcoin-only and multichain firmware, replacing paper backups with encrypted NFC recovery cards. The device has undergone an independent security audit, with part of its code open-source."
+  },
   "headquarters": {
     "value": "United Arab Emirates",
     "countryCode": "AE"

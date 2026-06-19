@@ -6,6 +6,9 @@
   "brand": {
     "value": "Foundation Devices"
   },
+  "description": {
+    "value": "Foundation Devices builds open-source Bitcoin self-custody hardware. Its products include the Passport hardware wallet line, paired with the Envoy mobile app for setup and updates, plus the Passport Prime, a device running the Rust-based KeyOS that manages Bitcoin keys, 2FA codes, security keys and encrypted files. The company also offers accessories such as cases and steel seed backups."
+  },
   "website": {
     "value": "foundation.xyz",
     "url": "https://foundation.xyz/"

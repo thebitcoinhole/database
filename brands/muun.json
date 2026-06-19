@@ -2,6 +2,9 @@
   "brand": {
     "value": "Muun"
   },
+  "description": {
+    "value": "Muun is a self-custodial Bitcoin and Lightning wallet for iOS and Android. It offers instant Lightning payments, low fees, mempool-based fee estimation and a single balance covering both on-chain and off-chain funds. Muun uses a 2-of-2 multisig security model in which users control both keys through an Emergency Kit."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

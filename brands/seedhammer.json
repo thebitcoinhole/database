@@ -2,6 +2,9 @@
   "brand": {
     "value": "SeedHammer"
   },
+  "description": {
+    "value": "SeedHammer manufactures machines that engrave steel plate backups of cryptocurrency seed phrases for self-custody. Its SeedHammer II creates backups for multisignature wallets without requiring separate storage of the wallet descriptor, using open-source controller software on air-gapped hardware. It enables recovery from the minimum number of backup plates via QR codes."
+  },
   "headquarters": {
     "value": "-"
   },

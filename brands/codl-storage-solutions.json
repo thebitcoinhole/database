@@ -2,6 +2,9 @@
   "brand": {
     "value": "Codl Storage Solutions"
   },
+  "description": {
+    "value": "Codl Storage Solutions makes Punchplate, a 304 stainless steel backup plate for permanently storing BIP39 Bitcoin seed phrases by punching the recovery words into a precision-etched grid with a center punch. The plates are designed to be fireproof, waterproof and corrosion-resistant, and are compatible with wallets such as Ledger, Trezor and Coldcard. The company offers 12-word and 24-word formats, bundles, starter packs and a center-punch tool accessory."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

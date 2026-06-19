@@ -2,6 +2,9 @@
   "brand": {
     "value": "Citadel"
   },
+  "description": {
+    "value": "Citadel (runcitadel) is an open-source platform for running a personal Bitcoin and Lightning node along with self-hosted applications. It lets users operate their own node and access Bitcoin-related apps through a web interface, emphasizing privacy and self-sovereignty. The project is community-driven and free to use."
+  },
   "headquarters": {
     "value": "-"
   },

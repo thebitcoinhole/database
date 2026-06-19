@@ -2,6 +2,9 @@
   "brand": {
     "value": "Sparrow Wallet"
   },
+  "description": {
+    "value": "Sparrow is a Bitcoin wallet focused on security, privacy and self-sovereignty for desktop platforms. It supports single-sig and multisig wallets, hardware wallet integration and connection to Bitcoin Core or a private Electrum server, with full coin and fee control and built-in Tor support. Its transaction editor doubles as a blockchain explorer, and the wallet is open-source under Apache 2."
+  },
   "headquarters": {
     "value": "-"
   },

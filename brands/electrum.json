@@ -2,6 +2,9 @@
   "brand": {
     "value": "Electrum"
   },
+  "description": {
+    "value": "Electrum is an open-source Bitcoin wallet first released in 2011, known for being lightweight and fast. It encrypts private keys locally and never sends them out, and supports simplified payment verification, multisig, hardware wallets and recovery via a secret seed phrase. Electrum connects to decentralized servers that index the Bitcoin blockchain, so users do not need to download the full chain."
+  },
   "headquarters": {
     "value": "-"
   },

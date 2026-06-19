@@ -2,6 +2,9 @@
   "brand": {
     "value": "Grid Plus"
   },
+  "description": {
+    "value": "GridPlus develops hardware wallets for self-custody of digital assets. Its flagship Lattice1 features a five-inch touchscreen and supports Bitcoin and EVM networks compatible with MetaMask. The company also makes SafeCards, PIN-protected smartcards for securely backing up seed phrases and managing wallets offline."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

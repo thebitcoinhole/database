@@ -2,6 +2,9 @@
   "brand": {
     "value": "RaspiBlitz"
   },
+  "description": {
+    "value": "RaspiBlitz is an open-source DIY project for running your own Bitcoin and Lightning Network node on a Raspberry Pi. It offers easy installation via pre-built SD card images, lets operators independently verify transactions and provides access to additional apps and services. All components are distributed under the MIT license, and pre-built versions are available from third-party retailers."
+  },
   "headquarters": {
     "value": "-"
   },

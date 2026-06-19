@@ -2,6 +2,9 @@
   "brand": {
     "value": "Seedor"
   },
+  "description": {
+    "value": "SEEDOR is a German company that makes premium Bitcoin seed backup solutions. Its main product, the SEEDOR Safe, is a stainless steel capsule system that stores recovery seed words on numbered metal discs and supports BIP39 hardware wallets. The capsules are tested to withstand extreme heat and pressure for durable offline backup."
+  },
   "headquarters": {
     "value": "Germany",
     "countryCode": "DE"

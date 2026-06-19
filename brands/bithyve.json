@@ -2,6 +2,9 @@
   "brand": {
     "value": "BitHyve"
   },
+  "description": {
+    "value": "BitHyve develops Bitcoin Keeper, a community-led, open-source wallet for secure single-key and multisig self-custody. Available on iOS, Android and desktop, it lets users create wallets without accounts or subscriptions, with support for popular hardware wallets, collaborative and inheritance configurations and time-locks. Core functionality is free, with optional tip-based developer support."
+  },
   "headquarters": {
     "value": "United Kingdom",
     "countryCode": "GB"

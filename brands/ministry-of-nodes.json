@@ -2,6 +2,9 @@
   "brand": {
     "value": "Ministry of Nodes"
   },
+  "description": {
+    "value": "Ministry of Nodes is a Bitcoin education and consulting company covering self-custody, node operation, privacy and the Lightning Network. It provides consulting services, educational articles and tutorials, plus physical products such as its Bitcoin Nodebox through an online shop. The focus is on helping people gain practical, hands-on Bitcoin technical skills."
+  },
   "headquarters": {
     "value": "Australia",
     "countryCode": "AU"

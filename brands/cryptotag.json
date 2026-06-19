@@ -2,6 +2,9 @@
   "brand": {
     "value": "Cryptotag"
   },
+  "description": {
+    "value": "Cryptotag manufactures titanium seed phrase backup products for securely storing cryptocurrency wallet recovery phrases offline. Its models, including Loki, Zeus, Thor and Odin, are compatible with major wallets such as Ledger, Trezor, MetaMask and Trust Wallet. The company markets its titanium plates as durable, fire- and corrosion-resistant seed storage."
+  },
   "headquarters": {
     "value": "Netherlands",
     "countryCode": "NL"

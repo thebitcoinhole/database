@@ -2,6 +2,9 @@
   "brand": {
     "value": "Nunchuk"
   },
+  "description": {
+    "value": "Nunchuk is a Bitcoin wallet built around multisig technology to remove single points of failure, available on iOS, Android, Mac, Windows and Linux. It supports inheritance planning with on-chain timelocks, air-gapped signing and major hardware wallets such as Ledger, Trezor and Coldcard, with no KYC requirement. Nunchuk also enables multi-user collaborative custody for families and businesses."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

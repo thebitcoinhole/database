@@ -2,6 +2,9 @@
   "brand": {
     "value": "Unchained Capital"
   },
+  "description": {
+    "value": "Unchained provides Bitcoin financial services built around collaborative custody, letting users buy, secure, borrow against and retire with Bitcoin while keeping control of their keys. It offers multisig vaults, Bitcoin IRAs, trading, commercial loans and inheritance planning for individuals and businesses. The firm operates as a licensed financial services provider with subsidiaries holding NMLS licenses."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

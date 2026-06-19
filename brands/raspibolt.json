@@ -2,6 +2,9 @@
   "brand": {
     "value": "RaspiBolt"
   },
+  "description": {
+    "value": "RaspiBolt is a free guide for building a Bitcoin and Lightning node on a Raspberry Pi using standard Debian Linux commands. It walks users through running a full node, an Electrum server, a blockchain explorer, Lightning and Tor access, so they can validate their own transactions. The project promotes decentralization and self-sovereignty through running your own node."
+  },
   "headquarters": {
     "value": "-"
   },

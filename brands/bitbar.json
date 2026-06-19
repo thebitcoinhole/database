@@ -2,6 +2,9 @@
   "brand": {
     "value": "BitBar"
   },
+  "description": {
+    "value": "BitBar is a Swiss-engineered physical seed backup device for securely storing cryptocurrency recovery phrases. Its hexagonal steel bar uses pre-engraved letter tiles compatible with BIP39 wallets including Ledger, Trezor and MetaMask, and supports 12 or 24-word seed phrases. The products are designed to be fireproof, waterproof and shockproof, and the company also offers backup cards and hardware-wallet bundles."
+  },
   "headquarters": {
     "value": "Switzerland",
     "countryCode": "CH"

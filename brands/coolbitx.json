@@ -2,6 +2,9 @@
   "brand": {
     "value": "CoolBitX"
   },
+  "description": {
+    "value": "CoolBitX, founded in 2014, develops the CoolWallet line of hardware wallets and a companion mobile app. Its products include the CoolWallet Pro, a credit-card-sized Bluetooth device, the entry-level CoolWallet Go and the CoolWallet S. The self-custodial CoolWallet app supports thousands of cryptocurrencies, including Bitcoin, with staking and trading tools."
+  },
   "headquarters": {
     "value": "Taiwan",
     "countryCode": "TW"

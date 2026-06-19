@@ -2,6 +2,9 @@
   "brand": {
     "value": "InfraOps"
   },
+  "description": {
+    "value": "InfraOps develops Cove, a Bitcoin-only mobile wallet for both newcomers and experienced users. It offers locally encrypted hot wallets, hardware wallet support via PSBTs, UTXO management and security features such as a decoy PIN, and is built on the open-source Bitcoin Development Kit. Users can vote on upcoming features through a Lightning-based roadmap."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

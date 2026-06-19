@@ -2,6 +2,9 @@
   "brand": {
     "value": "Vulcan 21"
   },
+  "description": {
+    "value": "Vulcan 21 makes STEELQR, a free and open-source metal seed backup made from military-grade 316L stainless steel for securing 12 or 24-word Bitcoin seed phrases. The seed is encoded as a QR code using a SeedSigner device and stamped onto the steel with a center punch, and the product is released under the GPLv3 license. The company offers C12 and C24 variants plus onboarding cards, donating a share of profits to SeedSigner development."
+  },
   "headquarters": {
     "value": "-"
   },

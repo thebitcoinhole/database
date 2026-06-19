@@ -2,6 +2,9 @@
   "brand": {
     "value": "Bitplates"
   },
+  "description": {
+    "value": "Bitplates manufactures stainless steel seed backup plates for securely storing Bitcoin recovery seed phrases offline. The products are designed to be durable and easy to use, protecting BIP39 seed phrases from fire, water and physical damage. They serve as a resilient alternative to paper or digital backups for self-custody."
+  },
   "headquarters": {
     "value": "England",
     "countryCode": "GB"

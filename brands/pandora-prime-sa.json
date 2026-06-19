@@ -2,6 +2,9 @@
   "brand": {
     "value": "Pandora Prime SA"
   },
+  "description": {
+    "value": "Pandora Prime develops MyCitadel, a free, open-source Bitcoin wallet written in Rust for Linux, macOS and Windows. It supports advanced features such as multisig with timelocks, hardware signer support, Taproot and air-gapped key management, while avoiding external tracking for privacy. MyCitadel targets users seeking digital sovereignty with complex wallet configurations."
+  },
   "headquarters": {
     "value": "Switzerland",
     "countryCode": "CH"

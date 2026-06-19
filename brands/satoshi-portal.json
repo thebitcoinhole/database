@@ -2,6 +2,9 @@
   "brand": {
     "value": "Satoshi Portal"
   },
+  "description": {
+    "value": "Bull Bitcoin is a non-custodial Bitcoin exchange and OTC desk operated by Satoshi Portal Inc., a Canadian company based in Montreal and founded in 2013. The platform lets users buy and sell Bitcoin with self-custody, withdrawing to their own wallets, and supports bank transfers, Lightning payments and a Prime tier for high-net-worth clients. It also runs BitcoinSupport.com for wallet setup and self-custody education."
+  },
   "headquarters": {
     "value": "Canada",
     "countryCode": "CA"

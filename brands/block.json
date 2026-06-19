@@ -2,6 +2,9 @@
   "brand": {
     "value": "Block"
   },
+  "description": {
+    "value": "Bitkey is a Bitcoin self-custody wallet from Block, Inc. that combines a hardware device, a mobile app and a recovery service. It uses a 2-of-3 multisig setup in which the user holds two keys and Block holds a third key used only for recovery, removing single points of failure and the need to manage a seed phrase. Bitkey is designed exclusively for Bitcoin."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

@@ -2,6 +2,9 @@
   "brand": {
     "value": "OneKey"
   },
+  "description": {
+    "value": "OneKey is a cryptocurrency security company offering open-source hardware wallets and software for managing digital assets. Its product line includes the OneKey Pro, the Classic 1S series, the OneKey Lite and the KeyTag steel backup, alongside a mobile app and browser extension. The platform lets users trade crypto, manage thousands of assets and access DeFi."
+  },
   "headquarters": {
     "value": "Hong Kong",
     "countryCode": "HK"

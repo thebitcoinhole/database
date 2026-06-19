@@ -2,6 +2,9 @@
   "brand": {
     "value": "Alby"
   },
+  "description": {
+    "value": "Alby is an open-source provider of Bitcoin Lightning wallets and payment tools for use online, in apps and in person. It offers Alby Hub, a self-hosted wallet that keeps users in full custody, and Alby Cloud, a hosted alternative, both supporting custom Lightning addresses, app permissions with budget controls and sub-wallets. Alby also provides developer tools for integrating Bitcoin and Lightning payments into products."
+  },
   "headquarters": {
     "value": "-"
   },

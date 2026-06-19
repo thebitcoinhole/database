@@ -2,6 +2,9 @@
   "brand": {
     "value": "Keycard"
   },
+  "description": {
+    "value": "Keycard is an open-source, card-shaped hardware wallet with an EAL6+ secure element that stores keys and signs transactions via NFC. It supports Bitcoin, Ethereum and EVM-compatible chains and works with many software wallets including MetaMask, Rabby, Sparrow and Nunchuk. Following the BIP32 standard, it can derive multiple wallets from a single master key."
+  },
   "headquarters": {
     "value": "Germany",
     "countryCode": "DE"

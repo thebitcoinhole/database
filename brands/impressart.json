@@ -2,6 +2,9 @@
   "brand": {
     "value": "ImpressArt"
   },
+  "description": {
+    "value": "StampSeed, by ImpressArt, offers titanium seed-phrase backup kits for permanently stamping Bitcoin recovery phrases into metal. Its Titanium Seed Stamping Kit lets users stamp 12 or 24-word seed phrases into durable titanium plates, with additional plates and accessories available. The titanium backups are designed to be fire-, crush- and corrosion-resistant and waterproof for long-term offline storage."
+  },
   "headquarters": {
     "value": "-"
   },

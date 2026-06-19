@@ -2,6 +2,9 @@
   "brand": {
     "value": "Self-custody Solutions"
   },
+  "description": {
+    "value": "Krux is open-source firmware that turns off-the-shelf Kendryte K210 devices into air-gapped Bitcoin signing devices. It supports several device models and offers mnemonic backup creation and recovery with optional encryption, interacting with coordinator wallets via QR codes, SD cards and thermal printers. Krux serves both plug-and-play users with touchscreen devices and DIY builders."
+  },
   "headquarters": {
     "value": "-"
   },

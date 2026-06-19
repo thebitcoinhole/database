@@ -2,6 +2,9 @@
   "brand": {
     "value": "Umbrel"
   },
+  "description": {
+    "value": "Umbrel is a personal server and self-hosting platform offering both software and hardware. Its operating system, umbrelOS, runs self-hosted apps, while Umbrel Home and Umbrel Pro are plug-and-play home servers. The Umbrel App Store offers hundreds of one-click apps, including Bitcoin and Lightning nodes, Nextcloud, Jellyfin and more."
+  },
   "headquarters": {
     "value": "-"
   },

@@ -2,6 +2,9 @@
   "brand": {
     "value": "Proton"
   },
+  "description": {
+    "value": "Proton AG is a Swiss privacy company founded in 2014 by scientists from CERN, offering an ecosystem of end-to-end encrypted services. Its products include Proton Mail, Proton Drive, Proton VPN, Proton Pass and Proton Wallet, a self-custodial Bitcoin wallet available on iOS, Android and web. Proton emphasizes end-to-end encryption and zero-access architecture so it cannot access user data."
+  },
   "headquarters": {
     "value": "Switzerland",
     "countryCode": "CH"

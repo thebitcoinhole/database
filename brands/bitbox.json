@@ -2,6 +2,9 @@
   "brand": {
     "value": "BitBox"
   },
+  "description": {
+    "value": "BitBox is a hardware wallet brand from the Swiss company Shift Crypto AG. Its main product, the BitBox02, is a hardware wallet for offline storage of private keys, paired with the BitBoxApp companion software for Windows, macOS, Linux, Android and iOS. The BitBox firmware and app are fully open-source, and a Bitcoin-only edition is available alongside the multi-coin version."
+  },
   "headquarters": {
     "value": "Switzerland",
     "countryCode": "CH"

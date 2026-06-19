@@ -2,6 +2,9 @@
   "brand": {
     "value": "MiniBolt"
   },
+  "description": {
+    "value": "MiniBolt is a free, open-source step-by-step guide for building a Bitcoin and Lightning full node on a personal computer using x86_64 hardware and Ubuntu Server. It covers system setup, Bitcoin Core, an Electrum server, a blockchain explorer, Lightning and additional self-hosted bonus services. The guide lets users run their own node to validate transactions and improve privacy."
+  },
   "headquarters": {
     "value": "-"
   },

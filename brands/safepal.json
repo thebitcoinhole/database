@@ -2,6 +2,9 @@
   "brand": {
     "value": "SafePal"
   },
+  "description": {
+    "value": "SafePal offers both hardware and software cryptocurrency wallets. Its hardware line includes the air-gapped S1, the S1 Pro and the X1, while its software includes mobile apps, browser extensions and a Telegram mini app. The non-custodial platform lets users buy, sell, trade and earn across thousands of assets and many blockchains while keeping control of their private keys."
+  },
   "headquarters": {
     "value": "Singapore",
     "countryCode": "SG"

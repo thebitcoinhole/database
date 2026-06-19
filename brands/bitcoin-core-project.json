@@ -2,6 +2,9 @@
   "brand": {
     "value": "Bitcoin Core Project"
   },
+  "description": {
+    "value": "Bitcoin Core is the reference implementation of Bitcoin, providing the node software that fully validates blocks and transactions on the network. The project maintains the software through an open contribution process, publishes versioned releases with security fixes and new features, and issues security advisories. Running Bitcoin Core lets users independently verify payments and help secure the network."
+  },
   "headquarters": {
     "value": "-"
   },

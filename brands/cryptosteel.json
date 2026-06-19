@@ -2,6 +2,9 @@
   "brand": {
     "value": "Cryptosteel"
   },
+  "description": {
+    "value": "Cryptosteel is one of the original metal seed backup brands, having launched the Cryptosteel Cassette in 2015 as an early standard for storing Bitcoin seed phrases on steel. Its products include the cylindrical Cryptosteel Capsule and the Cryptosteel Cassette, both made from AISI 303/304 stainless steel and assembled with letter tiles to store a 24-word seed abbreviated to four letters per word. The devices are designed to withstand fire, corrosion and physical damage for long-term offline storage."
+  },
   "headquarters": {
     "value": "United Kingdom",
     "countryCode": "GB"

@@ -2,6 +2,9 @@
   "brand": {
     "value": "Cypher Stack"
   },
+  "description": {
+    "value": "Cypher Stack develops Stack Wallet, an open-source, non-custodial multi-coin cryptocurrency wallet. It supports coins including Bitcoin, Monero, Litecoin, Bitcoin Cash, Firo, Dogecoin and others, enabling privacy technologies by default and keeping private keys under the user's control on their device. Stack Wallet runs on iOS, Android, Windows, macOS and Linux and includes a built-in exchange, custom backups and an address book."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

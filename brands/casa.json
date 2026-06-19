@@ -2,6 +2,9 @@
   "brand": {
     "value": "Casa"
   },
+  "description": {
+    "value": "Casa is a Bitcoin and stablecoin self-custody security platform founded in 2018, serving individuals and institutions. It provides non-custodial multi-key vault technology, white-glove security support, inheritance planning and buy/sell services through partner integrations. Casa reports protecting billions of dollars in digital assets for tens of thousands of clients and maintains SOC 2 Type II compliance."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

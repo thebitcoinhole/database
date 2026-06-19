@@ -2,6 +2,9 @@
   "brand": {
     "value": "Bluewallet Services"
   },
+  "description": {
+    "value": "BlueWallet is a free and open-source Bitcoin and Lightning wallet for iOS and Android. It lets users send, receive and store Bitcoin, with advanced features including watch-only wallets for hardware integration, multisig vaults, Lightning support, granular fee control and coin control for labeling and freezing coins. It is designed as a powerful, Bitcoin-focused self-custody solution."
+  },
   "headquarters": {
     "value": "Spain",
     "countryCode": "ES"

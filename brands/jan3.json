@@ -2,6 +2,9 @@
   "brand": {
     "value": "Jan3"
   },
+  "description": {
+    "value": "JAN3 is a Bitcoin infrastructure company led by Samson Mow that develops AQUA, a self-custodial wallet integrating on-chain Bitcoin, the Lightning Network, the Liquid Network and stablecoins in one app. AQUA uses Layer 2 technologies and submarine swaps to move between Lightning and Liquid efficiently, with a focus on Latin America and emerging markets. It lets users send and receive Bitcoin and USDt while keeping control of their funds."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

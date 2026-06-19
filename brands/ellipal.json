@@ -2,6 +2,9 @@
   "brand": {
     "value": "Ellipal"
   },
+  "description": {
+    "value": "ELLIPAL makes air-gapped hardware cold wallets for offline storage of digital assets. Its product line includes the compact NFC-based ELLIPAL X Card and the air-gapped ELLIPAL Titan 2.0 with clear-signing technology, supporting thousands of tokens across many blockchains. The company also offers complementary seed phrase steel backups and an offline seed generator."
+  },
   "headquarters": {
     "value": "Hong Kong",
     "countryCode": "HK"

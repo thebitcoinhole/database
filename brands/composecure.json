@@ -2,6 +2,9 @@
   "brand": {
     "value": "CompoSecure"
   },
+  "description": {
+    "value": "Arculus, built by the U.S.-based company CompoSecure, is a card-shaped cold storage hardware wallet for storing cryptocurrency and managing NFTs. The credit-card-sized Arculus Key Card stores encrypted private keys offline and communicates with a phone via tap-to-transact NFC, with no Bluetooth, WiFi or cables. The Arculus app adds 3-factor authentication using biometrics and a PIN."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

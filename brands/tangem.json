@@ -2,6 +2,9 @@
   "brand": {
     "value": "Tangem"
   },
+  "description": {
+    "value": "Tangem AG is a Swiss company, headquartered in Zug, that makes non-custodial hardware and software for managing cryptocurrency. Its main product, the Tangem Wallet, uses NFC-enabled cards that store private keys offline, alongside the Tangem Ring and Tangem Pay. The Tangem app supports thousands of tokens across many blockchains, letting users store, buy, trade, stake and spend crypto."
+  },
   "headquarters": {
     "value": "Switzerland",
     "countryCode": "CH"

@@ -2,6 +2,9 @@
   "brand": {
     "value": "Wasabi Wallet"
   },
+  "description": {
+    "value": "Wasabi Wallet is a free, open-source, privacy-focused Bitcoin wallet for Windows, macOS and Linux. It keeps users in self-custody and integrates Tor, private blockchain syncing via compact filters, and coinjoins through the WabiSabi protocol. It also offers hardware wallet integration, coin control and features such as label management."
+  },
   "headquarters": {
     "value": "-"
   },

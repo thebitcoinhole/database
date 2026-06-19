@@ -2,6 +2,9 @@
   "brand": {
     "value": "Blockstream"
   },
+  "description": {
+    "value": "Blockstream is a Bitcoin and blockchain technology company that builds infrastructure for digital asset management. Its consumer products include the Blockstream App, a Bitcoin and Liquid wallet, and Blockstream Jade, an open-source hardware wallet, alongside enterprise custody tools and the Liquid Network sidechain. For developers it maintains the Core Lightning implementation, blockchain explorer APIs and projects such as Elements and Simplicity."
+  },
   "headquarters": {
     "value": "Canada",
     "countryCode": "CA"

@@ -2,6 +2,9 @@
   "brand": {
     "value": "Coinkite"
   },
+  "description": {
+    "value": "Coinkite is a Canadian Bitcoin hardware company founded in 2012 that specializes in Bitcoin-only self-custody devices. Its products include the Coldcard signing device, Opendime physical Bitcoin bearer sticks, the Blockclock displays, NFC cards, Satschip chips and steel seed backups. Coinkite emphasizes air-gapped workflows and a \"Don't Trust, Verify\" philosophy, with no altcoin support."
+  },
   "headquarters": {
     "value": "Canada",
     "countryCode": "CA"

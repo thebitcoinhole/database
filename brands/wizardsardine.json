@@ -2,6 +2,9 @@
   "brand": {
     "value": "Wizardsardine"
   },
+  "description": {
+    "value": "Wizardsardine is a Bitcoin security company specializing in self-custody infrastructure. Its main product, Liana, is a self-custody wallet with timelock-based recovery paths and inheritance features, offered with hosted services, support and SLAs for institutions. The company also developed the Revault vault architecture and provides protocol audits and security assessments."
+  },
   "headquarters": {
     "value": "Portugal",
     "countryCode": "PT"

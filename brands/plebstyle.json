@@ -2,6 +2,9 @@
   "brand": {
     "value": "Plebstyle"
   },
+  "description": {
+    "value": "Plebstyle is a Bitcoin-focused online shop offering tools for self-custody and sovereignty. Its products include metal seed backup wallets such as the Titan and TerraSteel, hardware wallets, home mining devices like Bitaxe and NerdAxe, plus Bitcoin-themed merchandise and educational resources. It combines in-house designed products with curated items from trusted manufacturers and accepts Bitcoin payments."
+  },
   "headquarters": {
     "value": "Germany",
     "countryCode": "DE"

@@ -2,6 +2,9 @@
   "brand": {
     "value": "nodl"
   },
+  "description": {
+    "value": "nodl makes plug-and-play Bitcoin and Lightning node devices that give users full control over their data and payments. Its main product, the nodl One, is a compact full node containing the necessary infrastructure to validate transactions and run Lightning. All nodl code is released under the MIT open-source license, with an emphasis on privacy and independence."
+  },
   "headquarters": {
     "value": "France",
     "countryCode": "FR"

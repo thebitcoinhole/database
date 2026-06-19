@@ -2,6 +2,9 @@
   "brand": {
     "value": "RoninDojo"
   },
+  "description": {
+    "value": "RoninDojo is a privacy-focused Bitcoin node project that runs permissionless software for financial sovereignty. It provides a node implementation with a user interface called RoninUI, along with downloads, documentation and educational content. The project emphasizes Bitcoin privacy practices and self-hosting."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

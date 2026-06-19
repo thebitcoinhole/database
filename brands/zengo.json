@@ -2,6 +2,9 @@
   "brand": {
     "value": "Zengo"
   },
+  "description": {
+    "value": "Zengo is a self-custodial cryptocurrency wallet that replaces seed phrases with Multi-Party Computation (MPC) and biometrics, founded in 2018. The private key is split into a Personal Share stored on the user's device and a Remote Share secured on Zengo's servers, which combine to sign each transaction. Zengo lets users store, trade and recover digital assets without managing a seed phrase, and was acquired by eToro in 2026."
+  },
   "headquarters": {
     "value": "Israel",
     "countryCode": "IL"

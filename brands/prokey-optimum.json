@@ -2,6 +2,9 @@
   "brand": {
     "value": "Prokey Optimum"
   },
+  "description": {
+    "value": "Prokey makes hardware wallets for storing cryptocurrency offline. Its flagship device, the Prokey Optimum, keeps private keys offline while supporting thousands of cryptocurrencies including Bitcoin, Ethereum and USDT, and operates entirely through a web browser without extra software. Users can recover their assets with a 24-word seed phrase if the device is lost."
+  },
   "headquarters": {
     "value": "Malaysia",
     "countryCode": "MY"

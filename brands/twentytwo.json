@@ -2,6 +2,9 @@
   "brand": {
     "value": "TwentyTwo"
   },
+  "description": {
+    "value": "TwentyTwo Devices is a hardware company building cryptocurrency security tools for mobile users. Its flagship product, Portal, is an NFC-based hardware wallet designed for use with mobile devices. The company sells through its online store and is active across platforms including GitHub and Nostr."
+  },
   "headquarters": {
     "value": "Italy",
     "countryCode": "IT"

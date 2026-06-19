@@ -2,6 +2,9 @@
   "brand": {
     "value": "Cardware Wallet"
   },
+  "description": {
+    "value": "Cardware Wallet is a South African-developed, air-gapped hardware wallet that uses QR codes for all data transfer, with no Bluetooth, Wi-Fi or USB connection. It stores private keys on a tamper-resistant EAL6+ certified secure element with read-only firmware, and supports BIP39 24-word seeds, HD wallets and multisig, with a separate model for Ethereum and EVM chains. The card follows open-source principles, ships with a steel seed backup sheet and has a transparent casing for physical verification."
+  },
   "headquarters": {
     "value": "South Africa",
     "countryCode": "ZA"

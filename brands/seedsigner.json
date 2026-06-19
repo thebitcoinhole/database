@@ -2,6 +2,9 @@
   "brand": {
     "value": "SeedSigner"
   },
+  "description": {
+    "value": "SeedSigner is an open-source, DIY Bitcoin signing device that users can build from inexpensive components such as a Raspberry Pi Zero. It works as an air-gapped, stateless signer that uses QR codes to keep private keys offline, supporting BIP39 seed generation, multisig setup and transaction signing. It is compatible with Bitcoin software such as Sparrow, Specter and BlueWallet."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

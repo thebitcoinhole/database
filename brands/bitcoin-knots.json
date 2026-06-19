@@ -2,6 +2,9 @@
   "brand": {
     "value": "Bitcoin Knots"
   },
+  "description": {
+    "value": "Bitcoin Knots is a Bitcoin full node and wallet derived from Bitcoin Core, offering full verification of payments along with additional configuration options and features for advanced users. It is available for macOS, Windows and Linux, and lets users run their own node while holding their own bitcoins. Knots combines node operation with wallet functionality to strengthen personal security and network integrity."
+  },
   "headquarters": {
     "value": "-"
   },

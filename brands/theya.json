@@ -2,6 +2,9 @@
   "brand": {
     "value": "Theya"
   },
+  "description": {
+    "value": "Theya is a Bitcoin custody and infrastructure platform offering secure, scalable Bitcoin custody for businesses, advisors, families and individuals. It provides a modular multisig vault architecture with role-based access controls and hardware-grade security, available on iOS and web. Theya offers product tiers aimed at businesses, financial advisors and individual users."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

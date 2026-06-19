@@ -2,6 +2,9 @@
   "brand": {
     "value": "Satochip"
   },
+  "description": {
+    "value": "Satochip is a Belgium-based company providing NFC smartcard hardware for cryptocurrency self-custody, built around an EAL6+ certified secure element. Its products include the Satochip hardware wallet, the giftable Satodime cold-storage card and the Seedkeeper seed phrase and password manager. The open-source products support Bitcoin, Ethereum and more, and work with clients such as Electrum and Sparrow."
+  },
   "headquarters": {
     "value": "Belgium",
     "countryCode": "BE"

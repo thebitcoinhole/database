@@ -2,6 +2,9 @@
   "brand": {
     "value": "Ashigaru Open Source Project"
   },
+  "description": {
+    "value": "Ashigaru Open Source Project develops self-custodial, open-source Bitcoin applications that are private by design, released under the GNU GPL v3. Its software offers privacy features including Whirlpool coinjoins, PayNym support, Tor integration, coin control and a stealth mode. The project focuses on protecting transaction privacy and giving users full control of their Bitcoin."
+  },
   "headquarters": {
     "value": "-"
   },

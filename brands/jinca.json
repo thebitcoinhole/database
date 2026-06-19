@@ -2,6 +2,9 @@
   "brand": {
     "value": "Jinca"
   },
+  "description": {
+    "value": "Jinca is a platform for protecting digital assets by automatically transferring cryptocurrency to preconfigured beneficiaries through integrations with exchanges and wallets. Users link sources such as Binance, Coinbase, Kraken and KuCoin, plus hardware wallets like Ledger and Trezor, and set destination recipients. Jinca emphasizes that it is not a wallet, blockchain, token or custodian."
+  },
   "headquarters": {
     "value": "USA",
     "countryCode": "US"

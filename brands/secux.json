@@ -2,6 +2,9 @@
   "brand": {
     "value": "SecuX"
   },
+  "description": {
+    "value": "SecuX makes hardware wallets for cold storage of cryptocurrency. Its devices, including the Neo-X, V20, Shield Bio and W-series, protect private keys using secure element chips and support thousands of cryptocurrencies through cross-platform web and mobile apps. The company also offers security products such as the PUFido authentication device."
+  },
   "headquarters": {
     "value": "Taiwan",
     "countryCode": "TW"

@@ -2,6 +2,9 @@
   "brand": {
     "value": "Cypherock"
   },
+  "description": {
+    "value": "Cypherock is a hardware wallet company whose flagship product, the Cypherock X1, is marketed as a seedless wallet with non-custodial inheritance. It uses Shamir's Secret Sharing to split the private key across an X1 Vault and four X1 Cards, removing single points of failure. The companion cySync app supports thousands of digital assets, and the product has undergone third-party security audits."
+  },
   "headquarters": {
     "value": "Singapore",
     "countryCode": "SG"
