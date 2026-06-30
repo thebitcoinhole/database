@@ -1,7 +1,8 @@
 {
   "id": "passport-batch-2",
   "name": "Passport Core",
-  "purchasable": true,
+  "purchasable": false,
+  "discontinued": true,
   "basic-information": {
     "year": {
       "value": "2022"

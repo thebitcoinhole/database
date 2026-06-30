@@ -2,7 +2,8 @@
   "id": "trezor-model-t",
   "name": "Model T",
   "full-name": "Trezor Model T",
-  "purchasable": true,
+  "purchasable": false,
+  "discontinued": true,
   "basic-information": {
     "year": {
       "value": "2018"

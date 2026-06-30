@@ -2,7 +2,8 @@
   "id": "trezor-model-one",
   "name": "Model One",
   "full-name": "Trezor Model One",
-  "purchasable": true,
+  "purchasable": false,
+  "discontinued": true,
   "basic-information": {
     "year": {
       "value": "2014"
