@@ -142,7 +142,13 @@
   },
   "firmware": {
     "firmware-name": {
-      "value": "umbrelOS"
+      "value": "umbrelOS",
+      "links": [
+        {
+          "title": "umbrelOS",
+          "url": "https://a.umbrel.com/thebitcoinhole/umbrelos"
+        }
+      ]
     },
     "bitcoin-only": {
       "value": "NO"
