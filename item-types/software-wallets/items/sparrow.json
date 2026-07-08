@@ -409,9 +409,9 @@
       "flag": "positive"
     },
     "silent-payments": {
-      "value": "Send Only",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     }
   },
   "node-integration": {

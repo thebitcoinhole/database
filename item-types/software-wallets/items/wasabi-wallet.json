@@ -48,9 +48,9 @@
       "flag": "positive"
     },
     "btc-signet": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "lightning-network": {
       "value": "NO",
@@ -272,9 +272,9 @@
       "flag": "negative"
     },
     "multiple-send-addresses": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "batch-transactions": {
       "value": "NO",
