@@ -75,8 +75,9 @@
       "supported": true
     },
     "shock-proof": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "stress-tests": {
       "value": "YES",

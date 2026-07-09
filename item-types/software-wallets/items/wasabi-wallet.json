@@ -204,12 +204,20 @@
   },
   "address-format": {
     "legacy": {
-      "value": "?",
-      "supported": false
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ]
     },
     "nested-segwit": {
-      "value": "?",
-      "supported": false
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Send only"
+      ]
     },
     "native-segwit": {
       "value": "YES",
@@ -317,8 +325,9 @@
       "flag": "positive"
     },
     "psbt-file": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "nfc": {
       "value": "NO",
