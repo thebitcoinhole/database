@@ -909,22 +909,17 @@
       "supported": false,
       "flag": "neutral"
     },
-    "trezor-model-one": {
-      "value": "Watch-only",
-      "supported": true,
-      "flag": "neutral"
-    },
-    "trezor-model-t": {
-      "value": "Watch-only",
-      "supported": true,
-      "flag": "neutral"
-    },
     "trezor-safe-3": {
       "value": "Watch-only",
       "supported": true,
       "flag": "neutral"
     },
     "trezor-safe-5": {
+      "value": "Watch-only",
+      "supported": true,
+      "flag": "neutral"
+    },
+    "trezor-safe-7": {
       "value": "Watch-only",
       "supported": true,
       "flag": "neutral"

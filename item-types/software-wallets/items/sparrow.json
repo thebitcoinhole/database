@@ -831,22 +831,17 @@
       "supported": false,
       "flag": "negative"
     },
-    "trezor-model-one": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
-    "trezor-model-t": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
-    },
     "trezor-safe-3": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
     },
     "trezor-safe-5": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
+    },
+    "trezor-safe-7": {
       "value": "YES",
       "supported": true,
       "flag": "positive"
