@@ -131,7 +131,8 @@
       "value": "RaspiBlitz"
     },
     "bitcoin-only": {
-      "value": "YES"
+      "value": "YES",
+      "supported": true
     },
     "release-notes": {
       "value": "YES",

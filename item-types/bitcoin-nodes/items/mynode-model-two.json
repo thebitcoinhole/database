@@ -132,7 +132,8 @@
       "value": "MyNode"
     },
     "bitcoin-only": {
-      "value": "NO"
+      "value": "NO",
+      "supported": false
     },
     "release-notes": {
       "value": "YES",

@@ -117,7 +117,8 @@
       "value": "nodl UI"
     },
     "bitcoin-only": {
-      "value": "YES"
+      "value": "YES",
+      "supported": true
     },
     "release-notes": {
       "value": "YES",
