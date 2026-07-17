@@ -417,10 +417,6 @@
       "flag": "positive",
       "links": [
         {
-          "title": "ZkSnacks is discontinuing its coinjoin coordinator service 1st of june",
-          "url": "https://blog.wasabiwallet.website/zksnacks-is-discontinuing-its-coinjoin-coordination-service-1st-of-june/index.html"
-        },
-        {
           "title": "Coinjoin docs",
           "url": "https://docs.wasabiwallet.io/FAQ/FAQ-UseWasabi.html#coinjoin"
         }

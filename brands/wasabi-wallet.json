@@ -9,19 +9,19 @@
     "value": "-"
   },
   "website": {
-    "value": "/wasabiwallet.io",
+    "value": "wasabiwallet.io",
     "url": "https://wasabiwallet.io/"
   },
   "blog": {
-    "value": "Blog",
-    "url": "https://blog.wasabiwallet.website/"
+    "value": "-"
   },
   "twitter": {
     "value": "@wasabiwallet",
     "url": "https://x.com/wasabiwallet"
   },
   "nostr": {
-    "value": "-"
+    "value": "Wasabi Wallet",
+    "url": "https://primal.net/p/npub1jw7scmeuewhywwytqxkxec9jcqf3znw2fsyddcn3948lw9q950ps9y35fg"
   },
   "youtube": {
     "value": "@WasabiWallet",
