@@ -335,7 +335,7 @@
       "flag": "positive",
       "supported": true,
       "texts": [
-        "ERA Wallet supports up to 10 independent wallets with unique seed phrases. "
+        "ERA Wallet supports up to 10 independent wallets with unique seed phrases."
       ]
     },
     "passphrase-support": {
