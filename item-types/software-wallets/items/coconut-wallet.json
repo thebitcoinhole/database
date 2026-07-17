@@ -99,7 +99,7 @@
       "supported": true,
       "flag": "positive",
       "texts": [
-        "Numeric PIN with configurable length (4 or 6 digits), stored hashed in the platform secure storage."
+        "Numeric PIN with configurable length (4 or 6 digits)."
       ]
     },
     "duress-pin": {
@@ -135,7 +135,7 @@
       "supported": true,
       "flag": "positive",
       "texts": [
-        "Biometric unlock (Touch ID, Face ID, Android fingerprint) via the local_auth plugin."
+        "Biometric unlock (Touch ID, Face ID, Android fingerprint)."
       ]
     },
     "dummy-wallet": {
@@ -245,13 +245,16 @@
       "supported": true,
       "flag": "positive",
       "texts": [
-        "Single-sig wallets default to P2WPKH and multi-sig wallets to P2WSH."
+        "Single-sig wallets use P2WPKH and multi-sig wallets use P2WSH."
       ]
     },
     "taproot": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Native Taproot (P2TR, bc1p) receive and change addresses are derived, displayed and tracked. Taproot wallets can only be imported from Coconut Vault (watch-only; signing happens on the Vault)."
+      ]
     }
   },
   "receive": {
@@ -326,7 +329,7 @@
       "supported": true,
       "flag": "positive",
       "texts": [
-        "Multi-signature P2WSH wallets with PSBT signing flow and BSMS (BIP-129) descriptor normalisation."
+        "Multi-signature P2WSH wallets with PSBT coordination via QR and BSMS (BIP-129) support."
       ]
     },
     "taproot-multi-sig": {
@@ -431,7 +434,7 @@
       "supported": true,
       "flag": "positive",
       "texts": [
-        "Manual UTXO selection screen with sorting (by amount, by timestamp) and UTXO locking."
+        "Manual UTXO selection screen with sorting (by amount, by timestamp) and UTXO locking, plus UTXO split and merge (consolidation)."
       ]
     },
     "transaction-labeling": {
