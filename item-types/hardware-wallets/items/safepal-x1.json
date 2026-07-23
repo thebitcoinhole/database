@@ -680,14 +680,8 @@
       ]
     },
     "firefox-extension": {
-      "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "Download",
-          "url": "https://addons.mozilla.org/en-US/firefox/addon/safepal-extension-wallet/"
-        }
-      ]
+      "value": "NO",
+      "supported": false
     },
     "edge-extension": {
       "value": "YES",

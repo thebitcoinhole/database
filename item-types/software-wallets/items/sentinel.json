@@ -523,13 +523,7 @@
     "android-reproducible-builds": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Wallet Scrutiny",
-          "url": "https://walletscrutiny.com/android/com.samourai.sentinel/"
-        }
-      ]
+      "flag": "positive"
     }
   },
   "ios-support": {

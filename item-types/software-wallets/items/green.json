@@ -317,7 +317,7 @@
       "links": [
         {
           "title": "How can I sign or authenticate a message, using an address of my wallet?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/26127251627545-How-can-I-sign-or-authenticate-a-message-using-an-address-of-my-wallet"
+          "url": "https://help.blockstream.com/hc/en-us/articles/26127251627545-Sign-message-to-verify-wallet-ownership"
         }
       ]
     }
@@ -377,7 +377,7 @@
       "links": [
         {
           "title": "What is Blockstream Green's timelock feature?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/900003167766-What-is-Blockstream-Green-s-timelock-feature"
+          "url": "https://help.blockstream.com/blockstream-app/manage-2fa-accounts/how-do-nlocktime-timelocks-work"
         }
       ]
     }
@@ -395,7 +395,7 @@
       "links": [
         {
           "title": "How do I speed up my transaction?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/900002241863-How-do-I-speed-up-my-transaction"
+          "url": "https://help.blockstream.com/hc/en-us/articles/900002241863-Speed-up-transaction-confirmation"
         }
       ]
     },

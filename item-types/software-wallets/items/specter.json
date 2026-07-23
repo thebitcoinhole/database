@@ -781,24 +781,12 @@
     "start-os-release-notes": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://github.com/Start9Labs/specter-startos/releases"
-        }
-      ]
+      "flag": "positive"
     },
     "start-os-source-available": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/Start9Labs/specter-startos"
-        }
-      ]
+      "flag": "positive"
     },
     "start-os-open-source": {
       "value": "YES",
@@ -806,13 +794,7 @@
       "flag": "positive"
     },
     "start-os-license": {
-      "value": "MIT",
-      "links": [
-        {
-          "title": "License",
-          "url": "https://github.com/Start9Labs/specter-startos/blob/master/LICENSE"
-        }
-      ]
+      "value": "MIT"
     },
     "start-os-reproducible-builds": {
       "value": "NO",

@@ -175,7 +175,7 @@
       "links": [
         {
           "title": "Does Blockstream Jade have a secure element?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/13745404122265-Does-Blockstream-Jade-have-a-secure-element"
+          "url": "https://help.blockstream.com/hc/en-us/articles/13745404122265-Why-doesn-t-Jade-have-a-secure-element"
         },
         {
           "title": "What Is a Secure Element in a Hardware Wallet?",
@@ -223,7 +223,7 @@
       "links": [
         {
           "title": "How do I use Blockstream Jade with testnet?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/14676912519193-How-do-I-use-Blockstream-Jade-with-testnet"
+          "url": "https://help.blockstream.com/hc/en-us/articles/14676912519193-Use-Jade-with-testnet"
         }
       ]
     },
@@ -357,7 +357,7 @@
       "links": [
         {
           "title": "How do I set up a wallet-erase PIN?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/9446043439257-How-do-I-set-up-a-wallet-erase-PIN-"
+          "url": "https://help.blockstream.com/hc/en-us/articles/9446043439257-How-do-I-set-up-a-wallet-erase-PIN"
         }
       ]
     },
@@ -431,7 +431,7 @@
       "links": [
         {
           "title": "How do I generate a child recovery phrase using BIP85?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/15844055048857-How-do-I-generate-a-child-recovery-phrase-using-BIP85-?s=09"
+          "url": "https://help.blockstream.com/hc/en-us/articles/20269331002009-Create-a-BIP85-child-recovery-phrase"
         }
       ]
     },
@@ -744,7 +744,7 @@
       "links": [
         {
           "title": "How do I use Blockstream Jade as an authentication device?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/9444875480857-How-do-I-use-Blockstream-Jade-as-an-authentication-device-"
+          "url": "https://help.blockstream.com/hc/en-us/articles/20182747993625-Use-Jade-as-a-2FA-authentication-device"
         }
       ]
     },
@@ -841,7 +841,7 @@
       "links": [
         {
           "title": "How do I use Jade with a Nunchuk Honey Badger wallet?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/14818042999449-How-do-I-use-Jade-with-a-Nunchuk-Honey-Badger-wallet"
+          "url": "https://help.blockstream.com/hc/en-us/articles/14818042999449-Use-Jade-with-Nunchuk-Honey-Badger-wallet"
         },
         {
           "title": "Sending Air-Gapped Transactions from Nunchuk with Blockstream Jade",
@@ -861,7 +861,7 @@
       "links": [
         {
           "title": "How do I use Blockstream Jade with Electrum?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/9373676880025-How-do-I-use-Blockstream-Jade-with-Electrum-"
+          "url": "https://help.blockstream.com/hc/en-us/articles/9373676880025-Use-Jade-with-Electrum"
         }
       ]
     },
@@ -872,7 +872,7 @@
       "links": [
         {
           "title": "How do I use Blockstream Jade with Sparrow?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/7559912660761-How-do-I-use-Blockstream-Jade-with-Sparrow-"
+          "url": "https://help.blockstream.com/hc/en-us/articles/7559912660761-Use-Jade-with-Sparrow"
         }
       ]
     },
@@ -883,7 +883,7 @@
       "links": [
         {
           "title": "How do I use Blockstream Jade with Specter?",
-          "url": "https://help.blockstream.com/hc/en-us/articles/5682411860249-How-do-I-use-Blockstream-Jade-with-Specter"
+          "url": "https://help.blockstream.com/blockstream-jade/use-jade-with-third-party-apps/use-jade-plus-qr-scan-with-specter"
         },
         {
           "title": "How to Set Up a Jade Multisig in Specter Wallet",

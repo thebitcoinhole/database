@@ -186,7 +186,7 @@
       "links": [
         {
           "title": "Bitcoin testnet",
-          "url": "https://trezor.io/learn/a/bitcoin-testnet"
+          "url": "https://trezor.io/guides/trezor-suite/testnet-networks-in-trezor-suite"
         }
       ]
     },
@@ -342,7 +342,7 @@
       "links": [
         {
           "title": "Common security threats",
-          "url": "https://trezor.io/learn/a/common-security-threats#Brute_forcing_the_Trezor_PIN"
+          "url": "https://trezor.io/learn/security-privacy/personal-security-standards/security-threats-to-crypto-wallets-and-how-trezor-defends-against-them"
         }
       ]
     },
@@ -353,7 +353,7 @@
       "links": [
         {
           "title": "Create wipe code to erase device",
-          "url": "https://trezor.io/learn/a/create-wipe-code-to-erase-device"
+          "url": "https://trezor.io/learn/security-privacy/personal-security-standards/create-wipe-code-to-erase-device"
         }
       ]
     },
@@ -452,7 +452,7 @@
       "links": [
         {
           "title": "Seed Backup 12 vs 24 Words",
-          "url": "https://trezor.io/learn/a/seed-backup-12-vs-24-words"
+          "url": "https://trezor.io/learn/security-privacy/personal-security-standards/understanding-trezor-wallet-backups-12-20-or-24-words"
         }
       ]
     },
@@ -463,7 +463,7 @@
       "links": [
         {
           "title": "Seed Backup 12 vs 24 Words",
-          "url": "https://trezor.io/learn/a/seed-backup-12-vs-24-words"
+          "url": "https://trezor.io/learn/security-privacy/personal-security-standards/understanding-trezor-wallet-backups-12-20-or-24-words"
         }
       ]
     },
@@ -507,7 +507,7 @@
       "links": [
         {
           "title": "Pay-to-Public-Key-Hash (P2PKH)",
-          "url": "https://trezor.io/learn/a/pay-to-public-key-hash-p2pkh"
+          "url": "https://trezor.io/learn/advanced/standards-proposals/pay-to-public-key-hash-p2pkh"
         }
       ]
     },
@@ -518,7 +518,7 @@
       "links": [
         {
           "title": "Pay-to-Script-Hash (P2SH)",
-          "url": "https://trezor.io/learn/a/pay-to-script-hash-p2sh"
+          "url": "https://trezor.io/learn/advanced/standards-proposals/pay-to-script-hash-p2sh"
         }
       ]
     },
@@ -534,7 +534,7 @@
       "links": [
         {
           "title": "What is Taproot?",
-          "url": "https://trezor.io/learn/a/what-is-taproot"
+          "url": "https://trezor.io/learn/advanced/standards-proposals/what-is-taproot"
         }
       ]
     }
@@ -569,7 +569,7 @@
       "links": [
         {
           "title": "What is Multisig?",
-          "url": "https://trezor.io/learn/a/what-is-multisig"
+          "url": "https://trezor.io/learn/supported-assets/bitcoin/multisig-wallets-how-multi-key-security-protects-your-bitcoin"
         },
         {
           "title": "Multisig and split backups: two ways to keep your bitcoin more secure",
@@ -593,7 +593,7 @@
       "links": [
         {
           "title": "Sign & Verify",
-          "url": "https://trezor.io/learn/a/sign-verify"
+          "url": "https://trezor.io/learn/supported-assets/bitcoin/sign-and-verify-messages-trezor-suite"
         }
       ]
     },
