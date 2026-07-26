@@ -448,7 +448,13 @@
     "message-signing": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "TAPSIGNER Hints",
+          "url": "https://github.com/coinkite/coinkite-tap-proto/blob/master/docs/tapsigner-hints.md"
+        }
+      ]
     },
     "change-verification": {
       "value": "NO",
@@ -472,7 +478,13 @@
     },
     "nfc": {
       "value": "YES",
-      "supported": true
+      "supported": true,
+      "links": [
+        {
+          "title": "TAPSIGNER NFC Specification",
+          "url": "https://github.com/coinkite/coinkite-tap-proto/blob/master/docs/nfc-spec.md"
+        }
+      ]
     },
     "microsd-card": {
       "value": "NO",

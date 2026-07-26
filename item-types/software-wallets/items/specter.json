@@ -274,7 +274,13 @@
     "multi-sig": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Multisig Guide",
+          "url": "https://docs.specter.solutions/desktop/multisig-guide/"
+        }
+      ]
     },
     "taproot-multi-sig": {
       "value": "NO",
@@ -289,14 +295,26 @@
     "message-signing": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing messages",
+          "url": "https://docs.specter.solutions/desktop/sign-message/"
+        }
+      ]
     }
   },
   "signing-connectivity": {
     "usb": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Specter HWIBridge",
+          "url": "https://docs.specter.solutions/desktop/hwibridge/"
+        }
+      ]
     },
     "psbt-file": {
       "value": "NO",
@@ -367,7 +385,13 @@
     "coin-control": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Does Specter have coin control?",
+          "url": "https://docs.specter.solutions/desktop/faq/#does-specter-have-coin-control"
+        }
+      ]
     },
     "transaction-labeling": {
       "value": "YES",
@@ -450,7 +474,13 @@
     "tor": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Using Tor",
+          "url": "https://docs.specter.solutions/desktop/tor/"
+        }
+      ]
     }
   },
   "other-features": {

@@ -217,7 +217,13 @@
     "upgrade-via-sdcard": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Upgrade Firmware",
+          "url": "https://coldcard.com/docs/upgrade/"
+        }
+      ]
     },
     "upgrade-via-usb-external-storage": {
       "value": "NO",
@@ -516,12 +522,24 @@
     "create-12-words": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Master Seed",
+          "url": "https://coldcard.com/docs/master-seed/"
+        }
+      ]
     },
     "create-24-words": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Master Seed",
+          "url": "https://coldcard.com/docs/master-seed/"
+        }
+      ]
     },
     "display-12-24-words": {
       "value": "On Device",
@@ -531,17 +549,35 @@
     "import-12-words": {
       "value": "On Device",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Master Seed",
+          "url": "https://coldcard.com/docs/master-seed/"
+        }
+      ]
     },
     "import-24-words": {
       "value": "On Device",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Master Seed",
+          "url": "https://coldcard.com/docs/master-seed/"
+        }
+      ]
     },
     "seed-qr": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Scan Seed",
+          "url": "https://coldcard.com/docs/qr-scanner/#scan-seeds"
+        }
+      ]
     },
     "key-teleport": {
       "value": "YES",
@@ -661,17 +697,35 @@
     "message-signing": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Message Signing",
+          "url": "https://coldcard.com/docs/message-signing/"
+        }
+      ]
     },
     "change-verification": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Verify Address Ownership",
+          "url": "https://coldcard.com/docs/verify-address-ownership/"
+        }
+      ]
     },
     "change-address-display": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Address Explorer",
+          "url": "https://coldcard.com/docs/address-explorer/"
+        }
+      ]
     }
   },
   "signing-connectivity": {
@@ -709,7 +763,13 @@
     "microsd-card": {
       "value": "YES (2 slots)",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "MicroSD Card Related",
+          "url": "https://coldcard.com/docs/microsd/"
+        }
+      ]
     },
     "qr": {
       "value": "YES",
@@ -717,6 +777,12 @@
       "flag": "positive",
       "texts": [
         "With LED illumination"
+      ],
+      "links": [
+        {
+          "title": "QR Scanner",
+          "url": "https://coldcard.com/docs/qr-scanner/"
+        }
       ]
     },
     "ur-2-animated-qrs": {
@@ -727,7 +793,13 @@
     "bbqr": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "BBQr",
+          "url": "https://coldcard.com/docs/qr-scanner/"
+        }
+      ]
     },
     "specter-qr": {
       "value": "NO",

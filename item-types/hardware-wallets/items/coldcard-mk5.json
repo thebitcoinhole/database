@@ -226,7 +226,13 @@
     "upgrade-via-sdcard": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Upgrade Firmware",
+          "url": "https://coldcard.com/docs/upgrade/"
+        }
+      ]
     },
     "upgrade-via-usb-external-storage": {
       "value": "NO",
@@ -519,12 +525,24 @@
     "create-12-words": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Master Seed",
+          "url": "https://coldcard.com/docs/master-seed/"
+        }
+      ]
     },
     "create-24-words": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Master Seed",
+          "url": "https://coldcard.com/docs/master-seed/"
+        }
+      ]
     },
     "display-12-24-words": {
       "value": "On Device",
@@ -534,12 +552,24 @@
     "import-12-words": {
       "value": "On Device",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Master Seed",
+          "url": "https://coldcard.com/docs/master-seed/"
+        }
+      ]
     },
     "import-24-words": {
       "value": "On Device",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Master Seed",
+          "url": "https://coldcard.com/docs/master-seed/"
+        }
+      ]
     },
     "seed-qr": {
       "value": "Only Export",
@@ -658,17 +688,35 @@
     "message-signing": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Message Signing",
+          "url": "https://coldcard.com/docs/message-signing/"
+        }
+      ]
     },
     "change-verification": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Verify Address Ownership",
+          "url": "https://coldcard.com/docs/verify-address-ownership/"
+        }
+      ]
     },
     "change-address-display": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Address Explorer",
+          "url": "https://coldcard.com/docs/address-explorer/"
+        }
+      ]
     }
   },
   "signing-connectivity": {
@@ -699,6 +747,12 @@
       "flag": "positive",
       "texts": [
         "Cards up to 32 GB are supported. Format must be either FAT12 or FAT32."
+      ],
+      "links": [
+        {
+          "title": "MicroSD Card Related",
+          "url": "https://coldcard.com/docs/microsd/"
+        }
       ]
     },
     "qr": {

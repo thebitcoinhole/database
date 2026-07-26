@@ -275,7 +275,13 @@
     "upgrade-via-sdcard": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Firmware Update via USB or MicroSD Card",
+          "url": "https://guide.keyst.one/docs/firmware-upgrade"
+        }
+      ]
     },
     "upgrade-via-usb-external-storage": {
       "value": "NO",
@@ -284,7 +290,13 @@
     },
     "upgrade-via-usb-cable": {
       "value": "YES",
-      "supported": true
+      "supported": true,
+      "links": [
+        {
+          "title": "Firmware Update via USB or MicroSD Card",
+          "url": "https://guide.keyst.one/docs/firmware-upgrade"
+        }
+      ]
     },
     "upgrade-via-bluetooth": {
       "value": "NO",
@@ -525,12 +537,24 @@
     "create-12-words": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Create or Import with 3 Seed Phrases",
+          "url": "https://guide.keyst.one/docs/3-seed-phrase-wallet-options"
+        }
+      ]
     },
     "create-24-words": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Create or Import with 3 Seed Phrases",
+          "url": "https://guide.keyst.one/docs/3-seed-phrase-wallet-options"
+        }
+      ]
     },
     "display-12-24-words": {
       "value": "On Device",
@@ -540,12 +564,24 @@
     "import-12-words": {
       "value": "On Device",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Create or Import with 3 Seed Phrases",
+          "url": "https://guide.keyst.one/docs/3-seed-phrase-wallet-options"
+        }
+      ]
     },
     "import-24-words": {
       "value": "On Device",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Create or Import with 3 Seed Phrases",
+          "url": "https://guide.keyst.one/docs/3-seed-phrase-wallet-options"
+        }
+      ]
     },
     "seed-qr": {
       "value": "NO",
@@ -584,12 +620,24 @@
     "view-address-text": {
       "value": "On Device",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Receiving Cryptocurrency",
+          "url": "https://guide.keyst.one/docs/receiving-cryptocurrency"
+        }
+      ]
     },
     "view-address-qr": {
       "value": "On Device",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Receiving Cryptocurrency",
+          "url": "https://guide.keyst.one/docs/receiving-cryptocurrency"
+        }
+      ]
     },
     "export-address-sdcard": {
       "value": "NO",
@@ -669,7 +717,13 @@
     "microsd-card": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How to Format a MicroSD Card to FAT32",
+          "url": "https://guide.keyst.one/docs/format-microsd"
+        }
+      ]
     },
     "qr": {
       "value": "YES",
@@ -677,12 +731,24 @@
       "flag": "positive",
       "texts": [
         "Transaction Signing via QR Code: By using QR code transmissions, are eliminated potential malware infiltration risks and delivered a level of transparency that just isn't possible with Bluetooth or USB."
+      ],
+      "links": [
+        {
+          "title": "Connecting Software Wallets",
+          "url": "https://guide.keyst.one/docs/connecting-software-wallets-to-keystone"
+        }
       ]
     },
     "ur-2-animated-qrs": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Connecting Software Wallets",
+          "url": "https://guide.keyst.one/docs/connecting-software-wallets-to-keystone"
+        }
+      ]
     },
     "bbqr": {
       "value": "NO",

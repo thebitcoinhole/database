@@ -389,7 +389,13 @@
     "stateless": {
       "value": "Optional Stateless Use",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Use Jade as a stateless signing device",
+          "url": "https://help.blockstream.com/hc/en-us/articles/20144489592857-Use-Jade-as-a-stateless-signing-device"
+        }
+      ]
     },
     "user-added-entropy": {
       "value": "YES",
@@ -470,12 +476,24 @@
     "import-12-words": {
       "value": "On Device",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Restore recovery phrase to Jade",
+          "url": "https://help.blockstream.com/hc/en-us/articles/18794607053465-Restore-recovery-phrase-to-Jade"
+        }
+      ]
     },
     "import-24-words": {
       "value": "On Device",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Restore recovery phrase to Jade",
+          "url": "https://help.blockstream.com/hc/en-us/articles/18794607053465-Restore-recovery-phrase-to-Jade"
+        }
+      ]
     },
     "seed-qr": {
       "value": "NO",
@@ -694,7 +712,13 @@
     "tor": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "How do I connect to my wallet through Tor?",
+          "url": "https://help.blockstream.com/blockstream-app/perform-advanced-wallet-operations/connect-to-tor"
+        }
+      ]
     },
     "silent-payments": {
       "value": "NO",
