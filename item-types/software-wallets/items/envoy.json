@@ -284,9 +284,9 @@
       "flag": "negative"
     },
     "send-internal-address": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "multiple-send-addresses": {
       "value": "NO",
@@ -316,9 +316,9 @@
       "flag": "negative"
     },
     "message-signing": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "signing-connectivity": {

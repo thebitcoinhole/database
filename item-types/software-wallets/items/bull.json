@@ -292,9 +292,9 @@
   },
   "signing-connectivity": {
     "usb": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "psbt-file": {
       "value": "NO",
@@ -763,9 +763,9 @@
       "flag": "positive"
     },
     "coldcard-mk4": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "coldcard-q": {
       "value": "YES",
@@ -773,9 +773,9 @@
       "flag": "positive"
     },
     "bitbox02-btconly": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "keystone-3-pro": {
       "value": "YES",
