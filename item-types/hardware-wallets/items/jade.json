@@ -1,9 +1,7 @@
 {
   "id": "jade",
   "name": "Jade",
-  "purchasable": false,
-  "discontinued": true,
-  "price-history-enabled": false,
+  "purchasable": true,
   "basic-information": {
     "year": {
       "value": "2021"
