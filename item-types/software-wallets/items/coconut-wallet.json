@@ -840,9 +840,9 @@
       "flag": "positive"
     },
     "coldcard-mk4": {
-      "value": "YES",
-      "supported": true,
-      "flag": "positive"
+      "value": "NO",
+      "supported": false,
+      "flag": "negative"
     },
     "coldcard-q": {
       "value": "YES",
