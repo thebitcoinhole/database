@@ -498,13 +498,7 @@
     "android-source-available": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://code.samourai.io/wallet/sentinel-android"
-        }
-      ]
+      "flag": "positive"
     },
     "android-open-source": {
       "value": "YES",
@@ -512,13 +506,7 @@
       "flag": "positive"
     },
     "android-license": {
-      "value": "GPLv3",
-      "links": [
-        {
-          "title": "License",
-          "url": "https://code.samourai.io/wallet/sentinel-android/-/blob/develop/LICENSE"
-        }
-      ]
+      "value": "GPLv3"
     },
     "android-reproducible-builds": {
       "value": "YES",

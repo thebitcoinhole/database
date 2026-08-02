@@ -122,24 +122,12 @@
     },
     "release-notes": {
       "value": "YES",
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Release Notes",
-          "url": "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/blob/nodl-two/www/changelog.txt?ref_type=heads"
-        }
-      ]
+      "flag": "positive"
     },
     "source-available": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private"
-        }
-      ]
+      "flag": "positive"
     },
     "open-source": {
       "value": "YES",
@@ -147,13 +135,7 @@
       "flag": "positive"
     },
     "license": {
-      "value": "MIT",
-      "links": [
-        {
-          "title": "License",
-          "url": "https://gitlab.lightning-solutions.eu/nodl-private/nodl-admin-private/-/blob/master/LICENSE"
-        }
-      ]
+      "value": "MIT"
     },
     "reproducible-builds": {
       "value": "?",
