@@ -211,24 +211,13 @@
     "raspberry-pi-4": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "How to set up a Bitcoin Node with Citadel on a Raspberry Pi 4",
-          "url": "https://thebitcoinhole.com/blog/how-to-set-up-a-bitcoin-node-with-citadel-on-a-raspberry-pi-4"
-        }
+      "flag": "positive"
       ]
     },
     "raspberry-pi-5": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "How to set up a Bitcoin Node with Citadel on a Raspberry Pi 5",
-          "url": "https://thebitcoinhole.com/blog/how-to-set-up-a-bitcoin-node-with-citadel-on-a-raspberry-pi-5"
-        }
-      ]
+      "flag": "positive"
     },
     "rock-64": {
       "value": "NO",
