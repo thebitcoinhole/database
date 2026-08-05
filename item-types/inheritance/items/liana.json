@@ -456,7 +456,13 @@
     "ledger-nano-s-plus": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/SIGNING_DEVICES.md"
+        }
+      ]
     },
     "ledger-nano-X": {
       "value": "YES",
@@ -481,7 +487,13 @@
     "specter-diy": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Signing devices",
+          "url": "https://github.com/wizardsardine/liana/blob/master/doc/SIGNING_DEVICES.md"
+        }
+      ]
     },
     "tapsigner": {
       "value": "NO",

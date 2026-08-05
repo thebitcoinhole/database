@@ -98,9 +98,15 @@
       "flag": "positive"
     },
     "coin-control": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "UTXO Consolidation only",
+      "supported": true,
+      "flag": "neutral",
+      "links": [
+        {
+          "title": "How can I consolidate my UTXOs?",
+          "url": "https://support.bitkey.world/hc/en-us/articles/30663487975572-How-can-I-consolidate-my-UTXOs"
+        }
+      ]
     },
     "custom-node": {
       "value": "YES",

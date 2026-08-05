@@ -270,7 +270,17 @@
     "android-reproducible-builds": {
       "value": "YES",
       "supported": true,
-      "flag": "positive"
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Nunchuk Android now supports reproducible builds",
+          "url": "https://nunchuk.io/blog/reproducible-builds"
+        },
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/android/io.nunchuk.android/"
+        }
+      ]
     }
   },
   "ios-support": {
@@ -305,7 +315,13 @@
     "ios-reproducible-builds": {
       "value": "NO",
       "flag": "negative",
-      "supported": false
+      "supported": false,
+      "links": [
+        {
+          "title": "Wallet Scrutiny",
+          "url": "https://walletscrutiny.com/iphone/io.nunchuk.ios/"
+        }
+      ]
     }
   },
   "web-support": {
@@ -488,7 +504,13 @@
     "jade": {
       "value": "YES",
       "flag": "positive",
-      "supported": true
+      "supported": true,
+      "links": [
+        {
+          "title": "See Hardware Wallet details",
+          "url": "https://thebitcoinhole.com/hardware-wallets/jade-plus"
+        }
+      ]
     },
     "keystone-3-pro": {
       "value": "YES",

@@ -639,9 +639,9 @@
   },
   "macos-support": {
     "macos-supported": {
-      "value": "BETA",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "macos-tech-stack": {
       "value": "JavaScript",
@@ -691,9 +691,9 @@
   },
   "linux-support": {
     "linux-supported": {
-      "value": "BETA",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "linux-tech-stack": {
       "value": "JavaScript",
@@ -743,9 +743,9 @@
   },
   "windows-support": {
     "windows-supported": {
-      "value": "BETA",
+      "value": "YES",
       "supported": true,
-      "flag": "neutral"
+      "flag": "positive"
     },
     "windows-tech-stack": {
       "value": "JavaScript",
