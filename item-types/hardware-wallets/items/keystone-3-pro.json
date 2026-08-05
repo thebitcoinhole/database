@@ -377,9 +377,9 @@
       ]
     },
     "dynamic-keypad": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "countdown-brick-reset-pin": {
       "value": "YES",
