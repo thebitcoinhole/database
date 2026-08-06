@@ -1,0 +1,37 @@
+{
+  "brand": {
+    "value": "Coconut"
+  },
+  "headquarters": {
+    "value": "South Korea",
+    "countryCode": "KR"
+  },
+  "website": {
+    "value": "coconut.onl",
+    "url": "https://www.coconut.onl/"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@CoconutWallet",
+    "url": "https://x.com/CoconutWallet"
+  },
+  "nostr": {
+    "value": "-"
+  },
+  "youtube": {
+    "value": "-"
+  },
+  "github": {
+    "value": "noncelab",
+    "url": "https://github.com/noncelab"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "Coconut Wallet",
+    "url": "https://discord.gg/VjZxYaQCRj"
+  }
+}
