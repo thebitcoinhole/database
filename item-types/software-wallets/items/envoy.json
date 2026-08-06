@@ -66,13 +66,7 @@
       "flag": "positive"
     },
     "exchange-rate-provider": {
-      "value": "BitcoinAverage",
-      "links": [
-        {
-          "title": "https://bitcoinaverage.com/",
-          "url": "https://bitcoinaverage.com/"
-        }
-      ]
+      "value": "Foundation NGU"
     }
   },
   "app-lock": {

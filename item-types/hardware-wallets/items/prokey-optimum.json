@@ -155,16 +155,8 @@
       "flag": "positive",
       "links": [
         {
-          "title": "Can Hardware Wallets be hacked?",
-          "url": "https://prokey.io/blog/can-hardware-wallets-be-hacked"
-        },
-        {
           "title": "Prokey Firmware: What you need to know",
           "url": "https://support.prokey.io/help-center/articles/1/5/14/prokey-firmware-what-you-need-to-know"
-        },
-        {
-          "title": "How do you know your Prokey wallet is genuine?",
-          "url": "https://prokey.io/blog/how-do-you-know-your-prokey-wallet-is-genuine"
         }
       ]
     },
@@ -629,13 +621,7 @@
     },
     "u2f-authentication": {
       "value": "YES",
-      "supported": true,
-      "links": [
-        {
-          "title": "Enable Your Prokey Device as a U2F Security Key For Your Online Accounts",
-          "url": "https://prokey.io/blog/prokey-device-as-fido-u2f-security-key"
-        }
-      ]
+      "supported": true
     },
     "fido-authentication": {
       "value": "NO",
