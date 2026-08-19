@@ -407,7 +407,7 @@
         }
       ]
     },
-    "ledger-nano-X": {
+    "ledger-nano-x": {
       "value": "YES",
       "supported": true,
       "flag": "positive"

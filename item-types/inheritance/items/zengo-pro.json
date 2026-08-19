@@ -384,7 +384,7 @@
       "supported": false,
       "flag": "negative"
     },
-    "ledger-nano-X": {
+    "ledger-nano-x": {
       "value": "NO",
       "supported": false,
       "flag": "negative"

@@ -522,7 +522,7 @@
       "flag": "positive",
       "supported": true
     },
-    "ledger-nano-X": {
+    "ledger-nano-x": {
       "value": "YES",
       "flag": "positive",
       "supported": true

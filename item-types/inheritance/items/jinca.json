@@ -424,7 +424,7 @@
         }
       ]
     },
-    "ledger-nano-X": {
+    "ledger-nano-x": {
       "value": "Exporting private keys",
       "supported": true,
       "flag": "neutral",
