@@ -229,9 +229,9 @@
       ]
     },
     "upgrade-via-sdcard": {
-      "value": "NO",
+      "value": "SOON",
       "supported": false,
-      "flag": "negative"
+      "flag": "neutral"
     },
     "upgrade-via-usb-external-storage": {
       "value": "NO",
@@ -251,14 +251,26 @@
       "supported": false
     },
     "release-notes": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Release Notes",
+          "url": "https://github.com/Foundation-Devices/KeyOS/releases"
+        }
+      ]
     },
     "source-available": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Source Code",
+          "url": "https://github.com/Foundation-Devices/KeyOS"
+        }
+      ]
     },
     "open-source": {
       "value": "YES",
