@@ -281,13 +281,21 @@
       "value": "GPLv3"
     },
     "reproducible-builds": {
-      "value": "SOON",
-      "supported": false,
-      "flag": "neutral",
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
       "links": [
         {
           "title": "Why Reproducibility Matters",
           "url": "https://foundation.xyz/2023/08/why-reproducibility-matters/"
+        },
+        {
+          "title": "Reproducibility Guide",
+          "url": "https://github.com/Foundation-Devices/KeyOS/blob/main/REPRODUCIBILITY.md"
+        },
+        {
+          "title": "WalletScrutiny.com",
+          "url": "https://walletscrutiny.com/hardware/passportprime/"
         }
       ]
     }
