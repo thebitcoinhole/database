@@ -118,7 +118,7 @@
       "links": [
         {
           "title": "RaspiBolt on Testnet",
-          "url": "https://raspibolt.org/guide/bonus/bitcoin/testnet.html"
+          "url": "https://raspibolt.org/docs/bonus/bitcoin/testnet"
         }
       ]
     },
@@ -261,11 +261,11 @@
       "links": [
         {
           "title": "Blockchain explorer",
-          "url": "https://raspibolt.org/guide/bitcoin/blockchain-explorer.html"
+          "url": "https://raspibolt.org/docs/bitcoin/blockchain-explorer"
         },
         {
           "title": "Mempool",
-          "url": "https://raspibolt.org/guide/bonus/bitcoin/mempool.html"
+          "url": "https://raspibolt.org/docs/bonus/bitcoin/mempool"
         }
       ]
     },
@@ -276,11 +276,11 @@
       "links": [
         {
           "title": "BTC RPC Explorer",
-          "url": "https://raspibolt.org/guide/bitcoin/blockchain-explorer.html"
+          "url": "https://raspibolt.org/docs/bitcoin/blockchain-explorer"
         },
         {
           "title": "Mempool",
-          "url": "https://raspibolt.org/guide/bonus/bitcoin/mempool.html"
+          "url": "https://raspibolt.org/docs/bonus/bitcoin/mempool"
         }
       ]
     },
@@ -291,7 +291,7 @@
       "links": [
         {
           "title": "Bonus guide: JoinMarket clientserver",
-          "url": "https://raspibolt.org/guide/bonus/bitcoin/joinmarket.html"
+          "url": "https://raspibolt.org/docs/bonus/bitcoin/joinmarket"
         }
       ]
     },
@@ -307,7 +307,7 @@
       "links": [
         {
           "title": "Electrs",
-          "url": "https://raspibolt.org/guide/bitcoin/electrum-server.html"
+          "url": "https://raspibolt.org/docs/bitcoin/electrum-server"
         }
       ]
     },
@@ -323,7 +323,7 @@
       "links": [
         {
           "title": "Fulcrum server",
-          "url": "https://raspibolt.org/guide/bonus/bitcoin/fulcrum.html"
+          "url": "https://raspibolt.org/docs/bonus/bitcoin/fulcrum"
         }
       ]
     },
@@ -334,7 +334,7 @@
       "links": [
         {
           "title": "Bonus guide: Samourai Dojo",
-          "url": "https://raspibolt.org/guide/bonus/bitcoin/dojo.html"
+          "url": "https://v3.raspibolt.org/guide/bonus/bitcoin/dojo.html"
         }
       ]
     },
@@ -345,7 +345,7 @@
       "links": [
         {
           "title": "Bonus guide: Specter Desktop",
-          "url": "https://raspibolt.org/guide/bonus/bitcoin/specter-desktop.html"
+          "url": "https://raspibolt.org/docs/bonus/bitcoin/specter-desktop"
         }
       ]
     },
@@ -382,7 +382,7 @@
       "links": [
         {
           "title": "asdasd",
-          "url": "https://raspibolt.org/guide/faq.html#backup--restore-bitcoin-data"
+          "url": "https://raspibolt.org/docs/faq"
         }
       ]
     },

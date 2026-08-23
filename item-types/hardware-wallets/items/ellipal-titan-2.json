@@ -71,13 +71,7 @@
     "weather-resistance": {
       "value": "IP65",
       "flag": "positive",
-      "supported": true,
-      "links": [
-        {
-          "title": "The Dangers of Physical Attacks on Your Hardware Wallet",
-          "url": "https://www.ellipal.com/blogs/news/the-dangers-of-physical-attacks-on-your-hardware-wallet"
-        }
-      ]
+      "supported": true
     }
   },
   "display": {
@@ -154,8 +148,8 @@
       "flag": "positive",
       "links": [
         {
-          "title": "What is an Air-gapped Hardware Wallet (Cold Wallet)",
-          "url": "https://www.ellipal.com/blogs/news/what-is-an-air-gapped-hardware-wallet-cold-wallet"
+          "title": "What is Air-gapped Security",
+          "url": "https://www.ellipal.com/blogs/self-custody-explained/what-is-air-gapped-security"
         }
       ]
     },
@@ -170,12 +164,8 @@
       "flag": "positive",
       "links": [
         {
-          "title": "Anti-Tamper Feature Preventing Supply Chain Attacks",
-          "url": "https://www.ellipal.com/blogs/news/anti-tamper-feature-preventing-supply-chain-attacks"
-        },
-        {
-          "title": "The Dangers of Physical Attacks on Your Hardware Wallet",
-          "url": "https://www.ellipal.com/blogs/news/the-dangers-of-physical-attacks-on-your-hardware-wallet"
+          "title": "Hardware Wallet Security: Prevent Supply Chain Attacks",
+          "url": "https://www.ellipal.com/blogs/security-research/crypto-wallet-supply-chain-attack-prevention"
         },
         {
           "title": "ELLIPAL Titan - Anti Disassembly and Anti Tamper Testing",
