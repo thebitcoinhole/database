@@ -339,9 +339,15 @@
       "flag": "negative"
     },
     "qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Blockstream Green Desktop 3.5.0 release notes",
+          "url": "https://github.com/Blockstream/green_qt/releases/tag/release_3.5.0"
+        }
+      ]
     },
     "ur-2-animated-qrs": {
       "value": "NO",

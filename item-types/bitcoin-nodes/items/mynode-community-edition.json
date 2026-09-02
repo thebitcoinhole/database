@@ -331,9 +331,9 @@
       "flag": "negative"
     },
     "specter-desktop": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "electrum-wallet": {
       "value": "NO",

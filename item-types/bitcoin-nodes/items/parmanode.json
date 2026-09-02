@@ -211,9 +211,9 @@
       "flag": "positive"
     },
     "bitcoin-knots": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "libre-relay": {
       "value": "NO",

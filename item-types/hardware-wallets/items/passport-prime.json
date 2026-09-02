@@ -381,9 +381,18 @@
       ]
     },
     "user-added-entropy": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "You can choose your own BIP-39 seed words with dice rolls, coin flips or paper draws, enter the first 11 or 23 words on the device, and Passport Prime generates a valid final word to satisfy the checksum, with no external tool needed."
+      ],
+      "links": [
+        {
+          "title": "KeyOS v1.3.1 release notes",
+          "url": "https://github.com/Foundation-Devices/KeyOS/releases/tag/v1.3.1"
+        }
+      ]
     },
     "multiple-private-keys": {
       "value": "YES",
