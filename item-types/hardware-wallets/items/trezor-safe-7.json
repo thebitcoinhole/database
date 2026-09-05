@@ -27,9 +27,18 @@
   },
   "official-store": {
     "po-box-support": {
-      "value": "NO",
-      "flag": "negative",
-      "supported": false
+      "value": "SOON",
+      "flag": "neutral",
+      "supported": false,
+      "texts": [
+        "An Anonymous Delivery option, with parcel locker pickup and unbranded packaging, is planned for the EU in September 2026 and for the US by the end of 2026. Pickup points and locker boxes are already available in Czechia, Slovakia, Poland and Germany"
+      ],
+      "links": [
+        {
+          "title": "Trezor order pickup points and locker box delivery",
+          "url": "https://trezor.io/support/logistics/order-shipping-faq/trezor-order-pickup-points-and-locker-box-delivery"
+        }
+      ]
     },
     "btc-on-chain": {
       "value": "YES (via Confirmo.net)",

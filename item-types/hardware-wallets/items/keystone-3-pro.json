@@ -27,8 +27,18 @@
   },
   "official-store": {
     "po-box-support": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "We recommend shipping to a public pickup point rather than a home address where available. FedEx pickup locations are available in selected U.S. regions"
+      ],
+      "links": [
+        {
+          "title": "Keystone 3 Pro",
+          "url": "https://keyst.one/shop/products/keystone-3-pro"
+        }
+      ]
     },
     "btc-on-chain": {
       "value": "YES (via Open Node or Coinbase Commerce)",

@@ -27,8 +27,18 @@
   },
   "official-store": {
     "po-box-support": {
-      "value": "?",
-      "supported": false
+      "value": "NO",
+      "flag": "negative",
+      "supported": false,
+      "texts": [
+        "We ship by courier only and can't deliver to P.O. Box addresses"
+      ],
+      "links": [
+        {
+          "title": "Shipping Policy",
+          "url": "https://www.ellipal.com/policies/shipping-policy"
+        }
+      ]
     },
     "btc-on-chain": {
       "value": "YES (via Crypto.com Pay or Coinbase Commerce)",

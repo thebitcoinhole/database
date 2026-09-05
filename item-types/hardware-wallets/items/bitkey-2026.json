@@ -25,9 +25,12 @@
   },
   "official-store": {
     "po-box-support": {
-      "value": "SOON",
-      "flag": "neutral",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "PO Box addresses are supported in the US only, where the order ships via USPS. Orders can also be shipped to a pickup point (FedEx, Walgreens, Dollar General, Albertsons or Kroger) instead of a home address"
+      ]
     },
     "btc-on-chain": {
       "value": "YES",

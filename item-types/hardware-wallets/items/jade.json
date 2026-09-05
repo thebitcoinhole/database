@@ -36,8 +36,9 @@
   },
   "official-store": {
     "po-box-support": {
-      "value": "?",
-      "supported": false
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
     },
     "btc-on-chain": {
       "value": "YES (via BTCPay)",
