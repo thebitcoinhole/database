@@ -1,7 +1,7 @@
 {
   "id": "minibolt",
   "name": "MiniBolt",
-  "buildable": true,
+  "installable": true,
   "basic-information": {
     "year": {
       "value": "2022"
