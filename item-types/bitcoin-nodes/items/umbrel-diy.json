@@ -389,11 +389,21 @@
       ]
     },
     "ssl": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative",
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
       "texts": [
-        "Umbrel uses an unencrypted http connection for communicating over the LAN. If your LAN is secure, this is not an issue. But anyone with access to your LAN, including guests who have your WiFi password or who plug in via Ethernet, would trivially be able to sniff traffic."
+        "Since umbrelOS 2.0, your Umbrel is served over HTTPS automatically on the local network, alongside plain HTTP. The certificate is created by the Umbrel itself and covers umbrel.local, your custom hostname and the local IP address, so browsers show a privacy warning until you install that certificate on your devices. It does not cover Tailscale addresses."
+      ],
+      "links": [
+        {
+          "title": "umbrelOS 2.0 Release Notes",
+          "url": "https://github.com/getumbrel/umbrel/releases/tag/2.0.0"
+        },
+        {
+          "title": "Accessing your Umbrel over HTTPS",
+          "url": "https://umbrel.com/support/basics/accessing-your-umbrel-over-https"
+        }
       ]
     },
     "tor": {
