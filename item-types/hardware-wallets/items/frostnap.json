@@ -67,7 +67,8 @@
       "value": "Aluminum"
     },
     "available-in-colors": {
-      "value": "YES"
+      "value": "YES",
+      "supported": true
     },
     "weather-resistance": {
       "value": "NO",

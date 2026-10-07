@@ -155,6 +155,7 @@
     },
     "wireless-charging": {
       "value": "NO",
+      "supported": false,
       "flag": "negative"
     }
   },

@@ -64,7 +64,8 @@
       "value": "Plastic"
     },
     "available-in-colors": {
-      "value": "NO"
+      "value": "NO",
+      "supported": false
     },
     "weather-resistance": {
       "value": "NO",

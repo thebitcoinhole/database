@@ -71,6 +71,7 @@
     },
     "available-in-colors": {
       "value": "YES",
+      "supported": true,
       "texts": [
         "Graphite, Bitcoin Orange"
       ]

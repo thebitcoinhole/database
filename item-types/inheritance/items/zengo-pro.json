@@ -57,7 +57,8 @@
       "supported": false
     },
     "required-hardware-wallet": {
-      "value": "NO"
+      "value": "NO",
+      "supported": false
     },
     "key-replacement-support": {
       "value": "NO",

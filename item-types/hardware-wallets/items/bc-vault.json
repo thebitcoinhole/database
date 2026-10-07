@@ -64,6 +64,7 @@
     },
     "available-in-colors": {
       "value": "YES",
+      "supported": true,
       "texts": [
         "Full graphic customisation"
       ],

@@ -10,7 +10,8 @@
       "value": "Hong Kong"
     },
     "diy": {
-      "value": "NO"
+      "value": "NO",
+      "supported": false
     }
   },
   "company": "tangem",
@@ -70,7 +71,8 @@
       ]
     },
     "available-in-colors": {
-      "value": "NO"
+      "value": "NO",
+      "supported": false
     },
     "weather-resistance": {
       "value": "IP68",

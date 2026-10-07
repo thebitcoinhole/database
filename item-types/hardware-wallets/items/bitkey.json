@@ -43,10 +43,12 @@
       "supported": true
     },
     "alt-coins": {
-      "value": "NO"
+      "value": "NO",
+      "supported": false
     },
     "credit-debit-card": {
-      "value": "YES"
+      "value": "YES",
+      "supported": true
     }
   },
   "size-materials": {

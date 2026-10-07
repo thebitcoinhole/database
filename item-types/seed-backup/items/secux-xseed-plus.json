@@ -45,6 +45,7 @@
     },
     "fire-proof": {
       "value": "YES",
+      "supported": true,
       "flag": "positive",
       "texts": [
         "Industrial-grade stainless steel plates can resist fire and temperature as high as 2649 °F / 1454 °C."
