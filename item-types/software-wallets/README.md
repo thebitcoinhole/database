@@ -99,7 +99,7 @@ All the features supported:
 | App Lock | app-lock | Fingerprint Lock | fingerprint-lock |
 | App Lock | app-lock | Dummy/Decoy Wallet | dummy-wallet |
 | Private Keys | private-keys | Hot Keys Support | hot-keys |
-| Private Keys | private-keys | Mulitple Wallets at the same time | multiple-wallets |
+| Private Keys | private-keys | Multiple Wallets at the same time | multiple-wallets |
 | Private Keys | private-keys | User Added Entropy | user-added-entropy |
 | Private Keys | private-keys | Passphrases support | passphrase-support |
 | Private Keys | private-keys | Master Key Fingerprint | master-key-fingerprint |
