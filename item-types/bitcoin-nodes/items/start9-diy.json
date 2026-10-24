@@ -196,7 +196,7 @@
       "links": [
         {
           "title": "Flashing (x86_64)",
-          "url": "https://docs.start9.com/latest/guides/flashing/flashing-x86"
+          "url": "https://docs.start9.com/start-os/installing-startos.html#flash"
         }
       ]
     },
@@ -221,7 +221,7 @@
         },
         {
           "title": "Flashing (Raspberry Pi)",
-          "url": "https://docs.start9.com/latest/guides/flashing/flashing-pi"
+          "url": "https://docs.start9.com/start-os/installing-startos.html#raspberry-pi"
         }
       ]
     },
