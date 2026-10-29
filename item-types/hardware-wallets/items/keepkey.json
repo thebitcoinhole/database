@@ -183,9 +183,15 @@
   },
   "firmware": {
     "bitcoin-only-firmware": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "KeepKey v7.14.3 (Bitcoin-only)",
+          "url": "https://github.com/keepkey/keepkey-firmware/releases/tag/v7.14.3"
+        }
+      ]
     },
     "secure-boot": {
       "value": "YES",

@@ -373,19 +373,25 @@
       "flag": "negative"
     },
     "ssl": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "MyNode v0.3.49 Changelog",
+          "url": "https://github.com/mynodebtc/mynode/blob/master/CHANGELOG"
+        }
+      ]
     },
     "tor": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     },
     "tailscale": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive"
     }
   }
 }

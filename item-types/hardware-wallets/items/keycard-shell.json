@@ -429,9 +429,12 @@
       "flag": "positive"
     },
     "taproot": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Requires Keycard v4."
+      ]
     }
   },
   "addresses": {
@@ -451,9 +454,9 @@
       "flag": "negative"
     },
     "verify-address-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "On Device",
+      "supported": true,
+      "flag": "positive"
     }
   },
   "signing": {
