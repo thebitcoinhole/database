@@ -1,0 +1,41 @@
+{
+  "brand": {
+    "value": "SignBit"
+  },
+  "description": {
+    "value": "SignBit is security software for Bitcoin, made by SignBit Ltd in the United Kingdom and launched in 2026. Several keys protect a vault instead of one, so no single person, SignBit included, can move the coins alone. It offers multisig vaults from 2-of-3 up to 8-of-15, inheritance planning with a printable Recovery Plan, and Fountain, a free open-source signing app for Android, Windows and Linux. Sign-up needs only an email address."
+  },
+  "headquarters": {
+    "value": "United Kingdom",
+    "countryCode": "GB"
+  },
+  "website": {
+    "value": "signbit.io",
+    "url": "https://signbit.io"
+  },
+  "blog": {
+    "value": "-"
+  },
+  "twitter": {
+    "value": "@signbitio",
+    "url": "https://x.com/signbitio"
+  },
+  "nostr": {
+    "value": "SignBit",
+    "url": "https://njump.me/npub1q0h463f0gk69fcnpy33fmdal8y06xvj67fus2xqven5sqzxzjy8qddfcsp"
+  },
+  "youtube": {
+    "value": "@signbitio",
+    "url": "https://www.youtube.com/@signbitio"
+  },
+  "github": {
+    "value": "signbit-io",
+    "url": "https://github.com/signbit-io"
+  },
+  "slack": {
+    "value": "-"
+  },
+  "discord": {
+    "value": "-"
+  }
+}

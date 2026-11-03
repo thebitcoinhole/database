@@ -1,0 +1,294 @@
+{
+  "id": "signbit",
+  "name": "SignBit",
+  "purchasable": true,
+  "company": "signbit",
+  "payment-methods": {
+    "btc-on-chain": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "btc-lightning": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "alt-coins": {
+      "value": "NO",
+      "supported": false
+    },
+    "credit-debit-card": {
+      "value": "YES",
+      "supported": true,
+      "texts": [
+        "The first vault (2-of-3) is free with no time limit. Other vaults are paid once."
+      ],
+      "links": [
+        {
+          "title": "Pricing",
+          "url": "https://signbit.io/pricing"
+        }
+      ]
+    }
+  },
+  "private-keys": {
+    "non-custodial": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "provider-independence": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Recover without SignBit",
+          "url": "https://signbit.io/guides/recover-without-signbit"
+        }
+      ]
+    },
+    "single-sig": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    },
+    "multi-sig": {
+      "value": "Required (2-of-3 up to 8-of-15)",
+      "flag": "positive",
+      "supported": true
+    },
+    "required-hardware-wallet": {
+      "value": "NO",
+      "supported": false,
+      "texts": [
+        "Keys can be held in Fountain, the free open-source signing app, or in other wallets such as Sparrow."
+      ]
+    }
+  },
+  "passing-down-alternatives": {
+    "direct-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "A printable Recovery Plan tells heirs how to reach the vault, with or without SignBit."
+      ],
+      "links": [
+        {
+          "title": "Plan for your heirs",
+          "url": "https://signbit.io/guides/plan-for-your-heirs"
+        }
+      ]
+    },
+    "indirect-inheritance": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "An heir who holds keys can open a claim. SignBit co-signs only when the heir proves they hold enough keys, the owner has been inactive for 12 months, a 90-day notice period has passed and a senior staff member approves. The owner can stop a claim at any time."
+      ],
+      "links": [
+        {
+          "title": "Claim a vault",
+          "url": "https://signbit.io/guides/claim-a-vault"
+        }
+      ]
+    },
+    "joint-control": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "multiple-beneficiaries": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    }
+  },
+  "privacy": {
+    "non-kyc": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "Sign up with an email address. No ID, selfie or proof of address."
+      ]
+    },
+    "coin-control": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "features": {
+    "bitcoin-only": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "crypto-specific-solution": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "exchanges-integration": {
+      "value": "NO",
+      "supported": false
+    },
+    "message-for-beneficiary": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "notifications-to-beneficiary": {
+      "value": "YES (by email)",
+      "flag": "positive",
+      "supported": true
+    },
+    "onchain-timelock": {
+      "value": "NO",
+      "supported": false
+    },
+    "waiting-period-to-claim": {
+      "value": "12 months of owner inactivity, then a 90-day notice"
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "android-googleplay-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Fountain on Google Play",
+          "url": "https://play.google.com/store/apps/details?id=io.signbit.fountain"
+        }
+      ]
+    },
+    "android-apk-support": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "android-release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "android-source-available": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "links": [
+        {
+          "title": "Fountain source code",
+          "url": "https://github.com/signbit-io/fountain"
+        }
+      ]
+    },
+    "android-open-source": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "android-license": {
+      "value": "GPLv3"
+    },
+    "android-reproducible-builds": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "web-support": {
+    "web-supported": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true,
+      "texts": [
+        "The vault coordinator runs in the browser at signbit.io. Fountain signs on Windows, Linux and Android."
+      ]
+    }
+  },
+  "macos-support": {
+    "macos-supported": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "linux-support": {
+    "linux-supported": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "linux-release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "linux-source-available": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "linux-open-source": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "linux-license": {
+      "value": "GPLv3"
+    },
+    "linux-reproducible-builds": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  },
+  "windows-support": {
+    "windows-supported": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "windows-release-notes": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "windows-source-available": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "windows-open-source": {
+      "value": "YES",
+      "flag": "positive",
+      "supported": true
+    },
+    "windows-license": {
+      "value": "GPLv3"
+    },
+    "windows-reproducible-builds": {
+      "value": "NO",
+      "flag": "negative",
+      "supported": false
+    }
+  }
+}
