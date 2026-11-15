@@ -518,9 +518,12 @@
       "flag": "positive"
     },
     "specter-qr": {
-      "value": "NO",
-      "supported": false,
-      "flag": "negative"
+      "value": "Partially",
+      "supported": true,
+      "flag": "neutral",
+      "texts": [
+        "Scans pMofN (Specter) PSBTs and wallet exports, and can export xpubs in that format (\"Specter legacy\" Xpub QR format, advanced setting). Signed PSBTs are returned only as UR2.0 animated QRs."
+      ]
     }
   },
   "spending-conditions": {
