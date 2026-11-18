@@ -254,23 +254,13 @@
     "source-available": {
       "value": "In the future",
       "supported": false,
-      "flag": "neutral",
-      "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/ngraveio/zero-firmware"
-        }
-      ]
+      "flag": "neutral"
     },
     "open-source": {
       "value": "In the future",
       "supported": false,
       "flag": "neutral",
       "links": [
-        {
-          "title": "Source Code",
-          "url": "https://github.com/ngraveio/zero-firmware"
-        },
         {
           "title": "The vision of open source from our CTO",
           "url": "https://www.ngrave.io/en/blog/the-vision-of-open-source-from-our-cto"

@@ -418,10 +418,6 @@
           "url": "https://www.cypherock.com/features/no-backup"
         },
         {
-          "title": "Securing Your Keys: Multi-Sig Vs Shamir Secret Sharing",
-          "url": "https://www.cypherock.com/blogs/post-multi-sig-shamir"
-        },
-        {
           "title": "Shamir Secret Sharing",
           "url": "https://github.com/Cypherock/x1_wallet_firmware/blob/main/docs/shamir_secret_sharing.md"
         }
@@ -542,10 +538,6 @@
       "supported": false,
       "flag": "negative",
       "links": [
-        {
-          "title": "Securing Your Keys: Multi-Sig Vs Shamir Secret Sharing",
-          "url": "https://www.cypherock.com/blogs/post-multi-sig-shamir"
-        },
         {
           "title": "Using Shamir Secret Sharing vs. Multi-sig",
           "url": "https://docs.cypherock.com/design-decisions/using-shamir-secret-sharing-vs.-multi-sig"

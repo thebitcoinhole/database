@@ -158,17 +158,7 @@
     "air-gapped": {
       "value": "YES",
       "supported": true,
-      "flag": "positive",
-      "links": [
-        {
-          "title": "Air-Gapped Computers and Phones vs Hardware Wallets: What’s the Difference?",
-          "url": "https://blog.keyst.one/air-gapped-computers-and-phones-vs-hardware-wallets-whats-the-difference-458888cdd97"
-        },
-        {
-          "title": "Ever Wondered What Your Hardware Wallet Inputs and Outputs?",
-          "url": "https://blog.keyst.one/ever-wondered-what-your-hardware-wallet-inputs-and-outputs-9b33b4cedafd"
-        }
-      ]
+      "flag": "positive"
     },
     "secure-element": {
       "value": "YES (3) (PCI)",
@@ -177,20 +167,6 @@
       "texts": [
         "3 Secure Element Security Chips",
         "Hailing from leading global security chip manufacturers, Microchip & Maxim, these chips meet PCI security standards, guaranteeing secure and segregated digital asset storage."
-      ],
-      "links": [
-        {
-          "title": "Secure Elements: The Last Line of Defense",
-          "url": "https://blog.keyst.one/secure-elements-the-last-line-of-defense-4669012d4edc"
-        },
-        {
-          "title": "Secure Elements: Harnessing A Force of Nature",
-          "url": "https://blog.keyst.one/secure-elements-harnessing-a-force-of-nature-14a959da7b54"
-        },
-        {
-          "title": "Secure Elements: The Bedrock of Hardware Wallet Security",
-          "url": "https://blog.keyst.one/secure-elements-the-bedrock-of-hardware-wallet-security-1dd8cbdef461"
-        }
       ]
     },
     "supply-chain-physical-attacks": {
@@ -204,14 +180,6 @@
         "PCI refers to Payment card industry security. All core IC and SE chips are enveloped by a 'security house' filled with complex circuitry. When it detects any attempt on opening the safe house, all sensitive datas on the chips will be erased immediately"
       ],
       "links": [
-        {
-          "title": "Web Authentication: A Counter to Supply Chain Attacks",
-          "url": "https://blog.keyst.one/web-authentication-a-counter-to-supply-chain-attacks-62d0272f656b"
-        },
-        {
-          "title": "Self-Destruct Mechanism's Unique Defense Against Side-Channel Attacks",
-          "url": "https://blog.keyst.one/self-destruct-mechanisms-unique-defense-against-side-channel-attacks-4cfea3d4eff1"
-        },
         {
           "title": "Device Verification",
           "url": "https://guide.keyst.one/docs/device-verification"
@@ -378,12 +346,6 @@
       "flag": "positive",
       "texts": [
         "Each Keystone 3 has the capacity to accommodate up to three distinct recovery phrases, each secured by different passwords, thereby enabling users to oversee multiple crypto accounts from a single hardware wallet. Transitioning between wallets is a breeze, requiring only the respective password inputs."
-      ],
-      "links": [
-        {
-          "title": "Unleashing the Power of Multiple Secret Recovery Phrases with Keystone 3: A Comprehensive Guide",
-          "url": "https://blog.keyst.one/unleashing-the-power-of-multiple-secret-recovery-phrases-with-keystone-3-a-comprehensive-guide-3c3afb997cc4"
-        }
       ]
     },
     "dynamic-keypad": {
@@ -455,10 +417,6 @@
       ],
       "links": [
         {
-          "title": "How to verify the recovery phrase created by dice rolling",
-          "url": "https://blog.keyst.one/how-to-verify-the-recovery-phrase-created-by-dice-rolling-af01c16b765e"
-        },
-        {
           "title": "Use Dice to Generate Recovery Phrase",
           "url": "https://support.keyst.one/advanced-features/recovery-phrase/use-dice-to-generate-recovery-phrase"
         }
@@ -473,10 +431,6 @@
       ],
       "links": [
         {
-          "title": "Unleashing the Power of Multiple Secret Recovery Phrases with Keystone 3: A Comprehensive Guide",
-          "url": "https://blog.keyst.one/unleashing-the-power-of-multiple-secret-recovery-phrases-with-keystone-3-a-comprehensive-guide-3c3afb997cc4"
-        },
-        {
           "title": "Create or Import with 3 Seed Phrases",
           "url": "https://guide.keyst.one/docs/3-seed-phrase-wallet-options"
         }
@@ -487,10 +441,6 @@
       "supported": true,
       "flag": "positive",
       "links": [
-        {
-          "title": "Should You Enable Passphrase Protection?",
-          "url": "https://blog.keyst.one/should-you-enable-passphrase-protection-5aba38b92613"
-        },
         {
           "title": "Passphrase Wallet",
           "url": "https://guide.keyst.one/docs/passphrase-wallet"
@@ -519,10 +469,6 @@
         "Keystone supports SLIP-39. It enables you to create a Shamir Backup for your recovery phrase. This also helps with counteracting against the two greatest risks involved with protecting your recovery seed: Theft & Destruction."
       ],
       "links": [
-        {
-          "title": "Why Keystone implemented Shamir Backups",
-          "url": "https://blog.keyst.one/why-keystone-implemented-shamir-backups-71e319f972a6"
-        },
         {
           "title": "Shamir Backup",
           "url": "https://guide.keyst.one/docs/shamir-backup"
@@ -666,10 +612,6 @@
       "supported": true,
       "flag": "positive",
       "links": [
-        {
-          "title": "Exploring the Power of Multi-Signature Wallets with Keystone",
-          "url": "https://blog.keyst.one/exploring-the-power-of-multi-signature-wallets-with-keystone"
-        },
         {
           "title": "How to Import a Multi-Signature Wallet",
           "url": "https://guide.keyst.one/docs/btc-multisig"
