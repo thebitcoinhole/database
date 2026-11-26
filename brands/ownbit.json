@@ -1,0 +1,16 @@
+{
+  "brand": {
+    "value": "Ownbit"
+  },
+  "description": {
+    "value": "Ownbit is a self-custody mobile wallet by BITTOOL PTE. LTD. It supports on-chain Bitcoin MultiSig and a QR workflow with a spare offline phone. New users have a seven-day trial. Signing participants each need an appropriate paid membership for ongoing MultiSig use. Ownbit publishes its iOS key-handling core and shared signing bundles under MIT."
+  },
+  "headquarters": {
+    "value": "Singapore",
+    "countryCode": "SG"
+  },
+  "website": {
+    "value": "ownbit.io",
+    "url": "https://ownbit.io/en/"
+  }
+}
