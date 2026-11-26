@@ -1,0 +1,158 @@
+{
+  "id": "ownbit",
+  "name": "Ownbit",
+  "basic-information": {
+    "year": {
+      "value": "2017",
+      "links": [
+        {
+          "title": "Ownbit launch history",
+          "url": "https://ownbit.io/en/trust/"
+        }
+      ]
+    }
+  },
+  "company": "ownbit",
+  "networks": {
+    "bitcoin-only": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "Supported chains",
+          "url": "https://ownbit.io/en/docs/reference/supported-chains/"
+        }
+      ]
+    },
+    "btc-mainnet": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Bitcoin support",
+          "url": "https://ownbit.io/en/bitcoin-multisig-wallet/"
+        }
+      ]
+    }
+  },
+  "signing-connectivity": {
+    "qr": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Ownbit QR formats for its offline workflow",
+          "url": "https://ownbit.io/en/docs/reference/qr-signing-encoding/"
+        }
+      ],
+      "texts": [
+        "Ownbit uses its documented request and response QR formats."
+      ]
+    }
+  },
+  "other-features": {
+    "encrypted-storage": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "On-device key handling",
+          "url": "https://ownbit.io/en/trust/"
+        }
+      ]
+    }
+  },
+  "android-support": {
+    "android-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Official Android download options",
+          "url": "https://ownbit.io/en/"
+        }
+      ]
+    },
+    "android-googleplay-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Official Google Play link",
+          "url": "https://ownbit.io/en/"
+        }
+      ]
+    },
+    "android-apk-support": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Official direct APK link",
+          "url": "https://ownbit.io/en/"
+        }
+      ]
+    }
+  },
+  "ios-support": {
+    "ios-supported": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "links": [
+        {
+          "title": "Official iOS download",
+          "url": "https://ownbit.io/en/"
+        }
+      ]
+    },
+    "ios-open-source": {
+      "value": "NO",
+      "supported": false,
+      "flag": "negative",
+      "links": [
+        {
+          "title": "MIT-covered core and app scope",
+          "url": "https://ownbit.io/en/trust/"
+        }
+      ]
+    }
+  },
+  "private-keys": {
+    "backup-recovery-seedphrase": {
+      "value": "YES",
+      "supported": true,
+      "flag": "positive",
+      "texts": [
+        "Standard-wallet recovery uses a BIP39 mnemonic. MultiSig recovery also requires enough signers and the wallet configuration."
+      ],
+      "links": [
+        {
+          "title": "Bitcoin recovery overview",
+          "url": "https://ownbit.io/en/bitcoin-multisig-wallet/"
+        }
+      ]
+    }
+  },
+  "signing": {
+    "multi-sig": {
+      "value": "?",
+      "texts": [
+        "Ownbit documents on-chain Bitcoin MultiSig. Compatibility with the PSBT workflow tracked by this field is unverified."
+      ],
+      "links": [
+        {
+          "title": "Bitcoin MultiSig",
+          "url": "https://ownbit.io/en/bitcoin-multisig-wallet/"
+        }
+      ]
+    }
+  }
+}
